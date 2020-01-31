@@ -79,16 +79,12 @@
       var coupon = qs('coupon')
       var blackfriday = document.getElementById('blackfriday')
       if (coupon && coupon === "OFF20" && !blackfriday) {
-        var monthlyPlan = qs('monthly')
-        var yearlyPlan = qs('yearly')
-
-        if (yearlyPlan === 'plan_G2Cj0ws5MbHAqe') {
-          yearlyPlan = 'plan_GJcRpB4WfoNAJs'
-        }
+        var monthlyPlan = 'plan_GeOaGV67IuLp0O'
+        var yearlyPlan = 'plan_GJcRpB4WfoNAJs'
 
         var monthlyPrice = $('#plan-monthly .pricingcard-price').first()
         monthlyPrice.wrapInner('<strike></strike>')
-        monthlyPrice.append('<span style="color:#FF486A"><small style="font-size:50%;">$</small>4<sup>.79 /month</sup></span>')
+        monthlyPrice.append('<span style="color:#FF486A"><small style="font-size:50%;">$</small>6<sup>.39 /month</sup></span>')
         $('#plan-monthly button[data-checkout-plan-id]').each(function () { $(this).attr('data-checkout-plan-id', monthlyPlan) })
 
         var yearlyPrice = $('#plan-yearly .pricingcard-price').first()
