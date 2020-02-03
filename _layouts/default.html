@@ -94,6 +94,27 @@
       }
 
     } catch (e) { console.error(e) }
+
+    /**
+     * Upgrade modal validation (enterprise plan)
+     */
+
+    $( "#enterprise-form" ).submit(function( event ) {
+        var domain = $("#emailDomain")
+
+        if (domain) {
+          var value = $.trim(domain.val())
+          if (value && (value === "gmail.com" || value === "googlemail.com")) {
+            event.preventDefault();
+
+            var validation = domain.parent().find('.email-domain-validation')
+            if (validation.first()) {
+              console.log("hello")
+              validation.first().show()
+            }
+          }
+        }
+    });
   </script>
 
   {% endif %}

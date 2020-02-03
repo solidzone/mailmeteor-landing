@@ -312,7 +312,7 @@ stripe: "popover"
 <!-- MODAL FOR ENTERPRISE PLANS  -->
 <div class="modal fade" id="activeEnterpriseModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
-        <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout">
+        <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout" id="enterprise-form">
             <input type="hidden" name="plan_id" class="checkout-plan-id" />
             <div class="modal-content">
                 <div class="modal-header" style="padding: 1rem 2rem;">
@@ -328,6 +328,7 @@ stripe: "popover"
                         <div class="input mb-3">
                             <label for="emailDomain" class="font-weight-bold">Domain</label>
                             <input type="text" class="form-control" id="emailDomain" placeholder="e.g. mailmeteor.com" required="true" name="active_domain">
+                            <div class="mt-1 email-domain-validation" style="color: red; display: none;">That domain can't be upgraded. Please enter your G Suite domain</div>
                         </div>
                         <div class="input mb-3">
                             <label for="billingAddress" class="font-weight-bold">Billing email address</label>
