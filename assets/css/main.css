@@ -585,15 +585,16 @@ section.pricing {
 .pricing-home-features li {
   display: flex;
   align-items: center;
+  margin:5px;
 }
 
 .pricing-home-features li:before {
   content: '';
   min-width: 20px;
-  height: 12px;
+  height: 20px;
   margin-right: 4px;
   display: inline-block;
-  background-image: url(../img/elements/tick.svg);
+  background-image: url(../img/elements/tick-round.svg);
   background-repeat: no-repeat;
 }
 
@@ -872,18 +873,19 @@ section.subpage {
 }
 
 .pricing-plan-features li {
-  display: block;
+  display: flex;
   align-items: center;
   padding: 0 0 0.2em 0;
+  margin:2px;
 }
 
 .pricing-plan-features li:before {
   content: '';
   min-width: 20px;
-  height: 12px;
+  height: 20px;
   margin-right: 4px;
   display: inline-block;
-  background-image: url(../img/elements/tick.svg);
+  background-image: url(../img/elements/tick-round.svg);
   background-repeat: no-repeat;
 }
 
