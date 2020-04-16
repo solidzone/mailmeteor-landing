@@ -5,40 +5,56 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-
-<url>
-  <loc>https://mailmeteor.com/</loc>
-  <lastmod>2019-05-24T10:21:27+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://mailmeteor.com/pricing</loc>
-  <lastmod>2019-05-24T10:21:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mailmeteor.com/alternative</loc>
-  <lastmod>2019-05-24T10:21:27+00:00</lastmod>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://mailmeteor.com/alternative/yetanothermailmerge</loc>
-  <lastmod>2019-05-24T10:21:27+00:00</lastmod>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://mailmeteor.com/alternative/gmass</loc>
-  <lastmod>2019-05-24T10:21:27+00:00</lastmod>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://mailmeteor.com/privacy-policy</loc>
-  <lastmod>2019-05-24T10:21:27+00:00</lastmod>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>https://mailmeteor.com/terms</loc>
-  <lastmod>2019-05-24T10:21:27+00:00</lastmod>
-  <priority>0.50</priority>
-</url>
+  <url>
+    <loc>https://mailmeteor.com/</loc>
+    <lastmod>2020-04-16T19:38:28+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/pricing</loc>
+    <lastmod>2020-04-16T19:38:28+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>
+    https://mailmeteor.com/alternative/yetanothermailmerge
+    </loc>
+    <lastmod>2020-04-16T19:38:28+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/alternative/gmass</loc>
+    <lastmod>2020-04-16T19:38:28+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/es/</loc>
+    <lastmod>2020-04-16T19:38:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/fr/</loc>
+    <lastmod>2020-04-16T19:38:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/alternative</loc>
+    <lastmod>2020-04-16T19:38:28+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/education-program</loc>
+    <lastmod>2020-04-16T19:38:28+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/privacy-policy</loc>
+    <lastmod>2020-04-16T19:38:28+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/terms</loc>
+    <lastmod>2020-04-16T19:38:28+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
 </urlset>
