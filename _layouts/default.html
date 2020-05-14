@@ -100,20 +100,32 @@
      */
 
     $( "#enterprise-form" ).submit(function( event ) {
-        var domain = $("#emailDomain")
+      var domainElt = $("#emailDomain")
+      var domain = $.trim(domainElt && domainElt.val() || "")
 
-        if (domain) {
-          var value = $.trim(domain.val())
-          if (value && (value === "gmail.com" || value === "googlemail.com")) {
-            event.preventDefault();
-
-            var validation = domain.parent().find('.email-domain-validation')
-            if (validation.first()) {
-              console.log("hello")
-              validation.first().show()
-            }
-          }
+      function notValid(errorMessage) {
+        event.preventDefault()
+        var validation = domainElt.parent().find('.email-domain-validation')
+        if (validation.first()) {
+          validation.first().show()
+          validation.first().text(errorMessage)
         }
+      }
+
+      if (!domain) {
+        return notValid()
+      }
+
+      if (domain && (domain === "gmail.com" || domain === "googlemail.com")) {
+        return notValid("Can't upgrade that domain. Is it your G Suite domain?")
+      } else if (domain.indexOf('@') >= 0) {
+        return notValid("Please enter your G Suite domain here (the part after @).");
+      } else if (domain.substr(0,4) === "www.") {
+        return notValid("Please enter your G Suite domain (without www).");
+      }
+
+      var validation = domainElt.parent().find('.email-domain-validation')
+      if (validation.first()) { validation.first().hide()}
     });
   </script>
 
