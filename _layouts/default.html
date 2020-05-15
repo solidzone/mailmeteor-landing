@@ -101,7 +101,7 @@
 
     $( "#enterprise-form" ).submit(function( event ) {
       var domainElt = $("#emailDomain")
-      var domain = $.trim(domainElt && domainElt.val() || "")
+      var domain = $.trim(domainElt && domainElt.val() || "").toLowerCase()
 
       function notValid(errorMessage) {
         event.preventDefault()
