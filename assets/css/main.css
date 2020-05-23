@@ -34,10 +34,6 @@ a:hover {
   text-decoration: none;
 }
 
-h3 {
-  font-weight: normal;
-}
-
 body {
   max-width: 1920px;
   margin: 0 auto;
@@ -51,25 +47,6 @@ section {
   margin-bottom: 4em;
 }
 
-/*generic elements*/
-
-.highlight {
-  font-weight: bold;
-}
-
-#logo {
-  width: 150px;
-}
-
-/* SEO emphasis with strong*/
-
-.heading strong {
-  font-weight: 600;
-}
-
-strong {
-  font-weight: normal;
-}
 
 /* Headings */
 
@@ -87,20 +64,37 @@ h2 {
 
 h3 {
   font-size: 1em;
+  font-weight: 400;
   letter-spacing: 0.01em;
   color: #434343;
 }
 
-/*--- headings styling for dark background---*/
-
 h1.dark-bg,
-h2.dark-bg {
-  color: white;
-}
-
+h2.dark-bg,
 h3.dark-bg,
 p.dark-bg {
   color: white;
+}
+
+
+/* SEO emphasis with strong*/
+
+.heading strong {
+  font-weight: 600;
+}
+
+strong {
+  font-weight: normal;
+}
+
+/*generic elements*/
+
+.highlight {
+  font-weight: bold;
+}
+
+#logo {
+  width: 150px;
 }
 
 /* ----buttons---- */
@@ -189,11 +183,6 @@ button:hover,
 .navbar-toggler:active,
 .navbar-toggler:focus {
   outline: none;
-}
-
-#navbarTabs > ul > li:nth-child(4) > a {
-  margin: auto;
-  padding: 0.4em 0.6em 0.4em 0.6em;
 }
 
 .navbar-shadow {
@@ -299,28 +288,8 @@ section.features {
   z-index: -1;
 }
 
-@media (max-width: 992px) {
-  .features-svg {
-    height: 170%;
-  }
-}
 
-@media (min-width: 1440px) {
-  .features-svg {
-    height: 240%;
-  }
-}
-
-/* Media query to prevent tagline to be covered by features svg */
-
-@media (max-width: 1100px) and (min-width: 992px) {
-  .features-svg {
-    height: 200%;
-    top: -200px;
-  }
-}
-
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   section.features {
     margin-bottom: 15em;
   }
@@ -328,6 +297,32 @@ section.features {
     height: 160%;
   }
 }
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .features-svg {
+    height: 165%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .features-svg {
+    height: 170%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+  .features-svg {
+    height: 175%;
+    top: -200px;
+  }
+} 
+
+@media (min-width: 1440px) {
+  .features-svg {
+    height: 230%;
+  }
+}
+
 
 /*features list*/
 
@@ -353,7 +348,7 @@ section.features {
 }
 
 .featureitem .heading {
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.5em;
   /* color: #ff486a; */
   color:#ffffff;
@@ -568,13 +563,8 @@ section.pricing {
 
 /*Pricing content*/
 
-/* .pricing .card-header {
-  padding: 0.95rem 0.75rem 0.95em;
-} */
-
 .pricing-card-body {
   padding: 1em 1em 0 1em;
-
 }
 
 .pricing h5 {
@@ -665,8 +655,9 @@ sup {
 /*---Testimonials---*/
 
 .testimonials-logo {
-  margin: 3%;
-  max-width: 110px;
+  margin-right: 25px;
+  margin-top: 30px;
+  max-width: 100px;
 }
 
 .reviewcard {
@@ -783,8 +774,8 @@ sup {
 }
 
 .footer {
-  font-size: 0.85em;
-  color: lightgrey;
+  font-size: 0.9em;
+  color:white;
   position: relative;
 }
 
@@ -971,10 +962,6 @@ section.subpage {
     font-size: 92%;
     zoom: 110%;
   }
-
-  .crisp-client {
-    zoom: 80%;
-  }
 }
 
 @media (min-width: 2000px) {
@@ -982,27 +969,14 @@ section.subpage {
     font-size: 92%;
     zoom: 135%;
   }
-
-  .crisp-client {
-    zoom: 85%;
-  }
 }
 
 /* Education LP */
-
 
 .block-with-quote {
   font-size: 20px;
   font-weight: bold;
 }
-
-/* Prevent horizontal scroll on Firefox */
-
-/*@-moz-document url-prefix() {
-	body {
-		overflow: hidden;
-	}
-}*/
 
 /* Fonts */
 
