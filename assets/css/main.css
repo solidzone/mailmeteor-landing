@@ -7,6 +7,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  font-size:16px;
 }
 
 h1,
@@ -275,7 +276,7 @@ section.hero {
 
 section.hero video {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 8px;
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.1) l;
 }
@@ -354,7 +355,8 @@ section.features {
 .featureitem .heading {
   font-size: 1.2em;
   line-height: 1.5em;
-  color: #ff486a;
+  /* color: #ff486a; */
+  color:#ffffff;
   font-weight: 600;
   display: block;
   position: relative;
@@ -988,37 +990,10 @@ section.subpage {
 
 /* Education LP */
 
+
 .block-with-quote {
-  position: relative;
-}
-
-.block-with-quote > .quote {
-  font-size: 43px;
-  line-height: 43px;
-  position: absolute;
-  left: -25px;
-  top: 0;
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .block-with-quote {
-    float: right;
-    font-size: 20px;
-    font-weight: 600;
-    width: 400px;
-    margin: 0px 0 20px 20px;
-  }
-
-  .block-with-quote > .quote {
-    display: block;
-  }
-}
-
-@media (max-width: 420px) {
-  #education-table {
-    display: none;
-  }
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* Prevent horizontal scroll on Firefox */
