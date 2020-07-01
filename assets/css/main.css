@@ -905,7 +905,7 @@ section.subpage {
 /*Pricing content*/
 
 .pricing-plan-features {
-  min-height: 210px; /* can be removed to obtain squared pricings */
+  min-height: 240px; /* can be removed to obtain squared pricings */
   text-align: left;
   display: block;
 }
