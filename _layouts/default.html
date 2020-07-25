@@ -3,7 +3,7 @@
 
 {%- include head.html -%}
 
-<body>
+<body class="preload">
 
   {%- include default.header.html -%}
 
@@ -103,18 +103,18 @@
         }
       }
 
-      $("[data-checkout-product]").each(function() {
+      $("[data-checkout-product]").each(function () {
         var card = $(this)
         var recurrence = $('[data-checkout-recurrence]')
 
-        if (recurrence) { recurrence = recurrence.data('checkout-recurrence')}
-        else { recurrence = "monthly" }
+        if (recurrence) { recurrence = recurrence.data('checkout-recurrence') }
+        else { recurrence = "monthly" }
 
         var productId = card.data("checkout-product")
         var productCategory = products[recurrence]
         var product = productCategory && productCategory[productId]
-        if (!product) { throw new Error('Undefined plan: ' + cardPlanName)}
-        
+        if (!product) { throw new Error('Undefined plan: ' + cardPlanName) }
+
         var title = card.find('[data-checkout-product-item="title"]')
         if (title && product.title) { title.first().text(product.title) }
 
@@ -130,19 +130,19 @@
 
             var priceHtml = '<small style="font-size: 50%;">$</small>'
             priceHtml += productPriceInteger
-            priceHtml += '<sup>'+ (productPriceDecimal ? ('.' + productPriceDecimal) : '') + ' / '+recurrence.slice(0, -2)+'</sup>'
+            priceHtml += '<sup>' + (productPriceDecimal ? ('.' + productPriceDecimal) : '') + ' / ' + recurrence.slice(0, -2) + '</sup>'
             price.first().html(priceHtml)
-            
+
             if (product.discount) {
               var productDiscount = product.discount.toString().split('.')
               var productDiscountInteger = productDiscount.shift()
               var productDiscountDecimal = productDiscount.length && productDiscount.shift()
-              
+
               var discountHtml = '<small style="font-size: 50%;">$</small>'
               discountHtml += productDiscountInteger
-              discountHtml += '<sup>'+ (productDiscountDecimal ? ('.' + productDiscountDecimal) : '') + ' / '+recurrence.slice(0, -2)+'</sup>'
+              discountHtml += '<sup>' + (productDiscountDecimal ? ('.' + productDiscountDecimal) : '') + ' / ' + recurrence.slice(0, -2) + '</sup>'
 
-              price.first().html('<strike>'+ priceHtml + '</strike><span style="color:#FF486A;">' + discountHtml + '</span>')
+              price.first().html('<strike>' + priceHtml + '</strike><span style="color:#FF486A;">' + discountHtml + '</span>')
             }
           }
           else {
@@ -169,10 +169,10 @@
       // Handle monthly / yearly
       $('input[name=checkout-recurrence]').on('change', function () {
         var recurrence = $('[data-checkout-recurrence]')
-        if (recurrence) { recurrence.first().data('checkout-recurrence', $(this).val())}
+        if (recurrence) { recurrence.first().data('checkout-recurrence', $(this).val()) }
         renderProducts()
       })
-      
+
       // Handle users selector (for enterprise)
       $('#checkout-selector-users').change(function () {
         var card = $(this).closest('[data-checkout-product]')
@@ -205,7 +205,7 @@
       try {
         var coupon = qs('coupon')
         if (coupon && coupon === "OFF20") {
-          $("[data-checkout-product]").each(function() {
+          $("[data-checkout-product]").each(function () {
             var card = $(this)
             var productId = card.data("checkout-product")
 
@@ -218,13 +218,13 @@
 
       } catch (e) { console.error(e) }
     });
-    
+
 
     /**
      * Validation on the enterprise modal
      */
 
-    $( "#enterprise-form" ).submit(function( event ) {
+    $("#enterprise-form").submit(function (event) {
       var domainElt = $("#emailDomain")
       var domain = $.trim(domainElt && domainElt.val() || "").toLowerCase()
 
@@ -245,14 +245,14 @@
         return notValid("Can't upgrade that domain. Is it your G Suite domain?")
       } else if (domain.indexOf('@') >= 0) {
         return notValid("Please enter your G Suite domain here (the part after @).");
-      } else if (domain.substr(0,4) === "www.") {
+      } else if (domain.substr(0, 4) === "www.") {
         return notValid("Please enter your G Suite domain (without www).");
-      } else if (domain.substr(0,4) === "http") {
+      } else if (domain.substr(0, 4) === "http") {
         return notValid("Please enter your G Suite domain (without http).");
       }
 
       var validation = domainElt.parent().find('.email-domain-validation')
-      if (validation.first()) { validation.first().hide()}
+      if (validation.first()) { validation.first().hide() }
     });
   </script>
 

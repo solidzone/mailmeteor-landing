@@ -7,7 +7,7 @@
 html,
 body {
   scroll-behavior: smooth;
-  font-size: 16px;
+  font-size: 16.5px;
 }
 
 h1,
@@ -78,17 +78,17 @@ p.dark-bg {
 /* SEO emphasis with strong*/
 
 .heading strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 strong {
-  font-weight: normal;
+  font-weight: 400;
 }
 
 /*generic elements*/
 
 .highlight {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #logo {
@@ -134,7 +134,7 @@ button:hover,
   text-decoration: none;
   text-align: center;
   color: white;
-  font-weight: bolder;
+  font-weight: 700;
   border-radius: 6px;
   background-color: #ff486a;
   outline: none;
@@ -170,7 +170,7 @@ button:hover,
 
 .navbar-light .navbar-nav .nav-link {
   color: #04143a;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.9em;
 }
 
@@ -349,7 +349,7 @@ section.features {
   line-height: 1.5em;
   /* color: #ff486a; */
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 700;
   display: block;
   position: relative;
   padding-bottom: 5px;
@@ -557,7 +557,7 @@ section.pricing {
 
 #pricing-plans .btn-group-toggle-recurrence .btn.active {
   color: white;
-  font-weight: bolder;
+  font-weight: 700;
   background-color: #ff486a;
 }
 
@@ -648,13 +648,13 @@ section.pricing {
 }
 
 sup {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 0.55em;
 }
 
 #launch-offer {
   font-size: 0.7em;
-  font-weight: bold;
+  font-weight: 700;
   color: white;
   position: absolute;
   top: 0px;
@@ -674,7 +674,7 @@ sup {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 5px;
   margin: 0;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #pricing-enterprise-select:hover {
@@ -719,7 +719,7 @@ sup {
 
 .review-quote {
   font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 3em;
   color: #04143a;
 }
@@ -788,7 +788,7 @@ sup {
 }
 
 #accordion .card-header {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
@@ -862,7 +862,7 @@ section.subpage {
 .header-center {
   margin: auto;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .subheader-center {
@@ -905,7 +905,7 @@ section.subpage {
 /*Pricing content*/
 
 .pricing-plan-features {
-  min-height: 240px; /* can be removed to obtain squared pricings */
+  min-height: 190px; /* can be removed to obtain squared pricings */
   text-align: left;
   display: block;
 }
@@ -913,7 +913,7 @@ section.subpage {
 .pricing-plan-features li {
   display: flex;
   align-items: center;
-  padding: 0 0 0.2em 0;
+  padding: 0 0 0.1em 0;
   margin: 2px;
 }
 
@@ -949,7 +949,7 @@ section.subpage {
 }
 
 .popover-header {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /*Remove outline on input*/
@@ -1005,14 +1005,27 @@ section.subpage {
   }
 }
 
+/* Disable CSS transition on page load */
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+ }
+
+ /* LANDING PAGES */
+
 /* Education LP */
 
 .block-with-quote {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
-/* Fonts */
+
+
+/* FONTS */
 
 /* poppins-regular - latin */
 @font-face {
@@ -1046,7 +1059,7 @@ section.subpage {
 @font-face {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   src: url("../fonts/poppins-v5-latin-600.eot"); /* IE9 Compat Modes */
   src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
     url("../fonts/poppins-v5-latin-600.eot?#iefix") format("embedded-opentype"),
@@ -1060,7 +1073,7 @@ section.subpage {
 @font-face {
   font-family: "Poppins";
   font-style: italic;
-  font-weight: 600;
+  font-weight: 700;
   src: url("../fonts/poppins-v5-latin-600italic.eot"); /* IE9 Compat Modes */
   src: local("Poppins SemiBold Italic"), local("Poppins-SemiBoldItalic"),
     url("../fonts/poppins-v5-latin-600italic.eot?#iefix") format("embedded-opentype"),
