@@ -590,7 +590,7 @@ section.pricing {
 .pricing-card-header {
   border-radius: 8px 8px 0 0;
   background-color: white;
-  border-bottom: 1px solid rgba(16, 24, 32, 0.05);
+  /* border-bottom: 1px solid rgba(16, 24, 32, 0.05); */
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
 }
@@ -598,7 +598,7 @@ section.pricing {
 /*Pricing content*/
 
 .pricing-card-body {
-  padding: 1em 1em 0 1em;
+  padding: 0.5em 1em 0 1em;
 }
 
 .pricing h5 {
@@ -905,7 +905,7 @@ section.subpage {
 /*Pricing content*/
 
 .pricing-plan-features {
-  min-height: 190px; /* can be removed to obtain squared pricings */
+  min-height: 200px; /* can be removed to obtain squared pricings */
   text-align: left;
   display: block;
 }
