@@ -47,6 +47,10 @@ section {
   margin-bottom: 4em;
 }
 
+nav {
+  min-height: 75px;
+}
+
 /* Headings */
 
 h1 {
