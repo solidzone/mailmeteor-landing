@@ -192,6 +192,10 @@ button:hover,
   box-shadow: -2px -4px 20px 0px rgba(32, 41, 50, 0.12);
 }
 
+.bg-light {
+  background-color: #ffffff!important;
+}
+
 @media (max-width: 768px) {
   body {
     background-image: url();
@@ -203,9 +207,6 @@ button:hover,
 }
 
 @media (min-width: 768px) {
-  .bg-light {
-    background-color: white !important;
-  }
 
   .navbar-light .navbar-nav .nav-link {
     color: #333;
