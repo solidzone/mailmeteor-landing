@@ -594,8 +594,11 @@
         }
       }
     }
-    window.onload = loadVideo;
+    document.addEventListener("DOMContentLoaded", function () {
+      loadVideo();
+    });
   </script>
+
   <!-- FOOTERs  -->
 
   <footer class="footer">
