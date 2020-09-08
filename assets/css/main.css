@@ -10,10 +10,14 @@ body {
   font-size: 16.5px;
 }
 
-h1,
-h2,
-a {
-  font-family: "Poppins", sans-serif;
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top:140px;
+  padding-bottom: 10em;
+  box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
+  -moz-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
+  -webkit-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
 }
 
 body,
@@ -29,23 +33,17 @@ li {
   font-family: "DM Sans", sans-serif;
 }
 
+h1,
+h2,
+a {
+  font-family: "Poppins", sans-serif;
+}
+
 a,
 a:hover {
   text-decoration: none;
 }
 
-body {
-  max-width: 1920px;
-  margin: 0 auto;
-  padding-bottom: 10em;
-  box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12);
-  -moz-box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12);
-  -webkit-box-shadow: 0 16px 48px rgba(32, 41, 50, 0.12);
-}
-
-section {
-  margin-bottom: 4em;
-}
 
 nav {
   min-height: 75px;
@@ -60,7 +58,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 700;
   color: #04143a;
 }
@@ -195,11 +193,15 @@ button:hover,
   background-color: #ffffff!important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 550px) {
+  
   body {
-    background-image: url();
+    padding-top:160px;
   }
+}
 
+@media (max-width: 768px) {
+  
   .top-svg {
     display: none;
   }
@@ -260,11 +262,11 @@ button:hover,
 
 /*SECTIONS*/
 
-/* ----Hero section---- */
-
-section.hero {
-  margin-top: 4.5em; /*adding margins between nav and hero section*/
+section {
+  margin-bottom: 4em;
 }
+
+/* --- Hero section --- */
 
 section.hero video {
   width: 100%;
@@ -273,7 +275,7 @@ section.hero video {
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.1) l;
 }
 
-/* ----Features section---- */
+/* --- Features section --- */
 
 section.features {
   margin-top: 4em;
@@ -414,10 +416,6 @@ section.features {
 
 /* ----Tutorial section---- */
 
-.tutorial {
-  margin-bottom: 15em;
-}
-
 .tutorial button {
   margin: 1em auto;
 }
@@ -527,9 +525,12 @@ section.features {
 
 /* ----Pricing section---- */
 
-section.pricing {
-  margin-top: 12em;
-  z-index: -2;
+#summer-sales-banner {
+  background:#ff486a;
+  color:white;
+  text-align:center;
+  font-weight: 500;
+  padding:0.5em;
 }
 
 .pricing-header,
@@ -636,7 +637,7 @@ section.pricing {
   cursor: default;
 }
 
-.pricing-subheader {
+.pricing-subheader-centered {
   font-size: 0.9em;
 }
 
@@ -792,7 +793,7 @@ sup {
 }
 
 #accordion {
-  width: 80%;
+  max-width: 960px;
   margin: auto;
 }
 
@@ -863,27 +864,23 @@ body > footer > div > p {
 
 Privacy pages, terms, other  */
 
-section.subpage {
-  margin-top: 4.5em;
-  margin-bottom: 5em;
-}
-
-.header-center {
+.header-centered {
   margin: auto;
   text-align: center;
   font-weight: 700;
 }
 
-.subheader-center {
+.subheader-centered {
   margin: auto;
   text-align: center;
+  font-size:1em;
 }
 
-.subpage h2 {
+.legal h2 {
   font-size: 1em;
 }
 
-.subpage img {
+.article img {
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
   padding: 0;
@@ -899,7 +896,7 @@ section.subpage {
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
 }
 
-.subpage img:hover,
+.article img:hover,
 .comparison-table:hover {
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
