@@ -407,7 +407,7 @@
       // Handle users selector (for enterprise)
       $('#checkout-selector-users').change(function () {
         var card = $(this).closest('[data-checkout-product]')
-        if (card) { card.data('checkout-product', 'enterprise-' + $(this).val() + '-OFF20') }
+        if (card) { card.data('checkout-product', 'enterprise-' + $(this).val()) }
         renderProducts()
       });
 
