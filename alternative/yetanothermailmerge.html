@@ -70,6 +70,13 @@ og_url: https://mailmeteor.com/alternative/yetanothermailmerge
                         </tbody>
                     </table>
                 </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <div class="col-md-12 col-lg-10">
+                        <div class="embed-responsive embed-responsive-16by9" data-aos="fade-up" data-aos-duration="800">
+                            <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" src="" show-info="O" data-src="https://www.youtube.com/embed/ccO5i3gQXSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -79,3 +86,18 @@ og_url: https://mailmeteor.com/alternative/yetanothermailmerge
 {%- include pricingtable.html -%}
 {%- include testimonials.html -%}
 {%- include faq.html -%}
+
+<script>
+    // Youtube loader optimization
+    function loadVideo() {
+        var vidDefer = document.getElementsByTagName("iframe");
+        for (var i = 0; i < vidDefer.length; i++) {
+            if (vidDefer[i].getAttribute("data-src")) {
+                vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
+            }
+        }
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+        loadVideo();
+    });
+</script>
