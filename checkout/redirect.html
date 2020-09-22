@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <p>
-  <span style="font-family:Arial, Helvetica, sans-serif">Redirecting to Stripe checkout...</span>
+  <span style="font-family: Arial, Helvetica, sans-serif">Redirecting to Stripe checkout...</span>
 </p>
 <p id="error-message"></p>
 <script src="https://js.stripe.com/v3/"></script>
 <script>
   function getUrlParameter(name) {
-    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]')
-    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)')
-    var results = regex.exec(location.search)
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '))
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+    var results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
   }
 
   try {
-    var checkoutSessionId = getUrlParameter('csi')
+    var checkoutSessionId = getUrlParameter("csi");
     if (!checkoutSessionId) {
-      throw Error('Missing a Stripe Checkout ID.')
+      throw Error("Missing a Stripe Checkout ID.");
     }
 
-    var stripe = Stripe('pk_live_U2xwsrlYPffCBwDlCj988OUO00cjhcrOSN')
+    var stripeAPIKey =
+      checkoutSessionId.indexOf("cs_test_") === 0
+        ? "pk_test_QZCJhmkpR03mAot2XsRUs0qM00B4gZtUh8"
+        : "pk_live_U2xwsrlYPffCBwDlCj988OUO00cjhcrOSN";
+
+    var stripe = Stripe(stripeAPIKey);
     stripe
       .redirectToCheckout({
-        sessionId: checkoutSessionId
+        sessionId: checkoutSessionId,
       })
-      .then(function(result) {
+      .then(function (result) {
         if (result.error) {
-          throw Error(result.error.message)
+          throw Error(result.error.message);
         }
-      })
+      });
   } catch (err) {
-    var displayError = document.getElementById('error-message')
-    displayError.textContent = err.message
+    var displayError = document.getElementById("error-message");
+    displayError.textContent = err.message;
   }
 </script>
