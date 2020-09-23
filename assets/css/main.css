@@ -1002,12 +1002,12 @@ Privacy pages, terms, other  */
     font-size: 92%;
     zoom: 110%;
   }
-}
+} 
 
 @media (min-width: 2000px) {
   html {
     font-size: 92%;
-    zoom: 135%;
+    zoom: 115%;
   }
 }
 
