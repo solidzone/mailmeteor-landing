@@ -859,9 +859,7 @@ body > footer > div > p {
   }
 }
 
-/* Other pages
-
-Privacy pages, terms, other  */
+/* Sub pages */
 
 .header-centered {
   margin: auto;
@@ -873,10 +871,6 @@ Privacy pages, terms, other  */
   margin: auto;
   text-align: center;
   font-size:1em;
-}
-
-.legal h2 {
-  font-size: 1em;
 }
 
 .article img {
@@ -903,6 +897,16 @@ Privacy pages, terms, other  */
 
 .table th {
   border-top: none;
+}
+
+/* Legal pages */
+
+section.legal {
+  padding-top:2em;
+}
+
+.legal h2 {
+  font-size: 1em;
 }
 
 /* Pricing page */
