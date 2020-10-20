@@ -13,7 +13,7 @@ body {
 body {
   max-width: 1920px;
   margin: 0 auto;
-  padding-top:100px;
+  padding-top: 100px;
   padding-bottom: 10em;
   box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
   -moz-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
@@ -43,7 +43,6 @@ a,
 a:hover {
   text-decoration: none;
 }
-
 
 nav {
   min-height: 75px;
@@ -190,24 +189,22 @@ button:hover,
 }
 
 .bg-light {
-  background-color: #ffffff!important;
+  background-color: #ffffff !important;
 }
 
-@media (max-width: 240px) { 
+@media (max-width: 240px) {
   body {
-    padding-top:160px;
+    padding-top: 160px;
   }
 }
 
 @media (max-width: 768px) {
-  
   .top-svg {
     display: none;
   }
 }
 
 @media (min-width: 768px) {
-
   .navbar-light .navbar-nav .nav-link {
     color: #333;
     padding-right: 0.8em;
@@ -525,11 +522,11 @@ section.features {
 /* ----Pricing section---- */
 
 #summer-sales-banner {
-  background:#ff486a;
-  color:white;
-  text-align:center;
+  background: #ff486a;
+  color: white;
+  text-align: center;
   font-weight: 500;
-  padding:0.5em;
+  padding: 0.5em;
 }
 
 .pricing-header,
@@ -550,6 +547,7 @@ section.features {
   display: block;
   text-decoration: none;
   text-align: center;
+  font-weight: bold;
   color: #ff486a;
   border: 2px solid;
   border-color: #ff486a;
@@ -561,7 +559,6 @@ section.features {
 
 #pricing-plans .btn-group-toggle-recurrence .btn.active {
   color: white;
-  font-weight: 700;
   background-color: #ff486a;
 }
 
@@ -586,7 +583,6 @@ section.features {
   background-color: white;
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
-  cursor: pointer;
 }
 
 /* Pricing header */
@@ -594,15 +590,15 @@ section.features {
 .pricing-card-header {
   border-radius: 8px 8px 0 0;
   background-color: white;
-  /* border-bottom: 1px solid rgba(16, 24, 32, 0.05); */
-  padding: 0.75rem 1.25rem;
+  padding: 0.75rem 1.25rem 0 1.25rem;
   margin-bottom: 0;
+  min-height: 130px;
 }
 
 /*Pricing content*/
 
 .pricing-card-body {
-  padding: 0.5em 1em 0 1em;
+  padding: 0 1em 0 1em;
 }
 
 .pricing h5 {
@@ -624,7 +620,7 @@ section.features {
   content: "";
   min-width: 20px;
   height: 20px;
-  margin-right: 4px;
+  margin-right: 8px;
   display: inline-block;
   background-image: url(../img/elements/tick-round.svg);
   background-repeat: no-repeat;
@@ -636,24 +632,31 @@ section.features {
   cursor: default;
 }
 
-.pricing-subheader-centered {
-  font-size: 0.9em;
-}
-
 .pricingcard-title {
   font-size: 1em;
 }
 
 .pricingcard-currency {
-  font-size: 50%;
+  font-size: 60%;
   min-width: 16px;
   display: inline-block;
+}
+
+.pricing-card-savings {
+  color: #7da4ff;
+  font-size: 0.8em;
 }
 
 @media (min-width: 576px) {
   .card-deck {
     margin-left: 0px !important;
     margin-right: 0px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pricing-card-savings {
+    font-size: 0.9em;
   }
 }
 
@@ -679,12 +682,12 @@ sup {
 #pricing-enterprise-select {
   padding: 0.3em;
   width: 100%;
-  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
-  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 5px;
   margin: 0;
   font-weight: 700;
+  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
+  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
 }
 
 #pricing-enterprise-select:hover {
@@ -694,6 +697,12 @@ sup {
 #pricing-enterprise-select select:active,
 #pricing-enterprise-select select:focus {
   outline: none;
+}
+
+@media screen and (max-width: 892px) {
+  div[data-checkout-product="free"] {
+    display: none;
+  }
 }
 
 /*---Testimonials---*/
@@ -870,7 +879,7 @@ body > footer > div > p {
 .subheader-centered {
   margin: auto;
   text-align: center;
-  font-size:1em;
+  font-size: 1em;
 }
 
 .article img {
@@ -902,7 +911,7 @@ body > footer > div > p {
 /* Legal pages */
 
 section.legal {
-  padding-top:2em;
+  padding-top: 2em;
 }
 
 .legal h2 {
@@ -914,7 +923,7 @@ section.legal {
 /*Pricing content*/
 
 .pricing-plan-features {
-  min-height: 200px; /* can be removed to obtain squared pricings */
+  min-height: 230px; /* can be removed to obtain squared pricings */
   text-align: left;
   display: block;
 }
@@ -924,13 +933,14 @@ section.legal {
   align-items: center;
   padding: 0 0 0.1em 0;
   margin: 2px;
+  line-height: 1.6;
 }
 
 .pricing-plan-features li:before {
   content: "";
   min-width: 20px;
   height: 20px;
-  margin-right: 4px;
+  margin-right: 8px;
   display: inline-block;
   background-image: url(../img/elements/tick-round.svg);
   background-repeat: no-repeat;
@@ -941,7 +951,7 @@ section.legal {
   left: 0;
   right: 0;
   height: 100%;
-  background: linear-gradient(to bottom, #fff, #f5f6fa7a);
+  background: linear-gradient(to bottom, #fff, #f5f6fa3b);
   z-index: -2;
   margin-bottom: 0;
 }
@@ -1005,7 +1015,7 @@ section.legal {
     font-size: 92%;
     zoom: 110%;
   }
-} 
+}
 
 @media (min-width: 2000px) {
   html {
