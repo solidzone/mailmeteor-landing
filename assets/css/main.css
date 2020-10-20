@@ -699,7 +699,7 @@ sup {
   outline: none;
 }
 
-@media screen and (max-width: 892px) {
+@media screen and (max-width: 992px) {
   div[data-checkout-product="free"] {
     display: none;
   }
@@ -1010,17 +1010,15 @@ section.legal {
 
 /* Big display > 1440px */
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
   html {
-    font-size: 92%;
-    zoom: 110%;
+    zoom: 103%;
   }
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1920px) {
   html {
-    font-size: 92%;
-    zoom: 115%;
+    zoom: 105%;
   }
 }
 
