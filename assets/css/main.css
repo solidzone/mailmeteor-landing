@@ -595,6 +595,9 @@ section.features {
   min-height: 130px;
 }
 
+#pricingTable .pricing-card-header {
+  min-height: 80px!important;
+}
 /*Pricing content*/
 
 .pricing-card-body {
