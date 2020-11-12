@@ -156,3 +156,55 @@
     }
   }
 </script>
+
+{% if page.pricing == "true" %}
+<script>
+
+  // Asynchronous version of Drift installation snippet in order to optimize performances
+  "use strict";
+
+  function loadDriftWidget() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+      t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+        t.factory = function (e) {
+          return function () {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function (e) {
+          t[e] = t.factory(e);
+        }), t.load = function (t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+    }
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('wh3bg2vtun24');
+    drift.on('ready', function (api) {
+      //Hide Drift chat via css, because the API hide() method is slower and the icon blinks for a moment before disappearing
+      $('.drift-frame-chat').css('display', 'none')
+      $('.drift-widget-controller').css('display', 'none')
+      //api.widget.hide()
+    })
+  };
+
+  // Show Drift icon and conversation modal function
+  function showDriftWidget() {
+    $('.drift-frame-chat').css('display', '')
+    $('.drift-widget-controller').css('display', '')
+    drift.api.openChat();
+  }
+
+  // Load Drift after everything else is loaded
+  $(window).on('load', function () { loadDriftWidget() });
+
+  // Show Drift if visitor stays more than one minute on page
+  setTimeout(function () { showDriftWidget() }, 60 * 1000);
+
+</script>
+
+{% endif %}
