@@ -3,7 +3,7 @@
 
 {%- include head.html -%}
 
-<body class="preload">
+<body class="preload drift-hidden">
 
   {%- include default.header.html -%}
 
@@ -341,14 +341,18 @@
 
       // Handle confirmation modals
       function planConfirmationModal(event) {
+        console.log("planConfirmationModal")
         var button = $(event.relatedTarget)
         var productId = button.data('checkout-product-id')
+        var modal = $(this)
 
         if (!productId) {
+           // Show drift widget
+           showDriftWidget()
+          
           event.preventDefault()
-          showDriftWidget()
+         
         } else {
-          var modal = $(this)
           modal.find('input.checkout-plan-id').val(productId)
         }
       }
