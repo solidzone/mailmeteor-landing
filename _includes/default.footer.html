@@ -158,6 +158,9 @@
 </script>
 
 {% if page.pricing == "true" %}
+<style>
+  iframe#drift-widget.drift-widget-welcome-online {}
+</style>
 <script>
 
   // Asynchronous version of Drift installation snippet in order to optimize performances
@@ -183,20 +186,19 @@
         };
     }
     drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('wh3bg2vtun24');
+    drift.load('wh3bg2vtun24')
     drift.on('ready', function (api) {
       //Hide Drift chat via css, because the API hide() method is slower and the icon blinks for a moment before disappearing
-      $('.drift-frame-chat').css('display', 'none')
-      $('.drift-widget-controller').css('display', 'none')
+      $('*[class^="drift"]').css('display', 'none')
       //api.widget.hide()
     })
   };
 
   // Show Drift icon and conversation modal function
   function showDriftWidget() {
-    $('.drift-frame-chat').css('display', '')
-    $('.drift-widget-controller').css('display', '')
-    drift.api.openChat();
+    $('*[class^="drift"]').css('display', '')
+    $('.drift-frame-chat').css('max-height', '200px')
+    drift.api.widget.show()
   }
 
   // Load Drift after everything else is loaded
