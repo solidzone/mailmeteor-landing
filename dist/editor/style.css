@@ -869,26 +869,16 @@
 
 /* Hover styles. */
 .goog-toolbar-button-hover .goog-toolbar-button-outer-box,
-.goog-toolbar-button-hover .goog-toolbar-button-inner-box {
-  /* Hover border style wins over active/checked/selected. */
-  border-color: #a1badf !important;
-}
-
-/* Active/checked/selected styles. */
-.goog-toolbar-button-active,
-.goog-toolbar-button-checked,
-.goog-toolbar-button-selected {
-  /* Active/checked/selected background color always wins. */
-  background-color: #dde1eb !important;
-}
-
+.goog-toolbar-button-hover .goog-toolbar-button-inner-box,
 .goog-toolbar-button-active .goog-toolbar-button-outer-box,
 .goog-toolbar-button-active .goog-toolbar-button-inner-box,
 .goog-toolbar-button-checked .goog-toolbar-button-outer-box,
 .goog-toolbar-button-checked .goog-toolbar-button-inner-box,
 .goog-toolbar-button-selected .goog-toolbar-button-outer-box,
 .goog-toolbar-button-selected .goog-toolbar-button-inner-box {
-  border-color: #729bd1;
+  /* Hover border style wins over active/checked/selected. */
+  border-color: transparent !important;
+  background-color: #f3f5f5 !important;
 }
 
 /* Pill (collapsed border) styles. */
@@ -1041,23 +1031,13 @@
 
 /* Hover styles. */
 .goog-toolbar-menu-button-hover .goog-toolbar-menu-button-outer-box,
-.goog-toolbar-menu-button-hover .goog-toolbar-menu-button-inner-box {
-  /* Hover border color trumps active/open style. */
-  border-color: #a1badf !important;
-}
-
-/* Active/open styles. */
-.goog-toolbar-menu-button-active,
-.goog-toolbar-menu-button-open {
-  /* Active/open background color wins. */
-  background-color: #dde1eb !important;
-}
-
+.goog-toolbar-menu-button-hover .goog-toolbar-menu-button-inner-box,
 .goog-toolbar-menu-button-active .goog-toolbar-menu-button-outer-box,
 .goog-toolbar-menu-button-active .goog-toolbar-menu-button-inner-box,
 .goog-toolbar-menu-button-open .goog-toolbar-menu-button-outer-box,
 .goog-toolbar-menu-button-open .goog-toolbar-menu-button-inner-box {
-  border-color: #729bd1;
+  border-color: transparent !important;
+  background-color: #f3f5f5 !important;
 }
 
 /* Menu button caption style. */
@@ -1112,7 +1092,8 @@
 
 .goog-toolbar-select .goog-toolbar-menu-button-outer-box,
 .goog-toolbar-select .goog-toolbar-menu-button-inner-box {
-  border-color: #bfcbdf;
+  border-color: transparent !important;
+  background-color: #f3f5f5 !important;
 }
 
 /*
@@ -1623,6 +1604,10 @@ div.tr_multi_bubble div.tr_bubble_panel {
 /* .tr-editHtml {
   color: #009;
 } */
+
+.tr-edit-html {
+  background: url("gmailUI/baseline-code-24px.svg");
+}
 
 /* "Format block" menu. */
 /* .tr-formatBlock .goog-toolbar-menu-button-caption {
