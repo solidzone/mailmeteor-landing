@@ -878,7 +878,7 @@
 .goog-toolbar-button-selected .goog-toolbar-button-inner-box {
   /* Hover border style wins over active/checked/selected. */
   border-color: transparent !important;
-  background-color: #f3f5f5 !important;
+  background-color: #e4e4e4 !important;
 }
 
 /* Pill (collapsed border) styles. */
@@ -1037,7 +1037,7 @@
 .goog-toolbar-menu-button-open .goog-toolbar-menu-button-outer-box,
 .goog-toolbar-menu-button-open .goog-toolbar-menu-button-inner-box {
   border-color: transparent !important;
-  background-color: #f3f5f5 !important;
+  background-color: #e4e4e4 !important;
 }
 
 /* Menu button caption style. */
@@ -1093,7 +1093,7 @@
 .goog-toolbar-select .goog-toolbar-menu-button-outer-box,
 .goog-toolbar-select .goog-toolbar-menu-button-inner-box {
   border-color: transparent !important;
-  background-color: #f3f5f5 !important;
+  background-color: #e4e4e4 !important;
 }
 
 /*
