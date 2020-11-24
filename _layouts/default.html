@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" prefix="og: http://ogp.me/ns#">
 
 {%- include head.html -%}
 
@@ -287,14 +287,14 @@
             if (product.savings && window.location.href.indexOf('coupon') === -1) {
               $(".pricing-card-savings").text('Save ' + product.savings + ' compared to individual plans.')
               $(".pricing-card-savings").show()
-            } 
+            }
 
             // Show the price "/user/month" when buying Enterprise plan
             else if (productPrice.peruserpermonth && window.location.href.indexOf('coupon') === -1) {
               $(".pricing-card-savings").text('That\'s ' + productPrice.peruserpermonth + '/user/month.' + (recurrence === "yearly" ? " Billed yearly" : ""))
               $(".pricing-card-savings").show()
-            } 
-            
+            }
+
             // Hide savings
             else {
               $(".pricing-card-savings").hide()
