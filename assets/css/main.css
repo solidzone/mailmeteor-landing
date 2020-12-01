@@ -14,7 +14,7 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   padding-top: 6rem;
-  padding-bottom: 10em;
+  padding-bottom: 10rem;
   box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
   -moz-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
   -webkit-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
@@ -58,21 +58,21 @@ nav {
 /* Headings */
 
 h1 {
-  font-size: 2.2em;
+  font-size: 2.2rem;
   font-weight: 700;
   color: #04143a;
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   font-weight: 700;
   color: #04143a;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 400;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.01rem;
 }
 
 h1.dark-bg,
@@ -107,9 +107,9 @@ strong {
 button,
 .btn {
   font-size: 100%;
-  padding: 1em;
-  margin: 1em 0 1em 0;
-  letter-spacing: 0.05em;
+  padding: 1rem;
+  margin: 1rem 0 1rem 0;
+  letter-spacing: 0.05rem;
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
 }
 
@@ -171,14 +171,14 @@ button:hover,
 
 .nav-link {
   transition: all 0.1s cubic-bezier(0, 0, 0.2, 1);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.04rem;
   font-family: "Poppins", sans-serif;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: #04143a;
   font-weight: 700;
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 
 .nav-link:hover {
@@ -214,8 +214,8 @@ button:hover,
 @media (min-width: 768px) {
   .navbar-light .navbar-nav .nav-link {
     color: #333;
-    padding-right: 0.8em;
-    padding-left: 0.8em;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
   }
 }
 
@@ -266,7 +266,7 @@ button:hover,
 /*SECTIONS*/
 
 section {
-  margin-bottom: 4em;
+  margin-bottom: 4rem;
 }
 
 /* --- Hero section --- */
@@ -281,8 +281,8 @@ section.hero video {
 /* --- Features section --- */
 
 section.features {
-  margin-top: 4em;
-  margin-bottom: 10em;
+  margin-top: 4rem;
+  margin-bottom: 10rem;
 }
 
 .features-svg {
@@ -298,7 +298,7 @@ section.features {
 
 @media (max-width: 576px) {
   section.features {
-    margin-bottom: 15em;
+    margin-bottom: 15rem;
   }
   .features-svg {
     height: 160%;
@@ -354,8 +354,8 @@ section.features {
 }
 
 .featureitem .heading {
-  font-size: 1.1em;
-  line-height: 1.5em;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
   /* color: #ff486a; */
   color: #ffffff;
   font-weight: 700;
@@ -365,8 +365,8 @@ section.features {
 }
 
 .featureitem .summary {
-  font-size: 1em;
-  line-height: 1.5em;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: white;
 }
 
@@ -406,21 +406,21 @@ section.features {
 
 @media (max-width: 575px) {
   .video-wrapper {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 }
 
 @media (min-width: 992px) {
   section.features {
-    margin-top: -10em;
+    margin-top: -10rem;
   }
 }
 
 /* ----Tutorial section---- */
 
 .tutorial button {
-  margin: 1em auto;
+  margin: 1rem auto;
 }
 
 .card-text {
@@ -478,7 +478,7 @@ section.features {
 }
 
 .card-body {
-  padding: 1em;
+  padding: 1rem;
 }
 
 .tutorialcard {
@@ -500,19 +500,19 @@ section.features {
 }
 
 .tutorialcard h2 {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 /* ----Install section---- */
 
 .install {
   text-align: center;
-  margin-top: 10em;
+  margin-top: 10rem;
   position: relative;
 }
 
 .install > .container > button {
-  margin: 1em auto;
+  margin: 1rem auto;
 }
 
 .install-svg {
@@ -530,16 +530,16 @@ section.features {
 
 .pricing-header,
 .comparison-header {
-  padding: 0.3em;
+  padding: 0.3rem;
   max-width: 700px; /* applies both on home and pricing page */
 }
 
 /* Pricing toggle */
 
 #pricing-plans .btn-group-toggle-recurrence .btn {
-  padding: 0.5em;
-  font-size: 0.8em;
-  margin-top: 0em;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  margin-top: 0rem;
 }
 
 #pricing-plans .btn-group-toggle-recurrence .btn {
@@ -603,7 +603,7 @@ section.features {
 /*Pricing content*/
 
 .pricing-card-body {
-  padding: 0 1em 0 1em;
+  padding: 0 1rem 0 1rem;
   flex: 1 0 auto;
 }
 
@@ -639,7 +639,7 @@ section.features {
 }
 
 .pricingcard-title {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .pricingcard-currency {
@@ -651,7 +651,7 @@ section.features {
 .pricing-card-hint,
 .pricing-card-savings {
   color: #7da4ff;
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 576px) {
@@ -664,17 +664,17 @@ section.features {
 @media (min-width: 1200px) {
   .pricing-card-hint,
   .pricing-card-savings {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
 }
 
 sup {
   font-weight: 400;
-  font-size: 0.55em;
+  font-size: 0.55rem;
 }
 
 #launch-offer {
-  font-size: 0.7em;
+  font-size: 0.7rem;
   font-weight: 700;
   color: white;
   position: absolute;
@@ -683,12 +683,12 @@ sup {
   border-radius: 0;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  padding: 0.3em 0.65em 0.02em;
+  padding: 0.3rem 0.65rem 0.02rem;
   background: #ff486a;
 }
 
 #pricing-enterprise-select {
-  padding: 0.3em;
+  padding: 0.3rem;
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 5px;
@@ -716,7 +716,7 @@ sup {
 /*---Testimonials---*/
 
 .testimonials-logo {
-  margin: 1em;
+  margin: 1rem;
   max-width: 150px;
 }
 
@@ -739,20 +739,20 @@ sup {
 
 @media (min-width: 768px) {
   .review-shifted {
-    margin-top: 2em !important;
+    margin-top: 2rem !important;
   }
 }
 
 .review-quote {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 3rem;
   color: #04143a;
 }
 
 .review-text {
-  line-height: 1.4em;
-  font-size: 1em;
+  line-height: 1.4rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #04143a;
 }
@@ -783,7 +783,7 @@ sup {
 #accordion .card-header {
   background-color: white;
   border-bottom: 1px solid rgba(16, 24, 32, 0.05);
-  padding: 0.55em;
+  padding: 0.55rem;
 }
 
 .card-header .faqexpander {
@@ -794,13 +794,13 @@ sup {
 
 .card-header .faqexpander:after {
   content: "-";
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #041432;
 }
 
 .card-header.collapsed .faqexpander:after {
   content: "+";
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #041432;
 }
 
@@ -834,7 +834,7 @@ sup {
 }
 
 .footer {
-  font-size: 0.9em;
+  font-size: 0.9rem;
   color: white;
   position: relative;
 }
@@ -867,7 +867,7 @@ body > footer > div > p {
 /* Footer display for Firefox */
 @-moz-document url-prefix() {
   body > footer > div > p {
-    margin-top: -0.3em;
+    margin-top: -0.3rem;
     color: white;
   }
   #logo-bottom {
@@ -887,7 +887,7 @@ body > footer > div > p {
 .subheader-centered {
   margin: auto;
   text-align: center;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .article img {
@@ -919,11 +919,11 @@ body > footer > div > p {
 /* Legal pages */
 
 section.legal {
-  padding-top: 2em;
+  padding-top: 2rem;
 }
 
 .legal h2 {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 /* Pricing page */
@@ -939,7 +939,7 @@ section.legal {
 .pricing-plan-features li {
   display: flex;
   align-items: center;
-  padding: 0 0 0.1em 0;
+  padding: 0 0 0.1rem 0;
   margin: 2px;
   line-height: 1.6;
 }
