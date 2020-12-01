@@ -79,10 +79,12 @@
             prices: {
               usd: {
                 amount: 23.99,
+                monthlySavings: '10%',
                 id: "price_1GvlK3KALIjZusuQO5MZpPWY"
               },
               eur: {
                 amount: 23.99,
+                monthlySavings: '10%',
                 id: "price_1H9SU2KALIjZusuQiVpnim4E"
               },
             },
@@ -93,10 +95,12 @@
             prices: {
               usd: {
                 amount: 39.99,
+                monthlySavings: '10%',
                 id: "price_1GvlK3KALIjZusuQribPjxTy"
               },
               eur: {
                 amount: 39.99,
+                monthlySavings: '10%',
                 id: "price_1H9SUGKALIjZusuQeGWwThZ7"
               },
             },
@@ -107,10 +111,12 @@
             prices: {
               usd: {
                 amount: 79.99,
+                monthlySavings: '10%',
                 id: "price_1GvlK3KALIjZusuQUfEEZsdB"
               },
               eur: {
                 amount: 79.99,
+                monthlySavings: '10%',
                 id: "price_1H9SUaKALIjZusuQylln3EYs"
               },
             },
@@ -140,11 +146,13 @@
             subtitle: "Unlock Mailmeteor for a year. Billed yearly.",
             prices: {
               usd: {
-                amount: 49.99,
+                amount: 108,
+                discount: 49.99,
                 id: "price_1HlwUXKALIjZusuQfLtFodcR"
               },
               eur: {
-                amount: 49.99,
+                amount: 108,
+                discount: 49.99,
                 id: "price_1HlwUnKALIjZusuQn9490Ffy"
               },
             },
@@ -224,7 +232,7 @@
       $("[data-checkout-product]").each(function () {
         var card = $(this)
         var recurrence = $('[data-checkout-recurrence]').first()
-        recurrence = recurrence && recurrence.data('checkout-recurrence') || "yearly"
+        recurrence = recurrence && recurrence.data('checkout-recurrence') || "monthly"
 
         var currency = $('[data-checkout-currency]').first()
         currency = (currency && currency.data('checkout-currency') || "USD").toLowerCase()
@@ -258,13 +266,13 @@
 
             // Show how much you save when buying Enterprise plan compared to individual plans
             if (product.yearlySavings && window.location.href.indexOf('coupon') === -1) {
-              $(".pricing-card-savings").text('Save ' + amountCurrency + product.yearlySavings + ' compared to individual plans.')
+              $(".pricing-card-savings").text('Save ' + amountCurrency + product.yearlySavings + ' compared to individual plans')
               $(".pricing-card-savings").show()
             }
 
             // Show the price "/user/month" when buying Enterprise plan
-            else if (productPrice.peruserpermonth && window.location.href.indexOf('coupon') === -1) {
-              $(".pricing-card-savings").text('That\'s ' + productPrice.peruserpermonth + '/user/month.' + (recurrence === "yearly" ? " Billed yearly" : ""))
+            else if (productPrice.monthlySavings && window.location.href.indexOf('coupon') === -1) {
+              $(".pricing-card-savings").text('Save ' + productPrice.monthlySavings + ' each month compared to individual plans' + (recurrence === "yearly" ? " Billed yearly" : ""))
               $(".pricing-card-savings").show()
             }
 
