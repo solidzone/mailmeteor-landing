@@ -1,4 +1,4 @@
-/* ----global---- */
+/* --- GLOBAL --- */
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -7,7 +7,7 @@
 html,
 body {
   scroll-behavior: smooth;
-  font-size: 16.5px;
+  font-size: 17px;
 }
 
 body {
@@ -50,6 +50,10 @@ nav {
   min-height: 75px;
 }
 
+#logo {
+  width: 150px;
+}
+
 /* Headings */
 
 h1 {
@@ -70,34 +74,45 @@ h3 {
   letter-spacing: 0.01rem;
 }
 
-h1.dark-bg,
-h2.dark-bg,
-h3.dark-bg,
-p.dark-bg {
-  color: white;
+
+/* Generic elements */
+
+strong {
+  font-weight: 400; /* SEO tags */
 }
 
-/* SEO emphasis with strong*/
-
 .heading strong {
-  font-weight: 700;
+  font-weight: 700; /* SEO tags */
 }
 
 .is-white {
   color: white;
 }
 
-/*generic elements*/
-
-.highlight {
+.block-with-quote {
+  font-size: 20px;
   font-weight: 700;
 }
 
-#logo {
-  width: 150px;
+/* Handling big displays > 1920px */
+
+@media (min-width: 1920px) {
+  html {
+    zoom: 105%; 
+  }
 }
 
-/* ----buttons---- */
+/* Disable CSS transition on page load */
+
+.preload * {
+  transition: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+/* --- BUTTONS --- */
 
 button,
 .btn {
@@ -157,7 +172,7 @@ button:hover,
   transform: scale(1.014);
 }
 
-/* ---nav---- */
+/* --- NAV --- */
 
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -194,6 +209,13 @@ button:hover,
   background-color: #ffffff !important;
 }
 
+
+@media (max-width: 576px) {
+  #navbar {
+    box-shadow: -2px -4px 20px 0px rgba(32, 41, 50, 0.12);
+  }
+}
+
 @media (max-width: 240px) {
   body {
     padding-top: 160px;
@@ -224,8 +246,6 @@ button:hover,
   transition: all 0.2s;
   margin-top: 4px;
 }
-
-/*navbar toggler*/
 
 .navbar-toggler {
   border: none;
@@ -258,13 +278,13 @@ button:hover,
   transform: rotate(0);
 }
 
-/*SECTIONS*/
+/* --- SECTIONS --- */
 
 section {
   margin-bottom: 4rem;
 }
 
-/* --- Hero section --- */
+/* Hero section */
 
 section.hero video {
   width: 100%;
@@ -273,7 +293,7 @@ section.hero video {
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.1) l;
 }
 
-/* --- Features section --- */
+/* Features section */
 
 section.features {
   margin-top: 4rem;
@@ -325,7 +345,7 @@ section.features {
   }
 }
 
-/*features list*/
+  /* Features list */
 
 @media (max-width: 1330px) {
   .featureitem {
@@ -369,7 +389,7 @@ section.features {
   width: 220px;
 }
 
-/* Youtube video - Remove black bars on Youtube video */
+  /* Youtube video - Remove black bars on Youtube video */
 
 .yt-video-wrapper {
   position: relative;
@@ -412,7 +432,7 @@ section.features {
   }
 }
 
-/* ----Tutorial section---- */
+/* Tutorial section */
 
 .tutorial button {
   margin: 1rem auto;
@@ -498,30 +518,7 @@ section.features {
   font-size: 1.3rem;
 }
 
-/* ----Install section---- */
-
-.install {
-  text-align: center;
-  margin-top: 10rem;
-  position: relative;
-}
-
-.install > .container > button {
-  margin: 1rem auto;
-}
-
-.install-svg {
-  width: 100%;
-  height: 440%;
-  top: -340px;
-  position: absolute;
-  background-image: url(../img/background/home_install.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
-
-/* ----Pricing section---- */
+/* --- PRICING --- */
 
 .pricing-header,
 .comparison-header {
@@ -568,7 +565,7 @@ section.features {
   border: 1px solid #eee;
   border-radius: 8px;
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 1rem 0 1rem;
 }
 
 .pricingcard-price strike {
@@ -595,7 +592,7 @@ section.features {
 #pricingTable .pricing-card-header {
   min-height: 80px !important;
 }
-/*Pricing content*/
+/* Pricing content */
 
 .pricing-card-body {
   padding: 0 1rem 0 1rem;
@@ -643,10 +640,10 @@ section.features {
   display: inline-block;
 }
 
-.pricing-card-hint,
 .pricing-card-savings {
   color: #7da4ff;
   font-size: 0.8rem;
+  font-weight: bold;
 }
 
 @media (min-width: 576px) {
@@ -657,7 +654,6 @@ section.features {
 }
 
 @media (min-width: 1200px) {
-  .pricing-card-hint,
   .pricing-card-savings {
     font-size: 0.9rem;
   }
@@ -708,7 +704,7 @@ sup {
   }
 }
 
-/*---Testimonials---*/
+/*--- Testimonials ---*/
 
 .testimonials-logo {
   margin: 1rem;
@@ -936,7 +932,7 @@ section.legal {
   align-items: center;
   padding: 0 0 0.1rem 0;
   margin: 2px;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .pricing-plan-features li:before {
@@ -1007,40 +1003,7 @@ section.legal {
   }
 }
 
-/* Big display > 1440px */
-
-@media (min-width: 1600px) {
-  html {
-    zoom: 103%;
-  }
-}
-
-@media (min-width: 1920px) {
-  html {
-    zoom: 105%;
-  }
-}
-
-/* Disable CSS transition on page load */
-
-.preload * {
-  transition: none !important;
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-}
-
-/* LANDING PAGES */
-
-/* Education LP */
-
-.block-with-quote {
-  font-size: 20px;
-  font-weight: 700;
-}
-
-/* ANIMATIONS */
+/* --- ANIMATIONS --- */
 
 .fade-in {
   opacity: 1;
@@ -1059,7 +1022,7 @@ section.legal {
   }
 }
 
-/* FONTS */
+/* --- FONTS --- */
 
 /* poppins-regular - latin */
 @font-face {
