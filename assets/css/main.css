@@ -83,8 +83,8 @@ p.dark-bg {
   font-weight: 700;
 }
 
-strong {
-  font-weight: 400;
+.is-white {
+  color: white;
 }
 
 /*generic elements*/
