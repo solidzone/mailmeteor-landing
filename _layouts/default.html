@@ -266,13 +266,13 @@
 
             // Show how much you save when buying Enterprise plan compared to individual plans
             if (product.yearlySavings && window.location.href.indexOf('coupon') === -1) {
-              $(".pricing-card-savings").text('Save ' + amountCurrency + product.yearlySavings + ' compared to individual plans')
+              $(".pricing-card-savings").text('Save ' + amountCurrency + product.yearlySavings + ' vs. individual plans')
               $(".pricing-card-savings").show()
             }
 
             // Show the price "/user/month" when buying Enterprise plan
             else if (productPrice.monthlySavings && window.location.href.indexOf('coupon') === -1) {
-              $(".pricing-card-savings").text('Save ' + productPrice.monthlySavings + ' each month compared to individual plans' + (recurrence === "yearly" ? " Billed yearly" : ""))
+              $(".pricing-card-savings").text('Save ' + productPrice.monthlySavings + ' vs. individual plans' + (recurrence === "yearly" ? " Billed yearly" : ""))
               $(".pricing-card-savings").show()
             }
 
