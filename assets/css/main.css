@@ -799,13 +799,13 @@ sup {
 .card-header .faqexpander:after {
   content: "-";
   font-size: 1.2rem;
-  color: #041432;
+  color: #7da4ff;
 }
 
 .card-header.collapsed .faqexpander:after {
   content: "+";
   font-size: 1.2rem;
-  color: #041432;
+  color: #7da4ff;
 }
 
 .accordionpointer {
