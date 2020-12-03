@@ -311,12 +311,15 @@ section.features {
   z-index: -1;
 }
 
-@media (max-width: 576px) {
-  section.features {
-    margin-bottom: 15rem;
-  }
+@media (max-width: 320px) {
   .features-svg {
-    height: 160%;
+    height: 130%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .features-svg {
+    height: 150%;
   }
 }
 
@@ -341,7 +344,7 @@ section.features {
 
 @media (min-width: 1440px) {
   .features-svg {
-    height: 245%;
+    height: 230%;
   }
 }
 
