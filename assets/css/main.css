@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   padding-top: 6rem;
   padding-bottom: 10rem;
+  color:black;
   box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
   -moz-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
   -webkit-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
@@ -585,19 +586,35 @@ section.features {
   min-height: 130px;
 }
 
+.pricing-card-header h3,
+.pricing-card-header h5 {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  color: #04143a;
+  font-weight: bold;
+}
+
 #pricingTable .pricing-card-header {
   min-height: 80px !important;
 }
-/* Pricing content */
+/* Pricing card body */
 
 .pricing-card-body {
   padding: 0 1rem 0 1rem;
   flex: 1 0 auto;
 }
 
-.pricing h5 {
+.pricing-card-body ul {
+  margin-top: 0.5rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.pricing-card-price {
+  font-size:2rem;
   color: #04143a;
 }
+
 
 .pricing-home-features {
   min-height: 170px;
@@ -630,7 +647,7 @@ section.features {
   font-size: 1rem;
 }
 
-.pricingcard-currency {
+.pricing-card-currency {
   font-size: 60%;
   min-width: 16px;
   display: inline-block;
