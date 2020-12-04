@@ -16,7 +16,7 @@ sections:
   - name: Troubleshoot issues
     image: /assets/img/icons/troubleshooting.svg
     description: Having troubles with Mailmeteor? Find the answers to the most frequently asked questions or contact us.
-    link: https://support.mailmeteor.com/help/faq/account
+    link: https://support.mailmeteor.com/help/faq
 
 #
 # Popular articles
