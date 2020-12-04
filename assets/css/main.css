@@ -1009,11 +1009,6 @@ body > footer > div > p {
   padding: 1rem;
 }
 
-
-.page-support-featured-sections a.btn-outline {
-  margin: 0;
-}
-
 /* Page support popular articles */
 
 .page-support-articles {
@@ -1048,7 +1043,9 @@ body > footer > div > p {
   background-repeat: no-repeat;
   width: 16px;
   height: 20px;
-  position: absolute;
+  display: inline-block;
+  position: relative;
+  top: 4px;
 }
 
 .page-support-articles li {
@@ -1057,7 +1054,7 @@ body > footer > div > p {
 
 .page-support-articles li a {
   color: inherit;
-  margin-left: 28px;
+  margin-left: 2px;
 }
 
 .page-support-articles li a:hover {
