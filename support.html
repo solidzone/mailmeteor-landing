@@ -1,0 +1,56 @@
+---
+layout: default
+title: Mailmeteor - Support & Help center
+description: Find out everything you need to send mail merges from Gmail. Get up and running quickly with Mailmeteor.
+canonical: https://mailmeteor.com/support
+
+og_title: Mailmeteor - Support & Help center
+og_description: Find out everything you need to send mail merges from Gmail. Get up and running quickly with Mailmeteor.
+og_url: https://mailmeteor.com/support
+---
+
+<!-- SUPPORT  -->
+
+<section class="page-support-search container">
+  <!-- SUPPORT > SEARCH -->
+  <h1 class="text-center">Need help with Mailmeteor?</h1>
+  <form action="https://support.mailmeteor.com/" class="text-center" method="get">
+    <div class="form-inline">
+      <input class="form-control" type="search" name="q" placeholder="Search the Help Center" aria-label="Search" id="support-searchbar" />
+    </div>
+  </form>
+  <p class="text-center">Search for answers or browse our <a href="https://support.mailmeteor.com/" target"_blank">knowledge base</a>.</p>
+</section>
+
+<section class="page-support-featured">
+  <!-- SUPPORT > FEATURED SECTIONS -->
+  <div id="support-svg">
+  </div>
+  <div class="container page-support-featured-sections">
+    {% for section in site.data.support.sections %}
+    <div>
+      <a href="{{ section.link }}">
+        <img src="{{ section.image }}" alt="{{section.name}}">
+        <h2>{{section.name}}</h2>
+        <p>{{section.description}}</p>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- SUPPORT > TOP ARTICLES -->
+<section class="page-support-articles container">
+  <h2>Featured articles</h2>
+  <ul>
+    {% for article in site.data.support.articles %}
+    <li>
+      <a href="{{ article.link }}"> {{ article.name }} </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+{%- include testimonials.html -%}
+{%- include reviews.html -%}
+{%- include faq.html -%}
