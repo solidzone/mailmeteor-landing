@@ -59,11 +59,11 @@ articles:
   - name: Adding attachments files
     link: https://support.mailmeteor.com/introduction/advanced/attachments
 
-  - name: My account
+  - name: How to find your Mailmeteor Account?
     link: https://support.mailmeteor.com/help/faq/account
 
   - name: Domain installation guide
     link: https://support.mailmeteor.com/introduction/quick-start/install-mailmeteor/domain-installation
 
-  - name: Data privacy
-    link: https://support.mailmeteor.com/help/privacy
+  - name: How to add an unsubscribe link?
+    link: https://support.mailmeteor.com/introduction/advanced/unsubscribe-link
