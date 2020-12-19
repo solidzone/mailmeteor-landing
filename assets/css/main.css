@@ -358,30 +358,29 @@ section.features {
   /* Features list */
 
 @media (max-width: 1330px) {
-  .featureitem {
+  .features-item {
     margin: 0;
     width: 100%;
   }
 }
 
-.featureitem {
+.features-item {
   width: 100%;
   height: auto;
   position: relative;
-  padding: 20px 20px 20px 100px;
+  padding: 20px 0px 20px 100px;
 }
 
-.featureitem .tab_icon {
+.features-item .tab_icon {
   position: absolute;
   left: 30px;
   top: 30px;
   max-width: 35px;
 }
 
-.featureitem .heading {
+.features-item .heading {
   font-size: 1.1rem;
   line-height: 1.5rem;
-  /* color: #ff486a; */
   color: #ffffff;
   font-weight: 700;
   display: block;
@@ -389,7 +388,7 @@ section.features {
   padding-bottom: 5px;
 }
 
-.featureitem .summary {
+.features-item .summary {
   font-size: 1rem;
   line-height: 1.5rem;
   color: white;
