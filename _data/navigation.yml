@@ -1,0 +1,117 @@
+#
+# Navbar
+#
+navbar:
+  support:
+      url: "/support"
+      en: "Support"
+      fr: "Aide"
+      es: "Ayuda"
+  features:
+      url: "/#features"
+      en: "Features"
+      fr: "Fonctionnalités"
+      es: "Características"    
+  pricing:
+      url: "/pricing" 
+      en: "Pricing"
+      fr: "Prix"
+      es: "Precio"
+  install:
+      url: "https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301" 
+      en: "INSTALL"
+      fr: "INSTALLER"
+      es: "INSTALAR"          
+
+#
+# Footer
+#
+
+footer:
+  product:
+    title: 
+      en: "Product"
+      fr: "Produit"
+      es: "Producto"
+    links:
+      tutorial:
+        url: "https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial"
+        en: "Tutorial"
+        fr: "Tutoriel"
+        es: "Tutorial"
+      demovideo:
+        url: "https://www.youtube.com/watch?v=ccO5i3gQXSk"
+        en: "Demo video"
+        fr: "Démo vidéo"
+        es: "Demo video" 
+      pricing:
+        url: "/pricing"
+        en: "Pricing"
+        fr: "Prix"
+        es: "Precio" 
+  company:
+    title: 
+      en: "Company"
+      fr: "Entreprise"
+      es: "Empresa"
+    links:
+      jobs:
+        url: "mailto:jobs@mailmeteor.com"
+        en: "We're hiring"
+        fr: "Nous recrutons"
+        es: "Empleo"
+  support:
+    title: 
+      en: "Support"
+      fr: "Aide"
+      es: "Ayuda"
+    links:
+      help:
+        url: "https://support.mailmeteor.com/"
+        en: "Help center"
+        fr: "Documentation"
+        es: "Documentación"
+      contact:
+        url: "https://support.mailmeteor.com/help/contact-support"
+        en: "Contact"
+        fr: "Nous contacter"
+        es: "Contactarnos" 
+  ressources:
+    title: 
+      en: "Resources"
+      fr: "Ressources"
+      es: "Producto"
+    links:
+      tips:
+        url: "https://support.mailmeteor.com/introduction/quick-start/sending-tips"
+        en: "Gmail sending tips"
+        fr: "Conseils d'utilisation"
+        es: "Consejos de uso"
+      alternative:
+        url: "/alternative"
+        en: "Mail merge tools"
+        fr: "Comparaison"
+        es: "Comparación"
+      education:
+        url: "/education-program"
+        en: "Education Program"
+        fr: "Programme Education"
+        es: "Programa educativo"
+  transparency:
+    title: 
+      en: "Transparency"
+      fr: "Transparence"
+      es: "Transparencia"
+    links:
+      privacy:
+        url: "/privacy-policy"
+        en: "Privacy"
+        fr: "Confidentialité"
+        es: "Privacidad"
+      conditions:
+        url: "/terms"
+        en: "Terms"
+        fr: "Mentions légales"
+        es: "Condiciones" 
+    
+  
