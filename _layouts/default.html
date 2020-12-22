@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}" prefix="og: http://ogp.me/ns#">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}" prefix="og: http://ogp.me/ns#">
 
 <head>
 
@@ -259,7 +259,7 @@
             var amountDecimal = amount.length && amount.shift()
             var amountCurrency = currencies[currency]
 
-            var priceHtml = '<small class="pricingcard-currency">' + amountCurrency + '</small>'
+            var priceHtml = '<small class="pricing-card-currency">' + amountCurrency + '</small>'
             priceHtml += amountInteger
             priceHtml += '<sup>' + (amountDecimal ? ('.' + amountDecimal) : '') + ' / ' + recurrence.slice(0, -2) + '</sup>'
             priceElt.first().html(priceHtml)
@@ -287,7 +287,7 @@
               var discountDecimal = discount.length && discount.shift()
               var discountCurrency = currencies[currency]
 
-              var discountHtml = '<small class="pricingcard-currency">' + discountCurrency + '</small>'
+              var discountHtml = '<small class="pricing-card-currency">' + discountCurrency + '</small>'
               discountHtml += discountInteger
               discountHtml += '<sup>' + (discountDecimal ? ('.' + discountDecimal) : '') + ' / ' + recurrence.slice(0, -2) + '</sup>'
 
@@ -411,7 +411,7 @@
       }
 
       if (domain && (domain === "gmail.com" || domain === "googlemail.com")) {
-        return notValid("Can't upgrade that domain. Is it your G Suite domain?")
+        return notValid("Can't upgrade that domain. Is it your Google Workspace (G Suite) domain?")
       } else if (domain.indexOf('@') >= 0) {
         return notValid("Please enter your G Suite domain here (the part after @).");
       } else if (domain.substr(0, 4) === "www.") {
