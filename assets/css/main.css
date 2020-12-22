@@ -1,4 +1,36 @@
-/* --- GLOBAL --- */
+/* 
+*  CSS TABLE OF CONTENTS
+*   
+*  1 - Global
+*  2 - Buttons
+*  3 - Navbar
+*  4 - Homepage sections
+*   4.1 - Hero
+*   4.2 - Values
+*   4.3 - Tutorial
+*  5 - Pricing
+*   5.1 - Pricing toggle
+*   5.2 - Pricing cards
+*   5.3 - Pricing header
+*   5.4 - Pricing body
+*   5.5 - Pricing features
+*   5.6 - Pricing modal
+*  6 - Includes
+*   6.1 - Pricing table
+*   6.2 - Testimonials
+*   6.3 - FAQ
+*   6.4 - Footer
+*  7 - Articles
+*  8 - Support page
+*   6.4 - Support search
+*   6.4 - Support featured
+*   6.4 - Support popular
+*  9 - Animations
+*  10 - Fonts
+*/
+
+
+/* ######## 1. GLOBAL ######## */
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -21,6 +53,9 @@ body {
   -webkit-box-shadow: 20px 0 20px -20px rgba(32, 41, 50, 0.12), -20px 0 20px -20px rgba(32, 41, 50, 0.12);
 }
 
+section {
+  margin-bottom: 4rem;
+}
 
 body,
 p,
@@ -71,29 +106,28 @@ h2 {
 
 h3 {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.01rem;
 }
 
-
-/* Generic elements */
+/* SEO tags */
 
 strong {
-  font-weight: 400; /* SEO tags */
+  font-style: inherit;
+  font-weight: inherit;; 
 }
 
-.heading strong {
-  font-weight: 700; /* SEO tags */
-}
+/* Generic styling */
 
 .is-white {
   color: white;
 }
 
-.block-with-quote {
-  font-size: 20px;
-  font-weight: 700;
+.is-centered {
+  margin: auto;
+  text-align: center;
 }
+
 
 /* Handling big displays > 1920px */
 
@@ -113,7 +147,7 @@ strong {
   -o-transition: none !important;
 }
 
-/* --- BUTTONS --- */
+/* ######## 2. BUTTONS ######## */
 
 button,
 .btn {
@@ -147,6 +181,11 @@ button:hover,
   cursor: pointer;
 }
 
+.btn-outline:hover {
+  color: #ff486a;
+  transform: scale(1.014);
+}
+
 .btn-filled {
   display: block;
   text-decoration: none;
@@ -159,21 +198,17 @@ button:hover,
   cursor: pointer;
 }
 
-.btn-inline {
-  display: inline-block !important;
-}
-
 .btn-filled:hover {
   color: #fff;
   transform: scale(1.014);
 }
 
-.btn-outline:hover {
-  color: #ff486a;
-  transform: scale(1.014);
+.btn-inline {
+  display: inline-block !important;
 }
 
-/* --- NAV --- */
+
+/* ######## 3. NAVBAR ######## */
 
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -237,7 +272,7 @@ button:hover,
   }
 }
 
-/* navbar toggler  */
+/* Navbar toggler  */
 
 .icon-bar {
   width: 22px;
@@ -279,13 +314,9 @@ button:hover,
   transform: rotate(0);
 }
 
-/* --- SECTIONS --- */
+/* ######## 4. SECTIONS ######## */
 
-section {
-  margin-bottom: 4rem;
-}
-
-/* Hero section */
+/* #### 4.1 Hero section #### */
 
 section.hero video {
   width: 100%;
@@ -294,91 +325,72 @@ section.hero video {
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.1) l;
 }
 
-/* Features section */
-
-section.features {
-  margin-top: 4rem;
-  margin-bottom: 10rem;
-}
-
-@media (min-width: 992px) {
-  section.features {
-    margin-top: -10rem;
+@media (max-width: 992px) {
+  .hero {
+      text-align: center;
   }
 }
 
-.features-svg {
+/* #### 4.2 Values section #### */
+
+section.values {
+  margin:0;
+  top:-10rem;
+  position: relative;
+}
+
+.values svg {
+  fill:#007bff;
+}
+
+.values p:first-of-type {
+  text-align: center;
+  color: #007bff;
+  font-size: .75rem;
+  font-weight: bold;
+  margin: 0;
+}  
+
+.values-svg {
   width: 100%;
-  height: 215%;
-  top: -240px;
+  height: 100%;
   position: absolute;
-  background-image: url(../img/background/home_features.svg);
+  background-image: url(../img/background/values.svg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
 }
 
-@media (max-width: 320px) {
-  .features-svg {
-    height: 130%;
+@media (max-width: 532px) {
+  .values br {
+      display: none;
   }
 }
 
-@media (min-width: 320px) and (max-width: 576px) {
-  .features-svg {
-    height: 150%;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-  .features-svg {
-    height: 165%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
-  .features-svg {
-    height: 170%;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  .features-svg {
-    height: 175%;
-    top: -200px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .features-svg {
-    height: 230%;
-  }
-}
-
-  /* Features list */
+/* Values items */
 
 @media (max-width: 1330px) {
-  .features-item {
+  .values-items {
     margin: 0;
     width: 100%;
   }
 }
 
-.features-item {
+.values-items {
   width: 100%;
   height: auto;
   position: relative;
-  padding: 20px 0px 20px 100px;
+  padding: 20px 0px 20px 80px;
 }
 
-.features-item .tab_icon {
+.values-items .tab_icon {
   position: absolute;
-  left: 30px;
+  left: 15px;
   top: 30px;
   max-width: 35px;
 }
 
-.features-item .heading {
+.values-items .heading {
   font-size: 1.1rem;
   line-height: 1.5rem;
   color: #ffffff;
@@ -388,7 +400,7 @@ section.features {
   padding-bottom: 5px;
 }
 
-.features-item .summary {
+.values-items .summary {
   font-size: 1rem;
   line-height: 1.5rem;
   color: white;
@@ -398,9 +410,11 @@ section.features {
   width: 220px;
 }
 
-  /* Youtube video - Remove black bars on Youtube video */
+/* #### 4.3 Tutorial section ####*/
 
-.yt-video-wrapper {
+ /* Youtube video - Remove black bars on Youtube video */
+
+ .yt-video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 25px;
@@ -428,14 +442,13 @@ section.features {
   max-height: 500px; /* And set the max-width of the parent element */
 }
 
-/* Tutorial section */
-
 .tutorial button {
   margin: 1rem auto;
 }
 
-.card-text {
-  color: #434343;
+.steps {
+  text-align: center;
+  padding-top: 1rem;
 }
 
 #steps1:before {
@@ -480,41 +493,29 @@ section.features {
   width: 40px;
 }
 
-.card-body > p {
-  text-align: center;
-}
-
-.card-body > a {
-  white-space: normal;
-}
-
-.card-body {
-  padding: 1rem;
-}
-
-.tutorialcard {
-  background-color: white;
-  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
-  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01) l;
-  padding: 10px;
+.tutorial-card {
+  padding: 1rem .25rem 0;
   width: 100%;
   min-height: 100%;
   border: 1px solid #eee;
   border-radius: 5px;
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
+  background-color: white;
+  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
+  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01) l;
 }
 
-.tutorialcard:hover {
+.tutorial-card:hover {
   background-color: white;
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
 }
 
-.tutorialcard h2 {
+.tutorial-card h2 {
   font-size: 1.3rem;
 }
 
-/* --- PRICING --- */
+/* ####### 5. PRICING ######## */
 
 .pricing-header,
 .comparison-header {
@@ -522,7 +523,7 @@ section.features {
   max-width: 700px; /* applies both on home and pricing page */
 }
 
-/* Pricing toggle */
+/* #### 5.1 Pricing toggle #### */
 
 #pricing-plans .btn-group-toggle-recurrence .btn {
   padding: 0.5rem;
@@ -549,9 +550,9 @@ section.features {
   background-color: #ff486a;
 }
 
-/*Pricing card*/
+/* #### 5.2 Pricing cards #### */
 
-.pricingcard {
+.pricing-card {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -564,18 +565,13 @@ section.features {
   padding: 0.5rem 1rem 0 1rem;
 }
 
-.pricingcard-price strike {
-  margin-right: 10px;
-  font-size: 80%;
-}
-
-.pricingcard:hover {
+.pricing-card:hover {
   background-color: white;
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
 }
 
-/* Pricing header */
+/* #### 5.3 Pricing header #### */
 
 .pricing-card-header {
   border-radius: 8px 8px 0 0;
@@ -585,18 +581,25 @@ section.features {
   min-height: 130px;
 }
 
-.pricing-card-header h3,
-.pricing-card-header h5 {
-  margin-top: 0.8rem;
-  margin-bottom: 0.25rem;
+.pricing-card-title,
+.pricing-card-price {
+  margin-top: .8rem;
+  margin-bottom: .2rem;
   color: #04143a;
   font-weight: bold;
 }
 
-#pricingTable .pricing-card-header {
-  min-height: 80px !important;
+.pricing-card-price {
+  font-size:2rem;
+  color: #04143a;
 }
-/* Pricing card body */
+
+.pricing-card-price strike {
+  margin-right: 10px;
+  font-size: 80%;
+}
+
+/* #### 5.4 Pricing card body ####*/
 
 .pricing-card-body {
   padding: 0 1rem 0 1rem;
@@ -609,41 +612,10 @@ section.features {
   list-style: none;
 }
 
-.pricing-card-price {
-  font-size:2rem;
-  color: #04143a;
-}
-
-
-.pricing-home-features {
-  min-height: 170px;
-  text-align: left;
-}
-
-.pricing-home-features li {
-  display: flex;
-  align-items: center;
-  margin: 5px;
-}
-
-.pricing-home-features li:before {
-  content: "";
-  min-width: 20px;
-  height: 20px;
-  margin-right: 8px;
-  display: inline-block;
-  background-image: url(../img/elements/tick-round.svg);
-  background-repeat: no-repeat;
-}
-
-.pricingcard button,
-.pricingcard button.btn-outline {
+.pricing-card button,
+.pricing-card button.btn-outline {
   width: 100%;
   cursor: default;
-}
-
-.pricingcard-title {
-  font-size: 1rem;
 }
 
 .pricing-card-currency {
@@ -716,11 +688,116 @@ sup {
   }
 }
 
-/*--- Testimonials ---*/
+/* #### 5.5 Pricing features ####*/
+
+.pricing-plan-features {
+  min-height: 230px; /* can be removed to obtain squared pricings */
+  text-align: left;
+  display: block;
+}
+
+.pricing-plan-features li {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0.1rem 0;
+  margin: 1px;
+}
+
+.pricing-plan-features li:before {
+  content: "";
+  min-width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  display: inline-block;
+  background-image: url(../img/elements/tick-round.svg);
+  background-repeat: no-repeat;
+}
+
+#pricing-plans {
+  background: linear-gradient(to bottom, #fff, #f5f6fa3b);
+  z-index: -2;
+  margin-bottom: 0;
+}
+
+#pricing-plans .btn {
+  text-transform: uppercase;
+}
+
+/* #### 5.6 Pricing modal #### */
+.popover-header,
+.popover-body {
+  background: white;
+  font-family: "DM Sans", sans-serif;
+}
+
+.popover-header {
+  font-weight: 700;
+}
+
+#activeIndividualModal input:focus,
+#activeIndividualModal input:active {
+  outline: none !important;
+}
+
+#activeIndividualModal button:focus,
+#activeIndividualModal button:active {
+  outline: none !important;
+}
+
+.close {
+  font-weight: 500;
+}
+
+.modal svg {
+  fill:#b8bccc;
+}
+
+.modal .testimonials-logo {
+  margin: 0.6rem;
+  transform:scale(0.8)
+}
+
+/* ######## 6. INCLUDES ######## */
+
+/* #### 6.1 Pricing table #### */
+
+.pricing-table .pricing-card-header {
+  min-height: 80px !important;
+}
+
+.pricing-table-features {
+  min-height: 170px;
+  text-align: left;
+  list-style: none;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.pricing-table-features li {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.pricing-table-features li:before {
+  content: "";
+  min-width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  display: inline-block;
+  background-image: url(../img/elements/tick-round.svg);
+  background-repeat: no-repeat;
+}
+
+
+/* #### 6.2 Testimonials #### */
 
 .testimonials-logo {
   margin: 1rem;
   max-width: 150px;
+}
+
+.testimonials svg {
+  fill:#b8bccc;
 }
 
 .reviewcard {
@@ -770,63 +847,61 @@ sup {
   }
 }
 
-/* ---Faq section--- */
+/* #### 6.3 FAQ #### */
 
-.card {
+.faq .card {
   border: none;
 }
 
-.card-header {
+.faq .card-header {
   background-color: white;
   border-bottom: 1px solid rgba(16, 24, 32, 0.05);
 }
 
-/* End general styling card */
-
-#accordion .card-header {
+.faq #accordion .card-header {
   background-color: white;
   border-bottom: 1px solid rgba(16, 24, 32, 0.05);
   padding: 0.55rem;
 }
 
-.card-header .faqexpander {
+.faq .card-header .faq-expander {
   position: absolute;
   right: 30px;
   top: 5px;
 }
 
-.card-header .faqexpander:after {
+.faq .card-header .faq-expander:after {
   content: "-";
   font-size: 1.2rem;
   color: #7da4ff;
 }
 
-.card-header.collapsed .faqexpander:after {
+.faq .card-header.collapsed .faq-expander:after {
   content: "+";
   font-size: 1.2rem;
   color: #7da4ff;
 }
 
-.accordionpointer {
+.faq .accordionpointer {
   cursor: pointer;
 }
 
-#accordion {
+.faq #accordion {
   max-width: 960px;
   margin: auto;
 }
 
-#accordion .card-header {
+.faq #accordion .card-header {
   font-weight: 700;
 }
 
 @media (max-width: 768px) {
-  .faqexpander {
+  .faq .faq-expander {
     display: none;
   }
 }
 
-/* ----Footer---- */
+/* #### 6.4 Footer #### */
 
 .footer-svg {
   width: 100%;
@@ -879,21 +954,19 @@ body > footer > div > p {
   }
 }
 
-/* Sub pages */
+/* ######## 7. Articles ######## */
 
-.header-centered {
-  margin: auto;
-  text-align: center;
-  font-weight: 700;
+article {
+  max-width: 960px;
+  margin:auto;
+  padding: 2rem 0;
 }
 
-.subheader-centered {
-  margin: auto;
-  text-align: center;
-  font-size: 1rem;
+article h2 {
+  font-size:1.5rem;
 }
 
-.article img {
+article img {
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
   padding: 0;
@@ -901,7 +974,14 @@ body > footer > div > p {
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
 }
 
+article img:hover,
+.comparison-table:hover {
+  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+}
+
 .comparison-table {
+  margin: 2rem auto;
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01) l;
   border: 1px solid #eee;
@@ -909,20 +989,21 @@ body > footer > div > p {
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
 }
 
-.article img:hover,
-.comparison-table:hover {
-  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+.table td {
+  border-top: 1px solid #eee;
 }
 
-.table th {
+.table thead th {
   border-top: none;
+  border-bottom: 2px solid #eee;
 }
 
-/* Support page */
+/* ######## 8. Support page ######## */
+
+/* #### 8.1 Page support search #### */
 
 .page-support-search {
-  padding: 4rem 0 0 0;
+  padding: 2rem 0 0 0;
 }
 
 .page-support-search form {
@@ -957,6 +1038,8 @@ body > footer > div > p {
   padding: 0.375rem 0.75rem;
 }
 
+/* #### 8.2 Page support featured #### */
+
 .page-support-featured {
   position:relative;
 } 
@@ -965,13 +1048,12 @@ body > footer > div > p {
   display:flex;
   flex-direction: row;
   flex-wrap:wrap;
+  justify-content: center;
+  padding-bottom: 10rem;
 }
 
 .page-support-featured-sections div {
-  min-width: 300px;
   min-height: 200px;
-  flex-grow: 1;
-  flex-basis: 0;
   margin-bottom: 1rem;
   box-sizing: border-box;
   margin: 20px;
@@ -1008,11 +1090,7 @@ body > footer > div > p {
   padding: 1rem;
 }
 
-/* Page support popular articles */
-
-.page-support-articles {
-  padding-top:5rem;
-} 
+/* #### 8.3 Page support popular articles #### */
 
 .page-support-articles h2 {
   text-align:center;
@@ -1020,9 +1098,18 @@ body > footer > div > p {
 
 .page-support-articles ul {
   list-style: none;
-  margin: 2rem 0;
+  margin: 2rem 1rem;
   padding: 0;
 }
+
+@media (max-width: 576px) {
+  .page-support-featured-sections {
+    padding-bottom: 6rem;
+  }
+  .page-support-articles ul {
+    margin-left: 1.5rem;
+  }
+} 
 
 @media (min-width: 576px) and (max-width: 960px) {
   .page-support-articles ul {
@@ -1062,8 +1149,7 @@ body > footer > div > p {
 
 #support-svg {
   width: 100%;
-  height: 225%;
-  top: -210px;
+  height: 100%;
   position: absolute;
   background-image: url(../img/background/support.svg);
   background-repeat: no-repeat;
@@ -1071,94 +1157,8 @@ body > footer > div > p {
   z-index: -1;
 }
 
-@media (max-width: 1440px) {
-  #support-svg {
-    height: 150%;
-    top: -180px;
-  }
-  .page-support-search {
-    padding: 4rem 0;
-  }
-  .page-support-articles {
-    padding-top:2rem;
-  } 
-}
 
-
-/* Legal pages */
-
-section.legal {
-  padding-top: 2rem;
-}
-
-.legal h2 {
-  font-size: 1rem;
-}
-
-/* Pricing page */
-
-/*Pricing content*/
-
-.pricing-plan-features {
-  min-height: 230px; /* can be removed to obtain squared pricings */
-  text-align: left;
-  display: block;
-}
-
-.pricing-plan-features li {
-  display: flex;
-  align-items: center;
-  padding: 0 0 0.1rem 0;
-  margin: 2px;
-  line-height: 1.5;
-}
-
-.pricing-plan-features li:before {
-  content: "";
-  min-width: 20px;
-  height: 20px;
-  margin-right: 8px;
-  display: inline-block;
-  background-image: url(../img/elements/tick-round.svg);
-  background-repeat: no-repeat;
-}
-
-#pricing-plans {
-  background: linear-gradient(to bottom, #fff, #f5f6fa3b);
-  z-index: -2;
-  margin-bottom: 0;
-}
-
-#pricing-plans .btn {
-  text-transform: uppercase;
-}
-
-/* styling Popover */
-.popover-header,
-.popover-body {
-  background: white;
-  font-family: "DM Sans", sans-serif;
-}
-
-.popover-header {
-  font-weight: 700;
-}
-
-/*Remove outline on input*/
-
-#activeIndividualModal input:focus,
-#activeIndividualModal input:active {
-  outline: none !important;
-}
-
-#activeIndividualModal button:focus,
-#activeIndividualModal button:active {
-  outline: none !important;
-}
-
-.close {
-  font-weight: 500;
-}
+/* ######## 9. Animations ######## */
 
 /* Success and fail UIs */
 
@@ -1181,7 +1181,7 @@ section.legal {
   }
 }
 
-/* --- ANIMATIONS --- */
+/* FadeIn */
 
 .fade-in {
   opacity: 1;
@@ -1200,7 +1200,7 @@ section.legal {
   }
 }
 
-/* --- FONTS --- */
+/* ######## 10. Fonts ######## */
 
 /* poppins-regular - latin */
 @font-face {
@@ -1386,6 +1386,7 @@ section.legal {
   font-display: swap;
 }
 /* dm-sans-700italic - latin */
+
 @font-face {
   font-family: "DM Sans";
   font-style: italic;
