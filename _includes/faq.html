@@ -4,181 +4,22 @@
 		<h2 id="faq" class="text-center">Questions & answers</h2>
 		<p class="text-center">Find tutorials & help guides in our <a href="https://support.mailmeteor.com/" target="_blank">documentation</a>.</p>
 		<div id="accordion">
+			{% assign i = 0 %}
+			{% for entry in site.data.faqs.entries %}
 			<div class="card">
-				<div class="card-header accordionpointer collapsed" id="heading1" data-toggle="collapse" data-target="#collapse1">
-					<p class="mb-0" aria-expanded="true" aria-controls="collapse1">Does Mailmeteor have a free trial?</p>
+				<div class="card-header accordionpointer collapsed" id="heading{{i}}" data-toggle="collapse" data-target="#collapse{{i}}">
+					<p class="mb-0" aria-expanded="true" aria-controls="collapse{{i}}">{{entry.question}}</p>
 					<span class="faq-expander"></span>
 				</div>
 
-				<div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion">
+				<div id="collapse{{i}}" class="collapse" aria-labelledby="heading{{i}}" data-parent="#accordion">
 					<div class="card-body">
-						You can enjoy Mailmeteor for free with up to <span class="font-weight-bold">75 emails a day</span>.
-						It's more free email quota compared to what you can find in other mail merge solutions.
-						Whenever you want to send more emails, Mailmeteor Premium includes up to 1500 emails, real-time tracking, scheduling, attachments or email alias support.
-						If you want to benefit from premium features, you can upgrade your account on <a href="/pricing">our paid plans</a>.
+						{{entry.answer | markdownify}}
 					</div>
 				</div>
 			</div>
-			<div class="card">
-				<div class="card-header accordionpointer collapsed" id="heading2" data-toggle="collapse" data-target="#collapse2">
-					<p class="mb-0" aria-expanded="true" aria-controls="collapse2">How many emails can I send with Mailmeteor?</p>
-					<span class="faq-expander"></span>
-				</div>
-
-				<div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
-					<div class="card-body">
-						Mailmeteor Premium allows you to send personalized emails up to the limits imposed by Gmail:
-						<ul>
-							<li>Google Workspace (formerly G Suite) accounts can send up to 1,500 emails per day</li>
-							<li>Gmail accounts (@gmail.com) can send up to 500 emails per day</li>
-						</ul>
-						Mailmeteor abides by these limits and allows you to send as many emails as you can using your own Gmail account. Your quota varies depending on the type of your Google account (G Suite or Gmail) and your plan. Read more about <a href="https://support.mailmeteor.com/introduction/quick-start/email-quota" target="_blank">email quota</a>.
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header accordionpointer collapsed" id="heading3" data-toggle="collapse" data-target="#collapse3">
-					<p class="mb-0" aria-expanded="false" aria-controls="collapse3">How is Mailmeteor different from other mailing solutions?</p>
-					<span class="faq-expander"></span>
-				</div>
-				<div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
-					<div class="card-body">
-						Mailmeteor lets you send email campaigns from your Gmail inbox, contrary to email marketing softwares, like Mailchimp or Sendgrid. Emails sent with Mailmeteor look as if you typed them manually for each contact.
-						<span class="font-weight-bold">It means better email deliverability, less spams and way better opening rates!</span>
-						<br><br>
-						You can also compare Mailmeteor to other mail merge extensions for Gmail - like <a href="https://mailmeteor.com/alternative/yetanothermailmerge">Yet another mail merge</a> or <a href="https://mailmeteor.com/alternative/gmass">Gmass</a>.
-						<br><br>
-						Mailmeteor is different in 3 ways:
-						<ol>
-							<li><span class="font-weight-bold">Stellar user experience.</span> Mailmeteor is the best rated application of the G Suite Marketplace, trusted by hundreds of thousands of users.</li>
-							<li><span class="font-weight-bold">Privacy by design.</span> Mailmeteor has no access to your Gmail inbox, while others ask for read access to your Gmail inbox and Google Drive files.</li>
-							<li><span class="font-weight-bold">Affordable pricing.</span> Mailmeteor has a generous free plan and a <a href="https://mailmeteor.com/pricing">simple pricing</a> that works at any scale.</li>
-						</ol>
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header accordionpointer collapsed" id="heading4" data-toggle="collapse" data-target="#collapse4">
-					<p class="mb-0" aria-expanded="false" aria-controls="collapse4">How can I ensure that my emails won’t go to spam?</p>
-					<span class="faq-expander"></span>
-				</div>
-				<div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
-					<div class="card-body">
-						Mailmeteor sends emails directly from your Gmail account and adds a sending delay between each email sent. These mechanisms prevent your emails falling into spam folders.
-						In addition, we strongly recommend you to read our <a href="https://support.mailmeteor.com/introduction/sending-guidelines" target="_blank">guidelines to maximize email deliverability</a> before sending large volumes of emails.
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header accordionpointer collapsed" id="heading5" data-toggle="collapse" data-target="#collapse5">
-					<p class="mb-0" aria-expanded="false" aria-controls="collapse5">To what extent can I personalize my emails?</p>
-					<span class="faq-expander"></span>
-				</div>
-				<div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
-					<div class="card-body">
-						You can personalize every part of the email, from subject line to content. The only limit is your imagination! Somes examples:
-						<ul>
-							<li>Personalized email subject</li>
-							<li>Personalized greetings and recipients</li>
-							<li>Personalized content, custom links, postscriptum...</li>
-						</ul>
-						Emails sent with Mailmeteor look as if you typed them manually for each of your recipients.
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header accordionpointer collapsed" id="heading6" data-toggle="collapse" data-target="#collapse6">
-					<p class="mb-0" aria-expanded="false" aria-controls="collapse6">How does Mailmeteor keep my data safe?</p>
-					<span class="faq-expander"></span>
-				</div>
-				<div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion">
-					<div class="card-body">
-						By design, your data stays at all times on your Google Spreadsheet. Here's all the data
-						we need in order to make Mailmeteor work:
-						<ul>
-							<li>Your email address <i>- to identify your account</i></li>
-							<li>If you are a paying customer, your name to identify payment</li>
-							<li>Campaigns sent metadata (number of emails, date of sending, sheet's name,<i> that's all</i>)</li>
-							<li>Emails sent metadata (date of sending, opens and clicks events,<i> that's all again</i>)</li>
-						</ul>
-						Mailmeteor complies with the French Data Protection Laws and the European General Data
-						Protection Regulation 2016/679 (GDPR). You have a right of access, correction and
-						removal of your personal data which you may exercise by sending us an email at <a href="mailto:privacy@mailmeteor.com">privacy@mailmeteor.com</a>.
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header accordionpointer collapsed" id="heading7" data-toggle="collapse" data-target="#collapse7">
-					<p class="mb-0" aria-expanded="false" aria-controls="collapse7">How to add CC or BCC recipients?</p>
-					<span class="faq-expander"></span>
-				</div>
-				<div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordion">
-					<div class="card-body">
-						Sure you can. Add a column in your sheet with "cc" or "bcc" as header. Then, add emails in the
-						cells. If you have several recipients in CC or BCC, separate emails with commas. Here is a<a href="https://www.youtube.com/watch?v=3me-iWYFSY0"> video tutorial</a>.</span>
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header accordionpointer collapsed" id="heading8" data-toggle="collapse" data-target="#collapse8">
-					<p class="mb-0" aria-expanded="false" aria-controls="collapse8">What CRMs does Mailmeteor integrate with?</p>
-					<span class="faq-expander"></span>
-				</div>
-				<div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordion">
-					<div class="card-body">
-						You can use Mailmeteor with your favorite CRM tool, like Salesforce or Hubspot. To log emails sent with Mailmeteor, you will need to find your unique BCC address provided by your CRM. You will put this address as a BCC recipient when sending emails from Mailmeteor. Here is a <a href="https://support.mailmeteor.com/introduction/advanced/crm-integration">guide to help you use Mailmeteor with your CRM</a>.
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header accordionpointer collapsed" id="heading9" data-toggle="collapse" data-target="#collapse9">
-					<p class="mb-0" aria-expanded="false" aria-controls="collapse9">Is Mailmeteor suitable for working in teams?</p>
-					<span class="faq-expander"></span>
-				</div>
-				<div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordion">
-					<div class="card-body">
-						Sure! Mailmeteor’s <a href="/pricing">Enterprise license</a> allows users to collaborate on the same document and access the email tracking report of campaigns. Large companies, organizations and academic institutions trust Mailmeteor for their email needs.
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header accordionpointer collapsed" id="heading10" data-toggle="collapse" data-target="#collapse10">
-					<p class="mb-0" aria-expanded="false" aria-controls="collapse10">How to manage my subscription?</p>
-					<span class="faq-expander"></span>
-				</div>
-				<div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordion">
-					<div class="card-body">
-						To manage your account, open a Google spreadsheet, <span class="font-weight-bold">click on the "Add-ons" menu, then select "Mailmeteor" > "My account"</span>.
-						<br><br>
-						To cancel your account, click on “Cancel”. Follow the instructions and the subscription will be cancelled immediately after. If you cancel before the end of your subscription period, you will still be able to use your Mailmeteor premium account (up to the last day of the subscription).
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header accordionpointer collapsed" id="heading11" data-toggle="collapse" data-target="#collapse11">
-					<p class="mb-0" aria-expanded="false" aria-controls="collapse11"> I need a helping hand with Mailmeteor</p>
-					<span class="faq-expander"></span>
-				</div>
-				<div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordion">
-					<div class="card-body">
-						<a href="https://support.mailmeteor.com/help/contact-support">Contact us</a>, we'll be glad to help! Our team speaks English, French or Spanish.
-						We are located in Paris, France. Our timezone is the Central European Summer Time zone.
-						<br><br>
-						We may take a few hours to answer your message depending on the time of the day. Usually we answer right away or under 24 hours.
-					</div>
-				</div>
-			</div>
-			<div class="card">
-				<div class="card-header accordionpointer collapsed" id="heading12" data-toggle="collapse" data-target="#collapse12">
-					<p class="mb-0" aria-expanded="false" aria-controls="collapse12">Can I send email from space?</p>
-					<span class="faq-expander"></span>
-				</div>
-				<div id="collapse12" class="collapse" aria-labelledby="heading12" data-parent="#accordion">
-					<div class="card-body">
-						Mailmeteor works anywhere you can access the internet, so technically you should be able to send emails from space. If you manage to do it, please send us a picture 🌠
-					</div>
-				</div>
-			</div>
+			{% assign i = i | plus:1 %}
+			{% endfor %}
 		</div>
 		<div class="container d-flex justify-content-center mt-3">
 			<a href="/pricing" class="btn btn-filled mx-2" data-aos="fade-in" data-aos-duration="800" data-aos-easing="ease-out"><span style=font-size:75%>READY FOR TAKE OFF?</span> <br> GET MAILMETEOR → </a>

@@ -901,6 +901,10 @@ sup {
   }
 }
 
+.faq strong {
+  font-weight: bold;
+}
+
 /* #### 6.4 Footer #### */
 
 .footer-svg {
