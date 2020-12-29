@@ -25,8 +25,9 @@
 *   6.4 - Support search
 *   6.4 - Support featured
 *   6.4 - Support popular
-*  9 - Animations
-*  10 - Fonts
+*  9 - Features page
+*  10 - Animations
+*  11 - Fonts
 */
 
 
@@ -343,7 +344,7 @@ section.values {
   fill:#007bff;
 }
 
-.values p:first-of-type {
+.values-testimonials {
   text-align: center;
   color: #007bff;
   font-size: .75rem;
@@ -516,6 +517,12 @@ section.values {
 }
 
 /* ####### 5. PRICING ######## */
+
+#pricing-plans {
+  background: linear-gradient(to bottom, #fff, #f5f6fa3b);
+  z-index: -2;
+  margin-bottom: 0;
+}
 
 .pricing-header,
 .comparison-header {
@@ -711,12 +718,6 @@ sup {
   display: inline-block;
   background-image: url(../img/elements/tick-round.svg);
   background-repeat: no-repeat;
-}
-
-#pricing-plans {
-  background: linear-gradient(to bottom, #fff, #f5f6fa3b);
-  z-index: -2;
-  margin-bottom: 0;
 }
 
 #pricing-plans .btn {
@@ -970,7 +971,7 @@ article h2 {
   font-size:1.5rem;
 }
 
-article img {
+article img :first-of-type {
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
   padding: 0;
@@ -978,7 +979,7 @@ article img {
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
 }
 
-article img:hover,
+article img :first-of-type :hover,
 .comparison-table:hover {
   -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
@@ -1161,8 +1162,98 @@ article img:hover,
   z-index: -1;
 }
 
+/* ######## 9. Features pages ######## */
 
-/* ######## 9. Animations ######## */
+.features-sections {
+  margin: 5rem 0;
+} 
+
+.features-sections img {
+  max-height: 300px;
+  margin: auto!important;
+  display: block;
+} 
+
+.features-sections:nth-of-type(2n) div:nth-child(2) {
+  order:1
+}
+
+.features-sections:nth-of-type(2n) div:nth-child(1) {
+  order:2
+}
+
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .features-list {
+    grid-template-columns: 1fr;
+  }
+  .features-sections div:first-of-type {
+    order:2
+  }
+  .features-sections img {
+    margin: 0!important;
+  } 
+}
+
+.features-card {
+  margin:1rem;
+  padding: 2rem;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
+  background-color: white;
+  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
+  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01) l;
+}
+
+.features-card:hover {
+  background-color: white;
+  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.05);
+}
+.features-excerpt {
+  color: #7da4ff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: .5rem 0;
+}
+
+.features-card img {
+  padding: 2rem;
+}
+
+.features-card h3 {
+  font-size: 1.2rem;
+}
+
+.features-link {
+    position: relative;
+  }
+  
+.features-link:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 2px;
+  display: block;
+  margin-top: .15rem;
+  right: 0;
+  background: #7da4ff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+  
+.features-link:hover:after{
+  width: 100%;
+  left: 0;
+  background: #7da4ff;
+}
+
+/* ######## 10. Animations ######## */
 
 /* Success and fail UIs */
 
@@ -1204,7 +1295,7 @@ article img:hover,
   }
 }
 
-/* ######## 10. Fonts ######## */
+/* ######## 11. Fonts ######## */
 
 /* poppins-regular - latin */
 @font-face {

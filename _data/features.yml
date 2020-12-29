@@ -1,0 +1,88 @@
+#
+# Main sections
+#
+
+sections:
+  - title: Send up to 1500 emails per day with Gmail.
+    excerpt: Mail merge
+    description: Stop wasting time sending individual email messages. Email multiple recipients at once without them knowing, make your recipients feel special.
+    link: https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial
+    image: /assets/img/features/mail-merge.png
+
+  - title: Personalize emails subject and content.
+    excerpt: Personalization
+    description:  Easily personalize mass emails, from subject to content. Personalizing emails help increase your open rate as your recipient feels like the email is unique.
+    link: https://support.mailmeteor.com/introduction/advanced/personalize-emails
+    image: /assets/img/features/personalize.png
+
+  - title: Preview emails before sending.
+    excerpt: Preview mode
+    description: Make sure your emails look stunning before sending them. Flip through the contacts in your mailing list to ensure everything looks right.
+    link: https://support.mailmeteor.com/introduction/advanced/preview-emails
+    image: /assets/img/features/preview.png
+
+  - title: Track emails in real time.
+    excerpt: Email tracking
+    description: Know how many people have opened and clicked on your emails. Get a tracking report of your campaign stats in real time. Easily share and access these stats across your team.
+    link: https://support.mailmeteor.com/introduction/advanced/tracking-report
+    image: /assets/img/features/tracking.png
+
+  - title: Segment contacts and follow-up
+    excerpt: Filter recipients
+    description: "Send to a segment of a prior campaign, such as everyone who opened the last campaign, or everyone who didn't click the last campaign. Pro tip: use the same sheet to send multiple mail merges."
+    link: https://support.mailmeteor.com/introduction/advanced/filter-recipients
+    image: /assets/img/features/followup.png
+
+#
+# List of features
+#
+
+list:
+  - title: Schedule your mail merges
+    excerpt: Scheduling
+    description: Schedule your mail merge in advance. Set a date and time to send messages when you like with Gmail. There's no need to stay in front of your computer waiting for the mail merge to complete. Sit back, relax and enjoy!
+    link: https://support.mailmeteor.com/introduction/advanced/scheduling
+    image: /assets/img/features/scheduling.png
+
+  - title: Mail merge with attachments
+    excerpt: Attachments
+    description: Attach files to your mail merge such as PDF, Word, Excel, and various other file types. Perfect for sending invoices, payslips, invitations and more.
+    link: https://support.mailmeteor.com/introduction/advanced/attachments
+    image: /assets/img/features/attachments.png
+
+  - title: Send emails from an alias
+    excerpt: Alias
+    description: Using multiple email addresses? We got you covered. Send your mail merge from any of your email alias (including non Gmail email addresses).
+    link: https://support.mailmeteor.com/introduction/advanced/alias
+    image: /assets/img/features/alias.png
+
+  - title: Manage unsubscribes
+    excerpt: Unsubscribe link
+    description: Let your recipients unsubscribe from your mailing list in one click. All you need to do is to insert our custom unsubscribe link.
+    link: https://support.mailmeteor.com/introduction/advanced/cc-bcc
+    image: /assets/img/features/unsubscribe.png
+
+  - title: Import your own HTML Templates
+    excerpt: HTML templates
+    description: Every company has its own look and feel. Keep your very own design by importing HTML templates, with much more formatting options available.
+    link: https://support.mailmeteor.com/introduction/advanced/html-template
+    image: /assets/img/features/html.png
+
+  - title: Integrate with your CRM
+    excerpt: CRM
+    description: Plug your favorite CRM, such as Salesforce or Hubspot, and make sure that every discussion is logged to keep your teammates in the loop.
+    link: https://support.mailmeteor.com/introduction/advanced/crm-integration
+    image: /assets/img/features/crm.png
+
+#
+# List of use cases
+#
+
+# To do
+
+# Lead generation
+# Event invitations
+# Promotions
+# Newsletters
+# Teacher-parent communications
+# Product Hunt launch...

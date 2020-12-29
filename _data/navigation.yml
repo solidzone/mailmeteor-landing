@@ -8,7 +8,7 @@ navbar:
       fr: "Aide"
       es: "Ayuda"
   features:
-      url: "/#features"
+      url: "/features"
       en: "Features"
       fr: "Fonctionnalités"
       es: "Características"    
