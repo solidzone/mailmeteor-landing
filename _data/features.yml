@@ -56,6 +56,12 @@ list:
     link: https://support.mailmeteor.com/introduction/advanced/alias
     image: /assets/img/features/alias.png
 
+  - title: Add Cc or Bcc recipients to mail merge
+    excerpt: Cc & Bcc recipients
+    description: You can add Cc and Bcc recipients to involve more people in the conversation, keep someone in the loop or log your emails in your CRM.
+    link: https://support.mailmeteor.com/introduction/advanced/cc-bcc
+    image: /assets/img/features/cc-bcc.png
+
   - title: Manage unsubscribes
     excerpt: Unsubscribe link
     description: Let your recipients unsubscribe from your mailing list in one click. All you need to do is to insert our custom unsubscribe link.
