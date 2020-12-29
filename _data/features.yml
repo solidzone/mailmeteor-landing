@@ -33,11 +33,6 @@ sections:
     link: https://support.mailmeteor.com/introduction/advanced/filter-recipients
     image: /assets/img/features/followup.png
 
-#
-# List of features
-#
-
-list:
   - title: Schedule your mail merges
     excerpt: Scheduling
     description: Schedule your mail merge in advance. Set a date and time to send messages when you like with Gmail. There's no need to stay in front of your computer waiting for the mail merge to complete. Sit back, relax and enjoy!

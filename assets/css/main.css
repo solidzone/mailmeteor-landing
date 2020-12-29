@@ -1182,16 +1182,7 @@ article img :first-of-type :hover,
   order:2
 }
 
-.features-list {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-gap: 1rem;
-}
-
 @media screen and (max-width: 1000px) {
-  .features-list {
-    grid-template-columns: 1fr;
-  }
   .features-sections div:first-of-type {
     order:2
   }

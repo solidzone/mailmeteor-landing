@@ -44,25 +44,6 @@ og_url: https://mailmeteor.com/features
         {% endfor %}
     </div>
 </section>
-{%- include values.html -%}
-<section>
-    <div class="container" style="max-width: 960px; margin-bottom:6rem; top: -5rem; position: relative;">
-        {% for item in site.data.features.list %}
-        <div class="features-sections row" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out">
-            <div class="col-md-6">
-                <p class="features-excerpt">{{item.excerpt | upcase}}</p>
-                <h2>{{item.title}}</h2>
-                <p>{{item.description}}</p>
-                <a class="features-link" href="{{item.link}}" target="_blank">
-                    Learn more →</a>
-            </div>
-            <div class="col-md-6 mb-2">
-                <img class="rounded" style="max-width: 100%;" src="{{item.image}}" alt="{{item.title}}" />
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</section>
 
 {%- include pricingtable.html -%}
 {%- include faq.html -%}
