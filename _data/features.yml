@@ -51,7 +51,7 @@ sections:
     link: https://support.mailmeteor.com/introduction/advanced/alias
     image: /assets/img/features/alias.png
 
-  - title: Add Cc or Bcc recipients to mail merge
+  - title: Add Cc or Bcc recipients
     excerpt: Cc & Bcc recipients
     description: You can add Cc and Bcc recipients to involve more people in the conversation, keep someone in the loop or log your emails in your CRM.
     link: https://support.mailmeteor.com/introduction/advanced/cc-bcc
