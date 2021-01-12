@@ -23,7 +23,7 @@
             {% endunless %}
             {% if nav[0] == "features" and page.lang == "en" %}
             <li class="nav-item dropdown">
-              <a class="nav-link" role="button" type="button" id="dropdownMenuButton" aria-haspopup="true" href="{{ nav[1].url }}"> {{ nav[1][page.lang] }}</a>
+              <a class="nav-link" role="button" id="dropdownMenuButton" aria-haspopup="true" href="{{ nav[1].url }}"> {{ nav[1][page.lang] }}</a>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 {% for section in site.data.features.sections %}
                 <li>
