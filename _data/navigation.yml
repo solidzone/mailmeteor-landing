@@ -3,25 +3,25 @@
 #
 navbar:
   support:
-      url: "/support"
-      en: "Support"
-      fr: "Aide"
-      es: "Ayuda"
+    url: "/support"
+    en: "Support"
+    fr: "Aide"
+    es: "Ayuda"
   features:
-      url: "/features"
-      en: "Features"
-      fr: "Fonctionnalités"
-      es: "Características"    
+    url: "/features"
+    en: "Features"
+    fr: "Fonctionnalités"
+    es: "Características"
   pricing:
-      url: "/pricing" 
-      en: "Pricing"
-      fr: "Prix"
-      es: "Precio"
+    url: "/pricing"
+    en: "Pricing"
+    fr: "Prix"
+    es: "Precios"
   install:
-      url: "https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301" 
-      en: "INSTALL"
-      fr: "INSTALLER"
-      es: "INSTALAR"          
+    url: "https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge/1008170693301"
+    en: "INSTALL"
+    fr: "INSTALLER"
+    es: "INSTALAR"
 
 #
 # Footer
@@ -29,7 +29,7 @@ navbar:
 
 footer:
   product:
-    title: 
+    title:
       en: "Product"
       fr: "Produit"
       es: "Producto"
@@ -43,14 +43,14 @@ footer:
         url: "https://www.youtube.com/watch?v=ccO5i3gQXSk"
         en: "Demo video"
         fr: "Démo vidéo"
-        es: "Demo video" 
+        es: "Video de demostración"
       pricing:
         url: "/pricing"
         en: "Pricing"
         fr: "Prix"
-        es: "Precio" 
+        es: "Precios"
   company:
-    title: 
+    title:
       en: "Company"
       fr: "Entreprise"
       es: "Empresa"
@@ -61,7 +61,7 @@ footer:
         fr: "Nous recrutons"
         es: "Empleo"
   support:
-    title: 
+    title:
       en: "Support"
       fr: "Aide"
       es: "Ayuda"
@@ -75,9 +75,9 @@ footer:
         url: "https://support.mailmeteor.com/help/contact-support"
         en: "Contact"
         fr: "Nous contacter"
-        es: "Contactarnos" 
+        es: "Contactarnos"
   ressources:
-    title: 
+    title:
       en: "Resources"
       fr: "Ressources"
       es: "Producto"
@@ -96,9 +96,9 @@ footer:
         url: "/education-program"
         en: "Education Program"
         fr: "Programme Education"
-        es: "Programa educativo"
+        es: "Licencia Académica"
   transparency:
-    title: 
+    title:
       en: "Transparency"
       fr: "Transparence"
       es: "Transparencia"
@@ -112,6 +112,4 @@ footer:
         url: "/terms"
         en: "Terms"
         fr: "Mentions légales"
-        es: "Condiciones" 
-    
-  
+        es: "Condiciones"
