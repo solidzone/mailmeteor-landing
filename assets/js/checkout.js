@@ -1,10 +1,10 @@
-var stripe = Stripe('pk_live_U2xwsrlYPffCBwDlCj988OUO00cjhcrOSN')
+var stripe = Stripe('pk_test_QZCJhmkpR03mAot2XsRUs0qM00B4gZtUh8')
 
 var checkoutButtons = document.getElementsByClassName('stripe-checkout')
 
 for (var i = 0; i < checkoutButtons.length; i++) {
   checkoutButtons[i].addEventListener('click', function () {
-    var plan = 'plan_F5wdsqE4qJ4LPH' // default plan is monthly
+    var plan = 'price_1HPMJIKALIjZusuQZjuI5Xop' // default plan is monthly
     if (this && this.getAttribute('data-stripe-plan-id')) {
       plan = this.getAttribute('data-stripe-plan-id')
     }

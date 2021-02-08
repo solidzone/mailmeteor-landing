@@ -78,14 +78,16 @@
             subtitle: "For teams and companies. Billed monthly.",
             prices: {
               usd: {
-                amount: 23.99,
+                amount: 24.99,
                 monthlySavings: '10%',
-                id: "price_1GvlK3KALIjZusuQO5MZpPWY"
+                id: "price_1IIVIsKALIjZusuQ8zC7LoYi",
+                quantity: 3,
               },
               eur: {
-                amount: 23.99,
+                amount: 24.99,
                 monthlySavings: '10%',
-                id: "price_1H9SU2KALIjZusuQiVpnim4E"
+                id: "price_1IIW6TKALIjZusuQJWpGVFLt",
+                quantity: 3,
               },
             },
           },
@@ -96,12 +98,14 @@
               usd: {
                 amount: 39.99,
                 monthlySavings: '10%',
-                id: "price_1GvlK3KALIjZusuQribPjxTy"
+                id: "price_1IIVIsKALIjZusuQ8zC7LoYi",
+                quantity: 5,
               },
               eur: {
                 amount: 39.99,
                 monthlySavings: '10%',
-                id: "price_1H9SUGKALIjZusuQeGWwThZ7"
+                id: "price_1IIW6TKALIjZusuQJWpGVFLt",
+                quantity: 5
               },
             },
           },
@@ -110,14 +114,16 @@
             subtitle: "For teams and companies. Billed monthly.",
             prices: {
               usd: {
-                amount: 79.99,
+                amount: 74.99,
                 monthlySavings: '10%',
-                id: "price_1GvlK3KALIjZusuQUfEEZsdB"
+                id: "price_1IIVIsKALIjZusuQ8zC7LoYi",
+                quantity: 10
               },
               eur: {
-                amount: 79.99,
+                amount: 74.99,
                 monthlySavings: '10%',
-                id: "price_1H9SUaKALIjZusuQylln3EYs"
+                id: "price_1IIW6TKALIjZusuQJWpGVFLt",
+                quantity: 10
               },
             },
           },
@@ -180,11 +186,13 @@
             prices: {
               usd: {
                 amount: 99.99,
-                id: "price_1GvlPKKALIjZusuQrAWZ1iSz"
+                id: "price_1IIVNzKALIjZusuQABvyWsND",
+                quantity: 3
               },
               eur: {
                 amount: 99.99,
-                id: "price_1H9SYFKALIjZusuQn1sDRPl3"
+                id: "price_1IIVOoKALIjZusuQoGlCPfxu",
+                quantity: 3
               },
             },
           },
@@ -194,12 +202,14 @@
             yearlySavings: 390,
             prices: {
               usd: {
-                amount: 149.99,
-                id: "price_1GvlPLKALIjZusuQAR7fxk76"
+                amount: 159.99,
+                id: "price_1IIVNzKALIjZusuQABvyWsND",
+                quantity: 5
               },
               eur: {
-                amount: 149.99,
-                id: "price_1H9SYZKALIjZusuQ2Pv1NU5Q"
+                amount: 159.99,
+                id: "price_1IIVOoKALIjZusuQoGlCPfxu",
+                quantity: 5
               },
             },
           },
@@ -210,11 +220,13 @@
             prices: {
               usd: {
                 amount: 289.99,
-                id: "price_1GvlPKKALIjZusuQ2o7jpdrz"
+                id: "price_1IIVNzKALIjZusuQABvyWsND",
+                quantity: 10
               },
               eur: {
                 amount: 289.99,
-                id: "price_1H9SYsKALIjZusuQWXXjACye"
+                id: "price_1IIVOoKALIjZusuQoGlCPfxu",
+                quantity: 10
               },
             },
           },
@@ -301,8 +313,9 @@
         }
 
         var cta = card.find('[data-checkout-product-item="cta"]')
-        if (cta) {
+        if (cta && cta.first()) {
           cta.first().data("checkout-product-id", productPrice && productPrice.id || "")
+          cta.first().data("checkout-quantity", productPrice && productPrice.quantity || 1)
           cta.first().text(product.cta || 'BUY NOW')
         }
       })
@@ -352,17 +365,19 @@
       function planConfirmationModal(event) {
         var button = $(event.relatedTarget)
         var productId = button.data('checkout-product-id')
+        var productQuantity = button.data('checkout-quantity')
 
         if (!productId) {
           window.location.href = "https://support.mailmeteor.com/help/contact-support#contact-us"
           event.preventDefault()
         } else {
           var modal = $(this)
-          
           var currencyElt = $('[data-checkout-currency]').first()
           var currency = currencyElt.data('checkout-currency') || 'USD'
+
           modal.find('input.checkout-plan-id').val(productId)
           modal.find('input.checkout-currency').val(currency)
+          modal.find('input.checkout-quantity').val(productQuantity || '')
         }
       }
 
@@ -390,42 +405,6 @@
         }
 
       } catch (e) { console.error(e) }
-    });
-
-
-    /**
-     * Validation on the enterprise modal
-     */
-
-    $("#enterprise-form").submit(function (event) {
-      var domainElt = $("#emailDomain")
-      var domain = $.trim(domainElt && domainElt.val() || "").toLowerCase()
-
-      function notValid(errorMessage) {
-        event.preventDefault()
-        var validation = domainElt.parent().find('.email-domain-validation')
-        if (validation.first()) {
-          validation.first().show()
-          validation.first().text(errorMessage)
-        }
-      }
-
-      if (!domain) {
-        return notValid()
-      }
-
-      if (domain && (domain === "gmail.com" || domain === "googlemail.com")) {
-        return notValid("Can't upgrade that domain. Is it your Google Workspace (G Suite) domain?")
-      } else if (domain.indexOf('@') >= 0) {
-        return notValid("Please enter your G Suite domain here (the part after @).");
-      } else if (domain.substr(0, 4) === "www.") {
-        return notValid("Please enter your G Suite domain (without www).");
-      } else if (domain.substr(0, 4) === "http") {
-        return notValid("Please enter your G Suite domain (without http).");
-      }
-
-      var validation = domainElt.parent().find('.email-domain-validation')
-      if (validation.first()) { validation.first().hide() }
     });
   </script>
 
