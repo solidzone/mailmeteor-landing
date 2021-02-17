@@ -81,7 +81,7 @@ Email makes a comeback in 2021. For years, email remains the channel generating 
 
 <figure>
   <img src="/assets/img/blog/mail-merge-gmail/email-return-investment.png" alt="Email has a $42 ROI"/>
-  <figcaption>Extract from Litmus Blog <a href="https://www.litmus.com/blog/infographic-the-roi-of-email-marketing/" rel="noreferrer">The ROI of Email Marketing</a></figcaption>
+  <figcaption>Extract from Litmus Blog <a href="https://www.litmus.com/blog/infographic-the-roi-of-email-marketing/" rel="nofollow noreferrer">The ROI of Email Marketing</a></figcaption>
 </figure>
 
 There are many ways to send emails, but running a mail merge from Gmail stands out.
@@ -108,12 +108,12 @@ Here are some mail merge use cases examples with Gmail:
 
 <figure>
   <img src="/assets/img/blog/mail-merge-gmail/mail-merge-cold-emailing.png" alt="Using mail merge for cold emailing"/>
-  <figcaption>Extract from Marketing Examples <a href="https://marketingexamples.com/sales/dave-gerhardt" rel="noreferrer">Dave Gerhardt's 1 line sales email</a></figcaption>
+  <figcaption>Extract from Marketing Examples <a href="https://marketingexamples.com/sales/dave-gerhardt" rel="nofollow noreferrer">Dave Gerhardt's 1 line sales email</a></figcaption>
 </figure>
 
 ➤ **Sending newsletters from Gmail**: engage with your community thanks to newsletters sent directly from Gmail. You will find that the combination of Google Sheets and Gmail is more than enough to replace a heavy email platform. You can even customize the design of your emails with HTML templates.
 
-➤ **School, Colleges & Universities communications:** a mail merge is the best medium for teach-parent communications, as well as diffusing information to your students. A lot of schools, colleges, and universities across the world use mail merge for their staff and students. If you’re working in Education, there is a [free Education Program offering free unlimited mail merge](https://mailmeteor.com/education-program).
+➤**School, Colleges & Universities communications:** a mail merge is the best medium for teach-parent communications, as well as diffusing information to your students. A lot of schools, colleges, and universities across the world use mail merge for their staff and students. If you’re working in Education, there is a [free Education Program that offers free unlimited mail merge](/education-program).
 
 ➤ **Sending holidays greetings:** a mail merge is perfect to greet your friends and family at different periods of the year (New Year's Eve wishes, birthdays or Holidays…)
 
@@ -125,7 +125,7 @@ Here are some mail merge use cases examples with Gmail:
 
 <figure>
   <img src="/assets/img/blog/mail-merge-gmail/mail-merge-seo-backlinks.png" alt="Using mail merge for SEO outreach"/>
-  <figcaption>Extract from <a href="https://backlinko.com/" rel="noreferrer">Backlinko</a></figcaption>
+  <figcaption>Extract from <a href="https://backlinko.com/" rel="nofollow noreferrer">Backlinko</a></figcaption>
 </figure>
 
 ➤ **Job hunting**: no need to look further for the perfect email service for job applications. Apply to many job offers at once and track the status of your application straight from a spreadsheet.
@@ -174,7 +174,7 @@ Gmail limits the number of emails you can send per day in an effort to keep acco
 - You can send 2000 emails per 24h with a Google Workspace account (formerly G Suite)
 - You can send 500 emails per 24h with Gmail accounts (@gmail.com)
 
-[Read more about Gmail sending limits](https://support.google.com/a/answer/166852).
+[Read more about Gmail sending limits](https://support.google.com/a/answer/166852){:rel="nofollow noopener"}.
 
 If you need to send a larger volume of emails, the best is to opt for an emailing platform, such as Mailchimp, Sendgrid, or Mailjet. These platforms are built to deliver a great number of emails.
 
@@ -210,7 +210,7 @@ Here’s a mail merge demo spreadsheet we’re going to use:
 
 <figure>
   <img src="/assets/img/blog/mail-merge-gmail/tutorial-spreadsheet-demo-mail-merge.png" alt="Demo spreadsheet to mail merge in Gmail" style="box-shadow:none"/>
-  <figcaption><a href="https://docs.google.com/spreadsheets/d/1RAJPfeW8ehVYGpu6nziKuWmFbog8hJSlcTyKT7FO7iY/edit?usp=drive_web&ouid=110634960934586502748" rel="noreferrer">Link to mail merge demo spreadsheet</a></figcaption>
+  <figcaption><a href="https://docs.google.com/spreadsheets/d/1RAJPfeW8ehVYGpu6nziKuWmFbog8hJSlcTyKT7FO7iY/edit?usp=drive_web&ouid=110634960934586502748" rel="nofollow noreferrer">Link to mail merge demo spreadsheet</a></figcaption>
 </figure>
 
 <div class="blogpost-note">
@@ -307,7 +307,7 @@ If you rather fancy homemade solutions or if you can’t install third-party sof
 
 We’re going to use Google Apps Script, which makes it easy to create and publish Google add-ons. The script presented here was written by Martin Hawksey (@mhawksey).
 
-Here is the open-source code of the [script hosted on GitHub](https://github.com/googleworkspace/solutions/blob/master/mail-merge/src/Code.js).
+Here is the open-source code of the [script hosted on GitHub](https://github.com/googleworkspace/solutions/blob/master/mail-merge/src/Code.js){:rel="nofollow noreferrer"}.
 
 ![Create your own mail merge with Gmail using Apps Script](/assets/img/blog/mail-merge-gmail/mail-merge-apps-script-example.gif)
 
@@ -402,7 +402,7 @@ Anti-spam filters can check email content and formatting to ensure the mail merg
 - **Email headers:** these include the Date, From, To, and Subject of your email. Spam filters will check these fields to ensure there is nothing unusual there.
 - **Structure of your email:** your email is made of the HTML language. Unstructured HTML code will look suspect in the eyes of spam filters. Try to write your email directly in the email editor instead of copy-pasting bits of texts from places like Google Docs.
 
-Here are a few services you can use to check your emails before sending them: [Spamcheck by Postmark](https://spamcheck.postmarkapp.com/){:rel="noopener noreferrer"}, [Mail-tester](https://www.mail-tester.com/){:rel="noopener noreferrer"} or [Glock Apps’s spam testing](https://glockapps.com/spam-testing/){:rel="noopener noreferrer"}.
+Here are a few services you can use to check your emails before sending them: [Spamcheck by Postmark](https://spamcheck.postmarkapp.com/){:rel="nofollow noreferrer"}, [Mail-tester](https://www.mail-tester.com/){:rel="nofollow noreferrer"} or [Glock Apps’s spam testing](https://glockapps.com/spam-testing/){:rel="nofollow noreferrer"}.
 
 **5. Personalize your emails**
 
@@ -588,11 +588,11 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **A bit of history:** Yet Another Mail Merge was created by a self-made programmer called Romain Vialard. The service was first released in 2010 over a Google Apps Script code sample. It was popularized four years later when Google replaced its old App Script Gallery with its Add-on store. Now the original founder no longer maintains YAMM, the software was taken over by Revevol, a company specializing in selling services and products in the Google ecosystem.
 
-**How to use Yet Another Mail Merge (YAMM)?** [Get started with YAMM](https://support.yet-another-mail-merge.com/hc/en-us)
+**How to use Yet Another Mail Merge (YAMM)?** [Get started with YAMM](https://support.yet-another-mail-merge.com/hc/en-us){:rel="nofollow noreferrer"}
 
-**YAMM installation:** [YAMM listing on the Google Workspace Marketplace](https://gsuite.google.com/marketplace/app/yet_another_mail_merge_yamm/52669349336)
+**YAMM installation:** [YAMM listing on the Google Workspace Marketplace](https://gsuite.google.com/marketplace/app/yet_another_mail_merge_yamm/52669349336){:rel="nofollow noreferrer"}
 
-**YAMM pricing:** [Yet another mail merge pricing](https://yamm.com/pricing)
+**YAMM pricing:** [Yet another mail merge pricing](https://yamm.com/pricing){:rel="nofollow noreferrer"}
 
 **Alternatives to YAMM:** the closest Yet another mail merge alternative is Mailmeteor. Additionally, you can have a look at Mergo, which was created by YAMM’s original founder.
 
@@ -611,17 +611,17 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **A bit of history:** GMass was founded by Ajay Goel, a Chicago based entrepreneur. Prior to GMass, Ajay Goel built and sold JangoMail in 2013. GMass was first released in August 2015 thanks to Gmail releasing its API a year ago.
 
-**How to use GMass?** [Get started with GMass](https://www.gmass.co/gmass-getting-started-guide.pdf)
+**How to use GMass?** [Get started with GMass](https://www.gmass.co/gmass-getting-started-guide.pdf){:rel="nofollow noreferrer"}
 
-**Installation:** [GMass install link](https://chrome.google.com/webstore/detail/gmass-powerful-mail-merge/ehomdgjhgmbidokdgicgmdiedadncbgf)
+**Installation:** [GMass install link](https://chrome.google.com/webstore/detail/gmass-powerful-mail-merge/ehomdgjhgmbidokdgicgmdiedadncbgf){:rel="nofollow noreferrer"}
 
-**Pricing:** [GMass pricing](https://www.gmass.co/pricing)
+**Pricing:** [GMass pricing](https://www.gmass.co/pricing){:rel="nofollow noreferrer"}
 
 **Alternatives to GMass:** Looking for the best free GMass alternative? Have a look at Mailmeteor, Mail Merge, Yesware, or Mailshake.
 
 **PROS:** GMass offers a lot of features and a complete universe of products.
 
-**CONS:** GMass is a Chrome extension that can be quite complex to understand at first. GMass relies on third parties API like SendGrid to send emails over Gmail’s limit (one of GMass claims is to let you send 10,000 emails with Gmail). However, it regularly [causes sending problems](https://twitter.com/GMassForGmail/status/1299223795954315264). Also, GMass is the most expensive mail merge software.
+**CONS:** GMass is a Chrome extension that can be quite complex to understand at first. GMass relies on third parties API like SendGrid to send emails over Gmail’s limit (one of GMass claims is to let you send 10,000 emails with Gmail). However, it regularly [causes sending problems](https://twitter.com/GMassForGmail/status/1299223795954315264){:rel="nofollow noreferrer"}. Also, GMass is the most expensive mail merge software.
 
 <div class="blogpost-note">
 <span class="font-weight-bold">Focus: YAMM vs GMass.</span> While GMass is a complete emailing and sales solution, YAMM will be focused on mail merge in Gmail. For that reason, YAMM will be more affordable than GMass. Nonetheless, GMass offers a better quality-price ratio considering the various features it offers.
@@ -638,11 +638,11 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **A bit of history:** Quicklution is a software company based in Malta. They have developed several tools in the Google ecosystem.
 
-**How to use Mail Merge?** [Getting started with Mail Merge](https://www.youtube.com/watch?v=0uAOUnao2b8&feature=emb_title)
+**How to use Mail Merge?** [Getting started with Mail Merge](https://www.youtube.com/watch?v=0uAOUnao2b8&feature=emb_title){:rel="nofollow noreferrer"}
 
-**Installation:** [Mail Merge installation link](https://gsuite.google.com/marketplace/app/mail_merge/218858140171)
+**Installation:** [Mail Merge installation link](https://gsuite.google.com/marketplace/app/mail_merge/218858140171){:rel="nofollow noreferrer"}
 
-**Pricing:** [Mail Merge pricing](https://mms.quicklution.com/pricing)
+**Pricing:** [Mail Merge pricing](https://mms.quicklution.com/pricing){:rel="nofollow noreferrer"}
 
 **Alternatives to Mail Merge:** to replace Mail Merge, the best solution is to use your own document merge solution. Alternatively, use a software like Mailmeteor or Mail Merge With Attachments.
 
@@ -661,11 +661,11 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **A bit of history:** Mail merge with attachments is a project by Amit Argawal, a solo entrepreneur from Agra in India. He developed a few Google applications over the years.
 
-**How to use Mail Merge With Attachments?**: [Getting started with Mail Merge with Attachments](https://www.youtube.com/watch?v=F07Py7sraDg&feature=emb_title)
+**How to use Mail Merge With Attachments?**: [Getting started with Mail Merge with Attachments](https://www.youtube.com/watch?v=F07Py7sraDg&feature=emb_title){:rel="nofollow noreferrer"}
 
-**Installation:** [Mail Merge With Attachments link](https://gsuite.google.com/marketplace/app/mail_merge_with_attachments/223404411203)
+**Installation:** [Mail Merge With Attachments link](https://gsuite.google.com/marketplace/app/mail_merge_with_attachments/223404411203){:rel="nofollow noreferrer"}
 
-**Pricing:** [Mail Merge With Attachments pricing](https://digitalinspiration.com/product/gmail-mail-merge/#pricing)
+**Pricing:** [Mail Merge With Attachments pricing](https://digitalinspiration.com/product/gmail-mail-merge/#pricing){:rel="nofollow noreferrer"}
 
 **Alternatives to Mail Merge With Attachments:** Looking to attach files in your mail merge? You can opt for solutions such as Mailmeteor or Mail Merge.
 
@@ -684,13 +684,13 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 </div>
 <br>
 
-**A bit of history:** Streak is CRM living inside Gmail. Streak was founded in 2011 and was accepted the same year in Y Combinator's Summer class. It is famous for its InboxSDK framework, allowing developers to build apps inside Gmail easily.
+**A bit of history:** Streak is a CRM living inside Gmail. Streak was founded in 2011 and was accepted the same year in Y Combinator's Summer class. It is famous for its InboxSDK framework, allowing developers to build apps inside Gmail easily.
 
-**How to use Streak?** [Getting started with Streak](https://support.streak.com/en/articles/2624039-getting-started)
+**How to use Streak?** [Getting started with Streak](https://support.streak.com/en/articles/2624039-getting-started){:rel="nofollow noreferrer"}
 
-**Installation:** [Streak install link](https://chrome.google.com/webstore/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik?hl=fr)
+**Installation:** [Streak install link](https://chrome.google.com/webstore/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik?hl=fr){:rel="nofollow noreferrer"}
 
-**Pricing:** [Streak pricing](https://www.streak.com/pricing)
+**Pricing:** [Streak pricing](https://www.streak.com/pricing){:rel="nofollow noreferrer"}
 
 **Alternatives to Streak:** to replace Streak you can use a simple Google Sheets spreadsheet at first. If you are looking for a complete CRM living inside Gmail, have a look at Gmelius or Mixmax below.
 
@@ -707,11 +707,11 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **A bit of history:** Gmelius is a Swiss-based company also backed by Y Combinator. It’s a collaboration platform living inside Gmail providing tools to automate your workflows.
 
-**How to use Gmelius?** [Getting started with Gmelius](https://chrome.google.com/webstore/detail/gmelius-for-gmail/dheionainndbbpoacpnopgmnihkcmnkl)
+**How to use Gmelius?** [Getting started with Gmelius](https://chrome.google.com/webstore/detail/gmelius-for-gmail/dheionainndbbpoacpnopgmnihkcmnkl){:rel="nofollow noreferrer"}
 
-**Installation:** [Gmelius installation link](https://gmelius.io/signup)
+**Installation:** [Gmelius installation link](https://gmelius.io/signup){:rel="nofollow noreferrer"}
 
-**Pricing:** [Gmelius pricing](https://gmelius.com/pricing)
+**Pricing:** [Gmelius pricing](https://gmelius.com/pricing){:rel="nofollow noreferrer"}
 
 **Alternatives to Gmelius:** looking for the best alternative to Gmelius? Consider Streak, Mixmax, or Vocus.io if you want to expand Gmail’s functionalities and a tool like Mailmeteor for the mail merge part.
 
@@ -728,11 +728,11 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **A bit of history:** Mixmax is a VC backed company founded in 2014 and based in San Francisco, USA. Mixmax is a feature-rich email app that extends Gmail's functionality.
 
-**How to use Mixmax?** [Getting started with Mixmax](https://success.mixmax.com/category/103-getting-started)
+**How to use Mixmax?** [Getting started with Mixmax](https://success.mixmax.com/category/103-getting-started){:rel="nofollow noreferrer"}
 
-**Installation:** [Mixmax installation link](https://chrome.google.com/webstore/detail/mixmax-email-tracking-tem/ocpljaamllnldhepankaeljmeeeghnid)
+**Installation:** [Mixmax installation link](https://chrome.google.com/webstore/detail/mixmax-email-tracking-tem/ocpljaamllnldhepankaeljmeeeghnid){:rel="nofollow noreferrer"}
 
-**Pricing:** [Mixmax pricing](https://www.mixmax.com/pricing/)
+**Pricing:** [Mixmax pricing](https://www.mixmax.com/pricing/){:rel="nofollow noreferrer"}
 
 **Alternatives to Mixmax:** Best alternatives to Mixmax are Streak, Gmelius, Vocus.io, or Mailmeteor.
 
@@ -749,11 +749,11 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **A bit of history:** Vocus.io was founded in 2015 by Ahmad AlNaimi. The Seattle based company offers an email outreach service that can be integrated with Gmail.
 
-**How to use Vocus.io?** [Getting started with Vocus.io](https://support.vocus.io/)
+**How to use Vocus.io?** [Getting started with Vocus.io](https://support.vocus.io/){:rel="nofollow noreferrer"}
 
-**Installation:** [Vocus.io install link](https://chrome.google.com/webstore/detail/vocusio/biohbbbijnpljcdhobbjakhgpkelmjpg)
+**Installation:** [Vocus.io install link](https://chrome.google.com/webstore/detail/vocusio/biohbbbijnpljcdhobbjakhgpkelmjpg){:rel="nofollow noreferrer"}
 
-**Pricing:** [Vocus.io pricing](https://vocus.io/pricing)
+**Pricing:** [Vocus.io pricing](https://vocus.io/pricing){:rel="nofollow noreferrer"}
 
 **Alternatives to Vocus.io:** Seeking a good alternative to Vocus.io? Consider Streak, Gmelius, Mixmax, or Mailmeteor.
 
@@ -770,11 +770,11 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **A bit of history:** Yesware was founded in 2010 by Rajat Bhargava, Matthew Bellows, and Cashman Andrus. The sales productivity platform has raised $48M ever since.
 
-**How to use Yesware?** [Getting started with Yesware](https://help.yesware.com/hc/en-us/sections/360008205753-Getting-Started-with-Yesware-for-Gmail)
+**How to use Yesware?** [Getting started with Yesware](https://help.yesware.com/hc/en-us/sections/360008205753-Getting-Started-with-Yesware-for-Gmail){:rel="nofollow noreferrer"}
 
-**Installation:** [Yesware install link](https://www.yesware.com/install/)
+**Installation:** [Yesware install link](https://www.yesware.com/install/){:rel="nofollow noreferrer"}
 
-**Pricing:** [Yesware pricing](https://www.yesware.com/plans-and-pricing/)
+**Pricing:** [Yesware pricing](https://www.yesware.com/plans-and-pricing/){:rel="nofollow noreferrer"}
 
 **Alternatives to Mail Merge:** The best alternatives to Yesware are Mailshake, Vocus.io, and Mailmeteor.
 
@@ -791,11 +791,11 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **A bit of history:** Mailshake was founded in 2010 and is based in Austin Texas. Mailshake is a simple outreach tool for sales & marketing professionals.
 
-**How to use Mailshake?** [Getting started with Mailshake](https://www.google.com/search?q=getting+started+mailshake&oq=getting+started+mailshake&aqs=chrome..69i57.3912j0j4&sourceid=chrome&ie=UTF-8)
+**How to use Mailshake?** [Getting started with Mailshake](https://www.google.com/search?q=getting+started+mailshake&oq=getting+started+mailshake&aqs=chrome..69i57.3912j0j4&sourceid=chrome&ie=UTF-8){:rel="nofollow noreferrer"}
 
-**Installation:** [Mailshake install link](https://mailshake.com/)
+**Installation:** [Mailshake install link](https://mailshake.com/){:rel="nofollow noreferrer"}
 
-**Pricing:** [Mailshake pricing](https://mailshake.com/pricing/)
+**Pricing:** [Mailshake pricing](https://mailshake.com/pricing/){:rel="nofollow noreferrer"}
 
 **Alternatives to Mailshake:** Best alternatives to Mailshake are Yesware, Vocus.io, or Mailmeteor.
 
@@ -848,7 +848,13 @@ If you’re used to merging emails using Word and Excel, then you won’t be los
 
 You can use Google Docs to merge documents too! This will allow you to create a batch of documents that are personalized for each recipient. As an example, you can produce a personalized form letter to address each recipient by name, or automate the creation of invoices thanks to Google Docs.
 
-Learn [how to mail merge documents using Google Docs.](https://developers.google.com/docs/api/samples/mail-merge)
+Learn [how to mail merge documents using Google Docs](https://developers.google.com/docs/api/samples/mail-merge){:rel="nofollow noreferrer"}.
+
+### Mail merge labels using Google Docs
+
+![Mail merge labels using Google Docs](/assets/img/blog/mail-merge-gmail/mail-merge-labels-google-docs.jpg)
+
+As a side note, did you know that it’s possible to mail merge labels with Google tools? You can use a tool called Labelmaker to [create and print labels using Google Docs or Google Sheets](https://labelsmerge.com/). It’s the best rated app to mail merge Avery labels with Google Docs, as well as other labels vendors.
 
 ### Now it’s your turn
 
