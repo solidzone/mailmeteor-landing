@@ -5,7 +5,7 @@ canonical: https://mailmeteor.com/mail-merge-gmail
 meta_author: Jean Dubrulle
 meta_author_link: "https://twitter.com/cuireuncroco"
 meta_image: >-
-  /assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png
+  /assets/img/opengraph/mail-merge-gmail/mail-merge-gmail.jpg
 meta_date_published: "February 17, 2021"
 meta_date_lastupdated: "February 17, 2021"
 published: true
