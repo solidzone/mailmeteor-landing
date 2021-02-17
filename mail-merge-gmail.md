@@ -1,11 +1,18 @@
 ---
 layout: blog
 title: "Mail merge Gmail in 2021: the Definitive Guide"
+description: Everything you need to know about mail merge in Gmail in 2021. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail
 meta_author: Jean Dubrulle
 meta_author_link: "https://twitter.com/cuireuncroco"
 meta_image: >-
-  /assets/img/opengraph/mail-merge-gmail/mail-merge-gmail.jpg
+  /assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png
+
+og_title: "Mail merge Gmail in 2021: the Definitive Guide"
+og_description: Everything you need to know about mail merge in Gmail in 2021. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail
+og_url: https://mailmeteor.com/mail-merge-gmail
+og_image: https://mailmeteor.com/assets/img/opengraph/blog-mail-merge-gmail.jpg
+
 meta_date_published: "February 17, 2021"
 meta_date_lastupdated: "February 17, 2021"
 published: true
