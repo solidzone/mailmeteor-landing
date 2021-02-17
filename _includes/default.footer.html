@@ -58,9 +58,11 @@
       document.getElementById("navbar").classList.remove("navbar-shadow");
     }
   }
+  if (document.getElementById("navbar") !== null) {
   window.onscroll = function () {
-    scrollFunction();
-  };
+      scrollFunction();
+    };
+  }
 
   function initAos() {
     if (typeof AOS !== "undefined") {
