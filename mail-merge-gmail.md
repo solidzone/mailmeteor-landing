@@ -501,7 +501,7 @@ The most popular CRMs, such as Salesforce or Hubspot, offer to log conversations
 
 ## 4. The best mail merge solutions for Gmail
 
-### The 10 best mail merge add-ons for Gmail in 2021
+### The 11 best mail merge add-ons for Gmail in 2021
 
 What are the best add-ons to send a merge mail in Gmail? We picked the best Google mail merge solutions offered on the Workplace Marketplace and ranked them by their average ratings out of 5. You’ll find different kinds of mail merge software: Google Workspace mail merge add-ons, Chrome mail merge extensions and sales platforms offering mail merge services.
 
@@ -638,7 +638,7 @@ _Focus: YAMM vs GMass. While GMass is a complete emailing and sales solution, YA
 
 _The following apps offer mail merge services, however, it’s not a feature at the core of their value proposition. We mentioned them for the record, but we recommend using one of the first listed apps if you are looking for a solution to send bulk emails from Gmail._
 
-#### Streak
+#### 6. Streak
 
 <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" src="" show-info="O" data-src="https://www.youtube.com/embed/oYrNZGQ2mu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
@@ -659,7 +659,7 @@ _The following apps offer mail merge services, however, it’s not a feature at 
 
 **CONS:** Mail merge is just a side feature of Streak. You can email multiple at once with Streak but it’s not replacing a real mail merge solution.
 
-#### 6. Gmelius
+#### 7. Gmelius
 
 <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" src="" show-info="O" data-src="https://www.youtube.com/embed/aVJOBKlSkKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
@@ -680,7 +680,7 @@ _The following apps offer mail merge services, however, it’s not a feature at 
 
 **CONS:** Mail merge is just a side feature of Gmelius. You can email multiple at once with Gmelius but it’s not replacing a real mail merge solution.
 
-#### 7. Mixmax
+#### 8. Mixmax
 
 <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" src="" show-info="O" data-src="https://www.youtube.com/embed/yQrJNytPoqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
@@ -701,7 +701,7 @@ _The following apps offer mail merge services, however, it’s not a feature at 
 
 **CONS:** Mail merge is only a side feature of Mixmax. You can email multiple at once with Mixmax but it’s not replacing a real mail merge solution.
 
-#### 8. Vocus.io
+#### 9. Vocus.io
 
 <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" src="" show-info="O" data-src="https://www.youtube.com/embed/Z2LWdK82IcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
@@ -722,7 +722,7 @@ _The following apps offer mail merge services, however, it’s not a feature at 
 
 **CONS:** Mail merge is only a side feature of Vocus.io. You can email multiple at once with Mixmax but it’s not replacing a real mail merge solution.
 
-#### 9. Yesware
+#### 10. Yesware
 
 <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" src="" show-info="O" data-src="https://www.youtube.com/embed/4K4Ist1jGk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
@@ -743,7 +743,7 @@ _The following apps offer mail merge services, however, it’s not a feature at 
 
 **CONS:** Mail merge is only a side feature of Yesware. You can email multiple at once with Yesware but it’s not replacing a real mail merge solution.
 
-#### 10. Mailshake
+#### 11. Mailshake
 
 <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" src="" show-info="O" data-src="https://www.youtube.com/embed/ug3EwoMeCPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>

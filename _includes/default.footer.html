@@ -13,9 +13,10 @@
             <p class="font-weight-bold is-white"> {{ nav[1].title[page.lang] }}</p>
             {% assign footerlinks = nav[1].links %}
             {% for link in footerlinks %}
-            <p><a href="{{ link[1].url }}">{{ link[1][page.lang] }}</a></p>
-            {% if nav[0] == 'company' %}
+            {% if link[1][page.lang] == 'ES / FR' %}
             <p><a href="/es/">ES</a> / <a href="/fr/">FR</a></p>
+            {% else %}
+            <p><a href="{{ link[1].url }}">{{ link[1][page.lang] }}</a></p>
             {% endif %}
             {% endfor %}
           </div>
@@ -58,8 +59,9 @@
       document.getElementById("navbar").classList.remove("navbar-shadow");
     }
   }
+  
   if (document.getElementById("navbar") !== null) {
-  window.onscroll = function () {
+    window.onscroll = function () {
       scrollFunction();
     };
   }

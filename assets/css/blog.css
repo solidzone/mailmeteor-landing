@@ -89,6 +89,10 @@ body.blogpost {
 
 /* Text & images */
 
+.blogpost-content main > p:first-child {
+  font-size: 1.2rem;
+}
+
 .blogpost-content main img,
 .blogpost-content main video {
   width: 600px;
