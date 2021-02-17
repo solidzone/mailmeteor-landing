@@ -13,7 +13,7 @@
     Output:
         The HTML content compiled by kramdown with images tag updated to be load lazyly.
 {% endcomment %}
-{%- assign excerpt = content | split: '<img src="' -%}
+{%- assign excerpt = include.html | split: '<img src="' -%}
 {%- for e in excerpt -%}
 	{%- if forloop.first == true -%}
 		{{ e }}

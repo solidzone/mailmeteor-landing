@@ -76,9 +76,7 @@
             <div style="font-weight: bold">Contents</div>
             {% include blogpost-toc.html html=content h_max=2 %}
           </aside>
-          <main class="col-lg-8 col-xs-12">
-            {% assign parsedContent = content | extlinks %} {% include blogpost-lazyimages.html html=parsedContent %}
-          </main>
+          <main class="col-lg-8 col-xs-12">{% include blogpost-lazyimages.html html=content %}</main>
           <aside class="col-lg-2 d-none d-lg-block">
             <div class="blogpost-share">
               <span class="d-block">122</span> shares
@@ -87,7 +85,7 @@
                   <a
                     href="https://twitter.com/share?text={{ page.title | uri_escape }}&url={{ page.canonical | uri_escape }}&via=Mailmeteor"
                     title="Share on Twitter"
-                    rel="nofollow"
+                    rel="nofollow noreferrer"
                     target="_blank"
                     class="blogpost-share-btn"
                   >
@@ -95,7 +93,7 @@
                   </a>
                 </li>
                 <li>
-                  <!-- <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.canonical }}" title="Share on Facebook" rel="nofollow" target="_blank" class="blogpost-share-btn">
+                  <!-- <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.canonical }}" title="Share on Facebook" rel="nofollow noreferrer" target="_blank" class="blogpost-share-btn">
                     <img src="/assets/img/icons/share-facebook.svg" alt="Share on Facebook" />
                   </a> -->
                 </li>
@@ -103,7 +101,7 @@
                   <a
                     href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.canonical | uri_escape}}"
                     title="Share on LinkedIn"
-                    rel="nofollow"
+                    rel="nofollow noreferrer"
                     target="_blank"
                     class="blogpost-share-btn"
                   >
