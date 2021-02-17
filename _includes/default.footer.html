@@ -47,8 +47,10 @@
 <script>
   (function disableTransitionOnLoad() {
     document.addEventListener("DOMContentLoaded", function () {
-      let node = document.querySelector(".preload");
-      node.classList.remove("preload");
+      var node = document.querySelector(".preload");
+      if (node ) {
+        node.classList.remove("preload");
+      }
     });
   })();
 
@@ -91,6 +93,7 @@
   gtag("config", "UA-136395985-1");
 </script>
 
+{% if page.layout == "default" %}
 <!-- Stripe -->
 <script async src="https://js.stripe.com/v3/"></script>
 
@@ -119,3 +122,4 @@
     }
   }
 </script>
+{% endif %}
