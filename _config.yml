@@ -1,9 +1,14 @@
 markdown: kramdown
 plugins:
   - jekyll-redirect-from
+  - jekyll-extlinks
 
 defaults:
   - scope:
       path: ""
     values:
       lang: "en"
+
+extlinks:
+  attributes: { rel: nofollow }
+  rel_exclude: ["mailmeteor.com", "support.mailmeteor.com", "dashboard.mailmeteor.com"]
