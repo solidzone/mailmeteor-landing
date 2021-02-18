@@ -118,16 +118,6 @@
     {%- include default.footer.html -%}
 
     <script>
-      // Youtube loader optimization
-      function loadVideo() {
-        var vidDefer = document.getElementsByTagName("iframe");
-        for (var i = 0; i < vidDefer.length; i++) {
-          if (vidDefer[i].getAttribute("data-src")) {
-            vidDefer[i].setAttribute("src", vidDefer[i].getAttribute("data-src"));
-          }
-        }
-      }
-
       // Share post on social networks
       function sharePost() {
         var socialButtons = document.getElementsByClassName("blogpost-share-btn");
@@ -145,7 +135,6 @@
       }
 
       document.addEventListener("DOMContentLoaded", function () {
-        loadVideo();
         sharePost();
       });
     </script>
