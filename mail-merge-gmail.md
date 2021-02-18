@@ -40,7 +40,9 @@ Let’s say you want to send an email to all your customers, students, or employ
 A mail merge lets you email multiple recipients without them knowing they’re part of a mailing list. Each of your recipients will receive a dedicated personalized email.
 
 <figure>
-  <img src="/assets/img/blog/mail-merge-gmail/mail-merge-email-multiple-recipients.gif" alt="A mail merge lets you email multiple recipients with Gmail"/>
+  <video autoplay muted loop playsinline>
+    <source src="/assets/img/blog/mail-merge-gmail/mail-merge-email-multiple-recipients.mp4" alt="A mail merge lets you email multiple recipients with Gmail"/>
+  </video>
   <figcaption><i>Create a mail merge using Gmail and Google Sheets</i> (from Google Workspace's Youtube channel)</figcaption>
 </figure>
 
@@ -193,7 +195,7 @@ We’ll cover both methods in this guide, even though we recommend using softwar
 
 #### Method 1: How to mail merge in Gmail using Mailmeteor
 
-<video autoplay="" muted="" loop="" playsinline="">
+<video autoplay muted loop playsinline>
   <source src="/assets/video/mailmeteor_demo.mp4">
 </video>
 
