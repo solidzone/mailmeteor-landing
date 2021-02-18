@@ -43,7 +43,7 @@ A mail merge lets you email multiple recipients without them knowing they’re p
   <video autoplay muted loop playsinline>
     <source src="/assets/img/blog/mail-merge-gmail/mail-merge-email-multiple-recipients.mp4" alt="A mail merge lets you email multiple recipients with Gmail"/>
   </video>
-  <figcaption><i>Create a mail merge using Gmail and Google Sheets</i> (from Google Workspace's Youtube channel)</figcaption>
+  <figcaption><i>Create a mail merge using Gmail and Google Sheets</i> <a href="https://www.youtube.com/watch?v=YTeV4i1W3Zo" rel="nofollow noreferrer">from Google Workspace's Youtube channel</a></figcaption>
 </figure>
 
 A mail merge takes values from rows of a spreadsheet and inserts them into a template email.
@@ -65,8 +65,10 @@ There are various ways to run a mail merge from Gmail. We’ll cover the differe
 Customization works by storing your recipient's information in a Google Sheets spreadsheet. Each row represents a record and each column represents a field. It can be an email, address, company, order number…
 
 <figure>
-  <img src="/assets/img/blog/mail-merge-gmail/mail-merge-google-sheets-to-gmail.gif" alt="A mail merge combining Google Sheets and Gmail"/>
-  <figcaption><i>Create a mail merge using Gmail and Google Sheets</i> (from Google Workspace's Youtube channel)</figcaption>
+  <video autoplay muted loop playsinline>
+    <source src="/assets/img/blog/mail-merge-gmail/mail-merge-google-sheets-to-gmail.mp4" alt="A mail merge combining Google Sheets and Gmail"/>
+  </video>
+  <figcaption><i>Create a mail merge using Gmail and Google Sheets</i> <a href="https://www.youtube.com/watch?v=YTeV4i1W3Zo" rel="nofollow noreferrer">from Google Workspace's Youtube channel</a></figcaption>
 </figure>
 
 The spreadsheet will serve as the source for the merge. Each row of the spreadsheet will be processed and inputted into your email template.
