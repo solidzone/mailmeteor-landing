@@ -857,12 +857,6 @@ You can use Google Docs to merge documents too! This will allow you to create a 
 
 Learn [how to mail merge documents using Google Docs](https://developers.google.com/docs/api/samples/mail-merge){:rel="nofollow noreferrer"}.
 
-### Mail merge labels using Google Docs
-
-![Mail merge labels using Google Docs](/assets/img/blog/mail-merge-gmail/mail-merge-labels-google-docs.jpg)
-
-As a side note, did you know that it’s possible to mail merge labels with Google tools? You can use a tool called Labelmaker to [create and print labels using Google Docs or Google Sheets](https://labelsmerge.com/). It’s the best rated app to mail merge Avery labels with Google Docs, as well as other labels vendors.
-
 ### Now it’s your turn
 
 So that’s it for our guide to mail merge in 2021.
