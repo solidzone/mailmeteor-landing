@@ -14,7 +14,7 @@ og_url: https://mailmeteor.com/mail-merge-gmail
 og_image: https://mailmeteor.com/assets/img/opengraph/blog-mail-merge-gmail.jpg
 
 meta_date_published: "February 17, 2021"
-meta_date_lastupdated: "February 17, 2021"
+meta_date_lastupdated: "March 4, 2021"
 published: true
 ---
 
@@ -203,13 +203,13 @@ We’ll cover both methods in this guide, even though we recommend using softwar
 
 We’ll start with a real-life example to show you how to do a mail merge from Gmail using a Google Sheets add-on. In this example, we’re using [Mailmeteor](/), the best rated Google mail merge add-on.
 
-**1. Get Mailmeteor**
+#### 1. Get Mailmeteor
 
 All you have to do is to [install Mailmeteor from the Google Workspace Marketplace](https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301). The Worskpace Marketplace is a place where you can find all the apps compatible with your Google Suite. Mailmeteor is a tool that integrates with Gmail and Google Sheets to merge emails with Gmail.
 
 <img src="/assets/img/blog/mail-merge-gmail/tutorial-mailmeteor-install.png" alt="Install Mailmeteor for Google Sheets" style="box-shadow:none"/>
 
-**2. Add contact in Google Sheets**
+#### 2. Add contact in Google Sheets
 
 Once Mailmeteor is installed, [open a Google Sheets spreadsheet](http://sheets.new/).
 
@@ -246,7 +246,7 @@ Fill your spreadsheet with your recipients’ info. Ensure all email cells are f
 
 ![Fill spreadsheet cells to mail merge in Mailmeteor](/assets/img/blog/mail-merge-gmail/tutorial-spreadsheet-demo-add-columns.gif)
 
-**3. Open Mailmeteor from the Add-ons menu in Google Sheets**
+#### 3. Open Mailmeteor from the Add-ons menu in Google Sheets
 
 Once your contact list is ready, open Mailmeteor. To open Mailmeteor go to the menu and select Add-ons> Mailmeteor > Open Mailmeteor.
 
@@ -254,7 +254,7 @@ Once your contact list is ready, open Mailmeteor. To open Mailmeteor go to the m
 
 This is the Mailmeteor interface. It tells you how many emails you can send per day and details related to your campaign. Next, we are going to compose the template that will be used for the mail merge.
 
-**4. Compose a new email template**
+#### 4. Compose a new email template
 
 Click on the “Create new template” button. This will open an editor in which you can compose your email. The Mailmeteor editor is the exact same as Gmail, you will find all the actions you need to customize your email.
 
@@ -262,7 +262,7 @@ Click on the “Create new template” button. This will open an editor in which
 
 Now we’re going to personalize your email. Personalizing emails is important as it helps make your recipients feel unique when they receive your emails. Using personalization will also dramatically improve your opening rates - and thus the replies you will get.
 
-**5. Personalize your emails**
+#### 5. Personalize your emails
 
 A mail merge transforms a standard email template into a personalized email copy. It’s done by replacing variables fields within the template with the content from your spreadsheet.
 
@@ -287,7 +287,7 @@ When adding a variable, always make sure that it matches a header in your spread
 
 Once you are satisfied with your template, click the “**Save**” button.
 
-**6. Preview emails before sending**
+#### 6. Preview emails before sending
 
 Mailmeteor offers a preview feature that is super helpful to review emails before sending. The preview mode gives you a glimpse of the actual output of your email once personalized for each recipient.
 
@@ -295,7 +295,7 @@ Mailmeteor offers a preview feature that is super helpful to review emails befor
 
 You can also send a test email to yourself. Testing your emails on several devices is a best practice. This will ensure your emails will display correctly in most situations.
 
-**7. Send your mail merge**
+#### 7. Send your mail merge
 
 Ready for take-off? It’s time to send your mailmerge campaign.
 
@@ -312,7 +312,7 @@ _Here's a real-life example. Watch this teacher use Mailmeteor to mail merge ema
 </div>
 <br>
 
-#### Method 2: How to build a merge in Gmail using Google Apps Scripts
+### Method 2: How to build a merge in Gmail using Google Apps Scripts
 
 If you rather fancy homemade solutions or if you can’t install third-party software, then it’s possible build your own Gmail mail merge without an add-on.
 
@@ -324,23 +324,23 @@ Here is the open-source code of the [script hosted on GitHub](https://github.com
 
 Follow the guidelines below to understand how to mail merge in Gmail using Apps Script:
 
-**1. Create a copy of the sample mail merge spreadsheet**
+#### 1. Create a copy of the sample mail merge spreadsheet
 
 Open this [demonstration spreadsheet](https://docs.google.com/spreadsheets/d/1EfjLuYGab8Xt8wCn4IokBIG0_W4tBtiU4vxl3Y7FPsA/copy) and click on “Make a copy” to get your own copy.
 
-**2. In the spreadsheet, update the “Recipients” column with email addresses you would like to use in the mail merge**
+#### 2. In the spreadsheet, update the “Recipients” column with email addresses you would like to use in the mail merge
 
 Replace the cells’ value under the “Recipients” column with your own email address for example.
 
-**3. Open Gmail to create a new draft email. Use tags to personalize your template**
+#### 3. Open Gmail to create a new draft email. Use tags to personalize your template
 
 You can use personalized variables, like \{\{ First name \}\}, which correspond to column names of the spreadsheet you just copied. This indicates text you’d like to be replaced with data from the copied spreadsheet.
 
-**4. Back in the copied spreadsheet, click on the custom menu item called “Mail Merge” and then click on “Send Emails”**
+#### 4. Back in the copied spreadsheet, click on the custom menu item called “Mail Merge” and then click on “Send Emails”
 
 This item menu was created by the Apps Script and will start the mail merge process.
 
-**5. A dialog box appears for authorization. Read the authorization notice and continue**
+#### 5. A dialog box appears for authorization. Read the authorization notice and continue
 
 <div class="blogpost-note">
   <span class="font-weight-bold">Important note: </span>The script we are using has been created and proofread by Google Apps Script teams. Always be super careful when authorizing scripts and third-party apps in general.
@@ -348,7 +348,7 @@ This item menu was created by the Apps Script and will start the mail merge proc
 
 When prompted enter or copy-paste the subject line used in your draft Gmail message. Then click OK.
 
-**6. Sending your emails**
+#### 6. Sending your emails
 
 You will see that the “Email Sent” column will update with the message status. Back in Gmail, check your Sent folder and review the emails the program just sent for you!
 
@@ -364,7 +364,7 @@ In email marketing, email deliverability is the number of emails that actually r
 
 Here are the best practices to increase your email deliverability when sending a mail merge:
 
-**1. Warm-up your Gmail account**
+#### 1. Warm-up your Gmail account
 
 ![Mail merge tip: warm up your Gmail account](/assets/img/blog/mail-merge-gmail/mail-merge-tips-warm-up-email-account.png)
 
@@ -376,7 +376,7 @@ Gmail monitors any usual activity happening on your account. If you start sendin
 
 Thus, try sending emails to a small list of recipients at first (50 recipients for example). Then increase the volume if you start to get promising results (good opening rates, click rates or replies).
 
-**2. Don't send too many emails at once**
+#### 2. Don't send too many emails at once
 
 ![Mail merge tip: stagger your email campaigns](/assets/img/blog/mail-merge-gmail/mail-merge-tips-stagger-email-campaigns.png)
 
@@ -390,7 +390,7 @@ For large campaigns, try sending emails to one group of recipients. Wait 24 hour
   <span class="font-weight-bold">Good to know:</span> most mail merge solutions offer to segment your database by filtering your spreadsheet.
 </div>
 
-**3. Make sure your contact list is clean**
+#### 3. Make sure your contact list is clean
 
 ![Mail merge tip: clean your email database](/assets/img/blog/mail-merge-gmail/mail-merge-tips-clean-email-database.png)
 
@@ -402,7 +402,7 @@ We recommended you to keep your database as clean as possible. You can ensure th
 
 Generally speaking, it’s not a good idea to buy an emailing list, you will end up harming your email reputation. Some companies offer email verification services. We can mention Hunter, Zerobounce or Neverbounce, among others. These services will help you remove invalid or outdated email addresses from your database.
 
-**4. Review your email content and formatting before sending**
+#### 4. Review your email content and formatting before sending
 
 ![Mail merge tip: review your emails before sending](/assets/img/blog/mail-merge-gmail/mail-merge-tips-review-emails.png)
 
@@ -415,7 +415,7 @@ Anti-spam filters can check email content and formatting to ensure the mail merg
 
 Here are a few services you can use to check your emails before sending them: [Spamcheck by Postmark](https://spamcheck.postmarkapp.com/){:rel="nofollow noreferrer"}, [Mail-tester](https://www.mail-tester.com/){:rel="nofollow noreferrer"} or [Glock Apps’s spam testing](https://glockapps.com/spam-testing/){:rel="nofollow noreferrer"}.
 
-**5. Personalize your emails**
+#### 5. Personalize your emails
 
 ![Mail merge tip: personalize your emails](/assets/img/blog/mail-merge-gmail/mail-merge-tips-personalize-emails.png)
 
@@ -423,7 +423,7 @@ When sending mass emails from Gmail, it’s generally a good idea to personalize
 
 The more your emails are personalized, the better.
 
-**6. Provide a clear way to opt-out**
+#### 6. Provide a clear way to opt-out
 
 ![Mail merge tip: provide a clear way to opt-out](/assets/img/blog/mail-merge-gmail/mail-merge-tips-unsubscribe.png)
 
