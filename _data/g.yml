@@ -34,13 +34,15 @@ entries:
 
   - question: How can I personalize my emails?
     answer: >
-      You can personalize every part of the email, from subject line to email body, as well as CC/BCC fields. The only limit is your imagination! 
+      You can personalize every part of the email, from subject line to email body, as well as CC/BCC fields. The only limit is your imagination!
 
-      Imagine having a “firstname” column in your spreadsheet, adding "Hi {{firstname}}" in your email will be automatically replaced by your recipient’s first name ("Hi Sally" for example).You just need to put your variables inside double brackets {{ }}
+
+      Imagine having a “firstname” column in your spreadsheet, adding *"Hi {{firstname}}"* in your email will be automatically replaced by your recipient’s first name (*"Hi Sally"* for example). You just need to put your variables inside double brackets, like this → {{ }}
+
 
       Here are some examples:
-        - Personalized email subject: {{ Mutual connection }} recommended we talk
-        - Personalized greetings and recipients: Hello {{ firstname }}
+        - Personalized email subject: *{{ Mutual connection }} recommended we talk*
+        - Personalized greetings and recipients: *Hello {{ firstname }}*
         - Personalized content, custom links, postscriptum...
 
       Emails sent with Mailmeteor look as if you typed them manually for each of your recipients.
@@ -89,7 +91,7 @@ entries:
 #
 
 billing:
-  - question: Does Mailmeteor offer a free trial?
+  - question: Is there a free trial?
     answer: You can enjoy Mailmeteor for free with up to **75 emails a day**. It's more free email quota compared to what you can find in other mail merge solutions. Whenever you want to send more emails, Mailmeteor Premium includes up to 1500 emails, real-time tracking, scheduling, attachments or email alias support. If you want to benefit from premium features, you can upgrade your account on our [paid plans](/pricing).
 
   - question: How can I pay?
