@@ -22,7 +22,7 @@ features:
     description: You can add Cc and Bcc recipients to involve more people in the conversation, keep someone in the loop or log your emails in your CRM.
 
   - title: Integrate with your CRM.
-    description: such as PDF, Word, Excel, pictures and various other file types. Perfect for sending invoices, payslips, invitations and more.
+    description: Plug your favorite CRM, such as Salesforce or Hubspot, and make sure that every discussion is logged to keep your teammates in the loop.
 
   - title: Import your own HTML templates,
     description: perfect to design your email newsletters.
