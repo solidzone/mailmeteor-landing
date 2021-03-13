@@ -74,22 +74,6 @@ footer:
         en: "Education Program"
         fr: "Programme Education"
         es: "Licencia Académica"
-  support:
-    title:
-      en: "Support"
-      fr: "Aide"
-      es: "Ayuda"
-    links:
-      help:
-        url: "https://support.mailmeteor.com/"
-        en: "Help center"
-        fr: "Documentation"
-        es: "Documentación"
-      contact:
-        url: "https://support.mailmeteor.com/help/contact-support"
-        en: "Contact"
-        fr: "Nous contacter"
-        es: "Contactarnos"
   ressources:
     title:
       en: "Resources"
@@ -111,6 +95,23 @@ footer:
         en: "Mail merge tools"
         fr: "Comparaison"
         es: "Comparación"
+  support:
+    title:
+      en: "Support"
+      fr: "Aide"
+      es: "Ayuda"
+    links:
+      help:
+        url: "https://support.mailmeteor.com/"
+        en: "Help center"
+        fr: "Documentation"
+        es: "Documentación"
+      contact:
+        url: "https://support.mailmeteor.com/help/contact-support"
+        en: "Contact"
+        fr: "Nous contacter"
+        es: "Contactarnos"
+
   transparency:
     title:
       en: "Transparency"
