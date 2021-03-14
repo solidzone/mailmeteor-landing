@@ -921,6 +921,12 @@ sup {
   z-index: 1 !important;
 }
 
+@media (max-width: 576px) {
+  #pricingTeamSlider.slider .tooltip.bs-tooltip-bottom {
+    padding-left:1rem;
+  }
+}
+
 #pricingTeamSlider.slider .tooltip .arrow::before,
 #pricingTeamSlider.slider .tooltip .tooltip-inner {
   border-color: transparent;
