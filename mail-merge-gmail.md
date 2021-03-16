@@ -360,7 +360,7 @@ For these reasons, we would recommend using a mail merge solution such as [Mailm
 
 ### The best practices to send mail merge with Gmail
 
-In [email marketing](/gmail-deliverability), email deliverability is the number of emails that actually reach your recipients’ inbox.
+In email marketing, [email deliverability](/gmail-deliverability) is the number of emails that actually reach your recipients’ inbox.
 
 Here are the best practices to increase your email deliverability when sending a mail merge:
 
