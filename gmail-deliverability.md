@@ -2,7 +2,7 @@
 layout: blog
 title: "10 tips for leveling up your Gmail deliverability"
 description: When sending a mail merge with Gmail, there are few things more important to the success of a campaign than achieving solid email deliverability with each email. 
-canonical: https://mailmeteor.com/blog/gmail-deliverability
+canonical: https://mailmeteor.com/gmail-deliverability
 meta_author: Jean Dubrulle
 meta_author_link: "https://twitter.com/cuireuncroco"
 meta_image: >-
@@ -10,7 +10,7 @@ meta_image: >-
 
 og_title: "10 tips for leveling up your Gmail deliverability"
 og_description: When sending a mail merge with Gmail, there are few things more important to the success of a campaign than achieving solid email deliverability with each email. 
-og_url: https://mailmeteor.com/blog/gmail-deliverability
+og_url: https://mailmeteor.com/gmail-deliverability
 og_image: https://mailmeteor.com/assets/img/opengraph/blog-mail-merge-gmail.jpg
 
 meta_date_published: "March 15, 2021"
