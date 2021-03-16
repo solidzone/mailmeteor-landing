@@ -360,7 +360,7 @@ For these reasons, we would recommend using a mail merge solution such as [Mailm
 
 ### The best practices to send mail merge with Gmail
 
-In email marketing, email deliverability is the number of emails that actually reach your recipients’ inbox.
+In [email marketing](/gmail-deliverability), email deliverability is the number of emails that actually reach your recipients’ inbox.
 
 Here are the best practices to increase your email deliverability when sending a mail merge:
 
@@ -431,7 +431,7 @@ It is strongly recommended - and sometimes compulsory - to include a simple way 
 
 Depending on the type of audience you are engaging with you might have to provide an unsubscribe mean. Try using a closing formula such as "_let me know if you don't wish to receive more emails_" to unsubscribe or adding an unsubscribe link.
 
-When people ask you to opt-out, you cannot ignore their request. You might check the laws against spam applicable in your country before sending mail merge campaigns in Gmail.
+When people ask you to opt-out, you cannot ignore their request. You might check the laws against spam applicable in your country before sending mail merge campaigns in Gmail. Check our complete guide for more [Gmail deliverability tips](/gmail-deliverability).
 
 ### Mail merge Gmail advanced features
 
