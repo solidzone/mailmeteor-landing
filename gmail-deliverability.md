@@ -18,7 +18,7 @@ meta_date_lastupdated: "March 15, 2021"
 published: true
 ---
 
-When sending emails with Gmail, there are few things more important to the success of a campaign than achieving solid email deliverability with each email. 
+When sending emails with Gmail, there are few things really important to make sure your campaign is a success. Here's a step-by-step guide to ensure a solid Gmail deliverability. 
 
 Email deliverability is what ensures your target audience reads and engages with your content, it's the first defense against the dreaded spam folder and the all-important factor that decides whether your email gets to where it needs to go or bounces off its destination. With different email services having different approaches for distinguishing between spam and genuine correspondence, tuning up your emails for maximum deliverability is essential.
 
