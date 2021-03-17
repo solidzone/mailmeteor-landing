@@ -45,11 +45,13 @@
       prices: {
         usd: {
           amount: 199.99,
-          price_id: "",
+          link:
+            "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FE763TJKAWPL2&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled",
         },
         eur: {
           amount: 199.99,
-          price_id: "",
+          link:
+            "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KFMMDARZ57HYY&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled",
         },
       },
     },
@@ -132,9 +134,16 @@
 
       var cta = card.find('[data-checkout-product-item="cta"]');
       if (cta && cta.first()) {
-        cta.first().data("checkout-product-id", (productPrice && productPrice.price_id) || "");
-        cta.first().data("checkout-quantity", (productPrice && productPrice.quantity) || 1);
-        cta.first().text(product.cta || "GET STARTED");
+        cta = cta.first();
+
+        if (cta.prop("tagName") === "A") {
+          cta.attr("href", productPrice.link);
+        } else if (cta.prop("tagName") === "BUTTON") {
+          cta.data("checkout-product-id", (productPrice && productPrice.price_id) || "");
+          cta.data("checkout-quantity", (productPrice && productPrice.quantity) || 1);
+        }
+
+        cta.text(product.cta || "GET STARTED");
       }
     });
   }
