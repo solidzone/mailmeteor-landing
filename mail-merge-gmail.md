@@ -205,7 +205,7 @@ We’ll start with a real-life example to show you how to do a mail merge from G
 
 #### 1. Get Mailmeteor
 
-All you have to do is to [install Mailmeteor from the Google Workspace Marketplace](https://gsuite.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301). The Worskpace Marketplace is a place where you can find all the apps compatible with your Google Suite. Mailmeteor is a tool that integrates with Gmail and Google Sheets to merge emails with Gmail.
+All you have to do is to [install Mailmeteor from the Google Workspace Marketplace](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301). The Worskpace Marketplace is a place where you can find all the apps compatible with your Google Suite. Mailmeteor is a tool that integrates with Gmail and Google Sheets to merge emails with Gmail.
 
 <img src="/assets/img/blog/mail-merge-gmail/tutorial-mailmeteor-install.png" alt="Install Mailmeteor for Google Sheets" style="box-shadow:none"/>
 
@@ -578,7 +578,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **How to use Mailmeteor?** [Get Started with Mailmeteor](https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial)
 
-**Installation:** [Mailmeteor install link](https://gsuite.google.com/u/0/marketplace/app/mailmeteor_mail_merge/1008170693301)
+**Installation:** [Mailmeteor install link](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301)
 
 **Pricing:** [Mailmeteor pricing](https://mailmeteor.com/pricing)
 
@@ -601,7 +601,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **How to use Yet Another Mail Merge (YAMM)?** [Get started with YAMM](https://support.yet-another-mail-merge.com/hc/en-us){:rel="nofollow noreferrer"}
 
-**YAMM installation:** [YAMM listing on the Google Workspace Marketplace](https://gsuite.google.com/marketplace/app/yet_another_mail_merge_yamm/52669349336){:rel="nofollow noreferrer"}
+**YAMM installation:** [YAMM listing on the Google Workspace Marketplace](https://workspace.google.com/marketplace/app/yet_another_mail_merge_mail_merge_for_gm/52669349336){:rel="nofollow noreferrer"}
 
 **YAMM pricing:** [Yet another mail merge pricing](https://yamm.com/pricing){:rel="nofollow noreferrer"}
 
@@ -651,7 +651,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **How to use Mail Merge?** [Getting started with Mail Merge](https://www.youtube.com/watch?v=0uAOUnao2b8&feature=emb_title){:rel="nofollow noreferrer"}
 
-**Installation:** [Mail Merge installation link](https://gsuite.google.com/marketplace/app/mail_merge/218858140171){:rel="nofollow noreferrer"}
+**Installation:** [Mail Merge installation link](https://workspace.google.com/marketplace/app/mail_merge/218858140171){:rel="nofollow noreferrer"}
 
 **Pricing:** [Mail Merge pricing](https://mms.quicklution.com/pricing){:rel="nofollow noreferrer"}
 
@@ -674,7 +674,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **How to use Mail Merge With Attachments?**: [Getting started with Mail Merge with Attachments](https://www.youtube.com/watch?v=F07Py7sraDg&feature=emb_title){:rel="nofollow noreferrer"}
 
-**Installation:** [Mail Merge With Attachments link](https://gsuite.google.com/marketplace/app/mail_merge_with_attachments/223404411203){:rel="nofollow noreferrer"}
+**Installation:** [Mail Merge With Attachments link](https://workspace.google.com/marketplace/app/mail_merge_with_attachments/223404411203){:rel="nofollow noreferrer"}
 
 **Pricing:** [Mail Merge With Attachments pricing](https://digitalinspiration.com/product/gmail-mail-merge/#pricing){:rel="nofollow noreferrer"}
 
