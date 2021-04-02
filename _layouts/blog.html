@@ -78,7 +78,7 @@
           <main class="col-lg-8 col-xs-12">{% include blogpost-lazyimages.html html=content %}</main>
           <aside class="col-lg-2 d-none d-lg-block">
             <div class="blogpost-share">
-              <span class="d-block">122</span> shares
+              <span class="d-block font-weight-bold">Share this article</span>
               <ul>
                 <li>
                   <a
@@ -91,11 +91,11 @@
                     <img src="/assets/img/icons/share-twitter.svg" alt="Share on Twitter" />
                   </a>
                 </li>
-                <li>
-                  <!-- <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.canonical }}" title="Share on Facebook" rel="nofollow noreferrer" target="_blank" class="blogpost-share-btn">
+                <!-- <li>
+                  <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.canonical }}" title="Share on Facebook" rel="nofollow noreferrer" target="_blank" class="blogpost-share-btn">
                     <img src="/assets/img/icons/share-facebook.svg" alt="Share on Facebook" />
-                  </a> -->
-                </li>
+                  </a>
+                </li> -->
                 <li>
                   <a
                     href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.canonical | uri_escape}}"
@@ -108,6 +108,10 @@
                   </a>
                 </li>
               </ul>
+            </div>
+            <div class="blogpost-aside-cta">
+              <p class="font-weight-bold">Try the best mail merge tool for Gmail</p>
+              <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-outline">Start sending emails</a>
             </div>
           </aside>
         </div>
