@@ -189,4 +189,7 @@ body.blogpost {
   margin-left: 0.4rem;
   margin-top: 1rem;
   font-size: 0.8rem;
+  border: 1px solid #eee;
+  padding: 0.8rem;
+  border-radius: 12px;
 }

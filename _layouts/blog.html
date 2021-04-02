@@ -76,7 +76,7 @@
             {% include blogpost-toc.html html=content h_max=2 %}
           </aside>
           <main class="col-lg-8 col-xs-12">{% include blogpost-lazyimages.html html=content %}</main>
-          <aside class="col-lg-2 d-none d-lg-block">
+          <aside class="col-lg-2 d-none d-lg-block pl-3 pr-0">
             <div class="blogpost-share">
               <span class="d-block font-weight-bold">Share this article</span>
               <ul>
@@ -110,8 +110,9 @@
               </ul>
             </div>
             <div class="blogpost-aside-cta">
-              <p class="font-weight-bold">Try the best mail merge tool for Gmail</p>
-              <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-outline">Start sending emails</a>
+              <p class="font-weight-bold text-center">{{ page.cta_title | default: 'Try the best mail merge tool for Gmail'}}</p>
+              <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-outline p-1">Get started →</a>
+              <img src="/assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png" style="max-width: 100%;">
             </div>
           </aside>
         </div>
