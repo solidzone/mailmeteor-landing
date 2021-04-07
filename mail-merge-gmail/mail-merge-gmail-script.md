@@ -57,7 +57,7 @@ Emails are usually immediately delivered, but sometimes it takes a few seconds. 
 
 ## Conclusion
 
-Some say that Gmail it's impossible to send emails in bulk. It's totally untrue. Of course, this is a very basic script to send lots of emails with Gmail. You might need to adapt it a little bit more, but that's very easy to do.
+Some say that it's impossible to send emails in bulk with Gmail. It's totally untrue. Of course, this is a very basic script to send lots of emails with Gmail. You might need to adapt it a little bit more, but that's very easy to do.
 
 Before you go, here are two things to keep in mind when using Gmail as an email marketing tool:
 
