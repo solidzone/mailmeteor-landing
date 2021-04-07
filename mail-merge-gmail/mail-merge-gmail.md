@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: blogpost
 title: "Mail merge Gmail in 2021: the Definitive Guide"
 description: Everything you need to know about mail merge in Gmail in 2021. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail
 cta_title: Try the best mail merge tool for Gmail
-canonical: https://mailmeteor.com/mail-merge-gmail
+canonical: https://mailmeteor.com/mail-merge-gmail/
 meta_author: Jean Dubrulle
 meta_author_link: "https://twitter.com/cuireuncroco"
 meta_image: >-
@@ -11,12 +11,15 @@ meta_image: >-
 
 og_title: "Mail merge Gmail in 2021: the Definitive Guide"
 og_description: Everything you need to know about mail merge in Gmail in 2021. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail
-og_url: https://mailmeteor.com/mail-merge-gmail
+og_url: https://mailmeteor.com/mail-merge-gmail/
 og_image: https://mailmeteor.com/assets/img/opengraph/blog-mail-merge-gmail.jpg
 
 meta_date_published: "February 17, 2021"
 meta_date_lastupdated: "March 4, 2021"
 published: true
+
+permalink: /mail-merge-gmail/
+redirect_from: /mail-merge-gmail
 ---
 
 This is a complete guide to mail merge from Gmail in 2021.
@@ -192,7 +195,7 @@ If you need to send a larger volume of emails, the best is to opt for an emailin
 
 ## 2. How to mail merge in Gmail: a complete beginner’s guide
 
-There are 2 ways to mail merge in Gmail. You can either use a Google add-on that will do the job for you or build your own mail merge script in Gmail.
+There are [2 ways to mail merge in Gmail](/mail-merge-gmail/tutorial). You can either use a Google add-on that will do the job for you or build your own mail merge script in Gmail.
 
 We’ll cover both methods in this guide, even though we recommend using software built for that purpose. Most people will find that mail merge add-ons are easier and safer to use than writing a script.
 
@@ -875,3 +878,8 @@ We hope you now better understand this simple yet incredibly powerful tool calle
   <br>
   <p><a href="https://mailmeteor.com" class="font-weight-bold">Try Mailmeteor, mail merge for Gmail</a></p>
 </div>
+
+<small class="blogpost-related-articles">
+Learn more about Gmail merge: 
+<a href="/mail-merge-gmail/tutorial">How to mail merge in Gmail (2021 tutorial)</a>
+</small>
