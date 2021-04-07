@@ -176,5 +176,5 @@ Learn more about the [features and benefits of Mailmeteor here](/features).
 
 <small class="blogpost-related-articles">
 Learn more about Gmail merge: 
-<a href="/mail-merge-gmail/tutorial">Mail merge Gmail in 2021: the Definitive Guide</a>
+<a href="/mail-merge-gmail/">Mail merge Gmail in 2021: the Definitive Guide</a>
 </small>

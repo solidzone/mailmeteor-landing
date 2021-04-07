@@ -347,14 +347,14 @@ This item menu was created by the Apps Script and will start the mail merge proc
 #### 5. A dialog box appears for authorization. Read the authorization notice and continue
 
 <div class="blogpost-note">
-  <span class="font-weight-bold">Important note: </span>The script we are using has been created and proofread by Google Apps Script teams. Always be super careful when authorizing scripts and third-party apps in general.
+  <span class="font-weight-bold">Important note: </span>The script we are using has been created and proofreaded by Google Apps Script teams. You can also look at [a basic mail merge script](/mail-merge-gmail/script) written by Mailmeteor team. But always be super careful when authorizing scripts and third-party apps in general.
 </div>
 
 When prompted enter or copy-paste the subject line used in your draft Gmail message. Then click OK.
 
 #### 6. Sending your emails
 
-You will see that the “Email Sent” column will update with the message status. Back in Gmail, check your Sent folder and review the emails the program just sent for you!
+You will see that the “Email Sent” column will update with the message status. Back in Gmail, check your [Sent folder](https://mail.google.com/mail/#sent){:rel="nofollow noreferrer"} and review the emails the program just sent for you!
 
 Keep in mind that using a script is at your own risk. Check Gmail’s sending limit before sending large volumes of emails. Be aware that your account can get blocked by Gmail if your emailing activity seems unusual in the eyes of anti-spam filters.
 
@@ -820,9 +820,9 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 ### The best free mail merge for Gmail
 
-Looking for the cheapest providers to send bulk personalized email using a mail merge? To send bulk emails in Gmail for free you can either pick a mail merge solution that offers a generous free plan or build your own mailmerge script.
+Looking for the cheapest providers to send bulk personalized email using a mail merge? To send bulk emails in Gmail for free you can either pick a mail merge solution that offers a generous free plan or [build your own mail merge script](/mail-merge-gmail/script).
 
-Currently the best free mail merge are:
+Currently the best free mailmerge are:
 
 1. Mailmeteor
 2. Building a mail merge using Apps Script
