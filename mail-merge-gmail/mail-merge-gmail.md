@@ -347,7 +347,7 @@ This item menu was created by the Apps Script and will start the mail merge proc
 #### 5. A dialog box appears for authorization. Read the authorization notice and continue
 
 <div class="blogpost-note">
-  <span class="font-weight-bold">Important note: </span>The script we are using has been created and proofreaded by Google Apps Script teams. You can also look at [a basic mail merge script](/mail-merge-gmail/script) written by Mailmeteor team. But always be super careful when authorizing scripts and third-party apps in general.
+  <span class="font-weight-bold">Important note: </span>The script we are using has been created and proofreaded by Google Apps Script teams. You can also look at <a href="/mail-merge-gmail/script">a basic mail merge script</a> written by Mailmeteor team. But always be super careful when authorizing scripts and third-party apps in general.
 </div>
 
 When prompted enter or copy-paste the subject line used in your draft Gmail message. Then click OK.
