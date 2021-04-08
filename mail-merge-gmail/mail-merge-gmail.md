@@ -15,7 +15,7 @@ og_url: https://mailmeteor.com/mail-merge-gmail/
 og_image: https://mailmeteor.com/assets/img/opengraph/blog-mail-merge-gmail.jpg
 
 meta_date_published: "February 17, 2021"
-meta_date_lastupdated: "March 4, 2021"
+meta_date_lastupdated: "April 8, 2021"
 published: true
 
 permalink: /mail-merge-gmail/
@@ -879,7 +879,9 @@ We hope you now better understand this simple yet incredibly powerful tool calle
   <p><a href="https://mailmeteor.com" class="font-weight-bold">Try Mailmeteor, mail merge for Gmail</a></p>
 </div>
 
-<small class="blogpost-related-articles">
-Learn more about Gmail merge: 
-<a href="/mail-merge-gmail/tutorial">How to mail merge in Gmail (2021 tutorial)</a>
-</small>
+<small class="blogpost-related-articles">Learn more about mail merge in Gmail:</small>
+
+<ul class="small">
+  <li><a href="/mail-merge-gmail/tutorial">How to mail merge in Gmail (2021 tutorial)</a></li>
+  <li><a href="/mail-merge-gmail/script">Gmail Mail Merge Script Example using Google Apps Script</a></li>
+</ul>
