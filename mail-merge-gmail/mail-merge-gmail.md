@@ -52,7 +52,7 @@ A mail merge lets you email multiple recipients without them knowing they’re p
 
 A mail merge takes values from rows of a spreadsheet and inserts them into a template email.
 
-**In this guide, we’ll focus on mail merge for Gmail, but you can also mail merge documents or mail merge labels. [See the last section for more details](mail-merge-gmail#5-beyond-mail-merge-for-gmail-discover-the-other-kinds-of-mail-merge).**
+**In this guide, we’ll focus on mail merge for Gmail, but you can also mail merge documents or mail merge labels. [See the last section for more details](#5-beyond-mail-merge-for-gmail-discover-the-other-kinds-of-mail-merge).**
 
 ![The first mail merge apps were released in the eighties](/assets/img/blog/mail-merge-gmail/mail-merge-vintage.gif){:width="600px" height="338px"}
 
