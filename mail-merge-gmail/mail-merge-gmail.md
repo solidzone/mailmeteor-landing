@@ -503,7 +503,7 @@ To schedule a mail merge to be sent at a later time, it works quite the same as 
 
 Select the scheduling option then pick the date and time you want your emails to be sent at. In Mailmeteor, the button is the same as in Gmail. Click on the arrow on the right of the "Send" button to access the scheduling interface.
 
-![Scheduling a mail merge in Gmail with Mailmeteor](/assets/img//blog/mail-merge-gmail/mail-merge-gmail-schedule-emails.png)
+![Scheduling a mail merge in Gmail with Mailmeteor](/assets/img/blog/mail-merge-gmail/mail-merge-gmail-schedule-emails.png)
 
 It’s worth mentioning here that scheduled emails may be sent a few minutes after the scheduled time. This is due to Gmail processing your scheduled emails. Plus, your emails will be sent based on the timezone you schedule them in.
 
