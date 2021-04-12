@@ -19,7 +19,6 @@ meta_date_lastupdated: "April 8, 2021"
 published: true
 
 permalink: /mail-merge-gmail/
-redirect_from: /mail-merge-gmail
 ---
 
 This is a complete guide to mail merge from Gmail in 2021.
