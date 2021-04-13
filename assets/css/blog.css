@@ -95,6 +95,7 @@ body.blogpost {
 .blogpost-content main video {
   width: 600px;
   max-width: 100%;
+  height: auto;
   margin: 1.5rem auto;
   border: none;
   box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%), 0 0 6px 0 rgb(0 0 0 / 10%),
