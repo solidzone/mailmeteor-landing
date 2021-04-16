@@ -114,13 +114,6 @@ h4 {
   letter-spacing: 0.01rem;
 }
 
-/* SEO tags */
-
-strong {
-  font-style: inherit;
-  font-weight: inherit;
-}
-
 /* Generic styling */
 
 .is-white {
@@ -128,7 +121,7 @@ strong {
 }
 
 .is-red {
-  color: #FF486A;
+  color: #ff486a;
 }
 
 .is-centered {
@@ -935,7 +928,7 @@ sup {
 
 @media (max-width: 576px) {
   #pricingTeamSlider.slider .tooltip.bs-tooltip-bottom {
-    padding-left:1rem;
+    padding-left: 1rem;
   }
 }
 
@@ -1015,7 +1008,6 @@ sup {
 
 /* #### 5.10 Promo code page #### */
 
-
 .promo-code-cards {
   display: flex;
   flex-direction: column;
@@ -1054,7 +1046,7 @@ sup {
     padding: 0 0 0 2rem;
     width: auto;
   }
-} 
+}
 
 .promo-code-cards:hover {
   background-color: white;
@@ -1063,9 +1055,9 @@ sup {
 }
 
 .promo-code-countdown {
-  color:#FF486A;
-  font-weight:bold;
-  margin-bottom:.5remr;
+  color: #ff486a;
+  font-weight: bold;
+  margin-bottom: 0.5remr;
 }
 /* ######## 6. INCLUDES ######## */
 
@@ -1214,10 +1206,6 @@ sup {
   .faq .faq-expander {
     display: none;
   }
-}
-
-.faq strong {
-  font-weight: bold;
 }
 
 /* #### 6.4 Footer #### */

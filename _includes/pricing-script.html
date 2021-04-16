@@ -59,10 +59,10 @@
       title: "Teams",
       prices: {
         usd: {
-          price_id: "price_1IIVNzKALIjZusuQABvyWsND",
+          price_id: "price_1Igmj3KALIjZusuQyaFm5WF0",
         },
         eur: {
-          price_id: "price_1IIVOoKALIjZusuQoGlCPfxu",
+          price_id: "price_1IgmkHKALIjZusuQDcN3z7aP",
         },
       },
     },
@@ -321,19 +321,30 @@
     function computePackPrice(units) {
       var total = 0;
 
-      if (units <= 3) {
-        total = units * 33.33;
-      } else if (units <= 5) {
-        total = 3 * 33.33 + (units - 3) * 30;
-      } else {
-        total = 3 * 33.33 + 2 * 30 + (units - (3 + 2)) * 28;
+      if (units > 10) {
+        total += (units - 10) * 17.33;
+        units = 10;
+      }
+
+      if (units > 5) {
+        total += (units - 5) * 18;
+        units = 5;
+      }
+
+      if (units > 3) {
+        total += (units - 3) * 25;
+        units = 3;
+      }
+
+      if (units > 0) {
+        total += units * 33.33;
       }
 
       return total;
     }
 
     var amount = computePackPrice(units);
-    var save = units * 8.99 * 12 - amount;
+    var save = Math.round(units * 8.99 * 12 - amount);
     var currency = getUserCurrency();
     var currencySymbol = currency === "EUR" ? "€" : "$";
 
