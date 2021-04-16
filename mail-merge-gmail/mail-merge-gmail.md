@@ -135,7 +135,7 @@ Here are some mail merge use cases examples with Gmail:
 
 ➤ **Launching a product or service**: it’s the D-day and you want to announce your Kickstarter or Product Hunt launch to everyone? Use a mail merge to spread the news!
 
-➤ **Link building**: if you want to build authority backlinks, a good idea is to use email outreach. It will help each out to bloggers and journalists without ending up in their spam folder.
+➤ **Link building**: if you want to build authority backlinks, a good idea is to use email outreach. It will help reach out to bloggers and journalists without ending up in their spam folder.
 
 <figure>
   <img src="/assets/img/blog/mail-merge-gmail/mail-merge-seo-backlinks.png" alt="Using mail merge for SEO outreach" width="600px" height="480px"/>
