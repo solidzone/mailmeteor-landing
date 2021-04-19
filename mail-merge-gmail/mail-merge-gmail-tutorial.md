@@ -33,6 +33,11 @@ A better question might be: what’s the best way to mail merge in Gmail properl
 
 ## Method 1 – Use Mailmeteor to mail merge in Gmail
 
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" title="How to mail merge in Gmail" show-info="O" src="https://www.youtube.com/embed/-YX65-kywOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+<br>
+
 Mailmeteor is the top-rated Google mail merge add-on, designed to make mail merging in Gmail quick and easy. Clients and businesses of all-sizes use Mailmeteor to reliably deliver their emails to extensive lists of recipients without any hassle. Here’s a step-by-step guide to how it works:
 
 1. **Install Mailmeteor**
