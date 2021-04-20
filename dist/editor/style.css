@@ -1041,12 +1041,17 @@
   vertical-align: middle;
 }
 
+.goog-toolbar-menu-button-caption > div {
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
 /* Dropdown style. */
 .goog-toolbar-menu-button-dropdown {
   width: 20px;
   background: url("gmailUI/baseline-arrow_drop_down-24px.svg");
   vertical-align: top;
-  background-position: 0px;
 }
 
 /*
