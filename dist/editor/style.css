@@ -273,15 +273,16 @@
 
 .goog-menu {
   background: #fff;
-  border-color: #ccc #666 #666 #ccc;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px 2px rgb(60 64 67 / 15%);
   cursor: default;
   font: normal 13px Arial, sans-serif;
   margin: 0;
   outline: none;
   padding: 4px 0;
   position: absolute;
+  border-radius: 4px;
   z-index: 20000; /* Arbitrary, but some apps depend on it... */
 }
 
@@ -318,8 +319,8 @@
   font: normal 13px Arial, sans-serif;
   list-style: none;
   margin: 0;
-  /* 28px on the left for icon or checkbox; 7em on the right for shortcut. */
-  padding: 4px 7em 4px 28px;
+  /* 38px on the left for icon or checkbox. */
+  padding: 6px 15px 6px 15px;
   white-space: nowrap;
 }
 
@@ -331,10 +332,10 @@
   padding-right: 28px;
 }
 
-/* If a menu doesn't have checkable items or items with icons, remove padding. */
+/* If a menu doesn't have checkable items or items with icons, remove left padding. */
 .goog-menu-nocheckbox .goog-menuitem,
 .goog-menu-noicon .goog-menuitem {
-  padding-left: 12px;
+  padding-left: 16px;
 }
 
 /*
@@ -364,14 +365,10 @@
 /* State: hover. */
 .goog-menuitem-highlight,
 .goog-menuitem-hover {
-  background-color: #d6e9f8;
+  background-color: #eef1f2;
   /* Use an explicit top and bottom border so that the selection is visible
    * in high contrast mode. */
-  border-color: #d6e9f8;
-  border-style: dotted;
-  border-width: 1px 0;
-  padding-bottom: 3px;
-  padding-top: 3px;
+  border: none;
 }
 
 /* State: selected/checked. */
@@ -1049,10 +1046,9 @@
 /* Dropdown style. */
 .goog-toolbar-menu-button-dropdown {
   width: 20px;
-  /* Client apps may override the URL at which they serve the sprite. */
   background: url("gmailUI/baseline-arrow_drop_down-24px.svg");
   vertical-align: top;
-  display: none;
+  background-position: 0px;
 }
 
 /*
@@ -1479,6 +1475,20 @@ div.tr_multi_bubble div.tr_bubble_panel {
 .tr-attach-file {
   background: url("gmailUI/baseline-attach_file-24px.svg");
 }
+
+/* Variables picker */
+
+/* .mailmeteor-variables-picker .goog-toolbar-menu-button-caption {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  padding: 0;
+  background: url("gmailUI/baseline-merge_fields-24px.svg");
+}
+
+.mailmeteor-variables-picker .goog-toolbar-menu-button-dropdown {
+  display: none;
+} */
 
 /* Insert drawing.
 .tr-newDrawing {
