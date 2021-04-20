@@ -1226,15 +1226,14 @@
 
 div.tr_bubble {
   position: absolute;
-
-  background-color: #e0ecff;
-  border: 1px solid #99c0ff;
+  border: 1px solid #eaeaea;
+  background-color: #f7f8f8;
+  padding: 2px 25px 6px 6px;
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   font-size: 83%;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 2px 19px 6px 6px;
   white-space: nowrap;
 }
 
@@ -1253,14 +1252,22 @@ div.tr_bubble {
 
 .tr_bubble_closebox {
   position: absolute;
-  cursor: default;
-  background: url(//ssl.gstatic.com/editor/bubble_closebox.gif) top left no-repeat;
+  cursor: pointer;
+  background: url("//cdn.jsdelivr.net/gh/frenchcooc/mailmeteor-landing@7.0.15/dist/img/icons/close.svg") center center no-repeat;
+  background-position: center center;
+  background-size: 8px;
   padding: 0;
   margin: 0;
   width: 10px;
   height: 10px;
-  top: 3px;
+  top: 10px;
   right: 5px;
+  opacity: 0.5;
+}
+
+.tr_bubble_closebox:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 div.tr_bubble_panel {
