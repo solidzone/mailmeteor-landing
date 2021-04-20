@@ -727,11 +727,9 @@
  */
 
 .goog-toolbar {
-  /* Client apps may override the URL at which they serve the image. */
   background: white;
-  /* border-bottom: 1px solid #d5d5d5; */
   cursor: default;
-  font: normal 12px Arial, sans-serif;
+  font: normal 13px Arial, sans-serif;
   margin: 0;
   outline: none;
   padding: 2px;
@@ -875,7 +873,7 @@
 .goog-toolbar-button-selected .goog-toolbar-button-inner-box {
   /* Hover border style wins over active/checked/selected. */
   border-color: transparent !important;
-  background-color: #e4e4e4 !important;
+  background-color: #eef1f2 !important;
 }
 
 /* Pill (collapsed border) styles. */
@@ -1034,7 +1032,7 @@
 .goog-toolbar-menu-button-open .goog-toolbar-menu-button-outer-box,
 .goog-toolbar-menu-button-open .goog-toolbar-menu-button-inner-box {
   border-color: transparent !important;
-  background-color: #e4e4e4 !important;
+  background-color: #eef1f2 !important;
 }
 
 /* Menu button caption style. */
@@ -1089,7 +1087,7 @@
 .goog-toolbar-select .goog-toolbar-menu-button-outer-box,
 .goog-toolbar-select .goog-toolbar-menu-button-inner-box {
   border-color: transparent !important;
-  background-color: #e4e4e4 !important;
+  background-color: #eef1f2 !important;
 }
 
 /*
