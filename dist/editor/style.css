@@ -1478,7 +1478,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Insert image. */
 .tr-image {
-  background: url("gmailUI/baseline-photo-24px.svg");
+  background: url("gmailUI/baseline-photo_outline-24px.svg");
 }
 
 /* Attach file. */
