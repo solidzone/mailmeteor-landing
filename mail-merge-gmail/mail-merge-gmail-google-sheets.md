@@ -23,7 +23,7 @@ permalink: /mail-merge-gmail/google-sheets
 
 Did you know you can mail merge in Gmail using [Google Sheets](https://www.google.com/sheets/about/), one of the world’s most popular pieces of spreadsheet software?
 
-Whether you’re a professional, an organization, a teacher or just a regular person looking to reach a load of your contacts with just one email, a mail merge in Gmail is a helpful tool to help you do that with just one click of the mouse.
+Whether you’re a professional, an organization, a teacher or just a regular person looking to reach a load of your contacts with just one email, a mail merge in Gmail is a helpful tool to help you do that with just one click.
 
 ![Mail merge in Gmail using Google Sheets](/assets/img/blog/mail-merge-gmail/google-sheets/mail-merge-gmail-from-google-sheets.png){:class="no-shadow"}{:width="600px" height="215px"}
 
@@ -31,13 +31,13 @@ Done correctly, a mail merge can make your life a lot easier by drawing up a lis
 
 ![Emails sent through a mail merge in Gmail](/assets/img/blog/mail-merge-gmail/google-sheets/mail-merge-gmail-emails-sent.png){:class="no-shadow"}{:width="600px" height="397px"}
 
-In this blog, we’re going to answer your big questions about **using Google Sheets to mail merge in Gmail**, offering some advice on what the best methods are and what extra features you can take advantage of with your emails. Read on to find out more!
+In this blog, we’re going to answer your questions about **using Google Sheets to mail merge in Gmail**, offering some advice on what the best methods are and what extra features you can take advantage of with your emails. Read on to find out more!
 
 ## Can you mail merge from Google Sheets?
 
 It's possible to mail merge emails in Gmail using Google sheets. With a little help from Google add-ons, it’s the easiest thing in the world.
 
-All you need is a Google account with Gmail or a Google Workspace account., Once you have those things set up, mail merging is a simple and efficient process.
+All you need is a Google account with Gmail or a Google Workspace account. Once you have everything set up, mail merging is a simple and efficient process.
 
 <video autoplay muted loop playsinline>
   <source src="/assets/img/blog/mail-merge-gmail/what-is-mail-merge-gmail.mp4" alt="Combining Gmail and Google Sheets to send personalized emails"/>
@@ -69,9 +69,9 @@ For more information on how to mail merge in Gmail using Google Sheets, we’ve 
 
 ## Why is mail merging with Google Sheets the best option for my mail merge?
 
-Perhaps the best thing about mail merging using Google Sheets is that an add-on like Mailmeteor can provide a range of special and advanced features, designed to help you get the most out of every mail merge email you send.
+Perhaps the best thing about mail merging using Google Sheets is that an add-on like [Mailmeteor](/) can provide a range of special and advanced features, designed to help you get the most out of every mail merge email you send.
 
-Find below some concretes examples of what you can achieve by combining the power of Google Sheets and Gmail:
+Find below some concrete examples of what you can achieve by combining the power of Google Sheets and Gmail:
 
 - **Personalizing emails** – Once you have your email template, you can personalize all of your emails with Mailmeteor variables stored in your Google Sheets spreadsheet, letting you add a human touch to every message in the mail merge to foster new relationships and improve your open rates.
 
@@ -89,7 +89,7 @@ Find below some concretes examples of what you can achieve by combining the powe
 
   ![Mail merge with attachments in Google Sheeets](/assets/img/blog/mail-merge-gmail/google-sheets/google-sheets-add-attachments.png){:width="600px" height="386px"}
 
-- **Segmented contact mail merges** – By filtering your Google Sheets spreadsheet, you can split up and mail merge to different segments of your contact list according to different metrics, such as those who didn’t open your last mail merge email for example, or those who took the time to respond.
+- **Segmented contact mail merges** – By filtering your Google Sheets spreadsheet, you can split up and mail merge to different segments of your contact list according to different metrics, such as people who didn’t open your last mail merge email, or those who took the time to respond.
 
   ![Filter recipients in Google Sheets to follow-up on email conversation](/assets/img/blog/mail-merge-gmail/google-sheets/google-sheets-filter-recipients-rows.png){:width="600px" height="391px"}
 
@@ -97,7 +97,7 @@ You can go even further with advanced Gmail merge features inside Google Sheets:
 
 - **Simple unsubscribe function** – The unsubscribe feature makes unsubscriptions from your mail merge lists easy for your contacts, helping you improve your standing with Gmail and reduce the chances of your emails being labelled as spam. Your Google Sheet will keep track of each person that unsubscribes from your email.
 
-- **Scheduled mail merges** – If you’re setting up your email campaign in advance, being able to schedule your mail merge can take a lot of work off your back. Mailmeteor lets you schedule your Gmail mail merge from Google Sheets to the exact date and time you want your emails sent.
+- **Scheduled mail merges** – If you’re setting up your email campaign in advance, being able to schedule your mail merge can take a lot of work off your back. Mailmeteor lets you schedule your Gmail mail merge from Google Sheets to the exact date and time you want your emails to be sent.
 
 - **CRM integration** – Mailmeteor’s CRM integration lets you effortlessly connect your Google Sheets mail merges with all of the most popular CRMs on the market, such as Salesforce or Hubspot.
 
