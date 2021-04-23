@@ -12,7 +12,7 @@ meta_image: >-
 og_title: "Getting started with Mail Merge in Gmail using Google Sheets"
 og_description: Learn how to send personalized emails using Gmail and a Google Sheets spreadsheet with our guide on Mail merge in Gmail using Google Sheets.
 og_url: https://mailmeteor.com/mail-merge-gmail/google-sheets
-og_image: https://mailmeteor.com/assets/img/opengraph/blog-mail-merge-gmail.jpg
+og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-google-sheets.jpg
 
 meta_date_published: "April 22, 2021"
 meta_date_lastupdated: "April 22, 2021"

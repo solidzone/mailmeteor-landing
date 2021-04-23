@@ -12,7 +12,7 @@ meta_image: >-
 og_title: "How to mail merge in Gmail (2021 tutorial)"
 og_description: Learn how to send personalized emails with Mail Merge in Gmail.
 og_url: https://mailmeteor.com/mail-merge-gmail/tutorial
-og_image: https://mailmeteor.com/assets/img/opengraph/blog-mail-merge-gmail.jpg
+og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-tutorial.jpg
 
 meta_date_published: "April 6, 2021"
 meta_date_lastupdated: "April 12, 2021"
