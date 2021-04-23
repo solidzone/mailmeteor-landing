@@ -203,17 +203,34 @@ body.blogpost {
  * Blog > homepage
  */
 
-.blog-article-featured {
-  padding: 3rem;
-  border-bottom: 1px solid #eee;
-}
-
-.blog-article-row {
+.blog-home-row {
   text-align: center;
   padding: 3rem;
   border-bottom: 1px solid #eee;
 }
 
-.blog-article-row:last-of-type {
+.blog-home-row:last-of-type {
   border-bottom: none;
+}
+
+.blog-home-featured {
+  padding: 3rem;
+  border-bottom: 1px solid #eee;
+}
+
+.blog-home-excerpt {
+  font-stretch: condensed;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.blog-home-title {
+  color: #054ada;
+}
+
+@media (min-width: 992px) {
+  .blog-home-headings {
+    padding: 0 140px;
+  }
 }
