@@ -1492,17 +1492,20 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Variables picker */
 
-/* .mailmeteor-variables-picker .goog-toolbar-menu-button-caption {
+.goog-toolbar-menu-button-caption .tr-variables {
+  visibility: hidden;
+  position: relative;
+}
+.goog-toolbar-menu-button-caption .tr-variables::after {
   width: 24px;
   height: 24px;
-  vertical-align: middle;
   padding: 0;
   background: url("gmailUI/baseline-merge_fields-24px.svg");
+  content: "";
+  display: inline-block;
+  position: absolute;
+  visibility: visible;
 }
-
-.mailmeteor-variables-picker .goog-toolbar-menu-button-dropdown {
-  display: none;
-} */
 
 /* Insert drawing.
 .tr-newDrawing {
