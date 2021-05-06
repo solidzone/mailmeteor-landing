@@ -82,9 +82,9 @@ footer:
     links:
       blog:
         url: "/blog/"
-        en: "Mailmeteor blog"
-        fr: "Mailmeteor blog"
-        es: "Mailmeteor blog"
+        en: "Mailmeteor Blog"
+        fr: "Mailmeteor Blog"
+        es: "Mailmeteor Blog"
       blog-mail-merge:
         url: "/mail-merge-gmail/"
         en: "Mail merge Gmail guide"
@@ -98,8 +98,18 @@ footer:
       alternative:
         url: "/alternative/"
         en: "Mail merge tools"
-        fr: "Comparaison"
-        es: "Comparación"
+        fr: "Outils de publipostage"
+        es: "Herramientas de combinación"
+      alternative-yamm:
+        url: "/alternative/yetanothermailmerge"
+        en: "Compare with YAMM"
+        fr: "Comparaison avec YAMM"
+        es: "Comparación con YAMM"
+      alternative-gmass:
+        url: "/alternative/gmass"
+        en: "Compare with GMass"
+        fr: "Comparaison avec GMass"
+        es: "Comparación con GMass"
   support:
     title:
       en: "Support"
