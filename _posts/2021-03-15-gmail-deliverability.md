@@ -39,7 +39,7 @@ Gmail is always on the lookout for spammy email accounts that are designed to fl
 
 Since most of these are sent from brand new accounts or accounts that have been inactive for a while, it stands to reason that however respectable your intentions may be with your campaign, sending emails from a new account can drag your deliverability right down.
 
-To counter this, make sure your email account is nicely warmed up. Start with a few emails to a small group of recipients (20-50 people) and try to focus on open rates and engagement. As time goes on and results go up, start to grow your lists as you go, keeping the [best practices recommended by Google ](https://support.google.com/mail/answer/81126?hl=en){:rel="nofollow noreferrer"}in mind at all times.
+If you want to send bulk emails in Gmail without getting blocked, make sure your email account is nicely warmed up. Start with a few emails to a small group of recipients (20-50 people) and try to focus on open rates and engagement. As time goes on and results go up, start to grow your lists as you go, keeping the [best practices recommended by Google ](https://support.google.com/mail/answer/81126?hl=en){:rel="nofollow noreferrer"}in mind at all times.
 
 ## 2. Collect responses and reply back
 
