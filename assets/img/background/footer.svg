@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1943 575" style="enable-background:new 0 0 1943 575;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:url(#Path_1_);}
-</style>
-<radialGradient id="Path_1_" cx="1763.6461" cy="2.3789" r="2.2961" gradientTransform="matrix(3.538028e-14 574.4885 -577.8039 3.517727e-14 2296.1931 -1013591.75)" gradientUnits="userSpaceOnUse">
-	<stop  offset="0" style="stop-color:#1916D6"/>
-	<stop  offset="1" style="stop-color:#0A0873"/>
-</radialGradient>
-<path id="Path" class="st0" d="M1947.7,114.3c-1-0.1-2.1-0.2-3.1-0.3c-33-3.1-67.1-7.6-104.2-13.4c-62.1-9.9-124-22.6-182.1-34.8
-	c-65.6-13.7-141.8-29.4-218.9-41.8C1301.1,2,1187.6-4.6,1081.7,3.1c-90,6.7-170.9,29.4-249.1,51.5c-28.1,7.9-56.7,16-85.5,23.3
-	c-122.7,30.9-239.6,35.9-367.6,15.5c-3.7-0.5-7.5-1.2-11.3-1.9C307.2,81.2,248,66.8,191.2,53C130.8,38.4,68.4,23.1,4,13.1
-	c-3.2-0.5-6.3-1-9.5-1.5v562.9h1953.1V114.3L1947.7,114.3z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1943 575"><radialGradient id="A" cx="2095.771" cy="645.047" r="2.296" gradientTransform="matrix(3.538028e-14 577.9316 577.8039 -3.538810e-14 -371788.7188 -1211612.25)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1916d6"/><stop offset="1" stop-color="#0a0873"/></radialGradient><path d="M1947.7 115l-3.1-.3c-33-3.1-67.1-7.6-104.2-13.5-62.1-10-124-22.7-182.1-35-65.6-13.8-141.8-29.6-218.9-42.1-138.3-22.1-251.8-28.7-357.7-21-90 6.7-170.9 29.6-249.1 51.8l-85.5 23.4C624.4 109.5 507.5 114.5 379.5 94c-3.7-.5-7.5-1.2-11.3-1.9-61-10.4-120.2-24.8-177-38.7C130.8 38.6 68.4 23.2 4 13.2l-9.5-1.5V578h1953.1l.1-463h0z" fill="url(#A)"/></svg>
