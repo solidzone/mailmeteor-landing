@@ -3,8 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <meta name="google-site-verification" content="TShcwwV_esZ98tyJWg6fRMCTDcjUwGnfGBu087vga3M" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta
+      name="google-site-verification"
+      content="TShcwwV_esZ98tyJWg6fRMCTDcjUwGnfGBu087vga3M"
+    />
     <link rel="icon" href="/assets/img/brand/favicon.ico" type="image/x-icon" />
 
     <title>{{ page.title }}</title>
@@ -38,33 +44,66 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/css/main-20210417.css" />
+    <link rel="stylesheet" href="/assets/css/main-20210511.css" />
     <link rel="stylesheet" href="/assets/css/blog.css" />
   </head>
   <body class="blogpost">
-    <article itemid="{{ page.canonical }}" itemscope itemtype="https://schema.org/BlogPosting">
+    <article
+      itemid="{{ page.canonical }}"
+      itemscope
+      itemtype="https://schema.org/BlogPosting"
+    >
       <header class="blogpost-header">
         <div class="container">
           <nav class="row">
             <div class="col-xs-12 col-md-6 col-lg-8">
-              <a href="/"><img src="/assets/img/brand/logo_mailmeteor_white.svg" alt="Mailmeteor logo" id="logo" /></a>
+              <a href="/"
+                ><img
+                  src="/assets/img/brand/logo_mailmeteor_white.svg"
+                  alt="Mailmeteor logo"
+                  id="logo"
+              /></a>
             </div>
-            <div class="col-md-6 col-lg-4 blogpost-header-tagline d-none d-md-block">
-              Brought to you by <a href="/">Mailmeteor</a>, the best rated mail merge tool for Gmail.
+            <div
+              class="
+                col-md-6 col-lg-4
+                blogpost-header-tagline
+                d-none d-md-block
+              "
+            >
+              Brought to you by <a href="/">Mailmeteor</a>, the best rated mail
+              merge tool for Gmail.
             </div>
           </nav>
           <div class="text-center">
-            <img itemprop="image" src="{{page.meta_image}}" class="blogpost-header-image" />
+            <img
+              itemprop="image"
+              src="{{page.meta_image}}"
+              class="blogpost-header-image"
+            />
             <h1 itemprop="headline">{{ page.title}}</h1>
             <div class="blogpost-header-meta">
-              <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-                <a itemprop="url" href="{{ page.meta_author_link }}" target="_blank" rel="author">
+              <span
+                itemprop="author"
+                itemscope
+                itemtype="https://schema.org/Person"
+              >
+                <a
+                  itemprop="url"
+                  href="{{ page.meta_author_link }}"
+                  target="_blank"
+                  rel="author"
+                >
                   <span itemprop="name">{{ page.meta_author }}</span>
                 </a>
               </span>
               -
-              <span itemprop="datePublished" class="d-none">Published: {{ page.date_published }}</span>
-              <span itemprop="dateModified">Updated: {{ page.meta_date_lastupdated }}</span>
+              <span itemprop="datePublished" class="d-none"
+                >Published: {{ page.date_published }}</span
+              >
+              <span itemprop="dateModified"
+                >Updated: {{ page.meta_date_lastupdated }}</span
+              >
             </div>
           </div>
         </div>
@@ -75,7 +114,9 @@
             <div style="font-weight: bold">Contents</div>
             {% include blogpost-toc.html html=content h_max=2 %}
           </aside>
-          <main class="col-lg-8 col-xs-12">{% include blogpost-lazyimages.html html=content %}</main>
+          <main class="col-lg-8 col-xs-12">
+            {% include blogpost-lazyimages.html html=content %}
+          </main>
           <aside class="col-lg-2 d-none d-lg-block pl-3 pr-0">
             <div class="blogpost-share">
               <span class="d-block font-weight-bold">Share this article</span>
@@ -88,7 +129,10 @@
                     target="_blank"
                     class="blogpost-share-btn"
                   >
-                    <img src="/assets/img/icons/share-twitter.svg" alt="Share on Twitter" />
+                    <img
+                      src="/assets/img/icons/share-twitter.svg"
+                      alt="Share on Twitter"
+                    />
                   </a>
                 </li>
                 <!-- <li>
@@ -104,21 +148,28 @@
                     target="_blank"
                     class="blogpost-share-btn"
                   >
-                    <img src="/assets/img/icons/share-linkedin.svg" alt="Share on LinkedIn" />
+                    <img
+                      src="/assets/img/icons/share-linkedin.svg"
+                      alt="Share on LinkedIn"
+                    />
                   </a>
                 </li>
               </ul>
             </div>
             <div class="blogpost-aside-cta">
               <p class="font-weight-bold text-center">
-                {{ page.cta_title | default: 'Try the best mail merge tool for Gmail'}}
+                {{ page.cta_title | default: 'Try the best mail merge tool for
+                Gmail'}}
               </p>
               <a
                 href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301"
                 class="btn btn-outline p-1"
                 >Get started →</a
               >
-              <img src="/assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png" style="max-width: 100%" />
+              <img
+                src="/assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png"
+                style="max-width: 100%"
+              />
             </div>
           </aside>
         </div>
@@ -130,7 +181,8 @@
     <script>
       // Share post on social networks
       function sharePost() {
-        var socialButtons = document.getElementsByClassName("blogpost-share-btn");
+        var socialButtons =
+          document.getElementsByClassName("blogpost-share-btn");
         for (var i = 0; i < socialButtons.length; i++) {
           var btn = socialButtons[i];
           btn.addEventListener("click", function (e) {
