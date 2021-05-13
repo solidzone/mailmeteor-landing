@@ -34,7 +34,7 @@ endfor %} {% assign appsCounter = apps.size %}
 
     {% for app in apps %}
 
-    <div class="gapps-product-card" id="{{ app.title | slugify }}">
+    <div class="gapps-products-page-card" id="{{ app.title | slugify }}">
       <img
         src="{{ app.image }}"
         alt="Logo of {{ app.title | escape }}"
@@ -44,7 +44,7 @@ endfor %} {% assign appsCounter = apps.size %}
       />
       <h3>{{ app.title }}</h3>
       {% if app.title != app.author %}
-      <p class="gapps-product-card-subtitle">{{ app.author }}</p>
+      <p class="gapps-products-page-card-subtitle">{{ app.author }}</p>
       {% endif %}
       <p>
         <svg
