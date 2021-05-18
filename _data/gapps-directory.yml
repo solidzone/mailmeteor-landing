@@ -4,13 +4,23 @@
 
 categories:
   - title: Gmail
+    description: Best Gmail apps to save time on emails.
   - title: Google Docs
+    description: Best Google apps to do more with Docs.
   - title: Google Sheets
+    description: Best apps to supercharge spreadsheets.
   - title: Google Drive
+    description: Drive me crazy!
   - title: Google Calendar
+    description: It's never too late.
   - title: Google Slides
+    description: Forget about Powerpoint.
   - title: Google Forms
+    description: Formidable forms apps
   - title: Google Workspace
+    description: Best tools for your Google suite
+  - title: Top 100
+    description: Most popular Google apps
   - title: Mail merge Gmail
   - title: Business Tools
   - title: Accounting & Finance
