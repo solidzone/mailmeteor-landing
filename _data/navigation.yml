@@ -95,6 +95,17 @@ footer:
         en: "Gmail sending tips"
         fr: "Conseils d'utilisation"
         es: "Consejos de uso"
+      best-google-apps:
+        url: "/best-google-apps/"
+        en: "Best Google Apps"
+        fr: "Les meilleures apps Google"
+        es: "Las mejores apps de Google"
+  compare:
+    title:
+      en: "Compare"
+      fr: "Comparaison"
+      es: "Comparación"
+    links:
       alternative:
         url: "/alternative/"
         en: "Mail merge tools"
@@ -110,11 +121,6 @@ footer:
         en: "Compare with GMass"
         fr: "Comparaison avec GMass"
         es: "Comparación con GMass"
-      best-google-apps:
-        url: "/best-google-apps/"
-        en: "Best Google Apps"
-        fr: "Les meilleures apps Google"
-        es: "Las mejores apps de Google"
   support:
     title:
       en: "Support"
@@ -127,11 +133,10 @@ footer:
         fr: "Documentation"
         es: "Documentación"
       contact:
-        url: "https://support.mailmeteor.com/help/contact-support"
+        url: "https://support.mailmeteor.com/help/contact-support?utm_source=mailmeteor.com"
         en: "Contact"
         fr: "Nous contacter"
         es: "Contactarnos"
-
   transparency:
     title:
       en: "Transparency"
