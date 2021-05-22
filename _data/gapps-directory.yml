@@ -5,26 +5,37 @@
 categories:
   - title: Gmail
     description: Best Gmail apps to save time on emails.
+    image: /assets/img/articles/best-google-apps/gmail-logo.webp
   - title: Google Docs
     description: Best Google apps to do more with Docs.
+    image: /assets/img/articles/best-google-apps/google-docs-logo.webp
   - title: Google Sheets
     description: Best apps to supercharge spreadsheets.
+    image: /assets/img/articles/best-google-apps/google-sheets-logo.webp
   - title: Google Drive
     description: Drive me crazy!
+    image: /assets/img/articles/best-google-apps/google-drive-logo.webp
   - title: Google Calendar
     description: It's never too late.
+    image: /assets/img/articles/best-google-apps/google-calendar-logo.webp
   - title: Google Slides
     description: Forget about Powerpoint.
+    image: /assets/img/articles/best-google-apps/google-slides-logo.webp
   - title: Google Forms
     description: Formidable forms apps
+    image: /assets/img/articles/best-google-apps/google-forms-logo.webp
   - title: Google Workspace
     description: Best tools for your Google suite
+    image: /assets/img/articles/best-google-apps/google-workspace-logo.webp
   - title: Top 100
     description: Most popular Google apps
+    image: /assets/img/articles/best-google-apps/top-100.webp
   - title: Mail merge Gmail
+    description: Best Mail Merge Apps for Gmail
   - title: Business Tools
   - title: Accounting & Finance
   - title: Administration & Management
+    description: Top admin & management apps
   - title: Logistics & ERP
   - title: HR
   - title: Legal
@@ -41,3 +52,71 @@ categories:
   - title: Teachers
   - title: Communication
   - title: Utilities
+  - title: Ads reporting
+  - title: Agenda
+  # - title: AWS
+  - title: Backup
+  - title: Billing
+  - title: Booking system
+  - title: Boost sales
+    description: Best apps to increase your sales
+  - title: Bulk Emails
+  - title: Calendar
+  - title: Calls
+  - title: Chromebook
+  - title: Cloud storage
+  - title: Colleges
+  - title: Conference
+  - title: Confirmation emails
+  - title: Contacts
+  - title: Customer support
+  # - title: Dashboard
+  - title: Data Protection
+  - title: Developers
+  - title: Dictionary
+  - title: Educators
+  - title: Email
+  - title: Email Campaigns
+  - title: Email Marketing
+  # - title: Email migration
+  - title: Email newsletters
+  - title: Email signature
+  - title: Email Tracking
+  # - title: Email Verification
+  - title: Excel
+    description: Switch from Excel to Sheets easily
+  - title: Extensions
+  - title: Follow Up Email
+  - title: Fonts
+  - title: Small Businesses
+  - title: Form builder
+  - title: Form notifications
+  - title: Free
+  - title: GANTT
+  - title: Google Admins
+  - title: Google Analytics
+  - title: Google Classroom
+  - title: Helpdesk
+  - title: Higher Education
+  # - title: Highlight tool
+  - title: Icons
+  - title: Invoice
+  - title: JIRA
+  - title: Mail merge documents
+  - title: Mail merge labels
+  - title: Mailchimp
+  - title: Mass emails
+  - title: Music
+  - title: No code
+  - title: Non Profits
+  - title: PDF
+  - title: Photo Editor
+  - title: QR codes
+  - title: Salesforce
+  - title: Scheduling
+  - title: Schools
+  - title: SEO
+  - title: SMS
+  - title: Spelling & Grammar
+  - title: Timer
+  - title: Workflow automation

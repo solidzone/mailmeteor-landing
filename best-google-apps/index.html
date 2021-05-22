@@ -30,12 +30,15 @@ og_description: Choose from 100+ hand-curated collections of free & paid Google 
     {% for category in site.data.gapps-directory.categories %}
     <div class="gapps-categories-card" >
       <a href="{{ category.title | replace: '&', '' | slugify }}">
+        {% if category.image %}
+            <img class="mx-auto" src="{{ category.image }}" alt="{{ category.title | replace: '&', '' | slugify }}"/>
+        {% endif %}
         <h2 itemprop="itemListElement">{{ category.title }}</h2>
         <p style="text-transform: capitalize">
           {% if category.description %}
             {{ category.description }} 
           {% else %}
-             The best {{ category.title }} apps
+             Best {{ category.title }} apps
           {% endif %}
         </p>
         <span>
