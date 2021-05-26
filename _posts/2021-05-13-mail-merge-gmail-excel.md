@@ -2,22 +2,22 @@
 layout: blogpost
 title: "How to create a mail merge in Gmail from an Excel file?"
 description: Learn how to send hundreds of emails in Gmail, using an Excel file, thanks to Mailmeteor, a mail merge tool that integrates with Google Sheets and Gmail.
-cta_title: Find out why Mailmeteor is the best rated mail merge tool for Gmail
+cta_title: Send a mail merge in Gmail from Excel with Mailmeteor
 canonical: https://mailmeteor.com/mail-merge-gmail/excel
 category: TUTORIAL
 
 meta_author: Corentin Brossault
 meta_author_link: "https://twitter.com/frenchcooc"
 meta_image: >-
-  /assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png
+  /assets/img/blog/mail-merge-gmail-excel/mail-merge-gmail-excel.webp
 
 og_title: "How to create a mail merge in Gmail from an Excel file?"
 og_description: Learn how to send hundreds of emails in Gmail, using an Excel file, thanks to Mailmeteor, a mail merge tool that integrates with Google Sheets and Gmail.
 og_url: https://mailmeteor.com/mail-merge-gmail/
-og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail.jpg
+og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-excel.jpg
 
 meta_date_published: "May 13, 2021"
-# meta_date_lastupdated: "April 8, 2021"
+meta_date_lastupdated: "May 13, 2021"
 published: true
 
 permalink: /mail-merge-gmail/excel
@@ -86,11 +86,11 @@ Whenever you're ready, click on "Send emails" and your emails will shortly be se
 
 It has never been so easy to send a mail merge from Gmail - even with an Excel file!
 
-<div style="padding: 3rem; background-color: #7da4ff17; margin: 1rem 0">
+<div class="blogpost-endnote">
   This guide was written by the team at Mailmeteor. <a href="https://mailmeteor.com">Mailmeteor is an award-winning mail merge solution</a>, ranked as the best-rated Google add-on. Give us a try and let us know what you think ;-)
   <br>
   <br>
-  <p><a href="https://mailmeteor.com" class="font-weight-bold">Try Mailmeteor, mail merge for Gmail</a></p>
+  <p><a href="https://mailmeteor.com" class="font-weight-bold">Try Mailmeteor to mail merge in Gmail from Excel</a></p>
 </div>
 
 <div class="blogpost-related-articles">

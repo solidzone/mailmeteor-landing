@@ -163,7 +163,7 @@ We are the top-rated Gmail mail merge tool on the market today, trusted by 2 mil
 
 We priorities efficiency, privacy, and results above everything else, with easy-to-create email templates, contacts brought straight from Google Sheets, and complete personalization options for deliverability-boosting practices.
 
-<div style="padding: 3rem; background-color: #7da4ff17; margin: 1rem 0">
+<div class="blogpost-endnote">
   This guide was written by Jean Dubrulle, Mailmeteor’s founder. <a href="https://mailmeteor.com">Mailmeteor is an award-winning mail merge solution</a>, ranked as the best-rated Google add-on. Give us a try and let us know what you think ;-)
 
   <br>

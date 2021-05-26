@@ -66,7 +66,7 @@ Before you go, here are two things to keep in mind when using Gmail as an email 
 1. **Be sure to abide by [Gmail bulk senders guidelines](https://support.google.com/mail/answer/81126?hl=en){:rel="nofollow noreferrer"}.** Especially, note that you are limited to send a reasonable amount of emails per day. If you have a `@gmail.com` email address, you can send at most 500 emails/day while with a Google Workspace account, you sending limit hits 2000 emails per day. That's probably well enough for 99% of Gmail users, but it's good to have in mind those limits.
 2. If you are looking for more a advanced script, for example that let you send personalized emails (e.g. `Hi \{\{ firstname \}\}`), I'd recommend you to use a Gmail mail merge tool such a [Mailmeteor](/) that does it for you. It already handles personalization, as well as dozens of features from attachments to aliases. Learn more about the [features and benefits of Mailmeteor here](/features).
 
-<div style="padding: 3rem; background-color: #7da4ff17; margin: 1rem 0">
+<div class="blogpost-endnote">
   This guide was written by Corentin Brossault, Mailmeteor’s founder. <a href="https://mailmeteor.com">Mailmeteor is an award-winning mail merge solution</a>, ranked as the best-rated Google add-on. Give us a try and let us know what you think ;-)
   <br>
   <br>

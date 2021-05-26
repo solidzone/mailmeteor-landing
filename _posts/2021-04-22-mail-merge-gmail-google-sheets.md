@@ -122,7 +122,7 @@ We’re proud to be the 2021 [best mail merge add-on](https://mailmeteor.com/mai
 
 With personalization, tracking, HTML and CRM support, address alias functions, scheduling and more, this is **mail merging made simple**.
 
-<div style="padding: 3rem; background-color: #7da4ff17; margin: 1rem 0">
+<div class="blogpost-endnote">
   This guide was written by Jean Dubrulle, Mailmeteor’s founder. <a href="https://mailmeteor.com">Mailmeteor is an award-winning mail merge solution</a>, ranked as the best-rated Google add-on. Give us a try and let us know what you think ;-)
   <br>
   <br>

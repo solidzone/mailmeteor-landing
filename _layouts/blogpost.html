@@ -76,11 +76,13 @@
             </div>
           </nav>
           <div class="text-center">
+            {% if page.meta_image %}
             <img
               itemprop="image"
               src="{{page.meta_image}}"
               class="blogpost-header-image"
             />
+            {% endif %}
             <h1 itemprop="headline">{{ page.title}}</h1>
             <div class="blogpost-header-meta">
               <span

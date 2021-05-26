@@ -94,7 +94,7 @@ Mailmeteor is the top-rated Google mail merge add-on, designed to make mail merg
 
    Here's a template you can copy-paste:
 
-   <div style="padding: 3rem; background-color: #7da4ff17; margin: 1rem 0">
+   <div class="blogpost-endnote">
    <p>Hello {% raw %}{{ firstname }}{% endraw %},</p>
 
    <p>I'm glad we could meet lately. As discussed, we are using a brand new mail merge solution called Mailmeteor.</p>
@@ -173,7 +173,7 @@ Because of this, opting to send emails with a highly-rated mail merge add-on lik
 
 Learn more about the [features and benefits of Mailmeteor here](/features).
 
-<div style="padding: 3rem; background-color: #7da4ff17; margin: 1rem 0">
+<div class="blogpost-endnote">
   This guide was written by Jean Dubrulle, Mailmeteor’s founder. <a href="https://mailmeteor.com">Mailmeteor is an award-winning mail merge solution</a>, ranked as the best-rated Google add-on. Give us a try and let us know what you think ;-)
 
   <br>

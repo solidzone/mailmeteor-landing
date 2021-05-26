@@ -17,7 +17,7 @@ og_url: https://mailmeteor.com/mail-merge-gmail/
 og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail.jpg
 
 meta_date_published: "February 17, 2021"
-meta_date_lastupdated: "April 8, 2021"
+meta_date_lastupdated: "May 26, 2021"
 published: true
 
 permalink: /mail-merge-gmail/
@@ -275,7 +275,7 @@ To insert a variable it’s easy: add variables using double brackets like this 
 
 Here is a template you can copy-paste:
 
-<div style="padding: 3rem; background-color: #7da4ff17; margin: 1rem 0">
+<div class="blogpost-endnote">
 <p>Hello {% raw %}{{ firstname }}{% endraw %},</p>
 
 <p>I'm glad we could meet lately. As discussed, we are using a brand new mail merge solution called Mailmeteor.</p>
@@ -480,7 +480,7 @@ Here’s what’s happening in the background: the file will be downloaded from 
 
 What if I want to send personalized attachments using a mail merge in Gmail?
 
-Tools like Mailmeteor or Mail merge with attachments will let you mail merge personalized attachments. It’s perfect when you want to send different attachments when emailing multiple recipients.
+Tools like Mailmeteor or Mail merge with attachments will let you mail merge personalized attachments. It’s perfect when you want to send different attachments when emailing multiple recipients. If you want to learn more, we wrote a dedicated article about [mail merge in Gmail with attachments](/mail-merge-gmail/with-attachment).
 
 #### Mail merge Gmail Cc and Bcc
 
@@ -874,7 +874,7 @@ So that’s it for our guide to mail merge in 2021.
 
 We hope you now better understand this simple yet incredibly powerful tool called mail merge. No need to bother about costly and complicated emailing platforms anymore!
 
-<div style="padding: 3rem; background-color: #7da4ff17; margin: 1rem 0">
+<div class="blogpost-endnote">
   This guide was written by Jean Dubrulle, Mailmeteor’s founder. <a href="https://mailmeteor.com">Mailmeteor is an award-winning mail merge solution</a>, ranked as the best-rated Google add-on. Give us a try and let us know what you think ;-)
 
   <br>
@@ -888,4 +888,6 @@ We hope you now better understand this simple yet incredibly powerful tool calle
   <li><a href="/mail-merge-gmail/tutorial">How to mail merge in Gmail (2021 tutorial)</a></li>
   <li><a href="/mail-merge-gmail/script">Gmail Mail Merge Script Example using Google Apps Script</a></li>
   <li><a href="/mail-merge-gmail/google-sheets"> Getting started with Mail Merge in Gmail using Google Sheets</a></li>
+  <li><a href="/mail-merge-gmail/excel">How to create a mail merge in Gmail from an Excel file?</a></li>
+  <li><a href="/mail-merge-gmail/with-attachment">How to mail merge in Gmail with attachments or individual files</a></li>
 </ul>
