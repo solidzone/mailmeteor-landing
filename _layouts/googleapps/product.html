@@ -9,14 +9,26 @@ layout: default
     itemscope=""
     itemtype="https://schema.org/WebApplication"
   >
-    <a href="/best-google-apps/all/" class="is-small-purple">GOOGLE APPS DIRECTORY</a>
+    <a href="/best-google-apps/all/" class="is-small-purple"
+      >GOOGLE APPS DIRECTORY</a
+    >
     <div class="gapps-products-page-card mt-3">
-      <img src="{{ page.image }}" alt="Logo of {{ page.title | escape }}" style="max-width: 50px" />
+      <img
+        src="{{ page.image }}"
+        alt="Logo of {{ page.title | escape }}"
+        style="max-width: 50px"
+      />
       <h1 itemprop="name">{{ page.title }}</h1>
       {% if app.title != app.author %}
-      <p itemprop="author" class="gapps-products-page-card-subtitle">{{ app.author }}</p>
+      <p itemprop="author" class="gapps-products-page-card-subtitle">
+        {{ app.author }}
+      </p>
       {% endif %}
-      <p itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+      <p
+        itemprop="aggregateRating"
+        itemscope
+        itemtype="https://schema.org/AggregateRating"
+      >
         <svg
           width="20"
           height="20"
@@ -30,14 +42,22 @@ layout: default
             fill="url(#a)"
           ></path>
           <defs>
-            <linearGradient id="a" x1="8" y1=".185" x2="8" y2="13.815" gradientUnits="userSpaceOnUse">
+            <linearGradient
+              id="a"
+              x1="8"
+              y1=".185"
+              x2="8"
+              y2="13.815"
+              gradientUnits="userSpaceOnUse"
+            >
               <stop offset="0" stop-color="#FFEB83"></stop>
               <stop offset="1" stop-color="#FCBC14"></stop>
             </linearGradient>
           </defs>
         </svg>
         <span itemprop="ratingValue">{{ page.stars }}</span>/5 (out of
-        <span itemprop="reviewCount">{{ page.votes}}</span> reviews) • {{ page.installs}} installs
+        <span itemprop="reviewCount">{{ page.votes}}</span> reviews) • {{
+        page.installs}} installs
       </p>
       <p itemprop="description">{{ page.description }}</p>
       <a href="{{ page.link }}" itemprop="installUrl">
@@ -67,13 +87,18 @@ layout: default
   <div class="article-container">
     <div class="container">
       <h3 class="is-centered mt-5 mb-3">Browse Best Google Apps Collections</h3>
-      <p class="is-centered mb-5">Find more related apps in our handpicked collections</p>
+      <p class="is-centered mb-5">
+        Find more related apps in our handpicked collections
+      </p>
       <div class="gapps-directory container">
-        {% assign categories = site.data.gapps-directory.categories | sample: 6 %} {% for category in categories %}
+        {% assign categories = site.data.gapps-directory.categories | sample: 6
+        %} {% for category in categories %}
         <div class="gapps-categories-card">
           <a href="/best-google-apps/{{ category.title | slugify }}">
             <h2>{{ category.title }}</h2>
-            <p style="text-transform: capitalize">The best {{ category.title }} apps</p>
+            <p style="text-transform: capitalize">
+              The best {{ category.title }} apps
+            </p>
             <span>
               View
               <svg

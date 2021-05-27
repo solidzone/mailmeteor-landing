@@ -2,17 +2,24 @@
 layout: default
 ---
 
-{% assign apps = "" | split: ',' %} {% for app_id in page.apps %} {% for app_hash in site.data.googleapps %} {% assign
-app = app_hash[1] %} {% if app.id == app_id %} {% assign apps = apps | push: app %} {% endif %} {% endfor %} {% endfor
-%} {% assign appsCounter = apps.size %}
+{% assign apps = "" | split: ',' %} {% for app_id in page.apps %} {% for
+app_hash in site.data.googleapps %} {% assign app = app_hash[1] %} {% if app.id
+== app_id %} {% assign apps = apps | push: app %} {% endif %} {% endfor %} {%
+endfor %} {% assign appsCounter = apps.size %}
 
 <div itemscope="" itemtype="https://schema.org/ItemList">
-  <link itemprop="itemListOrder" href="https://schema.org/ItemListOrderDescending" />
+  <link
+    itemprop="itemListOrder"
+    href="https://schema.org/ItemListOrderDescending"
+  />
   <section class="m-3">
     <div class="container page-title">
       <a href="/best-google-apps/" class="is-small-purple">BEST GOOGLE APPS</a>
       <h1 itemprop="name">{{ page.heading | default: page.title }}</h1>
-      <p itemprop="description">{{ page.punchline | replace: "(X)", appsCounter | default: page.description }}</p>
+      <p itemprop="description">
+        {{ page.punchline | replace: "(X)", appsCounter | default:
+        page.description }}
+      </p>
     </div>
   </section>
 
@@ -39,12 +46,24 @@ app = app_hash[1] %} {% if app.id == app_id %} {% assign apps = apps | push: app
         itemscope=""
         itemtype="https://schema.org/WebApplication"
       >
-        <img src="{{ app.image }}" alt="Logo of {{ app.title | escape }}" width="50px" height="50px" loading="lazy" />
+        <img
+          src="{{ app.image }}"
+          alt="Logo of {{ app.title | escape }}"
+          width="50px"
+          height="50px"
+          loading="lazy"
+        />
         <h3 itemprop="name">{{ app.title }}</h3>
         {% if app.title != app.author %}
-        <p itemprop="author" class="gapps-products-page-card-subtitle">{{ app.author }}</p>
+        <p itemprop="author" class="gapps-products-page-card-subtitle">
+          {{ app.author }}
+        </p>
         {% endif %}
-        <p itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+        <p
+          itemprop="aggregateRating"
+          itemscope
+          itemtype="https://schema.org/AggregateRating"
+        >
           <svg
             width="20"
             height="20"
@@ -58,7 +77,14 @@ app = app_hash[1] %} {% if app.id == app_id %} {% assign apps = apps | push: app
               fill="url(#a)"
             ></path>
             <defs>
-              <linearGradient id="a" x1="8" y1=".185" x2="8" y2="13.815" gradientUnits="userSpaceOnUse">
+              <linearGradient
+                id="a"
+                x1="8"
+                y1=".185"
+                x2="8"
+                y2="13.815"
+                gradientUnits="userSpaceOnUse"
+              >
                 <stop offset="0" stop-color="#FFEB83"></stop>
                 <stop offset="1" stop-color="#FCBC14"></stop>
               </linearGradient>
@@ -68,7 +94,11 @@ app = app_hash[1] %} {% if app.id == app_id %} {% assign apps = apps | push: app
           <span itemprop="reviewCount">{{ app.votes}}</span> reviews)
         </p>
         <p itemprop="description">{{ app.description }}</p>
-        <a href="{{ app.link }}" class="d-inline-block pr-2" itemprop="installUrl">
+        <a
+          href="{{ app.link }}"
+          class="d-inline-block pr-2"
+          itemprop="installUrl"
+        >
           Google Workspace Marketplace link
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +115,11 @@ app = app_hash[1] %} {% if app.id == app_id %} {% assign apps = apps | push: app
             />
           </svg>
         </a>
-        <a href="/best-google-apps/all/{{ app.slug }}" class="d-inline-block" itemprop="sameAs">
+        <a
+          href="/best-google-apps/all/{{ app.slug }}"
+          class="d-inline-block"
+          itemprop="sameAs"
+        >
           More info
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -113,17 +147,23 @@ app = app_hash[1] %} {% if app.id == app_id %} {% assign apps = apps | push: app
     <div class="article-container">
       <div class="container">
         <p>
-          These are some of the best Google apps we found during our research. We hope one of these Google Workspace and
-          G Suite apps will be right one for your needs! If you have any suggestions,
+          These are some of the best Google apps we found during our research.
+          We hope one of these Google Workspace and G Suite apps will be right
+          one for your needs! If you have any suggestions,
           <a href="https://twitter.com/@mailmeteor">let us know</a>.
         </p>
-        <h3 class="is-centered mt-5 mb-3">Related Best Google Apps Collections</h3>
+        <h3 class="is-centered mt-5 mb-3">
+          Related Best Google Apps Collections
+        </h3>
         <div class="gapps-directory container">
-          {% assign categories = site.data.gapps-directory.categories | sample: 3 %} {% for category in categories %}
+          {% assign categories = site.data.gapps-directory.categories | sample:
+          3 %} {% for category in categories %}
           <div class="gapps-categories-card">
             <a href="/best-google-apps/{{ category.title | slugify }}">
               <h4>{{ category.title }}</h4>
-              <p style="text-transform: capitalize">The best {{ category.title }} apps</p>
+              <p style="text-transform: capitalize">
+                The best {{ category.title }} apps
+              </p>
               <span>
                 View
                 <svg

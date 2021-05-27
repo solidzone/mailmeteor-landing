@@ -30,8 +30,6 @@ categories:
   - title: Top 100
     description: Most popular Google apps
     image: /assets/img/articles/best-google-apps/top-100.webp
-  - title: Mail merge Gmail
-    description: Best Mail Merge Apps for Gmail
   - title: Business Tools
   - title: Accounting & Finance
   - title: Administration & Management
@@ -105,6 +103,8 @@ categories:
   - title: Mail merge documents
   - title: Mail merge labels
   - title: Mailchimp
+  - title: Mail merge Gmail
+    description: Best Mail Merge Apps for Gmail
   - title: Mass emails
   - title: Music
   - title: No code
