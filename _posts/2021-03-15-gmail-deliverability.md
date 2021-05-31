@@ -159,7 +159,7 @@ The solution is to stagger mass communications over several days. For large camp
 
 Those are some of our best tips for developing a watertight email deliverability strategy around your campaigns, but our final trick for getting your emails read and engaged with is to use a tailormade mail merge tool like [Mailmeteor](https://mailmeteor.com/).
 
-We are the top-rated Gmail mail merge tool on the market today, trusted by 2 million users, helping them land their emails in the inboxes of interested and switched-on customers.
+We are the top-rated Gmail mail merge tool on the market today, trusted by 2.5 million users, helping them land their emails in the inboxes of interested and switched-on customers.
 
 We priorities efficiency, privacy, and results above everything else, with easy-to-create email templates, contacts brought straight from Google Sheets, and complete personalization options for deliverability-boosting practices.
 
