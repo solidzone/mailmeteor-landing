@@ -206,7 +206,7 @@ We’ll cover both methods in this guide, even though we recommend using softwar
   <source src="/assets/video/mailmeteor_demo.mp4">
 </video>
 
-We’ll start with a real-life example to show you how to do a mail merge from Gmail using a Google Sheets add-on. In this example, we’re using [Mailmeteor](/), the best rated Google mail merge add-on.
+We’ll start with a real-life example to show you how to do a mail merge from Gmail using a Google Sheets add-on. In this example, we’re using [Mailmeteor](/), the best rated [Google mail merge add-on](/best-google-apps/mail-merge-gmail).
 
 #### 1. Get Mailmeteor
 
@@ -551,7 +551,7 @@ The most popular CRMs, such as Salesforce or Hubspot, offer to log conversations
 
 ### The 11 best mail merge add-ons for Gmail in 2021
 
-What are the best add-ons to send a merge mail in Gmail? We picked the best Google mail merge solutions offered on the Workplace Marketplace and ranked them by their average ratings out of 5. You’ll find different kinds of mail merge software: Google Workspace mail merge add-ons, Chrome mail merge extensions and sales platforms offering mail merge services.
+What are the best add-ons to send a merge mail in Gmail? We picked the best Google mail merge solutions offered on the Workplace Marketplace and ranked them by their average ratings out of 5. You’ll find different kinds of mail merge software: [Google Workspace mail merge add-ons](/best-google-apps/mail-merge-gmail), Chrome mail merge extensions and sales platforms offering mail merge services.
 
 <div class="blogpost-note">
   <p class="font-weight-bold">Top Gmail mail merge software in 2021</p> 
