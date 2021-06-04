@@ -158,3 +158,8 @@ footer:
         en: "Terms"
         fr: "Mentions légales"
         es: "Condiciones"
+      security:
+        url: "https://support.mailmeteor.com/help/privacy"
+        en: "Data protection"
+        fr: "Protection des données"
+        es: "Protección de datos"
