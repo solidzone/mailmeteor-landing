@@ -3,24 +3,47 @@
 <footer class="footer">
   <div class="py-5 footer-svg">
     <div class="container d-flex justify-content-center mt-5">
-      <img id="logo-bottom" src="/assets/img/brand/logo_mailmeteor_white.svg" alt="Mailmeteor footer logo" />
+      <img
+        id="logo-bottom"
+        src="/assets/img/brand/logo_mailmeteor_white.svg"
+        alt="Mailmeteor footer logo"
+      />
     </div>
     <div class="container d-flex justify-content-center mt-4">
       <div class="row">
         <div class="d-flex flex-row flex-wrap">
           {% for nav in site.data.navigation.footer %}
           <div class="mx-3 pb-3">
-            <p class="font-weight-bold is-white">{{ nav[1].title[page.lang] }}</p>
-            {% assign footerlinks = nav[1].links %} {% for link in footerlinks %} {% if link[1][page.lang] == 'ES / FR'
-            %}
+            <p class="font-weight-bold is-white">
+              {{ nav[1].title[page.lang] }}
+            </p>
+            {% assign footerlinks = nav[1].links %} {% for link in footerlinks
+            %} {% if link[1][page.lang] == 'ES / FR' %}
             <p><a href="/es/">ES</a> / <a href="/fr/">FR</a></p>
             {% else %}
             <p><a href="{{ link[1].url }}">{{ link[1][page.lang] }}</a></p>
             {% endif %} {% endfor %} {% if nav[0] == "transparency" %}
             <div class="row mx-auto pt-1 d-flex flex-column">
-              <svg xmlns="https://www.w3.org/2000/svg" width="100" height="42" viewBox="0 0 108 42" fill-rule="evenodd">
-                <rect stroke="#fff" fill="#fff" x=".5" y=".5" width="107" height="41" rx="6" />
-                <path d="M7 1h34v40H7a6 6 0 0 1-6-6V7a6 6 0 0 1 6-6z" fill="#2050e0" />
+              <svg
+                xmlns="https://www.w3.org/2000/svg"
+                width="100"
+                height="42"
+                viewBox="0 0 108 42"
+                fill-rule="evenodd"
+              >
+                <rect
+                  stroke="#fff"
+                  fill="#fff"
+                  x=".5"
+                  y=".5"
+                  width="107"
+                  height="41"
+                  rx="6"
+                />
+                <path
+                  d="M7 1h34v40H7a6 6 0 0 1-6-6V7a6 6 0 0 1 6-6z"
+                  fill="#2050e0"
+                />
                 <path
                   d="M21 7l.454 1.468h1.468l-1.188.907.454 1.468L21 9.935l-1.187.908.454-1.468-1.188-.907h1.468zm0 24.157l.454 1.468h1.468l-1.188.907.454 1.468L21 34.093 19.813 35l.454-1.468-1.188-.907h1.468zm6.04-21.96l.453 1.468h1.468l-1.188.908.454 1.468-1.187-.908-1.188.908.454-1.468-1.187-.908h1.468zM31.922 25l.453 1.468h1.468l-1.188.907.454 1.468-1.188-.907-1.188.907.454-1.468L30 26.468h1.468zm1.158-5.922l.453 1.468H35l-1.188.907.454 1.468-1.187-.907-1.188.907.454-1.468-1.188-.907h1.468zm-24.158 0l.453 1.468h1.468l-1.188.907.454 1.468-1.187-.907-1.188.907.454-1.468L7 20.546h1.468zm1 5.922l.453 1.468h1.468l-1.187.907.453 1.468-1.187-.907-1.188.907.454-1.468L8 26.468h1.468zm22-12l.453 1.468h1.468l-1.188.907.454 1.468-1.188-.907-1.188.907.454-1.468L30 14.468h1.468zm-21.5 0l.453 1.468h1.468l-1.187.907.453 1.468-1.187-.907-1.188.907.454-1.468-1.188-.907h1.468zm17.715 17.06l.453 1.468h1.468l-1.188.908.454 1.468-1.187-.907-1.188.907.454-1.468-1.188-.908h1.468zM14.96 9.196l.453 1.468h1.468l-1.188.908.454 1.468-1.188-.908-1.187.908.454-1.468-1.188-.908h1.468zM13.863 30.06l.454 1.468h1.468l-1.188.907.454 1.468-1.188-.907-1.187.907.454-1.468-1.188-.907H13.4z"
                   fill="#f8d12e"
@@ -80,7 +103,10 @@
   })();
 
   function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
       document.getElementById("navbar").classList.add("navbar-shadow");
     } else {
       document.getElementById("navbar").classList.remove("navbar-shadow");
@@ -107,7 +133,10 @@
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136395985-1"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-136395985-1"
+></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() {

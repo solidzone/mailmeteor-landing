@@ -60,6 +60,11 @@ footer:
       fr: "Entreprise"
       es: "Empresa"
     links:
+      about:
+        url: "/about"
+        en: "About us"
+        fr: "Notre histoire"
+        es: "Sobre nosotros"
       jobs:
         url: "mailto:jobs@mailmeteor.com"
         en: "We're hiring"
