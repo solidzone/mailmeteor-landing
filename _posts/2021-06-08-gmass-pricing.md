@@ -9,7 +9,7 @@ category: COMPARISON
 meta_author: Jean Dubrulle
 meta_author_link: "https://twitter.com/cuireuncroco"
 meta_image: >-
-  /assets/img/blog/gmass-pricing/gmass-logo-white.webp
+  /assets/img/blog/gmass-pricing/Gmass-logo-white.webp
 
 og_title: "Gmass Pricing and Plans (is it worth the money?)"
 og_description: Considering GMass but unsure if it’s worth the money? Read this pricing guide for details on GMass and discover its best alternative.
@@ -98,7 +98,7 @@ Now that you know how to send emails with GMass, here are a few things to consid
 
 So far, so good – but **how much does GMass really cost?** GMass pricing has two versions – one is the free version, the other is paid.
 
-![GMass pricing](/assets/img/blog/gmass-pricing/gmass-pricing.webp){:width="600px" height="388px"}
+![GMass pricing](/assets/img/blog/gmass-pricing/Gmass-pricing.webp){:width="600px" height="388px"}
 
 In terms of what you get for free, GMass gives you access to almost all of the features of the extension, though **you can only send messages in your mail merge to up to 50 people a day**.
 
