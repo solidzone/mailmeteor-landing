@@ -329,33 +329,33 @@ Here is the open-source code of the [script hosted on GitHub](https://github.com
 
 Follow the guidelines below to understand how to mail merge in Gmail using Apps Script:
 
-#### 1. Create a copy of the sample mail merge spreadsheet
+1. **Create a copy of the sample mail merge spreadsheet**
 
-Open this [demonstration spreadsheet](https://docs.google.com/spreadsheets/d/1EfjLuYGab8Xt8wCn4IokBIG0_W4tBtiU4vxl3Y7FPsA/copy) and click on “Make a copy” to get your own copy.
+   Open this [demonstration spreadsheet](https://docs.google.com/spreadsheets/d/1EfjLuYGab8Xt8wCn4IokBIG0_W4tBtiU4vxl3Y7FPsA/copy) and click on “Make a copy” to get your own copy.
 
-#### 2. In the spreadsheet, update the “Recipients” column with email addresses you would like to use in the mail merge
+2. **In the spreadsheet, update the “Recipients” column with email addresses you would like to use in the mail merge**
 
-Replace the cells’ value under the “Recipients” column with your own email address for example.
+   Replace the cells’ value under the “Recipients” column with your own email address for example.
 
-#### 3. Open Gmail to create a new draft email. Use tags to personalize your template
+3. **Open Gmail to create a new draft email. Use tags to personalize your template**
 
-You can use personalized variables, like \{\{ First name \}\}, which correspond to column names of the spreadsheet you just copied. This indicates text you’d like to be replaced with data from the copied spreadsheet.
+   You can use personalized variables, like \{\{ First name \}\}, which correspond to column names of the spreadsheet you just copied. This indicates text you’d like to be replaced with data from the copied spreadsheet.
 
-#### 4. Back in the copied spreadsheet, click on the custom menu item called “Mail Merge” and then click on “Send Emails”
+4. **Back in the copied spreadsheet, click on the custom menu item called “Mail Merge” and then click on “Send Emails”**
 
-This item menu was created by the Apps Script and will start the mail merge process.
+   This item menu was created by the Apps Script and will start the mail merge process.
 
-#### 5. A dialog box appears for authorization. Read the authorization notice and continue
+5. **A dialog box appears for authorization. Read the authorization notice and continue.**
+
+   When prompted enter or copy-paste the subject line used in your draft Gmail message. Then click OK.
+
+6. **Send your emails**
+
+   You will see that the “Email Sent” column will update with the message status. Back in Gmail, check your [Sent folder](https://mail.google.com/mail/#sent){:rel="nofollow noreferrer"} and review the emails the program just sent for you!
 
 <div class="blogpost-note">
   <span class="font-weight-bold">Important note: </span>The script we are using has been created and proofreaded by Google Apps Script teams. You can also look at <a href="/mail-merge-gmail/script">a basic mail merge script</a> written by Mailmeteor team. But always be super careful when authorizing scripts and third-party apps in general.
 </div>
-
-When prompted enter or copy-paste the subject line used in your draft Gmail message. Then click OK.
-
-#### 6. Sending your emails
-
-You will see that the “Email Sent” column will update with the message status. Back in Gmail, check your [Sent folder](https://mail.google.com/mail/#sent){:rel="nofollow noreferrer"} and review the emails the program just sent for you!
 
 Keep in mind that using a script is at your own risk. Check Gmail’s sending limit before sending large volumes of emails. Be aware that your account can get blocked by Gmail if your emailing activity seems unusual in the eyes of anti-spam filters.
 
