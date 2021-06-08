@@ -112,9 +112,11 @@
       </header>
       <div class="container blogpost-content">
         <div class="row">
-          <aside class="col-lg-2 blogpost-toc d-none d-lg-block">
-            <div style="font-weight: bold">Contents</div>
-            {% include blogpost-toc.html html=content h_max=2 %}
+          <aside class="col-lg-2 d-none d-lg-block pl-0">
+            <div class="blogpost-toc">
+              <div style="font-weight: bold; font-size: 0.8rem">Contents</div>
+              {% include blogpost-toc.html html=content h_max=2 %}
+            </div>
           </aside>
           <main class="col-lg-8 col-xs-12">
             {% include blogpost-lazyimages.html html=content %}
@@ -166,7 +168,7 @@
               <a
                 href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301"
                 class="btn btn-outline p-1"
-                >Get started →</a
+                >Start sending emails →</a
               >
               <img
                 src="/assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png"
@@ -200,6 +202,32 @@
 
       document.addEventListener("DOMContentLoaded", function () {
         sharePost();
+      });
+    </script>
+    <script>
+      // ---------------------------------------------------------
+      // 	Quick Links Menu Highlighting
+      // ---------------------------------------------------------
+      window.addEventListener("DOMContentLoaded", () => {
+        function highlightMenu() {
+          var scrollPosition = $(document).scrollTop();
+
+          $(".blogpost-toc ul li a").each(function () {
+            var currentLink = $(this);
+            var refElement = $(currentLink.attr("href"));
+
+            if (
+              scrollPosition >
+              refElement.position().top + refElement.height()
+            ) {
+              $(".blogpost-toc ul li.active").removeClass("active");
+              $(this).parent().addClass("active");
+            }
+          });
+        }
+        $(window).on("scroll", function () {
+          highlightMenu();
+        });
       });
     </script>
   </body>
