@@ -88,7 +88,7 @@ Now that you know how to send emails with GMass, here are a few things to consid
 **GMass and Zapier**. Though there is no official Zapier integration with GMass, you could build a Zapier connection with the new GMass API released in March 2021.
 
 <figure>
-  <img src="/assets/img/blog/gmass-pricing/Gmass-screenshot.webp" alt="GMass screenshot"/>
+  <img src="/assets/img/blog/gmass-pricing/Gmass-screenshot.webp" alt="GMass screenshot" width="600px" height="419px"/>
   <figcaption>GMass screenshot</figcaption>
 </figure>
 
@@ -98,7 +98,7 @@ Now that you know how to send emails with GMass, here are a few things to consid
 
 So far, so good – but **how much does GMass really cost?** GMass pricing has two versions – one is the free version, the other is paid.
 
-![GMass pricing](/assets/img/blog/gmass-pricing/gmass-pricing.webp)
+![GMass pricing](/assets/img/blog/gmass-pricing/gmass-pricing.webp){:width="600px" height="388px"}
 
 In terms of what you get for free, GMass gives you access to almost all of the features of the extension, though **you can only send messages in your mail merge to up to 50 people a day**.
 
@@ -124,7 +124,7 @@ Installing the [GMass extension for Chrome](https://chrome.google.com/webstore/d
 
 To get GMass, you’ll need to head to the Chrome Web Store. Once you’re there, just navigate up to the top right corner of your screen where you should see a blue button that says _Add to Chrome_.
 
-![GMass Chrome extension](/assets/img/blog/gmass-pricing/Gmass-extension.webp)
+![GMass Chrome extension](/assets/img/blog/gmass-pricing/Gmass-extension.webp){:width="600px" height="471px"}
 
 Click this and follow the on-screen instructions to get GMass set up on your Google Chrome browser. After that, no need to access a GMass login because the extension lives inside Gmail.
 
@@ -147,7 +147,7 @@ Note that **GMass requires extensive permissions to your inbox data in order to 
 
 ## Gmass vs Mailchimp
 
-![Gmass vs Mailchimp comparison](/assets/img/blog/gmass-pricing/Gmass-vs-Mailchimp.webp)
+![Gmass vs Mailchimp comparison](/assets/img/blog/gmass-pricing/Gmass-vs-Mailchimp.webp){:width="600px" height="300px"}
 
 Let’s see how Gmass compares with the Chimp. Mailchimp is probably the most well-known solution to send email marketing campaigns. Mailchimp has been around for 20 years now and evolved over the years to a complete email platform with robust features. Their pricing increased steeply too, which now makes Mailchimp more enterprise oriented than it was in the past.
 
