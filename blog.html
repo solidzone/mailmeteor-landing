@@ -1,5 +1,5 @@
 --- 
-title: Mailmeteor Blog - Learn how to mail merge & send mass personalized emails with Gmail
+title: Mailmeteor Blog - Mail merge & mass personalized emails with Gmail
 description: "We help you send better email marketing campaigns with Gmail: mail merge tutorials, case studies and opinion pieces."
 
 canonical: https://mailmeteor.com/blog/
@@ -74,29 +74,33 @@ og_image: https://mailmeteor.com/assets/img/opengraph/main.jpg
       </header>
       <main>
         <div class="container blog-home-featured">
-            <div class="row">
-              <div class="col-lg-5 rounded" style="background: rgb(19, 2, 164);">
+          <div class="row">
+              <div class="col-lg-5" style="background: rgb(19, 2, 164); border-radius:12px">
                 <img class="w-100" src="/assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png" alt="Mail merge Gmail: the Definitive Guide"/>
               </div>
-              <div class="col-lg-7 px-4">
-                <p class="blog-home-excerpt">FEATURED</p>
-                <h2><a href="/mail-merge-gmail/">Mail merge Gmail in 2021: the Definitive Guide</a></h2>
-                <p>Everything you need to know about mail merge in Gmail in 2021. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail</p>
+              <div class="col-lg-7 px-md-5 pt-4">
+                <span class="blog-home-cards-header-tags">FEATURED</span>
+                <h2 class="my-3"><a href="/mail-merge-gmail/">Mail merge Gmail in 2021: the Definitive Guide</a></h2>
+                <p>Everything you need to know about mail merge in Gmail in 2021. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail.</p>
                 <small>Jean Dubrulle • March 4, 2021</small>
               </div>
           </div>
         </div>
+        <div class="container blog-home-grid">
         {% for post in site.posts %}
-        <div class="container blog-home-row">
-            <p class="blog-home-excerpt">{{ post.category }}</p>
+          <div class="blog-home-cards">
+            <div class="blog-home-cards-header">
+              <span>{{ post.meta_date_published }}</span>
+              <span class="blog-home-cards-header-tags">{{ post.category }}</span>
+            </div>
             <h2 class="blog-home-headings"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p><small>{{ post.meta_author }} • {{ post.meta_date_published }}</small></p>
+            <p><small>By {{ post.meta_author }}</small></p>
         </div>
         {% endfor %}
       </div>
+      
       </main>
-      </div>
-
+    </div>
     {%- include default.footer.html -%}
 
   </body>
