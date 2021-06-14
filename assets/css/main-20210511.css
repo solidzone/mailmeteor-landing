@@ -75,9 +75,14 @@ a {
   font-family: "Poppins", sans-serif;
 }
 
-a,
+a {
+  color: #0d6efd;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0, 0, 0.2, 1);
+}
+
 a:hover {
-  color: #007bff;
+  color: #0a58ca;
   text-decoration: none;
 }
 
