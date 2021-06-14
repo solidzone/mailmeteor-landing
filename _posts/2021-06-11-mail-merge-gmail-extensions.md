@@ -165,7 +165,7 @@ You can install Yet Another Mail Merge from the [Google Workspace Marketplace](h
 
 <div class="d-flex flex-row align-items-center">
    <h2 id="3-gmass">3. GMass</h2>
-   <img src="/assets/img/blog/mail-merge-extensions/logo/GMass-logo.webp" alt="GMass logo" style="max-width:50px; box-shadow:none; margin:.5rem 0 0 .5rem">
+   <img src="/assets/img/blog/mail-merge-extensions/logo/Gmass-logo.webp" alt="GMass logo" style="max-width:50px; box-shadow:none; margin:.5rem 0 0 .5rem">
 </div>
 
 **Type:** Google Chrome extension
