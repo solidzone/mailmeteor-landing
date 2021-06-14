@@ -551,7 +551,7 @@ The most popular CRMs, such as Salesforce or Hubspot, offer to log conversations
 
 ### The 11 best mail merge add-ons for Gmail in 2021
 
-What are the best add-ons to send a merge mail in Gmail? We picked the best Google mail merge solutions offered on the Workplace Marketplace and ranked them by their average ratings out of 5. You’ll find different kinds of mail merge software: [Google Workspace mail merge add-ons](/best-google-apps/mail-merge-gmail), Chrome mail merge extensions and sales platforms offering mail merge services.
+What are the best add-ons to send a merge mail in Gmail? We picked the best Google mail merge solutions offered on the Workplace Marketplace and ranked them by their average ratings out of 5. You’ll find different kinds of mail merge software: [Google Workspace mail merge add-ons](/best-google-apps/mail-merge-gmail), Chrome [mail merge extensions](/mail-merge-gmail/extensions) and sales platforms offering mail merge services.
 
 <div class="blogpost-note">
   <p class="font-weight-bold">Top Gmail mail merge software in 2021</p> 
@@ -890,4 +890,5 @@ We hope you now better understand this simple yet incredibly powerful tool calle
   <li><a href="/mail-merge-gmail/google-sheets"> Getting started with Mail Merge in Gmail using Google Sheets</a></li>
   <li><a href="/mail-merge-gmail/excel">How to create a mail merge in Gmail from an Excel file?</a></li>
   <li><a href="/mail-merge-gmail/with-attachment">How to mail merge in Gmail with attachments or individual files</a></li>
+  <li><a href="/mail-merge-gmail/extensions">Top 12 mail merge extensions for Gmail in 2021</a></li>
 </ul>
