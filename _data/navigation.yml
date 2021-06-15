@@ -54,6 +54,11 @@ footer:
         en: "Pricing"
         fr: "Prix"
         es: "Precios"
+      gmail-mail-merge:
+        url: "/gmail-mail-merge"
+        en: "Gmail Mail Merge"
+        fr: "Gmail Mail Merge"
+        es: "Gmail Mail Merge"
   company:
     title:
       en: "Company"
