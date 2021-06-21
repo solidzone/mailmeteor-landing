@@ -27,7 +27,7 @@ If you want to send mass personalized emails with Gmail, you’ll need access to
 
 GMass is just one of these extensions, using Gmail’s powerful email platform to send a large number of emails to your contact lists with the click of a button.
 
-But what exactly is GMass? Is it worth the money you’ll pay for the subscription? In this blog, we’re going to take a deep dive into the GMass extension, comparing it to another leading mail merge extension called Mailmeteor to help you make an informed decision about the best mail merge solution.
+But what exactly is GMass? Is it worth the money you’ll pay for the subscription? In this blog, we’re going to take a deep dive into the GMass extension, comparing it to other leading email marketing tools to help you make an informed decision about the best mail merge solution.
 
 ## What is GMass?
 
@@ -42,7 +42,7 @@ GMass was created by Ajay Goel (@PartTimeSnob on Twitter), a Chicago based entre
   <figcaption>Video from GMass website</figcaption>
 </figure>
 
-GMass comes as a Google Chrome extension that lives inside your Gmail account (this means you must have Google Chrome as your browser to use GMass.
+GMass comes as a Google Chrome extension that lives inside your Gmail account (this means you must have Google Chrome as your browser to use GMass).
 
 When installing GMass, a new set of icons will appear in your Gmail interface. Behind the scenes, the GMass extension draws information about who to include in the mail merge directly from Google Sheets, where your contact list is stored. You can also send emails directly from Gmail, by copy pasting your email list in the recipients field.
 

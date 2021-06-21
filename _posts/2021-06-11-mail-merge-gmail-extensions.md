@@ -730,7 +730,7 @@ To use Mailshake, go to their [website](https://mailshake.com/) and ask for a de
     <tr>
       <td class="font-weight-bold px-3">Starting price</td>
       <td class="text-center">$9 per month - $49 per year</td>
-      <td class="text-center">$48 per year</td>
+      <td class="text-center">$48 per year (for a G Suite user)</td>
       <td class="text-center">$12.95 per month - $129 per year</td>
       <td class="text-center">$30 per year</td>
       <td class="text-center">$39 per year</td>
