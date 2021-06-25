@@ -76,17 +76,17 @@
 
   var _defaultCurrency = "USD";
   var _cachedCurrency = null;
-  var _validCurrencies = { usd: "$", eur: "€" };
+  var _validCurrencies = { USD: "$", EUR: "€" };
 
   function setUserCurrency(currency) {
     if (typeof currency !== "string" || !_validCurrencies[currency]) {
-      currency = "usd";
+      currency = _defaultCurrency;
     }
 
     var currencyElt = $("[data-checkout-currency]").first();
     if (currencyElt) {
-      _cachedCurrency = currency || _defaultCurrency;
-      currencyElt.data("checkout-currency", currency || _defaultCurrency);
+      currencyElt.data("checkout-currency", currency.toUpperCase());
+      _cachedCurrency = null;
     }
   }
 
@@ -95,15 +95,27 @@
       return _cachedCurrency;
     }
 
-    var currencyElt = $("[data-checkout-currency]").first();
-    var currency = currencyElt.data("checkout-currency") || _defaultCurrency;
-    _cachedCurrency = String(currency) || "";
+    var currency;
 
-    if (!_validCurrencies[currency]) {
-      currency = "usd";
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+
+      if (urlParams.get("currency")) {
+        currency = urlParams.get("currency");
+      }
+    } catch (err) {}
+
+    if (!currency) {
+      var currencyElt = $("[data-checkout-currency]").first();
+      currency = (currencyElt && currencyElt.data("checkout-currency")) || _defaultCurrency;
     }
 
-    return currency.toLowerCase();
+    if (!_validCurrencies[currency]) {
+      currency = _defaultCurrency;
+    }
+
+    _cachedCurrency = currency;
+    return currency.toUpperCase();
   }
 
   /**
@@ -113,7 +125,7 @@
   function renderProducts() {
     $("[data-checkout-product]").each(function () {
       var card = $(this);
-      var currency = getUserCurrency().toLowerCase();
+      var currency = getUserCurrency();
 
       var productType = card.data("checkout-product");
       var product = _allProducts && _allProducts[productType];
@@ -129,7 +141,7 @@
       }
 
       var priceElt = card.find('[data-checkout-product-item="price"]');
-      var productPrice = (product.prices && product.prices[currency]) || null;
+      var productPrice = (product.prices && product.prices[currency.toLowerCase()]) || null;
       var productRecurrence = product.recurrence;
 
       if (priceElt) {
