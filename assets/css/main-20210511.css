@@ -1304,6 +1304,7 @@ article img :first-of-type {
 
 .comparison-table {
   margin-top: 1rem;
+  overflow-x: auto;
 }
 
 .comparison-table thead th {
