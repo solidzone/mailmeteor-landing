@@ -131,6 +131,11 @@ footer:
         en: "Compare with GMass"
         fr: "Comparaison avec GMass"
         es: "Comparación con GMass"
+      alternative-lemlist:
+        url: "/alternative/lemlist"
+        en: "Compare with Lemlist"
+        fr: "Comparaison avec Lemlist"
+        es: "Comparación con Lemlist"
   support:
     title:
       en: "Support"
