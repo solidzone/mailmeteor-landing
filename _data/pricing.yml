@@ -12,6 +12,12 @@ features:
   - title: Personalize your emails.
     description: From subject line to email content, the possibilities are endless.
 
+  - title: Schedule your email campaigns.
+    description: Schedule your mail merge in advance. Set a date and time to send messages when you like with Gmail. Sit back, relax and enjoy!
+
+  - title: Send emails on Autopilot.
+    description: Boost your email deliverability by defining how many emails you want to send per day and setting your own delay between emails.
+
   - title: Attach files and personalized attachments,
     description: such as PDF, Word, Excel, pictures and various other file types. Perfect for sending invoices, payslips, invitations and more.
 

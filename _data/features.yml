@@ -7,84 +7,91 @@ sections:
     excerpt: Mail merge
     description: Stop wasting time sending individual email messages. Email multiple recipients at once without them knowing, make your recipients feel special.
     link: https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial
-    image: /assets/img/features/mail-merge.png
+    image: /assets/img/features/mail-merge.webp
     thumbnail: /assets/img/features/dropdown/mail-merge.jpg
 
   - title: Personalize emails subject and content.
     excerpt: Personalization
     description: Easily personalize mass emails, from subject to content. Personalizing emails help increase your open rate as your recipient feels like the email is unique.
     link: https://support.mailmeteor.com/introduction/advanced/personalize-emails
-    image: /assets/img/features/personalize.png
+    image: /assets/img/features/personalize.webp
     thumbnail: /assets/img/features/dropdown/personalize.jpg
 
   - title: Preview emails before sending.
     excerpt: Preview mode
     description: Make sure your emails look stunning before sending them. Flip through the contacts in your mailing list to ensure everything looks right.
     link: https://support.mailmeteor.com/introduction/advanced/preview-emails
-    image: /assets/img/features/preview.png
+    image: /assets/img/features/preview.webp
     thumbnail: /assets/img/features/dropdown/preview.jpg
 
   - title: Track emails in real time.
     excerpt: Email tracking
     description: Know how many people have opened and clicked on your emails. Get a tracking report of your campaign stats in real time. Easily share and access these stats across your team.
     link: https://support.mailmeteor.com/introduction/advanced/tracking-report
-    image: /assets/img/features/tracking.png
+    image: /assets/img/features/tracking.webp
     thumbnail: /assets/img/features/dropdown/tracking.jpg
 
   - title: Segment contacts and follow-up
     excerpt: Filter recipients
     description: "Send to a segment of a prior campaign, such as everyone who opened the last campaign, or everyone who didn't click the last campaign. Pro tip: use the same sheet to send multiple mail merges."
     link: https://support.mailmeteor.com/introduction/advanced/filter-recipients
-    image: /assets/img/features/followup.png
+    image: /assets/img/features/followup.webp
     thumbnail: /assets/img/features/dropdown/followup.jpg
 
   - title: Schedule your mail merges
     excerpt: Scheduling
     description: Schedule your mail merge in advance. Set a date and time to send messages when you like with Gmail. There's no need to stay in front of your computer waiting for the mail merge to complete. Sit back, relax and enjoy!
     link: https://support.mailmeteor.com/introduction/advanced/scheduling
-    image: /assets/img/features/scheduling.png
+    image: /assets/img/features/scheduling.webp
     thumbnail: /assets/img/features/dropdown/scheduling.jpg
+
+  - title: Send emails on Autopilot
+    excerpt: Autopilot
+    description: Boost your email deliverability by defining how many emails you want to send per day and setting your own delay between emails. Email throttling lets you control precisely when emails are sent to optimize your deliverability.
+    link: https://support.mailmeteor.com/introduction/advanced/autopilot
+    image: /assets/img/features/autopilot.webp
+    thumbnail: /assets/img/features/dropdown/autopilot.jpg
 
   - title: Mail merge with attachments
     excerpt: Attachments
     description: Attach files to your mail merge such as PDF, Word, Excel, and various other file types. Perfect for sending invoices, payslips, invitations and more.
     link: https://support.mailmeteor.com/introduction/advanced/attachments
-    image: /assets/img/features/attachments.png
+    image: /assets/img/features/attachments.webp
     thumbnail: /assets/img/features/dropdown/attachments.jpg
 
   - title: Send emails from an alias
     excerpt: Alias
     description: Using multiple email addresses? We got you covered. Send your mail merge from any of your email alias (including non Gmail email addresses).
     link: https://support.mailmeteor.com/introduction/advanced/alias
-    image: /assets/img/features/alias.png
+    image: /assets/img/features/alias.webp
     thumbnail: /assets/img/features/dropdown/alias.jpg
 
   - title: Add Cc or Bcc recipients
     excerpt: Cc & Bcc recipients
     description: You can add Cc and Bcc recipients to involve more people in the conversation, keep someone in the loop or log your emails in your CRM.
     link: https://support.mailmeteor.com/introduction/advanced/cc-bcc
-    image: /assets/img/features/cc-bcc.png
+    image: /assets/img/features/cc-bcc.webp
     thumbnail: /assets/img/features/dropdown/cc-bcc.jpg
 
   - title: Manage unsubscribes
     excerpt: Unsubscribe link
     description: Let your recipients unsubscribe from your mailing list in one click. All you need to do is to insert our custom unsubscribe link.
     link: https://support.mailmeteor.com/introduction/advanced/cc-bcc
-    image: /assets/img/features/unsubscribe.png
+    image: /assets/img/features/unsubscribe.webp
     thumbnail: /assets/img/features/dropdown/unsubscribe.jpg
 
   - title: Import your own HTML Templates
     excerpt: HTML templates
     description: Every company has its own look and feel. Keep your very own design by importing HTML templates, with much more formatting options available.
     link: https://support.mailmeteor.com/introduction/advanced/html-template
-    image: /assets/img/features/html.png
+    image: /assets/img/features/html.webp
     thumbnail: /assets/img/features/dropdown/html.jpg
 
   - title: Integrate with your CRM
     excerpt: CRM
     description: Plug your favorite CRM, such as Salesforce or Hubspot, and make sure that every discussion is logged to keep your teammates in the loop.
     link: https://support.mailmeteor.com/introduction/advanced/crm-integration
-    image: /assets/img/features/crm.png
+    image: /assets/img/features/crm.webp
     thumbnail: /assets/img/features/dropdown/crm.jpg
 #
 # List of use cases
