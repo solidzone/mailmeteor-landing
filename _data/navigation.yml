@@ -59,6 +59,11 @@ footer:
         en: "Gmail Mail Merge"
         fr: "Gmail Mail Merge"
         es: "Gmail Mail Merge"
+      mass-emails-gmail:
+        url: "/mass-emails-gmail"
+        en: "Mass Emails Gmail"
+        fr: "Emails en Masse avec Gmail"
+        es: "Correos Masivos con Gmail"
       bulk-emails-gmail:
         url: "/bulk-emails-gmail"
         en: "Bulk Emails Gmail"
