@@ -164,7 +164,7 @@
  * @author attila@google.com (Attila Bodis)
  */
 
-.modal-dialog {
+.goog-modal-dialog {
   background-color: #fff;
   border: none;
   border-radius: 4px;
@@ -174,21 +174,21 @@
   position: absolute;
 }
 
-.modal-dialog a,
-.modal-dialog a:link,
-.modal-dialog a:visited {
+.goog-modal-dialog a,
+.goog-modal-dialog a:link,
+.goog-modal-dialog a:visited {
   color: black;
   cursor: pointer;
 }
 
-.modal-dialog-bg {
+.goog-modal-dialog-bg {
   background: #666;
   left: 0;
   position: absolute;
   top: 0;
 }
 
-.modal-dialog-title {
+.goog-modal-dialog-title {
   color: #000;
   cursor: pointer;
   font-size: 120%;
@@ -201,7 +201,7 @@
   _zoom: 1; /* Ensures proper width in IE6 RTL. */
 }
 
-.modal-dialog-title-close {
+.goog-modal-dialog-title-close {
   /* Client apps may override the URL at which they serve the sprite. */
   background: #e0edfe url(//ssl.gstatic.com/editor/editortoolbar.png) no-repeat -528px 0;
   cursor: default;
@@ -213,12 +213,12 @@
   vertical-align: middle;
 }
 
-.modal-dialog-buttons,
-.modal-dialog-content {
+.goog-modal-dialog-buttons,
+.goog-modal-dialog-content {
   padding: 24px;
   color: #7e8286;
 }
-.modal-dialog-content {
+.goog-modal-dialog-content {
   padding-top: 0;
   padding-bottom: 0;
 }
