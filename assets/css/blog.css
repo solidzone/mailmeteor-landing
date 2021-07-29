@@ -16,11 +16,7 @@ body.blogpost {
   padding: 1rem 0 3rem 0;
   color: #fff;
   background: rgb(19, 2, 164);
-  background: radial-gradient(
-    circle,
-    rgba(19, 2, 164, 1) 0%,
-    rgba(15, 2, 116, 1) 80%
-  );
+  background: radial-gradient(circle, rgba(19, 2, 164, 1) 0%, rgba(15, 2, 116, 1) 80%);
 }
 
 .blogpost-header h1 {
@@ -93,14 +89,16 @@ body.blogpost {
 
 .blogpost-content main img,
 .blogpost-content main video {
-  width: 600px;
   max-width: 100%;
   height: auto;
   margin: 1.5rem auto;
   border: none;
-  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%), 0 0 6px 0 rgb(0 0 0 / 10%),
-    0 2px 2px -2px rgb(0 0 0 / 15%);
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%), 0 0 6px 0 rgb(0 0 0 / 10%), 0 2px 2px -2px rgb(0 0 0 / 15%);
   display: block;
+}
+
+.blogpost-content main img:not([width]) {
+  width: 600px;
 }
 
 .blogpost-content main img.no-shadow,

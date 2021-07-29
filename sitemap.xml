@@ -137,7 +137,7 @@
   <url>
     <loc>https://mailmeteor.com/blog/</loc>
     <lastmod>2021-04-05T14:24:42+00:00</lastmod>
-    <priority>0.80</priority>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/blog/gmail-deliverability</loc>
@@ -147,17 +147,22 @@
   <url>
     <loc>https://mailmeteor.com/blog/mail-merge-individual-attachments</loc>
     <lastmod>2021-04-23T08:59:04+00:00</lastmod>
-    <priority>0.80</priority>
+    <priority>0.40</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/blog/gmass-pricing</loc>
     <lastmod>2021-06-08T15:00:22+00:00</lastmod>
-    <priority>0.80</priority>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/blog/autopilot</loc>
     <lastmod>2021-07-16T12:24:25+00:00</lastmod>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://mailmeteor.com/blog/how-to-create-google-chrome-profile</loc>
+    <lastmod>2021-07-29T20:15:00+00:00</lastmod>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://mailmeteor.com/best-google-apps/</loc>
