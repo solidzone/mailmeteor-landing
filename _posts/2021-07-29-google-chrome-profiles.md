@@ -7,12 +7,12 @@ cta_title: Send a mail merge with multiple Google Chrome profiles
 canonical: https://mailmeteor.com/blog/how-to-create-google-chrome-profile
 category: HOWTO
 
-meta_author: Mary Pesquest
+meta_author: Mary Pesquet
 meta_author_link: "https://mailmeteor.com"
 meta_image: /assets/img/blog/howto-google-chrome-profiles/multiple-google-chrome-profiles.png
 
 og_title: "How to create multiple Google Chrome profiles? [2021]"
-og_description: Learn how to create a Google Chrome profile. As well as managing them all.
+og_description: Learn how to create a Google Chrome profile. One for your business, one for the family and one for your personal Google account. Learn also how to manage them all.
 og_url: https://mailmeteor.com/blog/how-to-create-google-chrome-profile
 og_image: https://mailmeteor.com/assets/img/opengraph/main.jpg
 
