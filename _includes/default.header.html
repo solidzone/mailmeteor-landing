@@ -43,20 +43,42 @@
                 {{ nav[1][page.lang] }}</a
               >
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                {% for section in site.data.features.sections %}
-                <li>
-                  <a href="{{section.link}}" target="_blank" rel="noopener" class="dropdown-items">
+                {% for section in site.data.features.sections %} {% if section.short_title && section.short_description
+                %}
+                <li class="features-dropdown-item">
+                  <a href="{{section.link}}" target="_blank" rel="noopener">
                     <div>
                       <img src="{{section.thumbnail}}" alt="{{section.title}}" loading="lazy" />
                     </div>
                     <div>
-                      <p>{{section.excerpt}}</p>
-                      <p>{{section.title }}</p>
+                      <p>{{section.short_title}}</p>
+                      <p>{{section.short_description }}</p>
                     </div>
                   </a>
                 </li>
-                {% endfor %}
-                <li><a href="/features" class="features-link">See all features →</a></li>
+                {% endif %} {% endfor %}
+                <li class="features-dropdown-all"><a href="/features" class="features-link">See all features →</a></li>
+                <li class="features-dropdown-video">
+                  <a href="https://www.youtube.com/watch?v=-YX65-kywOE" target="_blank">
+                    <div class="row">
+                      <div class="col-4">
+                        <img
+                          src="https://img.youtube.com/vi/-YX65-kywOE/mqdefault.jpg"
+                          width="180px"
+                          height="101px"
+                          alt="How to mail merge in Gmail?"
+                        />
+                      </div>
+                      <div class="col-8 my-auto">
+                        <p><strong>What is Mailmeteor?</strong></p>
+                        <p>
+                          Let us show you around with this quick video tour that will guide you to send your first mail
+                          merge.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
               </ul>
             </li>
             {% elsif nav[0] == "features" and page.lang != "en" %}
