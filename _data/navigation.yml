@@ -69,6 +69,11 @@ footer:
         en: "Bulk Emails Gmail"
         fr: "Bulk Emails Gmail"
         es: "Bulk Emails Gmail"
+      gmail-newsletter:
+        url: "/gmail-newsletter"
+        en: "Gmail Newsletter"
+        fr: "Gmail Newsletter"
+        es: "Gmail Newsletter"
   company:
     title:
       en: "Company"
