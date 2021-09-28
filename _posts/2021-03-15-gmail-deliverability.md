@@ -21,7 +21,6 @@ meta_date_lastupdated: "March 15, 2021"
 published: true
 
 permalink: /blog/gmail-deliverability
-redirect_from: /gmail-deliverability
 ---
 
 When sending emails with Gmail, there are few things really important to make sure your campaign is a success. Here's a step-by-step guide to achieving a solid Gmail deliverability.
