@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: "SEO for Dummies: Our secret tips to improve SEO [using Ahrefs]"
+title: "SEO for Dummies: 25 secret tips to improve SEO [using Ahrefs]"
 description: You don’t need to be a SEO expert to drive more traffic on your website. In fact, all you need is a few hours in front of you and $7.
 cta_title: Send personalized link building emails with Mailmeteor
 canonical: https://mailmeteor.com/blog/seo-for-dummies
@@ -11,7 +11,7 @@ meta_author_link: "https://twitter.com/cuireuncroco"
 meta_image: >-
   /assets/img/blog/seo-for-dummies/meta-seo-for-dummies.png
 
-og_title: "SEO for Dummies: Our secret tips to improve SEO [using Ahrefs]"
+og_title: "SEO for Dummies: 25 secret tips to improve SEO [using Ahrefs]"
 og_description: You don’t need to be a SEO expert to drive more traffic on your website. In fact, all you need is a few hours in front of you and $7.
 og_url: https://mailmeteor.com/blog/seo-for-dummies
 og_image: https://mailmeteor.com/assets/img/opengraph/seo-for-dummies.jpg
@@ -27,9 +27,9 @@ You don’t need to be a SEO expert to drive more traffic on your website. In fa
 
 I used to find SEO to be a daunting task. To make things easier for everyone (me included), I gathered over the years a complete list of actionable tips that anyone can apply to improve SEO.
 
-Today I’m sharing these as recipes. For that, I will be using a tool called [Ahrefs](https://ahrefs.com/), one of the most popular SEO tools out there (even though the principles shared here could be used with other software).
+Today I’m sharing these as 25 recipes. For that, I will be using a tool called [Ahrefs](https://ahrefs.com/), one of the most popular SEO tools out there (even though the principles shared here could be used with other software).
 
-<p>I choose this tool more than any other because it’s both very complete and easy-to-use. You can explore all of its features and lay out your complete SEO strategy for just 7 dollars. I'm <u>not affiliated to Ahrefs</u> ;)</p>
+I choose this tool more than any other because it’s both very complete and easy-to-use. You can explore all of its features and lay out your complete SEO strategy for just 7 dollars. Just to be clear, I'm not affiliated to Ahrefs ;)
 
 The SEO recipes are divided in 5 main themes:
 
@@ -45,7 +45,7 @@ Let’s wake up the SEO chef that sleeps in you!
 
 ## Keyword research
 
-### Find low competition keywords
+### Tip #1 - Find low competition keywords
 
 <div class="blogpost-note">
   Keywords Explorer > Enter broad term > Phrase match > Filter KD <= 20
@@ -59,7 +59,7 @@ Try focusing on the traffic potential of a topic rather than a single keyword.
 
 <img src="/assets/img/blog/seo-for-dummies/low-competitions-keywords.png" alt="Find low competition keywords" width="730px" height="385px"/>
 
-### Identify your underperforming keywords
+### Tip #2 - Identify your underperforming keywords
 
 <div class="blogpost-note">
   Site Explorer > Organic Keywords > Filter Positions 2 to 10 > Filter Volume (adjust depending on your use case) > SERP Features “Where target doesn’t rank” and Select “All Features”
@@ -84,12 +84,12 @@ Prioritize your efforts by picking the following keywords:
 
 After identifying the keywords your want to focus on, here are some advices to push your page in the top spot:
 
-- [Add some more internal links to the pages](#boost-important-posts-with-internal-links)
+- [Add some more internal links to the pages](#tip-6---boost-important-posts-with-internal-links)
 - [Build some fresh backlinks to the pages](#link-building)
-- [Update and relaunch your content](#identify-your-underperforming-keywords)
-- [Make sure on-page is optimized for the exact keyword](#know-whether-to-target-two-similar-keywords-on-one-page-or-separate-pages)
+- [Update and relaunch your content](#tip-2---identify-your-underperforming-keywords)
+- [Make sure on-page is optimized for the exact keyword](#tip-3---know-whether-to-target-two-similar-keywords-on-one-page-or-separate-pages)
 
-### Know whether to target two similar keywords on one page or separate pages
+### Tip #3 - Know whether to target two similar keywords on one page or separate pages
 
 <div class="blogpost-note">
   Keywords Explorer > Enter both your keywords > Traffic share > By pages
@@ -101,7 +101,7 @@ In our example, all the top 10 pages target both keywords variation on the same 
 
 <img src="/assets/img/blog/seo-for-dummies/keyword-mapping.png" alt="Keyword mapping" width="730px" height="385px"/>
 
-### Find uncompetitive topics that forums rank for
+### Tip #4 - Find uncompetitive topics that forums rank for
 
 <div class="blogpost-note">
   Site Explorer > Paste a forum URL > Top Pages
@@ -115,7 +115,7 @@ Indeed, this kind of content is less well written than a proper blog post. Brows
 
 ## Audit your content
 
-### Optimize for ‘definition’ featured snippets
+### Tip #5 - Optimize for ‘definition’ featured snippets
 
 <div class="blogpost-note">
   Site Explorer > Organic Keywords > Filter Positions 2 to 10 > Filter Volume (adjust depending on your use case) > SERP Features “Where target doesn’t rank” and Select “All Features”
@@ -125,7 +125,7 @@ Quickwin: find keywords where your site ranks in positions 2-10, while the searc
 
 <img src="/assets/img/blog/seo-for-dummies/optimize-featured-snippets.png" alt="Optimize for ‘definition’ featured snippets" width="730px" height="385px"/>
 
-### Boost important posts with internal links
+### Tip #6 - Boost important posts with internal links
 
 <div class="blogpost-note">
   Site Explorer > Top Pages > Filter for position 2 - 5 > Look for pages that would need a boost
@@ -149,7 +149,7 @@ Alternatively, you can look at your website in the Site Explorer and check your 
 
 A best practice is to do this **every time you publish a new post on your blog**.
 
-### Fix your broken backlinks
+### Tip #7 - Fix your broken backlinks
 
 <div class="blogpost-note">
   Site Explorer > Enter your website URL > Broken backlinks
@@ -159,7 +159,7 @@ This will lists all links pointing at 404 pages of your website. These pages don
 
 <img src="/assets/img/blog/seo-for-dummies/fix-broken-backlinks.png" alt="Fix your broken backlinks" width="730px" height="385px"/>
 
-### Figure out why you are being outranked
+### Tip #8 - Figure out why you are being outranked
 
 <div class="blogpost-note">
   Keyword Explorer > Enter your keyword > Scroll down to the SERP overview
@@ -189,7 +189,7 @@ Here is what you can check:
 
 ## SEO Competitors analysis
 
-### Find your SEO competitors
+### Tip #9 - Find your SEO competitors
 
 <div class="blogpost-note">
   Site Explorer > Enter your website URL > Competing Domains
@@ -201,7 +201,7 @@ The intersection graph helps visualize which competitors are really close to you
 
 <img src="/assets/img/blog/seo-for-dummies/find-seo-competing-domains.png" alt="Find your SEO competitors" width="730px" height="385px"/>
 
-### Compare your domain with your competitors’
+### Tip #10 - Compare your domain with your competitors’
 
 <div class="blogpost-note">
   From the menu at the top, click “More” > Select Domain Comparison
@@ -211,7 +211,7 @@ This recipe offers a comparison between competing domains. It’s a great way to
 
 <img src="/assets/img/blog/seo-for-dummies/compare-domains.png" alt="Compare your domain with your competitors’" width="730px" height="385px"/>
 
-### Reveal your competitors’ most popular pages
+### Tip #11 - Reveal your competitors’ most popular pages
 
 <div class="blogpost-note">
   Site Explorer > Enter your competitor’s domain URL > Top pages
@@ -221,7 +221,7 @@ Using this recipe you’ll be able to reveal your competitor’s top-performing 
 
 <img src="/assets/img/blog/seo-for-dummies/competitors-top-pages.png" alt="Reveal your competitors’ most popular pages" width="730px" height="385px"/>
 
-### Identify gaps in your content strategy
+### Tip #12 - Identify gaps in your content strategy
 
 <div class="blogpost-note">
   Site Explorer > Enter your domain > Content gap > Enter 2 or 3 competitors domains
@@ -231,7 +231,7 @@ This report contains a treasure trove of keywords your website doesn’t rank fo
 
 <img src="/assets/img/blog/seo-for-dummies/content-gap.png" alt="Identify gaps in your content strategy" width="730px" height="385px"/>
 
-### Spy on your competitors’ paid advertising strategy
+### Tip #13 - Spy on your competitors’ paid advertising strategy
 
 <div class="blogpost-note">
   Site Explorer > Enter your competitor’s site > PPC Keywords
@@ -243,7 +243,7 @@ Take some time to study the landing page associated with your competitors’ ads
 
 <img src="/assets/img/blog/seo-for-dummies/competitors-ads-strategies.png" alt="Spy on your competitors’ paid advertising strategy" width="730px" height="385px"/>
 
-### Check your competitors’ content clusters
+### Tip #14 - Check your competitors’ content clusters
 
 <div class="blogpost-note">
   Site Explorer > Enter your competitor’s site > Top subfolders
@@ -253,7 +253,7 @@ It’s useful to understand how your competitors structured their website conten
 
 <img src="/assets/img/blog/seo-for-dummies/competitors-top-subfolders.png" alt="Check your competitors’ content clusters" width="730px" height="385px"/>
 
-### How to find questions your competitors are answering that you aren’t
+### Tip #15 - How to find questions your competitors are answering that you aren’t
 
 <div class="blogpost-note">
   Site Explorer > Enter your domain > Content Gap > Filter for keywords that include "who, what, where, when, why” > Filter by KD
@@ -263,7 +263,7 @@ A quick recipe to identify top or mid funnel questions your competitors are answ
 
 <img src="/assets/img/blog/seo-for-dummies/find-questions-competitors.png" alt="How to find questions your competitors are answering that you aren’t" width="730px" height="385px"/>
 
-### Check competitors’ content velocity
+### Tip #16 - Check competitors’ content velocity
 
 <div class="blogpost-note">
   Site Explorer > Enter your competitor’s site > Top pages > Select Status “New”
@@ -273,7 +273,7 @@ This method helps you check how many pages your competitors have published in th
 
 <img src="/assets/img/blog/seo-for-dummies/competitors-content-velocity.png" alt="Check competitors’ content velocity" width="730px" height="385px"/>
 
-### Understand how your competitors are acquiring backlinks
+### Tip #17 - Understand how your competitors are acquiring backlinks
 
 <div class="blogpost-note">
   Site Explorer > Enter your competitor’s site > Backlinks > New
@@ -284,7 +284,7 @@ It’s insightful to better understand how your competitors acquired their backl
 
 <img src="/assets/img/blog/seo-for-dummies/competitors-backlinks.png" alt="Understand how your competitors are acquiring backlinks" width="730px" height="385px"/>
 
-### Find your competitors’ broken or redirected pages with a lot of backlinks
+### Tip #18 - Find your competitors’ broken or redirected pages with a lot of backlinks
 
 <div class="blogpost-note">
   Site Explorer > Enter your competitor’s URL > Best by links > Add a 404 filter > Sort by RDs (referring domains)
@@ -298,7 +298,7 @@ It could be interesting for you to recreate content, then reach out to the websi
 
 ## Link building
 
-### Identify guest blogging opportunities
+### Tip #19 - Identify guest blogging opportunities
 
 <div class="blogpost-note">
   Content Explorer > Enter a topic > Filter One article per domain > Highlight unlinked mentions
@@ -321,7 +321,7 @@ I filtered articles with “one article per domain” to ensure only 1 article i
   <ol>
     <li>Find recent link-worthy articles using the recipe above  </li>
     <li>Publish an even better content  </li>
-    <li>each out to the right people with the most personalised emails you can  </li>
+    <li>Reach out to the right people with the most personalised emails you can  </li>
   </ol>
   
   <p><a href="/">Mailmeteor</a> can help you with that. Once you have collected the email addresses of interesting people, draft a personalised email template. Here is an example:</p>
@@ -338,7 +338,7 @@ I filtered articles with “one article per domain” to ensure only 1 article i
     </div>
 </div>
 
-### Find if a specific website has linked to yours
+### Tip #20 - Find if a specific website has linked to yours
 
 <div class="blogpost-note">
   Site Explorer > Referring domains > Enter the domain name you’re looking for in the search
@@ -350,7 +350,7 @@ That’s a valuable piece of information you would like to have in case you are 
 
 <img src="/assets/img/blog/seo-for-dummies/find-if-website-linked-to-yours.png" alt="Find if a specific website has linked to yours" width="730px" height="385px"/>
 
-### Find Quora questions to answer that are related to your niche
+### Tip #21 - Find Quora questions to answer that are related to your niche
 
 <div class="blogpost-note">
   Site Explorer > Enter “Quora.com” > Top pages > Filter keywords that include
@@ -362,7 +362,7 @@ This recipe will give you a list of relevant Quora questions that receive the mo
 
 ## Going further
 
-### Monitor your brand mentions over time
+### Tip #22 - Monitor your brand mentions over time
 
 <div class="blogpost-note">
   Content Explorer > Search “your brand” -site:yoursite.com
@@ -376,7 +376,7 @@ This recipe can also apply to monitor your competitors’ brand mentions.
 
 <img src="/assets/img/blog/seo-for-dummies/monitor-brand-mentions.png" alt="Monitor your brand mentions over time" width="730px" height="385px"/>
 
-### Browse the entire Ahrefs keywords database
+### Tip #23 - Browse the entire Ahrefs keywords database
 
 <div class="blogpost-note">
   Keywords Explorer > Run an empty search
@@ -390,7 +390,7 @@ More seriously, it’s also a great way for affiliate SEOs who are struggling to
 
 <img src="/assets/img/blog/seo-for-dummies/browse-ahrefs-entire-keywords-database.png" alt="Browse the entire Ahrefs keywords database" width="730px" height="385px"/>
 
-### Measure search seasonality
+### Tip #24 - Measure search seasonality
 
 <div class="blogpost-note">
   Site Explorer > Enter a domain > Go to the Organic Search tab
@@ -400,7 +400,7 @@ You have two volume options here, a monthly and average one. The monthly graph s
 
 <img src="/assets/img/blog/seo-for-dummies/measure-search-seasonality.png" alt="Measure search seasonality" width="730px" height="385px"/>
 
-### Local SEO: the “near me” trick
+### Tip #25 - Local SEO: the “near me” trick
 
 <div class="blogpost-note">
   Keywords Explorer > Search "near me"
