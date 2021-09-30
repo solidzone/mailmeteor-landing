@@ -27,7 +27,7 @@ You don’t need to be a SEO expert to drive more traffic on your website. In fa
 
 I used to find SEO to be a daunting task. To make things easier for everyone (me included), I gathered over the years a complete list of actionable tips that anyone can apply to improve SEO.
 
-Today I’m sharing these as recipes. For that, I will be using a tool called Ahrefs, one of the most popular SEO tools out there (even though the principles shared here could be used with other software).
+Today I’m sharing these as recipes. For that, I will be using a tool called [Ahrefs](https://ahrefs.com/), one of the most popular SEO tools out there (even though the principles shared here could be used with other software).
 
 <p>I choose this tool more than any other because it’s both very complete and easy-to-use. You can explore all of its features and lay out your complete SEO strategy for just 7 dollars. I'm <u>not affiliated to Ahrefs</u> ;)</p>
 
