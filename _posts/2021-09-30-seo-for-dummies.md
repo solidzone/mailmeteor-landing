@@ -414,7 +414,7 @@ Discover millions of keywords related to local businesses & services with this s
 
 Voilà! You know the secret sauce to become a SEO expert chef. Of course, there are many other things you could do with SEO tools like Ahrefs.
 
-I’d be glad to hear about your best recipes, get in touch with me on [Twitter](https://twitter.com/cuireuncroco) to share the tips I might have missed.
+I’d be glad to hear about your best recipes, [get in touch with me on Twitter](https://twitter.com/cuireuncroco) to share the tips I might have missed.
 
 Thanks to [@timsoulo](https://twitter.com/timsoulo) and [@samsgoh](https://twitter.com/samsgoh) and all the anonymous that shared their best SEO tips presented here over the years.
 
