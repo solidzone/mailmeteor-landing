@@ -84,8 +84,7 @@ If ever you want to remove a Google Chrome profile, you can do so in a few steps
    ![Google Chrome profiles manager](/assets/img/blog/howto-google-chrome-profiles/google-chrome-profiles-manager.jpg){:class="no-shadow"}{:width="600px" height="215px"}
 
 <div class="blogpost-endnote">
-  This tutorial was written by Mary Pesquet - Customer Success at Mailmeteor. <a href="https://mailmeteor.com">Mailmeteor is an award-winning mail merge solution</a>, ranked as the best-rated Google add-on. Give us a try and let us know what you think ;-)
-  <br>
-  <br>
+   <p>This tutorial was written by Mary Pesquet - Customer Success at Mailmeteor. Mailmeteor is a simple & privacy-focused emailing software, trusted by millions of users worldwide and often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think ;-)</p>
+
   <p><a href="https://mailmeteor.com" class="font-weight-bold">Try Mailmeteor, mail merge for Gmail</a></p>
 </div>

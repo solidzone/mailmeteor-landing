@@ -87,10 +87,9 @@ Whenever you're ready, click on "Send emails" and your emails will shortly be se
 It has never been so easy to send a mail merge from Gmail - even with an Excel file!
 
 <div class="blogpost-endnote">
-  This guide was written by the team at Mailmeteor. <a href="https://mailmeteor.com">Mailmeteor is an award-winning mail merge solution</a>, ranked as the best-rated Google add-on. Give us a try and let us know what you think ;-)
-  <br>
-  <br>
-  <p><a href="https://mailmeteor.com" class="font-weight-bold">Try Mailmeteor to mail merge in Gmail from Excel</a></p>
+  <p>This guide was written by Jean Dubrulle, <a href="https://mailmeteor.com">Mailmeteor</a>’s founder. Mailmeteor is a simple & privacy-focused emailing software. Trusted by millions of users worldwide, it is often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think!</p>
+
+  <p>➤ <a href="https://mailmeteor.com" class="font-weight-bold">Start sending emails with Mailmeteor</a></p>
 </div>
 
 <div class="blogpost-related-articles">

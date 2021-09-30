@@ -174,11 +174,9 @@ Because of this, opting to send emails with a highly-rated mail merge add-on lik
 Learn more about the [features and benefits of Mailmeteor here](/features).
 
 <div class="blogpost-endnote">
-  This guide was written by Jean Dubrulle, Mailmeteor’s founder. <a href="https://mailmeteor.com">Mailmeteor is an award-winning mail merge solution</a>, ranked as the best-rated Google add-on. Give us a try and let us know what you think ;-)
+  <p>This guide was written by Jean Dubrulle, <a href="https://mailmeteor.com">Mailmeteor</a>’s founder. Mailmeteor is a simple & privacy-focused emailing software. Trusted by millions of users worldwide, it is often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think!</p>
 
-  <br>
-  <br>
-  <p><a href="https://mailmeteor.com" class="font-weight-bold">Try Mailmeteor, mail merge for Gmail</a></p>
+  <p>➤ <a href="https://mailmeteor.com" class="font-weight-bold">Start sending emails with Mailmeteor</a></p>
 </div>
 
 <small class="blogpost-related-articles">
