@@ -306,7 +306,7 @@ It could be interesting for you to recreate content, then reach out to the websi
 
 This recipe will help you find websites relevant to your topic that have yet to link to you. As a next step, you could reach out to the authors to see if they would be interested in a guest post.
 
-<img src="/assets/img/blog/seo-for-dummies/low-competitions-keywords.png" alt="Identify guest blogging opportunities" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-for-dummies/backlink-outreach.png" alt="Identify guest blogging opportunities" width="730px" height="385px"/>
 
 I filtered articles with “one article per domain” to ensure only 1 article is shown per domain. Highlighting unlinked mentions is useful to isolate websites that don’t have a backlink to yours. Like usual, you can go further by filtering results based on the published date or using the domain rating as a proxy (you want backlinks from high authority websites).
 
