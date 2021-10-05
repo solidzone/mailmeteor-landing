@@ -146,6 +146,11 @@ footer:
         en: "Compare with GMass"
         fr: "Comparaison avec GMass"
         es: "Comparación con GMass"
+      alternative-mailchimp:
+        url: "/alternative/mailchimp"
+        en: "Compare with Mailchimp"
+        fr: "Comparaison avec Mailchimp"
+        es: "Comparación con Mailchimp"
       alternative-lemlist:
         url: "/alternative/lemlist"
         en: "Compare with Lemlist"
