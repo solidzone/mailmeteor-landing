@@ -277,17 +277,14 @@
         var tip = $("#checkout-gmail-accounts-tip");
         var isGmailAccount = val.indexOf("@gmail.com") > -1 || val.indexOf("@googlemail.com") > -1;
 
-        console.log(isGmailAccount, tip);
         if (!tip) {
           return;
         }
 
         if (isGmailAccount) {
           tip.show();
-          console.log("showing");
         } else {
           tip.hide();
-          console.log("hiding");
         }
       });
   });
