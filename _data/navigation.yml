@@ -126,7 +126,7 @@ footer:
         fr: "Les meilleures apps Google"
         es: "Las mejores apps de Google"
       spam-checker:
-        url: "/spam-checker/"
+        url: "/spam-checker"
         en: "Spam Checker"
         fr: "Spam Checker"
         es: "Spam checker"
