@@ -356,7 +356,7 @@
 
       if (totalWords < 2) {
         $("#spam-checker--aside").html(
-          "<i>Email is a little bit too short. Add more content to get your spam score.</i>"
+          "<i>Add content to get your spam score.</i>"
         );
         return;
       }
