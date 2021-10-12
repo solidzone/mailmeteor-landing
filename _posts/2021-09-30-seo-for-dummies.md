@@ -121,7 +121,7 @@ Indeed, this kind of content is less well written than a proper blog post. Brows
   Site Explorer > Organic Keywords > Filter Positions 2 to 10 > Filter Volume (adjust depending on your use case) > SERP Features “Where target doesn’t rank” and Select “All Features”
 </div>
 
-Quickwin: find keywords where your site ranks in positions 2-10, while the search results have a featured spinnet. You may be able to own the featured snippet and rank #1 by making a few edits to your article. It can be interesting to filter results by adding the “what” or “how” keywords in the _Include_ filter.
+Quickwin: find keywords where your site ranks in positions 2-10, while the search results have a featured snippet. You may be able to own the featured snippet and rank #1 by making a few edits to your article. It can be interesting to filter results by adding the “what” or “how” keywords in the _Include_ filter.
 
 <img src="/assets/img/blog/seo-for-dummies/optimize-featured-snippets.png" alt="Optimize for ‘definition’ featured snippets" width="730px" height="385px"/>
 
