@@ -18,40 +18,22 @@ og_url: https://mailmeteor.com/contact
     <h1 class="text-center">Hi. 👋 How can we help you?</h1>
     <form action="https://support.mailmeteor.com/" class="text-center" method="get">
       <div class="form-inline">
-        <input
-          class="form-control"
-          type="search"
-          name="q"
-          placeholder="Search the Help Center"
-          aria-label="Search"
-          id="support-searchbar"
-        />
+        <input class="form-control" type="search" name="q" placeholder="Search the Help Center" aria-label="Search" id="support-searchbar" />
       </div>
     </form>
-    <p class="text-center">
-      Our team speaks English, French and Spanish.<br />We'll do our best to answer as quickly as we can.
-    </p>
+    <p class="text-center">Our team speaks English, French and Spanish.<br />We'll do our best to answer as quickly as we can.</p>
   </header>
 
   <!-- CONTACT > HEADER(STEPS) -->
   <header class="container page-title" style="margin-bottom: 3rem" v-else-if="!isFormVisible">
-    <h1 style="margin-bottom: 2rem">
-      {{ step === 2 ? "Tell us a little bit more?" : "You may find this article helpful" }}
-    </h1>
+    <h1 style="margin-bottom: 2rem">{{ step === 2 ? "Tell us a little bit more?" : "You may find this article helpful" }}</h1>
     <div class="page-contact-progress">
       <div class="d-flex justify-content-between mb-2">
         <strong>Step {{ step }}</strong>
         <a href="#" @click.prevent="goback">Go back</a>
       </div>
       <div class="progress">
-        <div
-          class="progress-bar"
-          :class="{'w-50': step ===2, 'w-100': step > 2}"
-          role="progressbar"
-          aria-valuenow="50"
-          aria-valuemin="0"
-          aria-valuemax="100"
-        ></div>
+        <div class="progress-bar" :class="{'w-50': step ===2, 'w-100': step > 2}" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
     </div>
   </header>
@@ -97,27 +79,18 @@ og_url: https://mailmeteor.com/contact
           <li><a href="https://dashboard.mailmeteor.com/account">Go to your Account settings</a></li>
           <li>Scroll down and select "Cancel subscription"</li>
         </ul>
-        <p>
-          From there, we will ask you for a few details on why you want to leave us. Then your subscription will be
-          automatically cancelled.
-        </p>
+        <p>From there, we will ask you for a few details on why you want to leave us. Then your subscription will be automatically cancelled.</p>
 
-        <p>
-          You can cancel your subscription anytime. If you cancel in advance, you will enjoy your full email quota until
-          the last day of your subscription.
-        </p>
+        <p>You can cancel your subscription anytime. If you cancel in advance, you will enjoy your full email quota until the last day of your subscription.</p>
       </help-article>
 
       <help-article url="#billing/change-email" title="Can I change my email address?" form nofooter>
         <p>
-          Most of the time, people asking for changing of email address have been flagged as spamming or considered
-          misusing the platform. So we generally don't change an email address assigned to a subscription.
+          Most of the time, people asking for changing of email address have been flagged as spamming or considered misusing the platform. So we generally don't change an email
+          address assigned to a subscription.
         </p>
 
-        <p>
-          If you have just made your purchase and you made a mistake on the email address, that's different of course!
-          Contact us and we will manually update your account.
-        </p>
+        <p>If you have just made your purchase and you made a mistake on the email address, that's different of course! Contact us and we will manually update your account.</p>
       </help-article>
 
       <help-article url="#billing/upgrade-failed" title="I've purchased Mailmeteor but my account did not upgrade">
@@ -125,22 +98,16 @@ og_url: https://mailmeteor.com/contact
 
         <ul>
           <li>Refresh your window and re-open Mailmeteor to see if it updates your account</li>
-          <li>
-            In Google Sheets, go to the Add-ons menu at the top and check under Mailmeteor > My account that you are
-            logged in with the right Google account
-          </li>
+          <li>In Google Sheets, go to the Add-ons menu at the top and check under Mailmeteor > My account that you are logged in with the right Google account</li>
         </ul>
 
         <p>
-          In case the above doesn't help, your issue may come from a typo in your email address during upgrade or a
-          temporary issue preventing the upgrade. Please contact us and we will help you solve this situation.
+          In case the above doesn't help, your issue may come from a typo in your email address during upgrade or a temporary issue preventing the upgrade. Please contact us and we
+          will help you solve this situation.
         </p>
       </help-article>
 
-      <help-article
-        url="#billing/500-only"
-        title="I've purchased Mailmeteor but I can only send 500 emails a day (instead of 2,000)"
-      >
+      <help-article url="#billing/500-only" title="I've purchased Mailmeteor but I can only send 500 emails a day (instead of 2,000)">
         <p>Mailmeteor Premium allows you to send personalized emails up to the limits imposed by Gmail:</p>
 
         <ul>
@@ -149,21 +116,17 @@ og_url: https://mailmeteor.com/contact
         </ul>
 
         <p>
-          Mailmeteor abides by these limits and allows you to send as many emails as you can using your own Gmail
-          account. If you upgraded a @gmail.com address, you would need to switch to a Google Workspace account to send
-          2000 emails a day.
+          Mailmeteor abides by these limits and allows you to send as many emails as you can using your own Gmail account. If you upgraded a @gmail.com address, you would need to
+          switch to a Google Workspace account to send 2000 emails a day.
         </p>
 
-        <p>
-          This information is available on our website at the time of purchase, as well as in the pricing section and
-          FAQ section
-        </p>
+        <p>This information is available on our website at the time of purchase, as well as in the pricing section and FAQ section</p>
       </help-article>
 
       <help-article url="#billing/switch" title="I subscribed using the wrong email address" form nofooter>
         <p>
-          We can change your email address if you entered the wrong one during purchase. Please contact us and let us
-          know the old email address and the new one you'd like to use instead.
+          We can change your email address if you entered the wrong one during purchase. Please contact us and let us know the old email address and the new one you'd like to use
+          instead.
         </p>
       </help-article>
 
@@ -193,10 +156,9 @@ og_url: https://mailmeteor.com/contact
         </p>
         <p>From there, you can add new team members by clicking on “Invite teammates to join”.</p>
         <p>
-          Note that when you add a new user, your subscription will be instantly updated to reflect the changes.
-          Especially, each active user is counted toward your billing plan. If you remove a user during your
-          subscription, this user will be effectively downgraded at the end of your billing cycle. In the meantime, this
-          user still has access to all the premium features of your plan.
+          Note that when you add a new user, your subscription will be instantly updated to reflect the changes. Especially, each active user is counted toward your billing plan.
+          If you remove a user during your subscription, this user will be effectively downgraded at the end of your billing cycle. In the meantime, this user still has access to
+          all the premium features of your plan.
         </p>
       </help-article>
 
@@ -206,53 +168,33 @@ og_url: https://mailmeteor.com/contact
           <a href="https://dashboard.mailmeteor.com/account/users">Account section in your dashboard</a>.
         </p>
         <p>
-          From there, you can remove existing users by clicking on “Remove this user”. Note that if you remove a user
-          during your subscription, this user will be effectively downgraded at the end of your billing cycle. In the
-          meantime, this user still has access to all the premium features of your plan.
+          From there, you can remove existing users by clicking on “Remove this user”. Note that if you remove a user during your subscription, this user will be effectively
+          downgraded at the end of your billing cycle. In the meantime, this user still has access to all the premium features of your plan.
         </p>
       </help-article>
 
       <help-article url="#billing/wrong-teammates" title="I added a user by mistake" form nofooter>
-        <p>
-          In case you added a new user by error, we can cancel and refund the account added by mistake provided it
-          wasn't used to send emails using Mailmeteor.
-        </p>
+        <p>In case you added a new user by error, we can cancel and refund the account added by mistake provided it wasn't used to send emails using Mailmeteor.</p>
         <p>Contact us and let us know which email address was added by error. We'll adjust your account accordingly.</p>
       </help-article>
 
       <!-- CONTACT > ARTICLES > SALES -->
-      <help-article
-        url="#sales/enterprise"
-        title="I want to purchase Mailmeteor for my company, do you offer Enterprise plans?"
-        form
-        nofooter
-      >
-        <p>
-          Sure, Mailmeteor works for companies of all sizes. Please tell us more about your needs, will we get back to
-          you within 24 hours.
-        </p>
+      <help-article url="#sales/enterprise" title="I want to purchase Mailmeteor for my company, do you offer Enterprise plans?" form nofooter>
+        <p>Sure, Mailmeteor works for companies of all sizes. Please tell us more about your needs, will we get back to you within 24 hours.</p>
       </help-article>
 
       <help-article url="#sales/non-profits" title="Do you offer discounts for non-profits?" form nofooter>
-        <p>
-          We do offer preferential rates for non-profits. Tell us more about your needs and we will get back to you
-          within 24 hours with a special discount.
-        </p>
+        <p>We do offer preferential rates for non-profits. Tell us more about your needs and we will get back to you within 24 hours with a special discount.</p>
       </help-article>
 
       <help-article url="#sales/free-trial" title="Does Mailmeteor offer a trial?" nofooter>
         <p>
           We don’t offer a free trial at this time. However, we do offer a
-          <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301"
-            >free version</a
-          >
-          of our product that includes essential Mailmeteor functionality. We believe that this is a more effective way
-          to allow users to become familiar with Mailmeteor than a free trial.
+          <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301">free version</a>
+          of our product that includes essential Mailmeteor functionality. We believe that this is a more effective way to allow users to become familiar with Mailmeteor than a
+          free trial.
         </p>
-        <p>
-          If you upgrade to <a href="https://mailmeteor.com/pricing">Mailmeteor Premium</a>, our complete suite of
-          services will become available to you.
-        </p>
+        <p>If you upgrade to <a href="https://mailmeteor.com/pricing">Mailmeteor Premium</a>, our complete suite of services will become available to you.</p>
       </help-article>
 
       <help-article url="#sales/new-teammates" title="How to add new users to my team?" nofooter>
@@ -262,10 +204,9 @@ og_url: https://mailmeteor.com/contact
         </p>
         <p>From there, you can add new team members by clicking on “Invite teammates to join”.</p>
         <p>
-          Note that when you add a new user, your subscription will be instantly updated to reflect the changes.
-          Especially, each active user is counted toward your billing plan. If you remove a user during your
-          subscription, this user will be effectively downgraded at the end of your billing cycle. In the meantime, this
-          user still has access to all the premium features of your plan.
+          Note that when you add a new user, your subscription will be instantly updated to reflect the changes. Especially, each active user is counted toward your billing plan.
+          If you remove a user during your subscription, this user will be effectively downgraded at the end of your billing cycle. In the meantime, this user still has access to
+          all the premium features of your plan.
         </p>
       </help-article>
 
@@ -275,17 +216,13 @@ og_url: https://mailmeteor.com/contact
           <a href="https://dashboard.mailmeteor.com/account/users">Account section in your dashboard</a>.
         </p>
         <p>
-          From there, you can remove existing users by clicking on “Remove this user”. Note that if you remove a user
-          during your subscription, this user will be effectively downgraded at the end of your billing cycle. In the
-          meantime, this user still has access to all the premium features of your plan.
+          From there, you can remove existing users by clicking on “Remove this user”. Note that if you remove a user during your subscription, this user will be effectively
+          downgraded at the end of your billing cycle. In the meantime, this user still has access to all the premium features of your plan.
         </p>
       </help-article>
 
       <help-article url="#sales/wrong-teammates" title="I added a user by mistake" form nofooter>
-        <p>
-          In case you added a new user by error, we can cancel and refund the account added by mistake provided it
-          wasn't used to send emails using Mailmeteor.
-        </p>
+        <p>In case you added a new user by error, we can cancel and refund the account added by mistake provided it wasn't used to send emails using Mailmeteor.</p>
         <p>Contact us and let us know which email address was added by error. We'll adjust your account accordingly.</p>
       </help-article>
 
@@ -303,16 +240,13 @@ og_url: https://mailmeteor.com/contact
         </ul>
 
         <p>
-          Take some time to review your emails using these guidelines. If you still have no clue as to why your emails
-          are going to spam, contact us so that we can review your situation together.
+          Take some time to review your emails using these guidelines. If you still have no clue as to why your emails are going to spam, contact us so that we can review your
+          situation together.
         </p>
       </help-article>
 
       <help-article url="#issues/reached-limit" title="Gmail says “I've reached a limit”">
-        <p>
-          When sending large campaigns, Google may temporarily stop your campaign and tell you have "reached a limit" if
-          it meets one of these conditions:
-        </p>
+        <p>When sending large campaigns, Google may temporarily stop your campaign and tell you have "reached a limit" if it meets one of these conditions:</p>
 
         <ul>
           <li>10 recipients in your campaign marked your email as spam</li>
@@ -324,23 +258,19 @@ og_url: https://mailmeteor.com/contact
         <ol>
           <li>
             Identify why your emails were blocked by Google. We have detailed our
-            <a href="https://support.mailmeteor.com/introduction/quick-start/avoid-spams-filters"
-              >guidelines to help you avoid "reached a limit" from Gmail.</a
-            >
+            <a href="https://support.mailmeteor.com/introduction/quick-start/avoid-spams-filters">guidelines to help you avoid "reached a limit" from Gmail.</a>
           </li>
           <li>
-            Once you have identified what may cause this issue, you can resume sending (you could try again tomorrow for
-            example). To resume sending, check what was the first email blocked by Google and then filter your
-            spreadsheet to resume the campaign starting from this recipient.
+            Once you have identified what may cause this issue, you can resume sending (you could try again tomorrow for example). To resume sending, check what was the first email
+            blocked by Google and then filter your spreadsheet to resume the campaign starting from this recipient.
           </li>
         </ol>
       </help-article>
 
       <help-article url="#issues/blocked" title="My Google account got blocked">
         <p>
-          Blocking accounts is the standard Gmail procedure when an unusual activity is detected. For example, if your
-          email campaign has been marked as spam by your contacts. Fortunately, it's possible to unblock a Gmail
-          account.
+          Blocking accounts is the standard Gmail procedure when an unusual activity is detected. For example, if your email campaign has been marked as spam by your contacts.
+          Fortunately, it's possible to unblock a Gmail account.
         </p>
 
         <p>How to unblock your Google account:</p>
@@ -352,24 +282,21 @@ og_url: https://mailmeteor.com/contact
         </ol>
 
         <p>
-          Having an account blocked can happen to all of us and it doesn't mean your whole domain reputation will be
-          affected negatively. However, take it as a sign that something should be reviewed within your email strategy.
-          Google can suspend an account for good if it still doesn't respect its guidelines.
+          Having an account blocked can happen to all of us and it doesn't mean your whole domain reputation will be affected negatively. However, take it as a sign that something
+          should be reviewed within your email strategy. Google can suspend an account for good if it still doesn't respect its guidelines.
         </p>
 
         <p>
           Be sure to follow our
-          <a href="https://support.mailmeteor.com/introduction/sending-guidelines">sending guidelines</a> to avoid your
-          Google account being blocked again. Please note Mailmeteor anti-abuse algorithms might also block your account
-          in case we detect a suspicious activity.
+          <a href="https://support.mailmeteor.com/introduction/sending-guidelines">sending guidelines</a> to avoid your Google account being blocked again. Please note Mailmeteor
+          anti-abuse algorithms might also block your account in case we detect a suspicious activity.
         </p>
       </help-article>
 
       <help-article url="#issues/alias" title="Email alias is not working">
         <p>
-          If you are using an email alias but emails are not sending correctly, the main reason might be that your email
-          alias is not well configured in Gmail. Indeed, Mailmeteor falls back to your primary email address when your
-          alias is not properly set up.
+          If you are using an email alias but emails are not sending correctly, the main reason might be that your email alias is not well configured in Gmail. Indeed, Mailmeteor
+          falls back to your primary email address when your alias is not properly set up.
         </p>
 
         <p>How to solve an email alias not working properly:</p>
@@ -379,29 +306,17 @@ og_url: https://mailmeteor.com/contact
             Check that your alias is well configured in Gmail using
             <a href="https://support.google.com/mail/answer/22370?hl=en">Google's guide on how to set up an alias</a>
           </li>
-          <li>
-            Once you made sure your alias is set up correctly, try to send a test email from your Gmail account with
-            your email alias
-          </li>
+          <li>Once you made sure your alias is set up correctly, try to send a test email from your Gmail account with your email alias</li>
           <li>If everything works in Gmail, then it will work in Mailmeteor too!</li>
         </ol>
       </help-article>
 
       <help-article url="#issues/attachments" title="My attachments files are not sent">
-        <p>
-          If your attachment is not sending with your emails, it might be due to the file size being too large or a
-          temporary connection issue.
-        </p>
+        <p>If your attachment is not sending with your emails, it might be due to the file size being too large or a temporary connection issue.</p>
 
         <ul>
-          <li>
-            Please make sure your attachment size is below 5MB. You may need to use an online service to compress your
-            files such as a PDF compressor.
-          </li>
-          <li>
-            Try to create a new template in Mailmeteor and attach your file again. This might solve a download issue due
-            to a temporary connection loss.
-          </li>
+          <li>Please make sure your attachment size is below 5MB. You may need to use an online service to compress your files such as a PDF compressor.</li>
+          <li>Try to create a new template in Mailmeteor and attach your file again. This might solve a download issue due to a temporary connection loss.</li>
         </ul>
 
         <p>
@@ -412,12 +327,12 @@ og_url: https://mailmeteor.com/contact
 
       <help-article url="#issues/emails-not-sent" title="My emails did not send">
         <p>
-          After sending a campaign with Mailmeteor, go to the Gmail Sent folder to confirm that your emails have been
-          sent. If no emails were sent, there might have been an error with your campaign.
+          After sending a campaign with Mailmeteor, go to the Gmail Sent folder to confirm that your emails have been sent. If no emails were sent, there might have been an error
+          with your campaign.
         </p>
         <p>
-          If you have scheduled your campaign or sent emails on Autopilot, note that it might take some time for your
-          emails to be sent, as the campaign is sent progressively in that case.
+          If you have scheduled your campaign or sent emails on Autopilot, note that it might take some time for your emails to be sent, as the campaign is sent progressively in
+          that case.
         </p>
 
         <p>To know more about your campaign's situation:</p>
@@ -430,18 +345,16 @@ og_url: https://mailmeteor.com/contact
 
       <help-article url="#issues/all-emails-opened" title="All my emails are marked as opened">
         <p>
-          The tracking system that Mailmeteor uses is industry standard. It works by adding a small image (called a 1x1
-          pixel) on the bottom of each email you send. Every time someone opens your email, it downloads that small
-          image and Mailmeteor records that opening in its database.
+          The tracking system that Mailmeteor uses is industry standard. It works by adding a small image (called a 1x1 pixel) on the bottom of each email you send. Every time
+          someone opens your email, it downloads that small image and Mailmeteor records that opening in its database.
         </p>
         <p>
-          Open tracking depends on email providers. Some email providers are downloading the tracking pixel before a
-          user opens the mail. This is the reason why some emails are marked as opened immediately after sending, and
-          some not.
+          Open tracking depends on email providers. Some email providers are downloading the tracking pixel before a user opens the mail. This is the reason why some emails are
+          marked as opened immediately after sending, and some not.
         </p>
         <p>
-          This situation can happen when your CRM (Salesfore, Hubspot) is Bcced to log conversations or when all your
-          recipients belong to the same email domain that has specific restrictions in place.
+          This situation can happen when your CRM (Salesfore, Hubspot) is Bcced to log conversations or when all your recipients belong to the same email domain that has specific
+          restrictions in place.
         </p>
       </help-article>
 
@@ -455,45 +368,32 @@ og_url: https://mailmeteor.com/contact
       </help-article>
 
       <help-article url="#issues/open-mailmeteor" title="I cannot open Mailmeteor">
+        <p>Your issue might be due to using multiple Google accounts under the same Chrome browser. Google can't handle when multiple accounts are logged in simultaneously.</p>
         <p>
-          Your issue might be due to using multiple Google accounts under the same Chrome browser. Google can't handle
-          when multiple accounts are logged in simultaneously.
-        </p>
-        <p>
-          Since you are using multiple Google accounts we recommend creating a new profile in Google Chrome with the
-          account you are using Mailmeteor with. This will make sure it'll always work with the right account. It takes
-          only 1 minute to set up!
+          Since you are using multiple Google accounts we recommend creating a new profile in Google Chrome with the account you are using Mailmeteor with. This will make sure
+          it'll always work with the right account. It takes only 1 minute to set up!
         </p>
         <p>
           To create a new Google Chrome profile, here's a simple step by step guide:
-          <a href="https://mailmeteor.com/blog/how-to-create-google-chrome-profile"
-            >https://mailmeteor.com/blog/how-to-create-google-chrome-profile</a
-          >
+          <a href="https://mailmeteor.com/blog/how-to-create-google-chrome-profile">https://mailmeteor.com/blog/how-to-create-google-chrome-profile</a>
         </p>
       </help-article>
 
       <!-- CONTACT > ARTICLES > OTHERS -->
       <help-article url="#others/feedback" title="I’d like to share a feedback or an idea" form nofooter>
-        <p>
-          Thank you! We definitely appreciate having your feedback. Just fill out the form below and the team will
-          promptly get back to you.
-        </p>
+        <p>Thank you! We definitely appreciate having your feedback. Just fill out the form below and the team will promptly get back to you.</p>
       </help-article>
 
       <help-article url="#others/features-request" title="Do you support X or Y?" nofooter>
         <p>
           All features available within Mailmeteor are listed on both our
-          <a href="https://mailmeteor.com/features">Features</a> page as well as on our
-          <a href="https://support.mailmeteor.com/introduction/advanced">Help Center</a>. If you think something is
-          missing, <a href="#help">please let us know below</a>.
+          <a href="https://mailmeteor.com/features">Features</a> page as well as on our <a href="https://support.mailmeteor.com/introduction/advanced">Help Center</a>. If you think
+          something is missing, <a href="#help">please let us know below</a>.
         </p>
       </help-article>
 
       <help-article url="#others/available-languages" title="Does Mailmeteor support languages other than English?">
-        <p>
-          Mailmeteor for Google Sheets is available in English, French and Spanish. To change from one language to
-          another follow these steps:
-        </p>
+        <p>Mailmeteor for Google Sheets is available in English, French and Spanish. To change from one language to another follow these steps:</p>
         <ul>
           <li>Open a Google Sheets</li>
           <li>In the “Add-ons” menu, click on “Mailmeteor” > “My account”</li>
@@ -501,16 +401,13 @@ og_url: https://mailmeteor.com/contact
         </ul>
 
         <p>
-          PS: Of course, changing languages does not affect your emails. You can even write emails in any language (even
-          in <a href="https://en.wikipedia.org/wiki/Klingon_language">Klingon</a>).
+          PS: Of course, changing languages does not affect your emails. You can even write emails in any language (even in
+          <a href="https://en.wikipedia.org/wiki/Klingon_language">Klingon</a>).
         </p>
       </help-article>
 
       <help-article url="#others/blog" title="Do you have a blog?" nofooter>
-        <p>
-          The <a href="https://mailmeteor.com/blog">Mailmeteor Blog</a> is the home of all things fascinating and fun
-          about emailing and mail merge.
-        </p>
+        <p>The <a href="https://mailmeteor.com/blog">Mailmeteor Blog</a> is the home of all things fascinating and fun about emailing and mail merge.</p>
       </help-article>
 
       <help-article url="#others/affiliate" title="Can I become an affiliate?" nofooter>
@@ -518,17 +415,12 @@ og_url: https://mailmeteor.com/contact
       </help-article>
 
       <help-article url="#others/promotion" title="How can I promote Mailmeteor?" nofooter>
-        <p>
-          First, thank you for asking this question! There are many ways you can help us spread the word about
-          Mailmeteor:
-        </p>
+        <p>First, thank you for asking this question! There are many ways you can help us spread the word about Mailmeteor:</p>
 
         <ul>
           <li>Talk to your friends or colleagues about us</li>
           <li>
-            <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301"
-              >Give us a review on the Google Workspace Marketplace</a
-            >
+            <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301">Give us a review on the Google Workspace Marketplace</a>
           </li>
           <li>Post in your favorite social network (LinkedIn, Twitter, Facebook, etc.)</li>
         </ul>
@@ -602,7 +494,7 @@ og_url: https://mailmeteor.com/contact
    * Components
    */
 
-  Vue.component("help-article", {
+  Vue.component('help-article', {
     props: {
       url: String,
       title: String,
@@ -610,97 +502,97 @@ og_url: https://mailmeteor.com/contact
       form: { type: Boolean, default: false },
     },
     created: function () {
-      var url = this.url;
-      var title = this.title;
+      var url = this.url
+      var title = this.title
 
-      if (url[0] !== "#") {
-        url = "#" + url;
+      if (url[0] !== '#') {
+        url = '#' + url
       }
 
-      var urlParts = url.split("/");
-      var category = urlParts.shift();
-      var slug = urlParts[0];
+      var urlParts = url.split('/')
+      var category = urlParts.shift()
+      var slug = urlParts[0]
 
       if (!url || !title || !category || !slug) {
-        console.error("Invalid article: " + this.title);
-        return;
+        console.error('Invalid article: ' + this.title)
+        return
       }
 
-      QAs[category] = QAs[category] || {};
+      QAs[category] = QAs[category] || {}
 
-      if (typeof QAs[category][slug] !== "undefined") {
-        console.error("Duplicate article: " + this.url);
-        return;
+      if (typeof QAs[category][slug] !== 'undefined') {
+        console.error('Duplicate article: ' + this.url)
+        return
       }
 
-      QAs[category][slug] = { title, url };
+      QAs[category][slug] = { title, url }
     },
     computed: {
       isActive: function () {
-        return this.$root.route === this.url;
+        return this.$root.route === this.url
       },
     },
-    template: "#help-article",
-  });
+    template: '#help-article',
+  })
 
-  Vue.component("help-dropdown", {
+  Vue.component('help-dropdown', {
     computed: {
       articles: function () {
-        const route = this.$root.route;
-        return QAs[route] || [];
+        const route = this.$root.route
+        return QAs[route] || []
       },
     },
-    template: "#help-dropdown",
-  });
+    template: '#help-dropdown',
+  })
 
-  Vue.component("help-form", {
+  Vue.component('help-form', {
     props: { noheader: Boolean },
-    template: "#help-form",
+    template: '#help-form',
     methods: {
       goback: function () {
-        this.$root.goback();
+        this.$root.goback()
       },
     },
-  });
+  })
 
   /**
    * Main Vuejs instance
    */
 
-  var QAs = {};
+  var QAs = {}
   var app = new Vue({
-    el: "#app",
+    el: '#app',
     data: {
-      route: "",
+      route: '',
       isFormVisible: false,
     },
     mounted() {
-      this.setLocation();
+      this.setLocation()
 
-      window.onhashchange = this.setLocation;
+      window.onhashchange = this.setLocation
     },
     computed: {
       step: function () {
-        var route = this.route;
+        var route = this.route
 
-        if (!route || route === "#") {
-          return 1;
+        if (!route || route === '#') {
+          return 1
         }
 
-        routeParts = route.split("/");
+        routeParts = route.split('/')
 
-        return routeParts.length > 1 ? 3 : 2;
+        return routeParts.length > 1 ? 3 : 2
       },
     },
     methods: {
       setLocation: function () {
-        this.route = location.hash || "#";
-        this.isFormVisible = this.route === "#help";
+        this.route = location.hash || '#'
+        this.isFormVisible = this.route === '#help'
       },
       goback: function () {
-        window.history.back();
+        window.history.back()
       },
     },
-  });
+  })
 </script>
 {% endraw %}
