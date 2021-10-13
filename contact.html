@@ -289,6 +289,189 @@ og_url: https://mailmeteor.com/contact
         <p>Contact us and let us know which email address was added by error. We'll adjust your account accordingly.</p>
       </help-article>
 
+      <!-- CONTACT > ARTICLES > ISSUES -->
+      <help-article url="#issues/spam" title="My emails are going to spam">
+        <p>Here are two great guides to help you deal with spam issues:</p>
+
+        <ul>
+          <li>
+            <a href="https://support.mailmeteor.com/introduction/sending-guidelines">Mailmeteor sending guidelines</a>
+          </li>
+          <li>
+            <a href="https://mailmeteor.com/blog/gmail-deliverability">10 tips to improve Gmail deliverability</a>
+          </li>
+        </ul>
+
+        <p>
+          Take some time to review your emails using these guidelines. If you still have no clue as to why your emails
+          are going to spam, contact us so that we can review your situation together.
+        </p>
+      </help-article>
+
+      <help-article url="#issues/reached-limit" title="Gmail says “I've reached a limit”">
+        <p>
+          When sending large campaigns, Google may temporarily stop your campaign and tell you have "reached a limit" if
+          it meets one of these conditions:
+        </p>
+
+        <ul>
+          <li>10 recipients in your campaign marked your email as spam</li>
+          <li>10 emails fell into your recipients' spam folder</li>
+        </ul>
+
+        <p>How to solve the “reached a limit” error:</p>
+
+        <ol>
+          <li>
+            Identify why your emails were blocked by Google. We have detailed our
+            <a href="https://support.mailmeteor.com/introduction/quick-start/avoid-spams-filters"
+              >guidelines to help you avoid "reached a limit" from Gmail.</a
+            >
+          </li>
+          <li>
+            Once you have identified what may cause this issue, you can resume sending (you could try again tomorrow for
+            example). To resume sending, check what was the first email blocked by Google and then filter your
+            spreadsheet to resume the campaign starting from this recipient.
+          </li>
+        </ol>
+      </help-article>
+
+      <help-article url="#issues/blocked" title="My Google account got blocked">
+        <p>
+          Blocking accounts is the standard Gmail procedure when an unusual activity is detected. For example, if your
+          email campaign has been marked as spam by your contacts. Fortunately, it's possible to unblock a Gmail
+          account.
+        </p>
+
+        <p>How to unblock your Google account:</p>
+
+        <ol>
+          <li>Go to the <a href="https://admin.google.com/">Google Admin Panel</a></li>
+          <li>In the Users panel, search for the blocked account</li>
+          <li>Go to the blocked account profile and click on “Reactivate”</li>
+        </ol>
+
+        <p>
+          Having an account blocked can happen to all of us and it doesn't mean your whole domain reputation will be
+          affected negatively. However, take it as a sign that something should be reviewed within your email strategy.
+          Google can suspend an account for good if it still doesn't respect its guidelines.
+        </p>
+
+        <p>
+          Be sure to follow our
+          <a href="https://support.mailmeteor.com/introduction/sending-guidelines">sending guidelines</a> to avoid your
+          Google account being blocked again. Please note Mailmeteor anti-abuse algorithms might also block your account
+          in case we detect a suspicious activity.
+        </p>
+      </help-article>
+
+      <help-article url="#issues/alias" title="Email alias is not working">
+        <p>
+          If you are using an email alias but emails are not sending correctly, the main reason might be that your email
+          alias is not well configured in Gmail. Indeed, Mailmeteor falls back to your primary email address when your
+          alias is not properly set up.
+        </p>
+
+        <p>How to solve an email alias not working properly:</p>
+
+        <ol>
+          <li>
+            Check that your alias is well configured in Gmail using
+            <a href="https://support.google.com/mail/answer/22370?hl=en">Google's guide on how to set up an alias</a>
+          </li>
+          <li>
+            Once you made sure your alias is set up correctly, try to send a test email from your Gmail account with
+            your email alias
+          </li>
+          <li>If everything works in Gmail, then it will work in Mailmeteor too!</li>
+        </ol>
+      </help-article>
+
+      <help-article url="#issues/attachments" title="My attachments files are not sent">
+        <p>
+          If your attachment is not sending with your emails, it might be due to the file size being too large or a
+          temporary connection issue.
+        </p>
+
+        <ul>
+          <li>
+            Please make sure your attachment size is below 5MB. You may need to use an online service to compress your
+            files such as a PDF compressor.
+          </li>
+          <li>
+            Try to create a new template in Mailmeteor and attach your file again. This might solve a download issue due
+            to a temporary connection loss.
+          </li>
+        </ul>
+
+        <p>
+          If you need to send files over 5MB, please refer to this quick guide to help you do this:
+          <a href="https://support.mailmeteor.com/introduction/advanced/attachments">send attachments in Mailmeteor.</a>
+        </p>
+      </help-article>
+
+      <help-article url="#issues/emails-not-sent" title="My emails did not send">
+        <p>
+          After sending a campaign with Mailmeteor, go to the Gmail Sent folder to confirm that your emails have been
+          sent. If no emails were sent, there might have been an error with your campaign.
+        </p>
+        <p>
+          If you have scheduled your campaign or sent emails on Autopilot, note that it might take some time for your
+          emails to be sent, as the campaign is sent progressively in that case.
+        </p>
+
+        <p>To know more about your campaign's situation:</p>
+        <ol>
+          <li>Go to your Mailmeteor Dashboard</li>
+          <li>Select the campaign you want to investigate</li>
+          <li>Access the campaign's metrics to understand what caused your emails not to be sent</li>
+        </ol>
+      </help-article>
+
+      <help-article url="#issues/all-emails-opened" title="All my emails are marked as opened">
+        <p>
+          The tracking system that Mailmeteor uses is industry standard. It works by adding a small image (called a 1x1
+          pixel) on the bottom of each email you send. Every time someone opens your email, it downloads that small
+          image and Mailmeteor records that opening in its database.
+        </p>
+        <p>
+          Open tracking depends on email providers. Some email providers are downloading the tracking pixel before a
+          user opens the mail. This is the reason why some emails are marked as opened immediately after sending, and
+          some not.
+        </p>
+        <p>
+          This situation can happen when your CRM (Salesfore, Hubspot) is Bcced to log conversations or when all your
+          recipients belong to the same email domain that has specific restrictions in place.
+        </p>
+      </help-article>
+
+      <help-article url="#issues/tracking-report" title="My tracking report does not update">
+        <p>To refresh your tracking report, please proceed as follow:</p>
+        <ul>
+          <li>Close your tracking report window</li>
+          <li>In your Google spreadsheet, click on “Add-ons” > “Mailmeteor” > “Tracking report”</li>
+          <li>It will open again your tracking report and refresh your data</li>
+        </ul>
+      </help-article>
+
+      <help-article url="#issues/open-mailmeteor" title="I cannot open Mailmeteor">
+        <p>
+          Your issue might be due to using multiple Google accounts under the same Chrome browser. Google can't handle
+          when multiple accounts are logged in simultaneously.
+        </p>
+        <p>
+          Since you are using multiple Google accounts we recommend creating a new profile in Google Chrome with the
+          account you are using Mailmeteor with. This will make sure it'll always work with the right account. It takes
+          only 1 minute to set up!
+        </p>
+        <p>
+          To create a new Google Chrome profile, here's a simple step by step guide:
+          <a href="https://mailmeteor.com/blog/how-to-create-google-chrome-profile"
+            >https://mailmeteor.com/blog/how-to-create-google-chrome-profile</a
+          >
+        </p>
+      </help-article>
+
       <!-- CONTACT > ARTICLES > OTHERS -->
       <help-article url="#others/feedback" title="I’d like to share a feedback or an idea" form nofooter>
         <p>
