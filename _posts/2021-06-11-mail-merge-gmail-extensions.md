@@ -49,7 +49,7 @@ We compiled the most useful Gmail merge extensions that give you the ability to 
 
 **Type:** Google add-on
 
-Mailmeteor is one of the most popular and most established Gmail mail merge extensions on the Google Workspace Marketplace today. In just three years, it has been ranked as the best-rated Google add-on, now used by more than 2.5 million users.
+Mailmeteor is one of the most popular and most established Gmail mail merge extensions on the Google Workspace Marketplace today. In just three years, it has been ranked as the best-rated Google add-on, now used by more than 3 million users.
 
 The extension was founded by Jean Dubrulle and Corentin Brossault, two Google specialists and entrepreneurs from Paris, France. Prior to building Mailmeteor, they were using other mail merge add-ons but got frustrated by their complex interface, lack of customer support and the invasive permissions requested by these tools to user's private data.
 
@@ -853,7 +853,7 @@ To use Mailshake, go to their [website](https://mailshake.com/) and ask for a de
 
 <div class="blogpost-endnote">
   <p>
-    For our money, the best mail merge for Gmail is Mailmeteor, both for your professional or personal needs. Trusted by over 2.5 million customers, Mailmeteor is the best-rated Google Add-on for its intuitive interface, its comprehensive feature list and its care for data privacy.
+    For our money, the best mail merge for Gmail is Mailmeteor, both for your professional or personal needs. Trusted by over 3 million customers, Mailmeteor is the best-rated Google Add-on for its intuitive interface, its comprehensive feature list and its care for data privacy.
   </p>
   <p>
     <a href="https://mailmeteor.com" class="font-weight-bold">Try Mailmeteor, the best mail merge extension for Gmail</a>

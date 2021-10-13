@@ -579,7 +579,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **Rated:** 4.9/5
 
-**A bit of history:** In three years of existence, Mailmeteor was awarded as the best rated Google add-on and used by over 2.5 million users. Mailmeteor originated in STATION F, the largest startup campus in the world. The two founders behind Mailmeteor, Jean Dubrulle, and Corentin Brossault seeked a simple email solution to engage with people on campus. They were quite disappointed by existing mail merge solutions at that time due to their lack of simplicity and privacy. That’s why they worked on reinventing a mail merge solution that would be intuitive, affordable, and privacy-friendly.
+**A bit of history:** In three years of existence, Mailmeteor was awarded as the best rated Google add-on and used by over 3 million users. Mailmeteor originated in STATION F, the largest startup campus in the world. The two founders behind Mailmeteor, Jean Dubrulle, and Corentin Brossault seeked a simple email solution to engage with people on campus. They were quite disappointed by existing mail merge solutions at that time due to their lack of simplicity and privacy. That’s why they worked on reinventing a mail merge solution that would be intuitive, affordable, and privacy-friendly.
 
 **How to use Mailmeteor?** [Get Started with Mailmeteor](https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial)
 
