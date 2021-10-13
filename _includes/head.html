@@ -1,18 +1,11 @@
-{% if page.apps %} {% assign title = page.title | replace: "(X)", page.apps.size
-%} {% endif %} {% assign og_title = page.og_title | default: title | default:
-page.title %} {% assign og_description = page.og_description | default:
+{% if page.apps %} {% assign title = page.title | replace: "(X)", page.apps.size %} {% endif %} {% assign og_title =
+page.og_title | default: title | default: page.title %} {% assign og_description = page.og_description | default:
 page.description %}
 
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
-/>
-<meta
-  name="google-site-verification"
-  content="TShcwwV_esZ98tyJWg6fRMCTDcjUwGnfGBu087vga3M"
-/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<meta name="google-site-verification" content="TShcwwV_esZ98tyJWg6fRMCTDcjUwGnfGBu087vga3M" />
 <link rel="icon" href="/assets/img/brand/favicon.ico" type="image/x-icon" />
 
 <title>{{ title | default: page.title }}</title>
@@ -32,10 +25,7 @@ page.description %}
 <meta property="og:url" content="{{ page.og_url | default: page.canonical }}" />
 <meta name="twitter:site" content="@mailmeteor" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta
-  name="twitter:url"
-  content="{{ page.og_url | default: page.canonical }}"
-/>
+<meta name="twitter:url" content="{{ page.og_url | default: page.canonical }}" />
 <meta name="twitter:title" content="{{ og_title }}" />
 <meta name="twitter:description" content="{{ og_description }}" />
 <meta
@@ -49,4 +39,4 @@ page.description %}
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
   crossorigin="anonymous"
 />
-<link rel="stylesheet" href="/assets/css/main-20210729.css" />
+<link rel="stylesheet" href="/assets/css/main-20211013.css" />

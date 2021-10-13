@@ -1,0 +1,345 @@
+---
+layout: default
+title: How can we help you? - Mailmeteor
+description: Reach out to Mailmeteor's customer support team. Our team speaks English, French and Spanish. We'll do our best to answer as quickly as we can.
+canonical: https://mailmeteor.com/contact
+
+og_title: How can we help you?
+og_description: Reach out to Mailmeteor's customer support team. Our team speaks English, French and Spanish. We'll do our best to answer as quickly as we can.
+og_url: https://mailmeteor.com/contact
+---
+
+<!-- CONTACT  -->
+
+{% raw %}
+<div id="app" class="page-contact">
+  <!-- CONTACT > HEADER(HOME) -->
+  <header class="container page-contact-search page-title" v-if="step === 1">
+    <h1 class="text-center">Hi. 👋 How can we help you?</h1>
+    <form action="https://support.mailmeteor.com/" class="text-center" method="get">
+      <div class="form-inline">
+        <input
+          class="form-control"
+          type="search"
+          name="q"
+          placeholder="Search the Help Center"
+          aria-label="Search"
+          id="support-searchbar"
+        />
+      </div>
+    </form>
+    <p class="text-center">
+      Our team speaks English, French and Spanish.<br />We'll do our best to answer as quickly as we can.
+    </p>
+  </header>
+
+  <!-- CONTACT > HEADER(STEPS) -->
+  <header class="container page-title" style="margin-bottom: 3rem" v-else-if="!isFormVisible">
+    <h1 style="margin-bottom: 2rem">
+      {{ step === 2 ? "Tell us a little bit more?" : "You may find this article helpful" }}
+    </h1>
+    <div class="page-contact-progress">
+      <div class="d-flex justify-content-between mb-2">
+        <strong>Step {{ step }}</strong>
+        <a href="#" @click.prevent="goback">Go back</a>
+      </div>
+      <div class="progress">
+        <div
+          class="progress-bar"
+          :class="{'w-50': step ===2, 'w-100': step > 2}"
+          role="progressbar"
+          aria-valuenow="50"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        ></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTACT > MAIN -->
+  <main>
+    <!-- <div id="support-svg"></div> -->
+    <div class="container">
+      <!-- CONTACT > HOME -->
+      <template v-if="step === 1">
+        <div class="page-contact-home">
+          <div class="row">
+            <a class="help-box col-sm-4" href="#billing">
+              <img src="/assets/img/icons/getting-started.svg" alt="" />
+              <h2>Billing & Account</h2>
+            </a>
+            <a class="help-box col-sm-4" href="#sales">
+              <img src="/assets/img/icons/advanced-features.svg" alt="" />
+              <h2>Sales</h2>
+            </a>
+          </div>
+          <div class="row">
+            <a class="help-box col-sm-4" href="#issues">
+              <img src="/assets/img/icons/troubleshooting.svg" alt="" />
+              <h2>Resolve Issues</h2>
+            </a>
+            <a class="help-box col-sm-4" href="#others">
+              <img src="/assets/img/icons/advanced-features.svg" alt="" />
+              <h2>Others</h2>
+            </a>
+          </div>
+        </div>
+      </template>
+
+      <!-- CONTACT > DROPDOWNS -->
+      <help-dropdown v-if="step === 2"></help-dropdown>
+
+      <!-- CONTACT > ARTICLES > BILLING -->
+      <help-article url="#billing/cancel" title="How to cancel my subscription?" nofooter>
+        <p>To cancel your subscription and avoid future payments, follow these simple steps:</p>
+
+        <ul>
+          <li>Open <a href="https://dashboard.mailmeteor.com">Mailmeteor's dashboard</a></li>
+          <li><a href="https://dashboard.mailmeteor.com/account">Go to your Account settings</a></li>
+          <li>Scroll down and select "Cancel subscription"</li>
+        </ul>
+        <p>
+          From there, we will ask you for a few details on why you want to leave us. Then your subscription will be
+          automatically cancelled.
+        </p>
+
+        <p>
+          You can cancel your subscription anytime. If you cancel in advance, you will enjoy your full email quota until
+          the last day of your subscription.
+        </p>
+      </help-article>
+
+      <help-article url="#billing/upgrade-failed" title="I've purchased Mailmeteor but my account did not upgrade">
+        <p>If you've purchased a subscription but still can't access the premium features, try the following:</p>
+
+        <ul>
+          <li>Refresh your window and re-open Mailmeteor to see if it updates your account</li>
+          <li>
+            In Google Sheets, go to the Add-ons menu at the top and check under Mailmeteor > My account that you are
+            logged in with the right Google account
+          </li>
+        </ul>
+
+        <p>
+          In case the above doesn't help, your issue may come from a typo in your email address during upgrade or a
+          temporary issue preventing the upgrade. Please contact us and we will help you solve this situation.
+        </p>
+      </help-article>
+
+      <help-article
+        url="#billing/500-only"
+        title="I've purchased Mailmeteor but I can only send 500 emails a day (instead of 2,000)"
+      >
+        <p>Mailmeteor Premium allows you to send personalized emails up to the limits imposed by Gmail:</p>
+
+        <ul>
+          <li>Gmail accounts (@gmail.com) can send up to 500 emails per day</li>
+          <li>Google Workspace (G Suite) accounts can send up to 2000 emails per day</li>
+        </ul>
+
+        <p>
+          Mailmeteor abides by these limits and allows you to send as many emails as you can using your own Gmail
+          account. If you upgraded a @gmail.com address, you would need to switch to a Google Workspace account to send
+          2000 emails a day.
+        </p>
+
+        <p>
+          This information is available on our website at the time of purchase, as well as in the pricing section and
+          FAQ section
+        </p>
+      </help-article>
+
+      <help-article url="#billing/switch" title="I subscribed using the wrong email address" form nofooter>
+        <p>
+          We can change your email address if you entered the wrong one during purchase. Please contact us and let us
+          know the old email address and the new one you'd like to use instead.
+        </p>
+      </help-article>
+
+      <help-article url="#billing/download-invoices" title="Where can I download my invoices?" nofooter>
+        <p>To download your Mailmeteor invoices, follow these steps:</p>
+        <ul>
+          <li>Open <a href="https://dashboard.mailmeteor.com">Mailmeteor's dashboard</a></li>
+          <li><a href="https://dashboard.mailmeteor.com/account">Go to your Account settings</a></li>
+          <li>Click on "Download invoices"</li>
+        </ul>
+      </help-article>
+
+      <help-article url="#billing/update-payment-methods" title="How to update my credit card details?" nofooter>
+        <p>To update or add a new billing method, follow these steps:</p>
+        <ul>
+          <li>Open <a href="https://dashboard.mailmeteor.com">Mailmeteor's dashboard</a></li>
+          <li><a href="https://dashboard.mailmeteor.com/account">Go to your Account settings</a></li>
+          <li>In your account, click on "Update payment method"</li>
+        </ul>
+        <p>You'll then be redirected to a secure page to update your payment method.</p>
+      </help-article>
+    </div>
+  </main>
+
+  <!-- CONTACT > FORM -->
+  <help-form v-if="isFormVisible"></help-form>
+</div>
+
+<!-- CONTACT > TEMPLATES > ARTICLE  -->
+<script type="text/x-template" id="help-article">
+  <div v-if="isActive">
+    <article>
+      <header><h2>{{ title }}</h2></header>
+      <main><slot></slot></main>
+      <footer v-if="!nofooter">Still having trouble? <a href="#help">Contact us</a>, we are here to help.</footer>
+    </article>
+    <help-form v-if="form" noheader></help-form>
+  </div>
+</script>
+
+<!-- CONTACT > TEMPLATES > DROPDOWN -->
+<script type="text/x-template" id="help-dropdown">
+  <ul>
+    <li v-for="article in articles" :key="article.url"><a :href="article.url">{{ article.title }}</a></li>
+  </ul>
+</script>
+
+<!-- CONTACT > TEMPLATES > FORM -->
+<script type="text/x-template" id="help-form">
+  <form class="container" method="POST">
+    <header v-if="!noheader" class="container page-contact-search page-title">
+      <h1 class="text-center">Ask for help</h1>
+      <p>Our team speaks English, French and Spanish.<br />Our current response time is less than 24 hours.</p>
+    </header>
+    <main class="page-contact-form">
+      <h3 style="margin: 0.5rem 0 1.5rem 0">What can we help you with today?</h3>
+      <div class="form-group">
+        <input type="email" class="form-control" name="entry.493178166" placeholder="Your email address" required />
+      </div>
+      <div class="form-group">
+        <textarea
+          class="form-control"
+          name="entry.1383998879"
+          name="message"
+          rows="7"
+          placeholder="Your message"
+          required
+        ></textarea>
+      </div>
+      <div class="d-flex align-items-center">
+        <button type="submit" class="btn btn-filled" style="padding: 0.5rem 1rem; margin-right: 1rem">
+          <strong>Let's get in touch</strong>
+        </button>
+        <button class="btn btn-outline" style="padding: 0.5rem 1rem; margin-right: 1rem" @click.prevent="goback">
+          <strong>Cancel</strong>
+        </button>
+        <span class="text-secondary"></span>
+      </div>
+    </main>
+  </form>
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script>
+  /**
+   * Components
+   */
+
+  Vue.component("help-article", {
+    props: {
+      url: String,
+      title: String,
+      nofooter: { type: Boolean, default: false },
+      form: { type: Boolean, default: false },
+    },
+    created: function () {
+      var url = this.url;
+      var title = this.title;
+
+      if (url[0] !== "#") {
+        url = "#" + url;
+      }
+
+      var urlParts = url.split("/");
+      var category = urlParts.shift();
+      var slug = urlParts[0];
+
+      if (!url || !title || !category || !slug) {
+        console.error("Invalid article: " + this.title);
+        return;
+      }
+
+      QAs[category] = QAs[category] || {};
+
+      if (typeof QAs[category][slug] !== "undefined") {
+        console.error("Duplicate article: " + this.url);
+        return;
+      }
+
+      QAs[category][slug] = { title, url };
+    },
+    computed: {
+      isActive: function () {
+        return this.$root.route === this.url;
+      },
+    },
+    template: "#help-article",
+  });
+
+  Vue.component("help-dropdown", {
+    computed: {
+      articles: function () {
+        const route = this.$root.route;
+        return QAs[route] || [];
+      },
+    },
+    template: "#help-dropdown",
+  });
+
+  Vue.component("help-form", {
+    props: { noheader: Boolean },
+    template: "#help-form",
+    methods: {
+      goback: function () {
+        this.$root.goback();
+      },
+    },
+  });
+
+  /**
+   * Main Vuejs instance
+   */
+
+  var QAs = {};
+  var app = new Vue({
+    el: "#app",
+    data: {
+      route: "",
+      isFormVisible: false,
+    },
+    mounted() {
+      this.setLocation();
+
+      window.onhashchange = this.setLocation;
+    },
+    computed: {
+      step: function () {
+        var route = this.route;
+
+        if (!route || route === "#") {
+          return 1;
+        }
+
+        routeParts = route.split("/");
+
+        return routeParts.length > 1 ? 3 : 2;
+      },
+    },
+    methods: {
+      setLocation: function () {
+        this.route = location.hash || "#";
+        this.isFormVisible = this.route === "#help";
+      },
+      goback: function () {
+        window.history.back();
+      },
+    },
+  });
+</script>
+{% endraw %}

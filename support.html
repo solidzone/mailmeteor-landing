@@ -24,18 +24,17 @@ og_url: https://mailmeteor.com/support
 
 <section class="page-support-featured">
   <!-- SUPPORT > FEATURED SECTIONS -->
-  <div id="support-svg">
-  </div>
-  <div class="container page-support-featured-sections">
-    {% for section in site.data.support.sections %}
-    <div class="col-md-12 col-lg-3">
-      <a href="{{ section.link }}">
-        <img src="{{ section.image }}" alt="{{section.name}}">
-        <h2>{{section.name}}</h2>
-        <p>{{section.description}}</p>
-      </a>
+  <div id="support-svg"></div>
+  <div class="container">
+    <div class="row page-support-featured-sections">
+      {% for section in site.data.support.sections %}
+        <a href="{{ section.link }}" class="col-md-12 col-lg-3 help-box">
+          <img src="{{ section.image }}" alt="{{section.name}}">
+          <h2>{{section.name}}</h2>
+          <p>{{section.description}}</p>
+        </a>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </section>
 
