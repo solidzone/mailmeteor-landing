@@ -15,13 +15,8 @@ og_url: https://mailmeteor.com/contact
 <div id="app" class="page-contact">
   <!-- CONTACT > HEADER(HOME) -->
   <header class="container page-contact-search page-title" v-if="step === 1">
-    <h1 class="text-center">Hi. 👋 How can we help you?</h1>
-    <form action="https://support.mailmeteor.com/" class="text-center" method="get">
-      <div class="form-inline">
-        <input class="form-control" type="search" name="q" placeholder="Search the Help Center" aria-label="Search" id="support-searchbar" />
-      </div>
-    </form>
-    <p class="text-center">Our team speaks English, French and Spanish.<br />We'll do our best to answer as quickly as we can.</p>
+    <h1 class="text-center">Hi! 👋 How can we help you?</h1>
+    <p class="text-center">Select a topic below, we'll do our best to answer as quickly as we can.</br>Our team speaks English, French and Spanish.</p>
   </header>
 
   <!-- CONTACT > HEADER(STEPS) -->
@@ -46,22 +41,26 @@ og_url: https://mailmeteor.com/contact
         <div class="page-contact-home">
           <div class="row">
             <a class="help-box col-sm-4" href="#billing">
-              <img src="/assets/img/icons/getting-started.svg" alt="" />
-              <h2>Billing & Account</h2>
+              <img src="/assets/img/icons/getting-started.svg" alt="Billing icon" />
+              <h2>Billing</h2>
+              <p>Payment, subscription, account</p>
             </a>
             <a class="help-box col-sm-4" href="#sales">
-              <img src="/assets/img/icons/advanced-features.svg" alt="" />
+              <img src="/assets/img/icons/sales.svg" alt="Sales icon" />
               <h2>Sales</h2>
+              <p>Questions before purchasing Mailmeteor?</p>
             </a>
           </div>
           <div class="row">
             <a class="help-box col-sm-4" href="#issues">
-              <img src="/assets/img/icons/troubleshooting.svg" alt="" />
+              <img src="/assets/img/icons/troubleshooting.svg" alt="Troubleshooting icon" />
               <h2>Resolve Issues</h2>
+              <p>Bugs or problems using Mailmeteor</p>
             </a>
             <a class="help-box col-sm-4" href="#others">
-              <img src="/assets/img/icons/advanced-features.svg" alt="" />
+              <img src="/assets/img/icons/advanced-features.svg" alt="Feedback icon" />
               <h2>Others</h2>
+              <p>Share feedback, features requests or ideas</p>
             </a>
           </div>
         </div>
@@ -71,7 +70,7 @@ og_url: https://mailmeteor.com/contact
       <help-dropdown v-if="step === 2"></help-dropdown>
 
       <!-- CONTACT > ARTICLES > BILLING -->
-      <help-article url="#billing/cancel" title="How to cancel my subscription?" nofooter>
+      <help-article url="#billing/cancel" title="How do I cancel my subscription?" nofooter>
         <p>To cancel your subscription and avoid future payments, follow these simple steps:</p>
 
         <ul>
