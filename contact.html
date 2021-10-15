@@ -449,7 +449,7 @@ og_url: https://mailmeteor.com/contact
 
 <!-- CONTACT > TEMPLATES > FORM -->
 <script type="text/x-template" id="help-form">
-  <form class="container" method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLSex7568Bew5QHmOtNzVG0AarA8eTvynAPbepDDm52t5tOKi2w/formResponse">
+  <form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLSex7568Bew5QHmOtNzVG0AarA8eTvynAPbepDDm52t5tOKi2w/formResponse">
     <header v-if="!noheader" class="container page-contact-search page-title">
       <h1 class="text-center">Contact us</h1>
       <p>Our team speaks English, French and Spanish.<br />We'll do our best to answer as quickly as we can.</p>
@@ -580,8 +580,12 @@ og_url: https://mailmeteor.com/contact
     },
     methods: {
       setLocation: function () {
-        this.route = location.hash || '#'
-        this.isFormVisible = this.route === '#help'
+        this.route = location.hash || '#';
+        this.isFormVisible = this.route === '#help';
+
+        if (window.pageYOffset > 0) {
+          window.scrollTo(0, 0);
+        }
       },
       goback: function () {
         window.history.back()
