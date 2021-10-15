@@ -173,7 +173,7 @@ footer:
         fr: "Documentation"
         es: "Documentación"
       contact:
-        url: "https://support.mailmeteor.com/help/contact-support?utm_source=mailmeteor.com"
+        url: "/contact"
         en: "Contact"
         fr: "Nous contacter"
         es: "Contactarnos"
