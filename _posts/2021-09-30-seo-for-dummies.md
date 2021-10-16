@@ -1,26 +1,27 @@
 ---
 layout: blogpost
-title: "SEO for Dummies: 25 secret tips to improve SEO [using Ahrefs]"
+title: 'SEO for Dummies: 25 secret tips to improve SEO [using Ahrefs]'
 description: You don’t need to be a SEO expert to drive more traffic on your website. In fact, all you need is a few hours in front of you and $7.
 cta_title: Send personalized link building emails with Mailmeteor
 canonical: https://mailmeteor.com/blog/seo-for-dummies
 category: GUIDE
 
 meta_author: Jean Dubrulle
-meta_author_link: "https://twitter.com/cuireuncroco"
+meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/seo-for-dummies/meta-seo-for-dummies.png
 
-og_title: "SEO for Dummies: 25 secret tips to improve SEO [using Ahrefs]"
+og_title: 'SEO for Dummies: 25 secret tips to improve SEO [using Ahrefs]'
 og_description: You don’t need to be a SEO expert to drive more traffic on your website. In fact, all you need is a few hours in front of you and $7.
 og_url: https://mailmeteor.com/blog/seo-for-dummies
 og_image: https://mailmeteor.com/assets/img/opengraph/seo-for-dummies.jpg
 
-meta_date_published: "September 30, 2021"
-meta_date_lastupdated: "September 30, 2021"
+meta_date_published: 'September 30, 2021'
+meta_date_lastupdated: 'September 30, 2021'
 published: true
 
 permalink: /blog/seo-for-dummies
+redirect_from: '/blog/seo-for-dummies/?utm_source=newsletter&utm_medium=email&utm_campaign=growthletter-131'
 ---
 
 You don’t need to be a SEO expert to drive more traffic on your website. In fact, all you need is a few hours in front of you and $7.
