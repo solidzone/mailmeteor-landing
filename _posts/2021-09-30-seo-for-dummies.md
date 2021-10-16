@@ -21,7 +21,6 @@ meta_date_lastupdated: 'September 30, 2021'
 published: true
 
 permalink: /blog/seo-for-dummies
-redirect_from: '/blog/seo-for-dummies/?utm_source=newsletter&utm_medium=email&utm_campaign=growthletter-131'
 ---
 
 You don’t need to be a SEO expert to drive more traffic on your website. In fact, all you need is a few hours in front of you and $7.
