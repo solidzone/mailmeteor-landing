@@ -1,23 +1,23 @@
 ---
 layout: blogpost
-title: "Mail merge Gmail in 2021: the Definitive Guide"
+title: 'Mail merge Gmail in 2021: the Definitive Guide'
 description: Everything you need to know about mail merge in Gmail in 2021. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail
 cta_title: Try the best mail merge tool for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail/
 category: GUIDE
 
 meta_author: Jean Dubrulle
-meta_author_link: "https://twitter.com/cuireuncroco"
+meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png
 
-og_title: "Mail merge Gmail in 2021: the Definitive Guide"
+og_title: 'Mail merge Gmail in 2021: the Definitive Guide'
 og_description: Everything you need to know about mail merge in Gmail in 2021. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail
 og_url: https://mailmeteor.com/mail-merge-gmail/
 og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail.jpg
 
-meta_date_published: "February 17, 2021"
-meta_date_lastupdated: "May 26, 2021"
+meta_date_published: 'February 17, 2021'
+meta_date_lastupdated: 'May 26, 2021'
 published: true
 
 permalink: /mail-merge-gmail/
@@ -377,7 +377,7 @@ Your Gmail account is brand new or it’s been a long time since you sent emails
 
 We recommend warming-up your account by slowly increasing your sending volume over time.
 
-Gmail monitors any usual activity happening on your account. If you start sending 2000 emails per day out of the blue, you are likely to get blocked in no time.
+Gmail monitors any unusual activity happening on your account. If you start sending 2000 emails per day out of the blue, you are likely to get blocked in no time.
 
 Thus, try sending emails to a small list of recipients at first (50 recipients for example). Then increase the volume if you start to get promising results (good opening rates, click rates or replies).
 
