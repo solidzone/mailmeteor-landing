@@ -468,7 +468,7 @@ og_url: https://mailmeteor.com/contact
           required
         ></textarea>
       </div>
-      <!-- TODO : <input type="hidden" name="entry.742539293" placeholder="topic" /> -->
+      <input type="hidden" name="entry.742539293" placeholder="topic" v-model="topic" />
       <div class="d-flex align-items-center">
         <button type="submit" class="btn btn-filled" style="padding: 0.5rem 1rem; margin-right: 1rem">
           <strong>Let's get in touch</strong>
@@ -542,6 +542,12 @@ og_url: https://mailmeteor.com/contact
   Vue.component('help-form', {
     props: { noheader: Boolean },
     template: '#help-form',
+    computed: {
+      topic: function () {
+        const hash = window.location.hash
+        return hash.slice(1)
+      }
+    },
     methods: {
       goback: function () {
         this.$root.goback()
