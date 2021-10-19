@@ -18,8 +18,14 @@
               {{ nav[1].title[page.lang] }}
             </p>
             {% assign footerlinks = nav[1].links %} {% for link in footerlinks
-            %} {% if link[1][page.lang] == 'ES / FR' %}
-            <p><a href="/es/">ES</a> / <a href="/fr/">FR</a></p>
+            %} {% if link[1][page.lang] == 'ES / FR / DE' %}
+            <p><a href="/es/">ES</a> / <a href="/fr/">FR</a> / <a href="/de/">DE</a></p>
+            {% elsif link[1][page.lang] == 'EN / ES / FR' %}
+            <p><a href="/">EN</a> / <a href="/es/">ES</a> / <a href="/fr/">FR</a></p>
+            {% elsif link[1][page.lang] == 'EN / FR / DE' %}
+            <p><a href="/">EN</a> / <a href="/fr/">FR</a> / <a href="/de/">DE</a></p>
+            {% elsif link[1][page.lang] == 'EN / ES / FR' %}
+            <p><a href="/">EN</a> / <a href="/es/">ES</a> / <a href="/fr/">FR</a></p>
             {% else %}
             <p><a href="{{ link[1].url }}">{{ link[1][page.lang] }}</a></p>
             {% endif %} {% endfor %} {% if nav[0] == "transparency" %}

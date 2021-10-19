@@ -3,30 +3,35 @@
 #
 navbar:
   support:
-    url: "/support"
-    en: "Support"
-    fr: "Aide"
-    es: "Ayuda"
+    url: '/support'
+    en: 'Support'
+    fr: 'Aide'
+    es: 'Ayuda'
+    de: 'Unterstützung'
   features:
-    url: "/features"
-    en: "Features"
-    fr: "Fonctionnalités"
-    es: "Características"
+    url: '/features'
+    en: 'Features'
+    fr: 'Fonctionnalités'
+    es: 'Características'
+    de: 'Merkmale'
   pricing:
-    url: "/pricing"
-    en: "Pricing"
-    fr: "Prix"
-    es: "Precios"
+    url: '/pricing'
+    en: 'Pricing'
+    fr: 'Prix'
+    es: 'Precios'
+    de: 'Preise'
   signin:
-    url: "https://dashboard.mailmeteor.com"
-    en: "Sign in"
-    fr: "Se connecter"
-    es: "Iniciar sesión"
+    url: 'https://dashboard.mailmeteor.com'
+    en: 'Sign in'
+    fr: 'Se connecter'
+    es: 'Iniciar sesión'
+    de: 'Einloggen'
   install:
-    url: "https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301"
-    en: "Install"
-    fr: "Installer"
-    es: "Instalar"
+    url: 'https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301'
+    en: 'Install'
+    fr: 'Installer'
+    es: 'Instalar'
+    de: 'Installieren'
 
 #
 # Footer
@@ -35,166 +40,198 @@ navbar:
 footer:
   product:
     title:
-      en: "Product"
-      fr: "Produit"
-      es: "Producto"
+      en: 'Product'
+      fr: 'Produit'
+      es: 'Producto'
+      de: 'Produkt'
     links:
       tutorial:
-        url: "https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial"
-        en: "Tutorial"
-        fr: "Tutoriel"
-        es: "Tutorial"
+        url: 'https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial'
+        en: 'Tutorial'
+        fr: 'Tutoriel'
+        es: 'Tutorial'
+        de: 'Lernprogramm'
       demovideo:
-        url: "https://www.youtube.com/watch?v=ccO5i3gQXSk"
-        en: "Demo video"
-        fr: "Démo vidéo"
-        es: "Video de demostración"
+        url: 'https://www.youtube.com/watch?v=ccO5i3gQXSk'
+        en: 'Demo video'
+        fr: 'Démo vidéo'
+        es: 'Video de demostración'
+        de: 'Demonstrationsvideo'
       pricing:
-        url: "/pricing"
-        en: "Pricing"
-        fr: "Prix"
-        es: "Precios"
+        url: '/pricing'
+        en: 'Pricing'
+        fr: 'Prix'
+        es: 'Precios'
+        de: 'Preise'
       gmail-mail-merge:
-        url: "/gmail-mail-merge"
-        en: "Gmail Mail Merge"
-        fr: "Gmail Mail Merge"
-        es: "Gmail Mail Merge"
+        url: '/gmail-mail-merge'
+        en: 'Gmail Mail Merge'
+        fr: 'Gmail Mail Merge'
+        es: 'Gmail Mail Merge'
+        de: 'Gmail Mail Merge'
       mass-emails-gmail:
-        url: "/mass-emails-gmail"
-        en: "Mass Emails Gmail"
-        fr: "Emails en Masse avec Gmail"
-        es: "Correos Masivos con Gmail"
+        url: '/mass-emails-gmail'
+        en: 'Mass Emails Gmail'
+        fr: 'Emails en Masse avec Gmail'
+        es: 'Correos Masivos con Gmail'
+        de: 'Massen-E-Mails Gmail'
       bulk-emails-gmail:
-        url: "/bulk-emails-gmail"
-        en: "Bulk Emails Gmail"
-        fr: "Bulk Emails Gmail"
-        es: "Bulk Emails Gmail"
+        url: '/bulk-emails-gmail'
+        en: 'Bulk Emails Gmail'
+        fr: 'Bulk Emails Gmail'
+        es: 'Bulk Emails Gmail'
+        de: 'Bulk Emails Gmail'
       gmail-newsletter:
-        url: "/gmail-newsletter"
-        en: "Gmail Newsletter"
-        fr: "Gmail Newsletter"
-        es: "Gmail Newsletter"
+        url: '/gmail-newsletter'
+        en: 'Gmail Newsletter'
+        fr: 'Gmail Newsletter'
+        es: 'Gmail Newsletter'
+        de: 'Google Mail-Newsletter'
   company:
     title:
-      en: "Company"
-      fr: "Entreprise"
-      es: "Empresa"
+      en: 'Company'
+      fr: 'Entreprise'
+      es: 'Empresa'
+      de: 'Gesellschaft'
     links:
       about:
-        url: "/about"
-        en: "About us"
-        fr: "Notre histoire"
-        es: "Sobre nosotros"
+        url: '/about'
+        en: 'About us'
+        fr: 'Notre histoire'
+        es: 'Sobre nosotros'
+        de: 'Über uns'
       jobs:
-        url: "mailto:jobs@mailmeteor.com"
+        url: 'mailto:jobs@mailmeteor.com'
         en: "We're hiring"
-        fr: "Nous recrutons"
-        es: "Empleo"
+        fr: 'Nous recrutons'
+        es: 'Empleo'
+        de: 'Wir sind hallo'
       lang:
-        en: "ES / FR"
-        fr: "ES / FR"
-        es: "ES / FR"
+        en: 'ES / FR / DE'
+        fr: 'EN / ES / FR'
+        es: 'EN / FR / DE'
+        de: 'EN / ES / FR'
       education:
-        url: "/education-program"
-        en: "Education Program"
-        fr: "Programme Education"
-        es: "Licencia Académica"
+        url: '/education-program'
+        en: 'Education Program'
+        fr: 'Programme Education'
+        es: 'Licencia Académica'
+        de: 'Erziehungsprogramm'
   ressources:
     title:
-      en: "Resources"
-      fr: "Ressources"
-      es: "Producto"
+      en: 'Resources'
+      fr: 'Ressources'
+      es: 'Producto'
+      de: 'Produkt'
     links:
       blog:
-        url: "/blog/"
-        en: "Mailmeteor Blog"
-        fr: "Mailmeteor Blog"
-        es: "Mailmeteor Blog"
+        url: '/blog/'
+        en: 'Mailmeteor Blog'
+        fr: 'Mailmeteor Blog'
+        es: 'Mailmeteor Blog'
+        de: 'Mailmeteor Blog'
       blog-mail-merge:
-        url: "/mail-merge-gmail/"
-        en: "Mail merge Gmail guide"
-        fr: "Guide du publipostage"
-        es: "Guía de mail merge"
+        url: '/mail-merge-gmail/'
+        en: 'Mail merge Gmail guide'
+        fr: 'Guide du publipostage'
+        es: 'Guía de mail merge'
+        de: 'Gmail-Anleitung für Seriendruck'
       tips:
-        url: "/blog/gmail-deliverability"
-        en: "Gmail sending tips"
+        url: '/blog/gmail-deliverability'
+        en: 'Gmail sending tips'
         fr: "Conseils d'utilisation"
-        es: "Consejos de uso"
+        es: 'Consejos de uso'
+        de: 'Google Mail Tipps'
       best-google-apps:
-        url: "/best-google-apps/"
-        en: "Best Google Apps"
-        fr: "Les meilleures apps Google"
-        es: "Las mejores apps de Google"
+        url: '/best-google-apps/'
+        en: 'Best Google Apps'
+        fr: 'Les meilleures apps Google'
+        es: 'Las mejores apps de Google'
+        de: 'Beste Google-Apps'
       spam-checker:
-        url: "/spam-checker"
-        en: "Spam Checker"
-        fr: "Spam Checker"
-        es: "Spam checker"
+        url: '/spam-checker'
+        en: 'Spam Checker'
+        fr: 'Spam Checker'
+        es: 'Spam checker'
+        de: 'Spam checker'
   compare:
     title:
-      en: "Compare"
-      fr: "Comparaison"
-      es: "Comparación"
+      en: 'Compare'
+      fr: 'Comparaison'
+      es: 'Comparación'
+      de: 'Vergleichen'
     links:
       alternative:
-        url: "/alternative/"
-        en: "Mail merge tools"
-        fr: "Outils de publipostage"
-        es: "Herramientas de combinación"
+        url: '/alternative/'
+        en: 'Mail merge tools'
+        fr: 'Outils de publipostage'
+        es: 'Herramientas de combinación'
+        de: 'Serienbrief-Tools'
       alternative-yamm:
-        url: "/alternative/yetanothermailmerge"
-        en: "Compare with YAMM"
-        fr: "Comparaison avec YAMM"
-        es: "Comparación con YAMM"
+        url: '/alternative/yetanothermailmerge'
+        en: 'Compare with YAMM'
+        fr: 'Comparaison avec YAMM'
+        es: 'Comparación con YAMM'
+        de: 'Vergleichen mit YAMM'
       alternative-gmass:
-        url: "/alternative/gmass"
-        en: "Compare with GMass"
-        fr: "Comparaison avec GMass"
-        es: "Comparación con GMass"
+        url: '/alternative/gmass'
+        en: 'Compare with GMass'
+        fr: 'Comparaison avec GMass'
+        es: 'Comparación con GMass'
+        de: 'Vergleichen mit GMass'
       alternative-mailchimp:
-        url: "/alternative/mailchimp"
-        en: "Compare with Mailchimp"
-        fr: "Comparaison avec Mailchimp"
-        es: "Comparación con Mailchimp"
+        url: '/alternative/mailchimp'
+        en: 'Compare with Mailchimp'
+        fr: 'Comparaison avec Mailchimp'
+        es: 'Comparación con GMass'
+        de: 'Vergleichen mit Mailchimp'
       alternative-lemlist:
-        url: "/alternative/lemlist"
-        en: "Compare with Lemlist"
-        fr: "Comparaison avec Lemlist"
-        es: "Comparación con Lemlist"
+        url: '/alternative/lemlist'
+        en: 'Compare with Lemlist'
+        fr: 'Comparaison avec Lemlist'
+        es: 'Comparación con GMass'
+        de: 'Vergleichen mit Lemlist'
   support:
     title:
-      en: "Support"
-      fr: "Aide"
-      es: "Ayuda"
+      en: 'Support'
+      fr: 'Aide'
+      es: 'Ayuda'
+      de: 'Hilfe'
     links:
       help:
-        url: "https://support.mailmeteor.com/"
-        en: "Help center"
-        fr: "Documentation"
-        es: "Documentación"
+        url: 'https://support.mailmeteor.com/'
+        en: 'Help center'
+        fr: 'Documentation'
+        es: 'Documentación'
+        de: 'Hilfezentrum'
       contact:
-        url: "/contact"
-        en: "Contact"
-        fr: "Nous contacter"
-        es: "Contactarnos"
+        url: '/contact'
+        en: 'Contact'
+        fr: 'Nous contacter'
+        es: 'Contactarnos'
+        de: 'Kontakt'
   transparency:
     title:
-      en: "Transparency"
-      fr: "Transparence"
-      es: "Transparencia"
+      en: 'Transparency'
+      fr: 'Transparence'
+      es: 'Transparencia'
+      de: 'Transparenz'
     links:
       privacy:
-        url: "/privacy-policy"
-        en: "Privacy"
-        fr: "Confidentialité"
-        es: "Privacidad"
+        url: '/privacy-policy'
+        en: 'Privacy'
+        fr: 'Confidentialité'
+        es: 'Privacidad'
+        de: 'Privatsphäre'
       conditions:
-        url: "/terms"
-        en: "Terms"
-        fr: "Mentions légales"
-        es: "Condiciones"
+        url: '/terms'
+        en: 'Terms'
+        fr: 'Mentions légales'
+        es: 'Condiciones'
+        de: 'Bedingungen'
       security:
-        url: "https://support.mailmeteor.com/help/privacy"
-        en: "Data protection"
-        fr: "Protection des données"
-        es: "Protección de datos"
+        url: 'https://support.mailmeteor.com/help/privacy'
+        en: 'Data protection'
+        fr: 'Protection des données'
+        es: 'Protección de datos'
+        de: 'Datenschutz'
