@@ -154,6 +154,12 @@ footer:
         fr: 'Spam Checker'
         es: 'Spam checker'
         de: 'Spam checker'
+      google-logos:
+        url: '/logos'
+        en: 'Google Logos'
+        fr: 'Google Logos'
+        es: 'Google Logos'
+        de: 'Google Logos'
   compare:
     title:
       en: 'Compare'
