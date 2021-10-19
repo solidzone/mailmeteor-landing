@@ -10,12 +10,7 @@ layout: default
     </p>
 
     <div class="row" style="margin: 3rem 0">
-      <style>
-        .logo-example img {
-          vertical-align: bottom;
-        }
-      </style>
-      <div class="col-md-6 text-center logo-example">
+      <div class="col-md-6 text-center mb-3">
         <a href="./assets/PNG/{{ page.logo_filename }}_256px.png">
           <img src="./assets/PNG/{{ page.logo_filename }}_256px.png" alt="{{ page.logo_name }} logo" />
         </a>
@@ -43,20 +38,79 @@ layout: default
         </div>
 
         <a class="btn btn-light" href="./assets/SVG/{{ page.logo_filename }}.svg" style="padding: 0.375rem 0.75rem">Download SVG</a>
-        <a class="btn btn-light" href="./assets/AI/{{ page.logo_filename }}.ai" style="padding: 0.375rem 0.75rem">Download AI</a>
+        <a class="btn btn-light" href="./assets/AI/{{ page.logo_filename }}.ai" style="padding: 0.375rem 0.75rem">Download .AI</a>
       </div>
     </div>
 
-    <div class="text-center">
+    <div class="text-center" style="margin: 3rem 0">
       <h2>All Google logos</h2>
-      <ul>
+
+      <style>
+        ul.google-logos {
+          list-style: none;
+        }
+
+        ul.google-logos li {
+          display: inline-block;
+          margin: 0 0 2rem 0;
+          padding: 0;
+          min-width: 120px;
+        }
+
+        ul.google-logos li a {
+          display: inline-block;
+          color: #999;
+          text-align: left;
+        }
+
+        ul.google-logos li span {
+          display: block;
+        }
+      </style>
+      <ul class="google-logos">
         <li>
           <a href="./gmail">
-            Gmail
+            <span>Gmail</span>
             <img src="./assets/PNG/Gmail_Logo_64px.png" alt="Gmail logo" />
           </a>
         </li>
+        <li>
+          <a href="./google-sheets">
+            <span>Sheets</span>
+            <img src="./assets/PNG/Google_Sheets_Logo_64px.png" alt="Google Sheets logo" />
+          </a>
+        </li>
+        <li>
+          <a href="./google-docs">
+            <span>Docs</span>
+            <img src="./assets/PNG/Google_Docs_Logo_64px.png" alt="Google Docs logo" />
+          </a>
+        </li>
+        <li>
+          <a href="./google-forms">
+            <span>Forms</span>
+            <img src="./assets/PNG/Google_Forms_Logo_64px.png" alt="Google Forms logo" />
+          </a>
+        </li>
+        <li>
+          <a href="./google-slides">
+            <span>Slides</span>
+            <img src="./assets/PNG/Google_Slides_Logo_64px.png" alt="Google Slides logo" />
+          </a>
+        </li>
+        <li>
+          <a href="./google-drive">
+            <span>Drive</span>
+            <img src="./assets/PNG/Google_Drive_Logo_64px.png" alt="Google Drive logo" />
+          </a>
+        </li>
       </ul>
+
+      <h2>Disclaimer</h2>
+      <p style="max-width: 800px; margin: 0 auto 1rem auto">
+        Brought to you by <a href="/">Mailmeteor, a mail merge for Gmail</a>. <strong>We are not affiliated with Google.</strong> We were just bored searching for Google logos
+        online :) Look at <a href="https://about.google/brand-resource-center/brand-elements/">Google Brand Guidelines</a> before using these logos.
+      </p>
     </div>
   </div>
 </main>
