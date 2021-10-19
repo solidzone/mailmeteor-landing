@@ -16,7 +16,7 @@ og_url: https://mailmeteor.com/contact
   <!-- CONTACT > HEADER(HOME) -->
   <header class="container page-contact-search page-title" v-if="step === 1">
     <h1 class="text-center">Hi! 👋 How can we help you?</h1>
-    <p class="text-center">Select a topic below, we'll do our best to answer as quickly as we can. <br class="d-none d-sm-block">Our team speaks English, French and Spanish.</p>
+    <p class="text-center">Select a topic below, we'll do our best to answer as quickly as we can. <br class="d-none d-sm-block" />Our team speaks English, French and Spanish.</p>
   </header>
 
   <!-- CONTACT > HEADER(STEPS) -->
@@ -79,16 +79,16 @@ og_url: https://mailmeteor.com/contact
           <li>Scroll down and select "Cancel subscription"</li>
         </ol>
 
-
         <p>You can cancel your subscription anytime. If you cancel in advance, you will enjoy your full email quota until the last day of your subscription.</p>
       </help-article>
 
       <help-article url="#billing/change-email" title="Can I change my email address?" form nofooter>
-        <p>If you need to change your email associated to Mailmeteor, contact us and we will manually update your account. Let us know the current email address and the one you'd like to use instead.</p>
-
-        <p class="font-italic">
-          Note: we reserve the right to refuse the change if we detect a misuse of the platform such as a spamming behavior.
+        <p>
+          If you need to change your email associated to Mailmeteor, contact us and we will manually update your account. Let us know the current email address and the one you'd
+          like to use instead.
         </p>
+
+        <p class="font-italic">Note: we reserve the right to refuse the change if we detect a misuse of the platform such as a spamming behavior.</p>
       </help-article>
 
       <help-article url="#billing/upgrade-failed" title="I've purchased Mailmeteor but my account did not upgrade">
@@ -187,7 +187,9 @@ og_url: https://mailmeteor.com/contact
 
       <help-article url="#sales/free-trial" title="Does Mailmeteor offer a trial?" nofooter>
         <p>
-          You can <span class="font-weight-bold">enjoy Mailmeteor for free with up to 75 emails a day</span>. Whenever you want to send more emails, Mailmeteor Premium includes up to 2000 emails, real-time tracking, scheduling, attachments, email alias & more. If you want to benefit from premium features, you can upgrade your account on our <a href="https://mailmeteor.com/pricing">paid plans</a>.
+          You can <span class="font-weight-bold">enjoy Mailmeteor for free with up to 75 emails a day</span>. Whenever you want to send more emails, Mailmeteor Premium includes up
+          to 2000 emails, real-time tracking, scheduling, attachments, email alias & more. If you want to benefit from premium features, you can upgrade your account on our
+          <a href="https://mailmeteor.com/pricing">paid plans</a>.
         </p>
       </help-article>
 
@@ -198,8 +200,8 @@ og_url: https://mailmeteor.com/contact
       <!-- CONTACT > ARTICLES > ISSUES -->
       <help-article url="#issues/emails-not-sent" title="My emails are not sending">
         <p>
-          First of all, open Gmail and go to your "Sent" folder to confirm that your emails have been sent or not. If no emails were sent, there might have been an error
-          with your campaign.
+          First of all, open Gmail and go to your "Sent" folder to confirm that your emails have been sent or not. If no emails were sent, there might have been an error with your
+          campaign.
         </p>
         <p>
           If you have scheduled your campaign or sent emails on Autopilot, note that it might take some time for your emails to be sent, as the campaign is sent progressively in
@@ -366,7 +368,6 @@ og_url: https://mailmeteor.com/contact
       <help-article url="#issues/help" title="I need help with Mailmeteor" form nofooter>
         <p>Please let us know how we can help. We'll get back to your as quickly as we can.</p>
       </help-article>
-   
 
       <!-- CONTACT > ARTICLES > OTHERS -->
       <help-article url="#others/feedback" title="I’d like to share a feedback or an idea" form nofooter>
@@ -376,9 +377,9 @@ og_url: https://mailmeteor.com/contact
       <help-article url="#others/features-request" title="I want to suggest a missing feature" nofooter>
         <p>
           All features available within Mailmeteor are listed on both our
-          <a href="https://mailmeteor.com/features">Features</a> page, as well as on our <a href="https://support.mailmeteor.com/introduction/advanced">Help Center</a>.</p>
-          <p>If you think something is missing, <a href="#help">please contact us</a>.</p>
+          <a href="https://mailmeteor.com/features">Features</a> page, as well as on our <a href="https://support.mailmeteor.com/introduction/advanced">Help Center</a>.
         </p>
+        <p>If you think something is missing, <a href="#help">please contact us</a>.</p>
         <p>Your feedback is precious to help us improve Mailmeteor!</p>
       </help-article>
 
@@ -423,7 +424,10 @@ og_url: https://mailmeteor.com/contact
       </help-article>
 
       <help-article url="#others/security-issue" title="I'd like to report a security issue" nofooter form>
-        <p>Please use the form below to report a potential security issue. Make sure to add as many details as possible to help our security team reproduce the issue and fix it in a timely manner.</p>
+        <p>
+          Please use the form below to report a potential security issue. Make sure to add as many details as possible to help our security team reproduce the issue and fix it in a
+          timely manner.
+        </p>
       </help-article>
     </div>
   </main>
@@ -550,7 +554,7 @@ og_url: https://mailmeteor.com/contact
       topic: function () {
         const hash = window.location.hash
         return hash.slice(1)
-      }
+      },
     },
     methods: {
       goback: function () {
@@ -590,11 +594,11 @@ og_url: https://mailmeteor.com/contact
     },
     methods: {
       setLocation: function () {
-        this.route = location.hash || '#';
-        this.isFormVisible = this.route === '#help';
+        this.route = location.hash || '#'
+        this.isFormVisible = this.route === '#help'
 
         if (window.pageYOffset > 0) {
-          window.scrollTo(0, 0);
+          window.scrollTo(0, 0)
         }
       },
       goback: function () {
