@@ -86,7 +86,13 @@ footer:
         en: 'Gmail Newsletter'
         fr: 'Gmail Newsletter'
         es: 'Gmail Newsletter'
-        de: 'Google Mail-Newsletter'
+        de: 'Gmail-Newsletter'
+      gmail-marketing:
+        url: '/gmail-marketing'
+        en: 'Gmail Marketing'
+        fr: 'Gmail Marketing'
+        es: 'Gmail Marketing'
+        de: 'Gmail-Marketing'
   company:
     title:
       en: 'Company'
