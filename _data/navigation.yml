@@ -158,8 +158,14 @@ footer:
         url: '/spam-checker'
         en: 'Spam Checker'
         fr: 'Spam Checker'
-        es: 'Spam checker'
-        de: 'Spam checker'
+        es: 'Spam Checker'
+        de: 'Spam Checker'
+      email-permutator:
+        url: '/email-permutator'
+        en: 'Email Permutator'
+        fr: 'Email Permutator'
+        es: 'Email Permutator'
+        de: 'Email Permutator'
       google-logos:
         url: '/logos'
         en: 'Google Logos'

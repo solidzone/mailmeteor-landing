@@ -1,0 +1,25 @@
+#result {
+  display: block;
+  width: 100%;
+  border: 1px solid transparent;
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f5f7f9;
+  border-radius: 6px;
+  min-height: 400px;
+  resize: none;
+}
+
+.snippet .clipboard-copy {
+  display: none;
+}
+
+.snippet:hover .clipboard-copy {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
