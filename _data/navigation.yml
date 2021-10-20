@@ -107,7 +107,7 @@ footer:
         es: 'Sobre nosotros'
         de: 'Über uns'
       jobs:
-        url: 'mailto:jobs@mailmeteor.com'
+        url: 'https://mailmeteor.com/contact#others/collaborate'
         en: "We're hiring"
         fr: 'Nous recrutons'
         es: 'Empleo'
