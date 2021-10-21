@@ -133,7 +133,7 @@ Quickwin: find keywords where your site ranks in positions 2-10, while the searc
 
 Internal linking is when you link pages from your website together. It plays a strong role in SEO because it helps passing “SEO juice” from your high-authority pages to the ones that need a boost. Knowing that, you’ll need a simple method to identify these pages.
 
-First, let’s find pages that need a boost. Look at the pages ranking in position 2 to 10 using the recipe above. It will give you a list of pages that would benefit from internal linking. Here I selected our [Gmail newsletter](/gmail-newsletter) landing page that we'd like to boost.
+First, let’s find pages that need a boost. Look at the pages ranking in position 2 to 10 using the recipe above. It will give you a list of pages that would benefit from internal linking. Here I selected our [Gmail newsletter](/gmail-newsletter) <a href="https://www.mailmunch.com/landing-pages">landing page</a> that we'd like to boost.
 
 <img src="/assets/img/blog/seo-for-dummies/internal-linking.png" alt="Boost important posts with internal links" width="730px" height="385px"/>
 
