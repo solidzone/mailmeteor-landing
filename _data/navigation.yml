@@ -217,7 +217,7 @@ footer:
       de: 'Hilfe'
     links:
       help:
-        url: 'https://support.mailmeteor.com/'
+        url: 'https://mailmeteor.com/support'
         en: 'Help center'
         fr: 'Documentation'
         es: 'Documentación'
