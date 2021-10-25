@@ -17,7 +17,7 @@ og_url: https://mailmeteor.com/blog/seo-tips
 og_image: https://mailmeteor.com/assets/img/opengraph/seo-for-dummies.jpg
 
 meta_date_published: 'September 30, 2021'
-meta_date_lastupdated: 'September 30, 2021'
+meta_date_lastupdated: 'October 25, 2021'
 published: true
 
 permalink: /blog/seo-tips
