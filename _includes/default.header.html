@@ -1,21 +1,42 @@
-<header itemscope itemtype="http://schema.org/Organization">
+<header itemscope itemtype="http://schema.org/Organization" style="margin-bottom: 3rem">
   <meta itemprop="name" content="Mailmeteor" />
   <meta itemprop="url" content="https://mailmeteor.com" />
   <meta itemprop="foundingDate" content="2018-12-20" />
   <meta itemprop="foundingLocation" content="Paris, France" />
   <div class="fixed-top">
+    <style>
+      #bf-banner {
+        background: #ff3461;
+        color: white;
+        text-align: center;
+        font-weight: 800;
+        padding: 0.5rem 0;
+      }
+
+      #bf-banner .container {
+        justify-content: space-around;
+      }
+
+      @media (min-width: 1200px) {
+        #bf-banner .container {
+          justify-content: space-between;
+        }
+      }
+    </style>
+    <div id="bf-banner">
+      <div class="container d-flex align-items-center text-center">
+        <b
+          >🚧 Mailmeteor for Google Sheets is under <u>a short</u> maintenance (<a href="/contact#others/maintenance" style="color: white; text-decoration: underline">learn more</a
+          >). 🚧</b
+        >
+        <a href="https://dashboard.mailmeteor.com/campaigns/new" class="btn btn-filled btn-normal d-none d-xl-inline-block" style="border-color: white"
+          >Send emails from the dashboard →
+        </a>
+      </div>
+    </div>
     <nav class="navbar navbar-expand-md navbar-light bg-light" id="navbar">
       <div class="container">
-        <a href="/"
-          ><img
-            class="navbar-brand"
-            id="logo"
-            alt="Mailmeteor logo"
-            itemprop="logo"
-            width="150"
-            height="60"
-            src="/assets/img/brand/logo_mailmeteor.svg"
-        /></a>
+        <a href="/"><img class="navbar-brand" id="logo" alt="Mailmeteor logo" itemprop="logo" width="150" height="60" src="/assets/img/brand/logo_mailmeteor.svg" /></a>
         <button
           class="navbar-toggler collapsed"
           type="button"
@@ -32,19 +53,15 @@
 
         <div class="collapse navbar-collapse" id="navbarTabs">
           <ul class="navbar-nav ml-auto smooth-scroll">
-            {% for nav in site.data.navigation.navbar %} {% unless nav[0] == "features" or nav[0] == "install" or nav[0]
-            == "signin" %}
+            {% for nav in site.data.navigation.navbar %} {% unless nav[0] == "features" or nav[0] == "install" or nav[0] == "signin" %}
             <li class="nav-item">
               <a class="nav-link" href="{{ nav[1].url }}"> {{ nav[1][page.lang] }}</a>
             </li>
             {% endunless %} {% if nav[0] == "features" and page.lang == "en" %}
             <li class="nav-item dropdown">
-              <a class="nav-link" role="button" id="dropdownMenuButton" aria-haspopup="true" href="{{ nav[1].url }}">
-                {{ nav[1][page.lang] }}</a
-              >
+              <a class="nav-link" role="button" id="dropdownMenuButton" aria-haspopup="true" href="{{ nav[1].url }}"> {{ nav[1][page.lang] }}</a>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                {% for section in site.data.features.sections %} {% if section.short_title && section.short_description
-                %}
+                {% for section in site.data.features.sections %} {% if section.short_title && section.short_description %}
                 <li class="features-dropdown-item">
                   <a href="{{section.link}}" target="_blank" rel="noopener">
                     <div>
@@ -62,20 +79,11 @@
                   <a href="https://www.youtube.com/watch?v=-YX65-kywOE" target="_blank">
                     <div class="row">
                       <div class="col-4">
-                        <img
-                          src="https://img.youtube.com/vi/-YX65-kywOE/mqdefault.jpg"
-                          width="180px"
-                          height="101px"
-                          alt="How to mail merge in Gmail?"
-                          loading="lazy"
-                        />
+                        <img src="https://img.youtube.com/vi/-YX65-kywOE/mqdefault.jpg" width="180px" height="101px" alt="How to mail merge in Gmail?" loading="lazy" />
                       </div>
                       <div class="col-8 my-auto">
                         <p><strong>What is Mailmeteor?</strong></p>
-                        <p>
-                          Let us show you around with this quick video tour that will guide you to send your first mail
-                          merge.
-                        </p>
+                        <p>Let us show you around with this quick video tour that will guide you to send your first mail merge.</p>
                       </div>
                     </div>
                   </a>
@@ -89,17 +97,12 @@
             {% elsif nav[0] == "signin" %}
             <div class="nav-divider"></div>
             <li class="nav-item">
-              <a class="nav-link" href="https://dashboard.mailmeteor.com"> {{ nav[1][page.lang] }}</a>
+              <a class="btn btn-filled btn-inline" href="https://dashboard.mailmeteor.com">{{ nav[1][page.lang] }}</a>
             </li>
             {% elsif nav[0] == "install" %}
-            <li class="nav-item text-center my-auto ml-2">
-              <a
-                href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301"
-                class="btn btn-filled btn-inline"
-              >
-                {{ nav[1][page.lang] }}</a
-              >
-            </li>
+            <!-- <li class="nav-item text-center my-auto ml-2">
+              <a href="https://dashboard.mailmeteor.com/?utm_campaign=migration" class="btn btn-filled btn-inline">{{ nav[1][page.lang] }}</a>
+            </li> -->
             {% endif %} {% endfor %}
           </ul>
         </div>
