@@ -1,9 +1,9 @@
 ---
 layout: blogpost
-title: 'SEO for Dummies: 25 secret tips to improve SEO [using Ahrefs]'
+title: '25 Tips to Improve your Website SEO (using Ahrefs)'
 description: You don’t need to be a SEO expert to drive more traffic on your website. In fact, all you need is a few hours in front of you and $7.
 cta_title: Send personalized link building emails with Mailmeteor
-canonical: https://mailmeteor.com/blog/seo-for-dummies
+canonical: https://mailmeteor.com/blog/seo-tips
 category: GUIDE
 
 meta_author: Jean Dubrulle
@@ -11,16 +11,17 @@ meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/seo-for-dummies/meta-seo-for-dummies.png
 
-og_title: 'SEO for Dummies: 25 secret tips to improve SEO [using Ahrefs]'
+og_title: '25 Tips to Improve your Website SEO (using Ahrefs)'
 og_description: You don’t need to be a SEO expert to drive more traffic on your website. In fact, all you need is a few hours in front of you and $7.
-og_url: https://mailmeteor.com/blog/seo-for-dummies
+og_url: https://mailmeteor.com/blog/seo-tips
 og_image: https://mailmeteor.com/assets/img/opengraph/seo-for-dummies.jpg
 
 meta_date_published: 'September 30, 2021'
 meta_date_lastupdated: 'September 30, 2021'
 published: true
 
-permalink: /blog/seo-for-dummies
+permalink: /blog/seo-tips
+redirect_from: /blog/seo-for-dummies
 ---
 
 You don’t need to be a SEO expert to drive more traffic on your website. In fact, all you need is a few hours in front of you and $7.
@@ -39,7 +40,7 @@ The SEO recipes are divided in 5 main themes:
 4. [Link building](#link-building)
 5. [Going further](#going-further)
 
-_PS: If you stay until the end, I’ll show you a special email outreach recipe for SEO using [Mailmeteor](/), our tool to help you send personalised mass emails with Gmail._
+_PS: If you stay until the end, I’ll show you a special email outreach recipe for SEO using [Mailmeteor](/), our tool to help you send personalized mass emails with Gmail._
 
 Let’s wake up the SEO chef that sleeps in you!
 

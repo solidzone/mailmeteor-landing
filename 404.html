@@ -1145,29 +1145,29 @@
     <script>
       try {
         var redirect = {
-          '/blog/seo-for-dummies/?utm_source=newsletter&utm_medium=email&utm_campaign=growthletter-131': '/blog/seo-for-dummies',
-        }
+          '/blog/seo-for-dummies/?utm_source=newsletter&utm_medium=email&utm_campaign=growthletter-131': '/blog/seo-tips',
+        };
 
-        var currentUrl = window.location.pathname + window.location.search
+        var currentUrl = window.location.pathname + window.location.search;
 
         if (redirect[currentUrl]) {
-          window.location.href = redirect[currentUrl]
+          window.location.href = redirect[currentUrl];
         }
       } catch (err) {
-        console.error(err)
+        console.error(err);
       }
     </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136395985-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
-      gtag('js', new Date())
+      gtag('js', new Date());
 
-      gtag('config', 'UA-136395985-1')
+      gtag('config', 'UA-136395985-1');
     </script>
   </body>
 </html>
