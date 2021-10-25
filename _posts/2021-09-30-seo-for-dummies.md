@@ -9,7 +9,7 @@ category: GUIDE
 meta_author: Jean Dubrulle
 meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
-  /assets/img/blog/seo-for-dummies/meta-seo-for-dummies.png
+  /assets/img/blog/seo-tips/meta-seo-for-dummies.png
 
 og_title: '25 Tips to Improve your Website SEO (using Ahrefs)'
 og_description: You don’t need to be a SEO expert to drive more traffic on your website. In fact, all you need is a few hours in front of you and $7.
@@ -58,7 +58,7 @@ The idea here is that if people are paying good money to advertise for such keyw
 
 Try focusing on the traffic potential of a topic rather than a single keyword.
 
-<img src="/assets/img/blog/seo-for-dummies/low-competitions-keywords.png" alt="Find low competition keywords" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/low-competitions-keywords.png" alt="Find low competition keywords" width="730px" height="385px"/>
 
 ### Tip #2 - Identify your underperforming keywords
 
@@ -72,7 +72,7 @@ To identify which keywords you need to focus your efforts on, we are going to is
 
 We’ll filter out keywords with lower volume, usually 1000 is a good proxy for the average monthly number of searches, but in our case I have set the threshold lower to capture more keywords. In addition, we can make sure to exclude all owned SERP features as we only want to see “true” rankings (SERP features are any result on Google that is not a traditional organic result, they include featured snippets, ads, videos...).
 
-<img src="/assets/img/blog/seo-for-dummies/underperforming-keywords.png" alt="Identify your underperforming keywords" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/underperforming-keywords.png" alt="Identify your underperforming keywords" width="730px" height="385px"/>
 
 Prioritize your efforts by picking the following keywords:
 
@@ -100,7 +100,7 @@ Sometimes you may have keywords with similar meaning and you’re unsure whether
 
 In our example, all the top 10 pages target both keywords variation on the same page. It’s a good idea to follow the same path. This is pretty useful to prevent keyword cannibalization, that is when several of your pages compete for the same keywords.
 
-<img src="/assets/img/blog/seo-for-dummies/keyword-mapping.png" alt="Keyword mapping" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/keyword-mapping.png" alt="Keyword mapping" width="730px" height="385px"/>
 
 ### Tip #4 - Find uncompetitive topics that forums rank for
 
@@ -112,7 +112,7 @@ Most of the time, when user-generated content - like forum posts - ranks in the 
 
 Indeed, this kind of content is less well written than a proper blog post. Browse the top results for your target keywords and try to spot forums. Then using the formula above, look at the top pages for this forum to find uncompetitive topics opportunities.
 
-<img src="/assets/img/blog/seo-for-dummies/find-uncompetitive-topics-forums-rank-for.png" alt="Find uncompetitive topics that forums rank for" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/find-uncompetitive-topics-forums-rank-for.png" alt="Find uncompetitive topics that forums rank for" width="730px" height="385px"/>
 
 ## Audit your content
 
@@ -124,7 +124,7 @@ Indeed, this kind of content is less well written than a proper blog post. Brows
 
 Quickwin: find keywords where your site ranks in positions 2-10, while the search results have a featured snippet. You may be able to own the featured snippet and rank #1 by making a few edits to your article. It can be interesting to filter results by adding the “what” or “how” keywords in the _Include_ filter.
 
-<img src="/assets/img/blog/seo-for-dummies/optimize-featured-snippets.png" alt="Optimize for ‘definition’ featured snippets" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/optimize-featured-snippets.png" alt="Optimize for ‘definition’ featured snippets" width="730px" height="385px"/>
 
 ### Tip #6 - Boost important posts with internal links
 
@@ -136,7 +136,7 @@ Internal linking is when you link pages from your website together. It plays a s
 
 First, let’s find pages that need a boost. Look at the pages ranking in position 2 to 10 using the recipe above. It will give you a list of pages that would benefit from internal linking. Here I selected our [Gmail newsletter](/gmail-newsletter) <a href="https://www.mailmunch.com/landing-pages">landing page</a> that we'd like to boost.
 
-<img src="/assets/img/blog/seo-for-dummies/internal-linking.png" alt="Boost important posts with internal links" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/internal-linking.png" alt="Boost important posts with internal links" width="730px" height="385px"/>
 
 Then, we’ll search for the high-authority pages to add internal links from. An easy way to spot them is to run a Google search using the “site:” operator. In our example, I noticed there might be an opportunity for our Gmail newsletter landing page to be referenced from our complete mail merge in Gmail guide.
 
@@ -144,7 +144,7 @@ Then, we’ll search for the high-authority pages to add internal links from. An
   Go to Google and search for site:yourdomain.com “topic of the page you want to boost”
 </div>
 
-<img src="/assets/img/blog/seo-for-dummies/internal-linking-authority-pages.png" alt="Find low competition keywords"/>
+<img src="/assets/img/blog/seo-tips/internal-linking-authority-pages.png" alt="Find low competition keywords"/>
 
 Alternatively, you can look at your website in the Site Explorer and check your website in the “Best by links” report.
 
@@ -158,7 +158,7 @@ A best practice is to do this **every time you publish a new post on your blog**
 
 This will lists all links pointing at 404 pages of your website. These pages don't pass any link juice. A good solution in that case is to 301 redirect these pages.
 
-<img src="/assets/img/blog/seo-for-dummies/fix-broken-backlinks.png" alt="Fix your broken backlinks" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/fix-broken-backlinks.png" alt="Fix your broken backlinks" width="730px" height="385px"/>
 
 ### Tip #8 - Figure out why you are being outranked
 
@@ -176,7 +176,7 @@ Check the top results for the topic you want to rank for and make sure your cont
 
 Ask yourself: does my content fit these three C?
 
-<img src="/assets/img/blog/seo-for-dummies/figure-out-why-outrank.png" alt="Figure out why you are being outranked" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/figure-out-why-outrank.png" alt="Figure out why you are being outranked" width="730px" height="385px"/>
 
 As an example, the 10 top results for “how to make pizzas” are all blog posts sharing step-by-step recipes explaining how to make pizzas at home. That’s probably what you should aim at if you want to increase your chances to get rank on this highly competitive topic.
 
@@ -200,7 +200,7 @@ Competing domains are websites that rank in the top 10 search results for the sa
 
 The intersection graph helps visualize which competitors are really close to you and how much further you have to go. It’s interesting to check the keywords unique to your competitor and apply the recipe to find low competition keywords that you can steal from your competitors.
 
-<img src="/assets/img/blog/seo-for-dummies/find-seo-competing-domains.png" alt="Find your SEO competitors" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/find-seo-competing-domains.png" alt="Find your SEO competitors" width="730px" height="385px"/>
 
 ### Tip #10 - Compare your domain with your competitors’
 
@@ -210,7 +210,7 @@ The intersection graph helps visualize which competitors are really close to you
 
 This recipe offers a comparison between competing domains. It’s a great way to compare your progress with your competitors. In case you notice you can’t keep up the pace, it can be the opportunity to reevaluate your strategy then derive new SEO tactics to beat your competitors.
 
-<img src="/assets/img/blog/seo-for-dummies/compare-domains.png" alt="Compare your domain with your competitors’" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/compare-domains.png" alt="Compare your domain with your competitors’" width="730px" height="385px"/>
 
 ### Tip #11 - Reveal your competitors’ most popular pages
 
@@ -220,7 +220,7 @@ This recipe offers a comparison between competing domains. It’s a great way to
 
 Using this recipe you’ll be able to reveal your competitor’s top-performing pages. Quickwin: look at the pages you could easily outperform by isolating the ones generating a lot of traffic but with little or no referring domains (play with the volume and RD filters). When you find an interesting page, go further by clicking on the associated “Keywords” dropdown to unveil the keywords that page ranks for in the top 100 search results.
 
-<img src="/assets/img/blog/seo-for-dummies/competitors-top-pages.png" alt="Reveal your competitors’ most popular pages" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/competitors-top-pages.png" alt="Reveal your competitors’ most popular pages" width="730px" height="385px"/>
 
 ### Tip #12 - Identify gaps in your content strategy
 
@@ -230,7 +230,7 @@ Using this recipe you’ll be able to reveal your competitor’s top-performing 
 
 This report contains a treasure trove of keywords your website doesn’t rank for while your competitors are already positioned on them. Note that it’s also possible to apply this recipe to a specific URL of your website if you want to check which keywords might be missing from your page compared to the top rankings.
 
-<img src="/assets/img/blog/seo-for-dummies/content-gap.png" alt="Identify gaps in your content strategy" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/content-gap.png" alt="Identify gaps in your content strategy" width="730px" height="385px"/>
 
 ### Tip #13 - Spy on your competitors’ paid advertising strategy
 
@@ -242,7 +242,7 @@ This recipe will unveil your competitors paid ads strategies. Knowing where your
 
 Take some time to study the landing page associated with your competitors’ ads. In our example, we can notice that Sendinblue is using a landing subdomain for its ads related content. Studying their most successful pages structure would be a source of inspiration the day we decide to burn some money in advertising too.
 
-<img src="/assets/img/blog/seo-for-dummies/competitors-ads-strategies.png" alt="Spy on your competitors’ paid advertising strategy" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/competitors-ads-strategies.png" alt="Spy on your competitors’ paid advertising strategy" width="730px" height="385px"/>
 
 ### Tip #14 - Check your competitors’ content clusters
 
@@ -252,7 +252,7 @@ Take some time to study the landing page associated with your competitors’ ads
 
 It’s useful to understand how your competitors structured their website content. This recipe will help you see at a glance which sections of your competitors’ websites are generating the most traffic. In our example, we can see that Mailchimp had great success building a marketing glossary pillar page with 49 children definition pages.
 
-<img src="/assets/img/blog/seo-for-dummies/competitors-top-subfolders.png" alt="Check your competitors’ content clusters" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/competitors-top-subfolders.png" alt="Check your competitors’ content clusters" width="730px" height="385px"/>
 
 ### Tip #15 - How to find questions your competitors are answering that you aren’t
 
@@ -262,7 +262,7 @@ It’s useful to understand how your competitors structured their website conten
 
 A quick recipe to identify top or mid funnel questions your competitors are answering, but you aren’t. That way you can catch up and fill in the holes in your content.
 
-<img src="/assets/img/blog/seo-for-dummies/find-questions-competitors.png" alt="How to find questions your competitors are answering that you aren’t" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/find-questions-competitors.png" alt="How to find questions your competitors are answering that you aren’t" width="730px" height="385px"/>
 
 ### Tip #16 - Check competitors’ content velocity
 
@@ -272,7 +272,7 @@ A quick recipe to identify top or mid funnel questions your competitors are answ
 
 This method helps you check how many pages your competitors have published in the last month. You can analyze their content velocity in different time periods. Of course, don’t focus too much on what your competitors are doing. Study winners in other industries!
 
-<img src="/assets/img/blog/seo-for-dummies/competitors-content-velocity.png" alt="Check competitors’ content velocity" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/competitors-content-velocity.png" alt="Check competitors’ content velocity" width="730px" height="385px"/>
 
 ### Tip #17 - Understand how your competitors are acquiring backlinks
 
@@ -283,7 +283,7 @@ This method helps you check how many pages your competitors have published in th
 
 It’s insightful to better understand how your competitors acquired their backlinks. Indeed, it can be a source of inspiration for your own backlink building.
 
-<img src="/assets/img/blog/seo-for-dummies/competitors-backlinks.png" alt="Understand how your competitors are acquiring backlinks" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/competitors-backlinks.png" alt="Understand how your competitors are acquiring backlinks" width="730px" height="385px"/>
 
 ### Tip #18 - Find your competitors’ broken or redirected pages with a lot of backlinks
 
@@ -295,7 +295,7 @@ With that combination, you’ll have a complete list of all the broken pages on 
 
 It could be interesting for you to recreate content, then reach out to the websites linking to your competitors’ broken pages. Offer them to replace the dead links with your new content. Alternatively, use this recipe to find 301 redirect pages on your competitors’ websites and apply the same tactic.
 
-<img src="/assets/img/blog/seo-for-dummies/competitors-404.png" alt="Find your competitors’ broken or redirected pages with a lot of backlinks" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/competitors-best-by-links-404.png" alt="Find your competitors’ broken or redirected pages with a lot of backlinks" width="730px" height="385px"/>
 
 ## Link building
 
@@ -307,7 +307,7 @@ It could be interesting for you to recreate content, then reach out to the websi
 
 This recipe will help you find websites relevant to your topic that have yet to link to you. As a next step, you could reach out to the authors to see if they would be interested in a guest post.
 
-<img src="/assets/img/blog/seo-for-dummies/backlink-outreach.png" alt="Identify guest blogging opportunities" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/backlink-outreach.png" alt="Identify guest blogging opportunities" width="730px" height="385px"/>
 
 I filtered articles with “one article per domain” to ensure only 1 article is shown per domain. Highlighting unlinked mentions is useful to isolate websites that don’t have a backlink to yours. Like usual, you can go further by filtering results based on the published date or using the domain rating as a proxy (you want backlinks from high authority websites).
 
@@ -349,7 +349,7 @@ A convenient method if you need to check that a website has already been linked 
 
 That’s a valuable piece of information you would like to have in case you are using email outreach for SEO link building.
 
-<img src="/assets/img/blog/seo-for-dummies/find-if-website-linked-to-yours.png" alt="Find if a specific website has linked to yours" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/find-if-website-linked-to-yours.png" alt="Find if a specific website has linked to yours" width="730px" height="385px"/>
 
 ### Tip #21 - Find Quora questions to answer that are related to your niche
 
@@ -359,7 +359,7 @@ That’s a valuable piece of information you would like to have in case you are 
 
 This recipe will give you a list of relevant Quora questions that receive the most search traffic. It’s a good place to start when building your brand awareness.
 
-<img src="/assets/img/blog/seo-for-dummies/find-quora-questions.png" alt="Find Quora questions to answer that are related to your niche" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/find-quora-questions.png" alt="Find Quora questions to answer that are related to your niche" width="730px" height="385px"/>
 
 ## Going further
 
@@ -375,7 +375,7 @@ In addition, you could set up an Alert in Ahrefs to spot new brand mentions. It 
 
 This recipe can also apply to monitor your competitors’ brand mentions.
 
-<img src="/assets/img/blog/seo-for-dummies/monitor-brand-mentions.png" alt="Monitor your brand mentions over time" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/monitor-brand-mentions.png" alt="Monitor your brand mentions over time" width="730px" height="385px"/>
 
 ### Tip #23 - Browse the entire Ahrefs keywords database
 
@@ -389,7 +389,7 @@ Wander through the top searches in the country of your choice, France for exampl
 
 More seriously, it’s also a great way for affiliate SEOs who are struggling to discover new cool niches. By playing with the filters you can discover some keywords/niches that you wouldn't otherwise think of.
 
-<img src="/assets/img/blog/seo-for-dummies/browse-ahrefs-entire-keywords-database.png" alt="Browse the entire Ahrefs keywords database" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/browse-ahrefs-entire-keywords-database.png" alt="Browse the entire Ahrefs keywords database" width="730px" height="385px"/>
 
 ### Tip #24 - Measure search seasonality
 
@@ -399,7 +399,7 @@ More seriously, it’s also a great way for affiliate SEOs who are struggling to
 
 You have two volume options here, a monthly and average one. The monthly graph shows if there's any seasonality to the domain’s search traffic, or if the popularity of keywords it ranks for is growing. The average volume will be more about general SEO visibility. As you can see in my example, our competitor got an impressive surge of organic traffic in January 2019. It will definitely be interesting to dig further to see if there’s something we could learn from them.
 
-<img src="/assets/img/blog/seo-for-dummies/measure-search-seasonality.png" alt="Measure search seasonality" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/measure-search-seasonality.png" alt="Measure search seasonality" width="730px" height="385px"/>
 
 ### Tip #25 - Local SEO: the “near me” trick
 
@@ -409,7 +409,7 @@ You have two volume options here, a monthly and average one. The monthly graph s
 
 Discover millions of keywords related to local businesses & services with this simple search. Play with the different filters to narrow down interesting topics in your niche.
 
-<img src="/assets/img/blog/seo-for-dummies/near-me.png" alt="Local SEO: the “near me” trick" width="730px" height="385px"/>
+<img src="/assets/img/blog/seo-tips/near-me.png" alt="Local SEO: the “near me” trick" width="730px" height="385px"/>
 
 ### **Final thoughts**
 
