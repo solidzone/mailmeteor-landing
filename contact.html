@@ -438,7 +438,7 @@ og_url: https://mailmeteor.com/contact
 <!-- CONTACT > TEMPLATES > ARTICLE  -->
 <script type="text/x-template" id="help-article">
   <div v-if="isActive" itemscope itemtype="https://schema.org/FAQPage">
-    <article itemscope itemtype="https://schema.org/Question">
+    <article itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
       <header><h2 itemprop="name">{{ title }}</h2></header>
       <main itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div itemprop="text"><slot></slot></div></main>
       <footer v-if="!nofooter">Still having trouble? <a href="#help">Contact us</a>, we are here to help.</footer>

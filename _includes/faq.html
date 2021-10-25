@@ -5,7 +5,7 @@
     <p class="text-center">Find tutorials & help guides in our <a href="https://mailmeteor.com/support" target="_blank" rel="noopener">documentation</a>.</p>
     <div id="accordion-general" class="accordions">
       {% assign i = 0 %} {% for entry in site.data.faqs.entries %}
-      <div class="card" itemscope itemtype="https://schema.org/Question">
+      <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <div class="card-header accordionpointer collapsed" id="heading{{i}}" data-toggle="collapse" data-target="#collapse{{i}}">
           <h4 class="mb-0" aria-expanded="true" aria-controls="collapse{{i}}" itemprop="name" style="padding: 0.15rem 0">{{entry.question}}</h4>
           <span class="faq-expander"></span>
