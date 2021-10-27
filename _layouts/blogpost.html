@@ -40,7 +40,11 @@
         <div class="container">
           <nav class="row">
             <div class="col-xs-12 col-md-6 col-lg-8">
+              {% if page.url != "/blog/" %}
+              <a href="/blog/"><img src="/assets/img/brand/logo_mailmeteor_white.svg" alt="Mailmeteor logo" id="logo" /></a>
+              {% else %}
               <a href="/"><img src="/assets/img/brand/logo_mailmeteor_white.svg" alt="Mailmeteor logo" id="logo" /></a>
+              {% endif %}
             </div>
             <div class="col-md-6 col-lg-4 blogpost-header-tagline d-none d-md-block">Brought to you by <a href="/">Mailmeteor</a>, the best rated mail merge tool for Gmail.</div>
           </nav>
@@ -55,9 +59,12 @@
                   <span itemprop="name">{{ page.meta_author }}</span>
                 </a>
               </span>
-              -
-              <span itemprop="datePublished" class="d-none">Published: {{ page.date_published }}</span>
+              - {% if page.meta_date_lastupdated %}
+              <span itemprop="datePublished" class="d-none">Published: {{ page.meta_date_published }}</span>
               <span itemprop="dateModified">Updated: {{ page.meta_date_lastupdated }}</span>
+              {% else %}
+              <span itemprop="datePublished">Published: {{ page.meta_date_published }}</span>
+              {% endif %}
             </div>
           </div>
         </div>

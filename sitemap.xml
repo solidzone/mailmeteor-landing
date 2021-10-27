@@ -200,6 +200,11 @@
     <priority>0.50</priority>
   </url>
   <url>
+    <loc>https://mailmeteor.com/blog/how-to-ab-test-gmail</loc>
+    <lastmod>2021-10-27T06:56:32+00:00</lastmod>
+    <priority>0.50</priority>
+  </url>
+  <url>
     <loc>https://mailmeteor.com/spam-checker</loc>
     <lastmod>2021-10-12T14:09:03+00:00</lastmod>
     <priority>0.50</priority>

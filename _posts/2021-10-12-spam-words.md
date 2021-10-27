@@ -16,9 +16,8 @@ og_description: The ultimate list of 750 spam words to avoid in your emails. Lea
 og_url: https://mailmeteor.com/blog/spam-words
 og_image: https://mailmeteor.com/assets/img/opengraph/spam-words.jpg
 
-meta_date_published: 'October 12, 2021'
-meta_date_lastupdated: 'October 12, 2021'
-published: true
+meta_date_published: "October 12, 2021"
+# meta_date_lastupdated: "October 12, 2021"
 
 permalink: /blog/spam-words
 ---
