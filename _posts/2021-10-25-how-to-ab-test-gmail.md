@@ -128,7 +128,7 @@ Of course, you combine multiples merge fields (aka variables) in the same email.
 
 When your AB test is completed, it's now time to validate your results by calcultating its significance. The significance will let you know if the copy change impacted your results positively and by how much.
 
-![Calculating AB test significance](/assets/img/blog/how-to-ab-test/ab-test-significance.png){:width="600px" height="400px"}
+[![Calculating AB test significance](/assets/img/blog/how-to-ab-test/ab-test-significance.png){:width="600px" height="400px"}](https://neilpatel.com/ab-testing-calculator/){:rel="nofollow noopener"}
 
 In this example, we sent 2000 emails in total, split into 2 groups of 1000 recipients.
 
