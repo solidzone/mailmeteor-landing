@@ -6,7 +6,7 @@ sections:
   - name: Get started with Mailmeteor
     image: /assets/img/icons/getting-started.svg
     description: The Hitchhiker's Guide to the Mailmeteor Galaxy. Learn how to send your first email campaign in 5 minutes.
-    link: https://mailmeteor.com/tutorial
+    link: https://mailmeteor.com/mail-merge-gmail/tutorial
 
   - name: Explore advanced features
     image: /assets/img/icons/advanced-features.svg
