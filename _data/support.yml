@@ -6,12 +6,12 @@ sections:
   - name: Get started with Mailmeteor
     image: /assets/img/icons/getting-started.svg
     description: The Hitchhiker's Guide to the Mailmeteor Galaxy. Learn how to send your first email campaign in 5 minutes.
-    link: https://support.mailmeteor.com/
+    link: https://mailmeteor.com/tutorial
 
   - name: Explore advanced features
     image: /assets/img/icons/advanced-features.svg
     description: Go further with Mailmeteor, track emails in real time, schedule your emails, add attachment files & more!
-    link: https://support.mailmeteor.com/introduction/advanced
+    link: https://mailmeteor.com/features
 
   - name: Troubleshoot issues
     image: /assets/img/icons/troubleshooting.svg
@@ -38,7 +38,7 @@ articles:
   - name: How real-time tracking works
     link: https://support.mailmeteor.com/introduction/advanced/tracking-report
 
-  - name: How to avoid falling into spam? 
+  - name: How to avoid falling into spam?
     link: https://support.mailmeteor.com/introduction/sending-guidelines
 
   - name: Configuring an email alias
