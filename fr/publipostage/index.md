@@ -2,7 +2,7 @@
 layout: blogpost
 title: 'Publipostage: le Guide Complet en 2021'
 description: Apprenez ce qu'est un publipostage et comment le réaliser pour envoyer des emails en masse personnalisés, créer des lettres, générer des documents ou imprimer des étiquettes.
-canonical: https://mailmeteor.com/fr/publipostage
+canonical: https://mailmeteor.com/fr/publipostage/
 
 cta_title: Essayez l'outil de publipostage pour Gmail le plus simple
 cta_button: Envoyer des emails
@@ -14,7 +14,7 @@ meta_image: >-
 
 og_title: 'Publipostage: le Guide Complet en 2021'
 og_description: Apprenez ce qu'est un publipostage et comment le réaliser pour envoyer des emails en masse personnalisés, créer des lettres, générer des documents ou imprimer des étiquettes.
-og_url: https://mailmeteor.com/fr/publipostage
+og_url: https://mailmeteor.com/fr/publipostage/
 og_image: https://mailmeteor.com/assets/img/opengraph/publipostage.jpg
 
 meta_date_published: 'Oct 25, 2021'
