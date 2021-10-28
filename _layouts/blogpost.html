@@ -46,7 +46,13 @@
               <a href="/"><img src="/assets/img/brand/logo_mailmeteor_white.svg" alt="Mailmeteor logo" id="logo" /></a>
               {% endif %}
             </div>
+            {% if page.lang == "fr" %}
+            <div class="col-md-6 col-lg-4 blogpost-header-tagline d-none d-md-block">
+              Cet article est proposé par <a href="/fr/">Mailmeteor</a>, le meilleur outil de publipostage pour Gmail.
+            </div>
+            {% else %}
             <div class="col-md-6 col-lg-4 blogpost-header-tagline d-none d-md-block">Brought to you by <a href="/">Mailmeteor</a>, the best rated mail merge tool for Gmail.</div>
+            {% endif %}
           </nav>
           <div class="text-center">
             {% if page.meta_image %}
@@ -114,7 +120,9 @@
             <div class="blogpost-aside-cta">
               <img src="/assets/img/articles/alternative/Mailmeteor-logo.webp" style="display: block; margin: 0.5rem auto; max-width: 32px" />
               <p class="font-weight-bold text-center">{{ page.cta_title | default: 'Try the best mail merge tool for Gmail'}}</p>
-              <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-outline p-1">Start sending emails</a>
+              <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-outline p-1"
+                >{{ page.cta_button | default: 'Start sending emails'}}</a
+              >
             </div>
           </aside>
         </div>
