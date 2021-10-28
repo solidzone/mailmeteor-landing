@@ -46,7 +46,7 @@ C'est Microsoft Word qui popularisa le publipostage en permettant de générer d
 
 ## Comment un publipostage fonctionne
 
-Un publipostage prend les valeurs des lignes d'une feuille de calcul (Excel, Google Sheeets) et les insère dans un modèle de document, aussi appelé template en anglais. Ce modèle peut être un email générique dans lequel vous allez insérer des variables ou bien un document (Word, Google Docs, LibreOffice…) qui vous permettra de générer automatiquement des lettres, enveloppes ou des étiquettes.
+Un publipostage prend les valeurs des lignes d'une feuille de calcul (Excel, Google Sheeets) et les insère dans un modèle de document, aussi appelé _template_ en anglais. Ce modèle peut être un email générique dans lequel vous allez insérer des variables ou bien un document (Word, Google Docs, LibreOffice…) qui vous permettra de générer automatiquement des lettres, enveloppes ou des étiquettes.
 
 <figure>
   <video autoplay muted loop playsinline>
