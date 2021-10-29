@@ -10,7 +10,7 @@ category: GUIDE
 meta_author: Jean Dubrulle
 meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
-  /assets/img/articles/fr/publipostage-guide.png
+  /assets/img/articles/fr/publipostage/publipostage-guide.png
 
 og_title: 'Publipostage: le Guide Complet en 2021'
 og_description: Apprenez ce qu'est un publipostage et comment le réaliser pour envoyer des emails en masse personnalisés, créer des lettres, générer des documents ou imprimer des étiquettes.
@@ -36,11 +36,11 @@ Dans ce guide du publipostage vous apprendrez:
 
 **Faire un publipostage, c’est automatiser l’envoi d’emails ou la création de documents grâce à son ordinateur.**
 
-![Le publipostage permet d'automatiser l’envoi d’emails ou la création de documents grâce à son ordinateur](/assets/img/articles/fr/publipostage.webp){:class="no-shadow"}{:width="600px" height="400px"}
+![Le publipostage permet d'automatiser l’envoi d’emails ou la création de documents grâce à son ordinateur](/assets/img/articles/fr/publipostage/publipostage.webp){:class="no-shadow"}{:width="600px" height="400px"}
 
 Le publipostage existe depuis les débuts de l’informatique. Les premières applications de publipostage sont apparues dans les années 80. Un autre terme pour désigner le publipostage est _mail merge_, sa traduction anglaise qui signifie "fusion et publipostage".
 
-![Les premières applications de publipostage datent des années 80](/assets/img/articles/fr/publipostage-vintage.gif){:width="600px" height="338px"}
+![Les premières applications de publipostage datent des années 80](/assets/img/articles/fr/publipostage/publipostage-vintage.gif){:width="600px" height="338px"}
 
 C'est Microsoft Word qui popularisa le publipostage en permettant de générer des documents ou des lettres, mais aussi réaliser des publipostages entre Excel et Word pour envoyer des emails. Avec le gain en popularité de Google, le publipostage a ensuite été rendu possible au sein de Gmail, Google Docs et Google Sheets.
 
@@ -50,7 +50,7 @@ Un publipostage prend les valeurs des lignes d'une feuille de calcul (Excel, Goo
 
 <figure>
   <video autoplay muted loop playsinline>
-    <source src="/assets/img/articles/fr/publipostage-courrier-masse.mp4" alt="A mail merge lets you email multiple recipients with Gmail"/>
+    <source src="/assets/img/articles/fr/publipostage/publipostage-courrier-masse.mp4" alt="A mail merge lets you email multiple recipients with Gmail"/>
   </video>
   <figcaption><i>Publipostage entre Gmail et Google Sheets</i> <a href="https://www.youtube.com/watch?v=YTeV4i1W3Zo" rel="nofollow noreferrer">extrait de la chaîne YouTube de Google Workspace</a></figcaption>
 </figure>
@@ -62,12 +62,12 @@ Il existe différentes manières d'exécuter un publipostage. Nous aborderons le
 La personnalisation de votre publipostage fonctionne en stockant les informations de votre destinataire dans une feuille de calcul, que ce soit un fichier Excel ou Google Sheets. Chaque ligne représente un de vos destinataires et chaque colonne représente un champ personnalisé.
 
 <video autoplay muted loop playsinline>
-  <source src="/assets/img/articles/fr/publipostage.mp4"/>
+  <source src="/assets/img/articles/fr/publipostage/publipostage.mp4"/>
 </video>
 
 Dans notre exemple, nous personnalisons un mail au travers d'un publipostage. Ici dans notre exemple, nous réalisons un publipostage d’email, entre Google Sheets et Gmail. La feuille de calcul Google Sheets va servir de source pour le modèle d’emails qui sera envoyé depuis Gmail. A noter que le résultat du publipostage pourrait être un document, une lettre, une enveloppe ou une étiquette selon vos besoins.
 
-![Inclure des variables personnalisées dans un publipostage d'email](/assets/img/articles/fr/publipostage-personnalisation.webp){:class="no-shadow"}{:width="600px" height="395px"}
+![Inclure des variables personnalisées dans un publipostage d'email](/assets/img/articles/fr/publipostage/publipostage-personnalisation.webp){:class="no-shadow"}{:width="600px" height="395px"}
 
 Les champs personnalisés d'un publipostage, aussi appelés champs de fusion, peuvent être le nom et prénom de votre destinataire, une adresse, un nom d'entreprise, un numéro de commande… bref absolument tout ce que vous souhaitez. Vous pouvez ajouter autant de colonnes que vous le souhaitez dans votre feuille de calcul source, soit autant de variables personnalisées utilisables lors publipostage. La feuille de calcul servira de source pour la fusion. Chaque ligne de la feuille de calcul sera traitée et saisie dans votre modèle d'email ou de document.
 
@@ -82,13 +82,13 @@ Vous pouvez personnaliser chaque partie de l'e-mail, depuis le sujet jusq'au con
 
 … les possibilités de personnalisation sont infinies et ne dépendent que de votre imagination!
 
-![Un publipostage permet de nombreuses possibilités de personnalisation](/assets/img/articles/fr/publipostage-champs-personnalises.png){:width="600px" height="395px"}
+![Un publipostage permet de nombreuses possibilités de personnalisation](/assets/img/articles/fr/publipostage/publipostage-champs-personnalises.png){:width="600px" height="395px"}
 
 ### Qui fait du publipostage?
 
 Aujourd’hui, des entreprises se spécialisent dans le publipostage et proposent leur service pour vous faciliter cette tâche. Cependant, sachez qu’il est très simple de faire un publipostage et vous pouvez vous-même en réaliser et ainsi gagner un temps considérable dans vos tâches quotidiennes.
 
-![Un publipostage fait gagner du temps dans les tâches répétitives](/assets/img/articles/fr/publipostage-cas-usages.png){:class="no-shadow"}{:width="600px" height="400px"}
+![Un publipostage fait gagner du temps dans les tâches répétitives](/assets/img/articles/fr/publipostage/publipostage-cas-usages.png){:class="no-shadow"}{:width="600px" height="400px"}
 
 Le publipostage peut être utile dans de très nombreux contextes:
 
@@ -117,7 +117,7 @@ Nous allons aborder ci-dessous comment faire du publipostage en utilisant les so
 
 En tant que l'un des plus grands fournisseurs de messagerie, Gmail permet d'effectuer un publipostage. Alors, comment faire un publipostage dans Gmail?
 
-Il existe 2 façons d'aborder la création d'un publipostage dans Gmail. La première consiste à utiliser un module complémentaire Google qui fera tout pour vous, et la seconde consiste à créer votre propre script de publipostage dans Gmail. Nous avons détaillons ces deux méthodes dans notre guide [Comment faire un publipostage dans Gmail](/fr/publipostage).
+Il existe 2 façons d'aborder la création d'un publipostage dans Gmail. La première consiste à utiliser un module complémentaire Google qui fera tout pour vous, et la seconde consiste à créer votre propre script de publipostage dans Gmail. Nous avons détaillons ces deux méthodes dans notre guide [Comment faire un publipostage dans Gmail](/fr/publipostage/gmail).
 
 Voici un exemple de publipostage réalisé dans Gmail, grâce à [Mailmeteor](/fr/), l’outil de publipostage pour Gmail le plus populaire sur le Google Workspace Marketplace.
 
@@ -171,7 +171,7 @@ Google Docs permet de réaliser des publipostage de lettres, documents et envelo
 
 Pour faire notre publipostage depuis Google Docs, nous allons utiliser un outil de publipostage gratuit qui se nomme [Mail Merge for Google Docs](https://gsuite.google.com/marketplace/app/mail_merge/799434348782).
 
-![Publipostage dans Google Docs](/assets/img/articles/fr/publipostage-google-docs.png){:class="no-shadow"}{:width="600px" height="400px"}
+![Publipostage dans Google Docs](/assets/img/articles/fr/publipostage/publipostage-google-docs.png){:class="no-shadow"}{:width="600px" height="400px"}
 
 #### Les étapes pour faire un publipostage depuis Google Docs:
 
