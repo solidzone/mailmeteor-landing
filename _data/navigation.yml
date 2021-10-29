@@ -46,7 +46,7 @@ footer:
       de: 'Produkt'
     links:
       tutorial:
-        url: 'https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial'
+        url: '/mail-merge-gmail/tutorial'
         en: 'Tutorial'
         fr: 'Tutoriel'
         es: 'Tutorial'
@@ -107,7 +107,7 @@ footer:
         es: 'Sobre nosotros'
         de: 'Über uns'
       jobs:
-        url: 'https://mailmeteor.com/contact#others/collaborate'
+        url: '/contact#others/collaborate'
         en: "We're hiring"
         fr: 'Nous recrutons'
         es: 'Empleo'
@@ -217,7 +217,7 @@ footer:
       de: 'Hilfe'
     links:
       help:
-        url: 'https://mailmeteor.com/support'
+        url: '/support'
         en: 'Help center'
         fr: 'Documentation'
         es: 'Documentación'
