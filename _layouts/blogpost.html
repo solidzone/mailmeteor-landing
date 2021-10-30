@@ -79,8 +79,11 @@
         <div class="row">
           <aside class="col-lg-2 d-none d-lg-block pl-0">
             <div class="blogpost-toc">
+              {% if page.lang == 'fr' %}
+              <div style="font-weight: bold; font-size: 0.8rem">Contenu</div>
+              {% else %}
               <div style="font-weight: bold; font-size: 0.8rem">Contents</div>
-              {% include blogpost-toc.html html=content h_max=2 %}
+              {% endif %} {% include blogpost-toc.html html=content h_max=2 %}
             </div>
           </aside>
           <main class="col-lg-8 col-xs-12">{% include blogpost-lazyimages.html html=content %}</main>

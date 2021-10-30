@@ -53,7 +53,7 @@ Mailmeteor est disponible depuis 2018 sur cette plateforme. C'est un outil dispo
 
 Une fois que Mailmeteor est installé, [ouvrez une nouvelle feuille de calcul sur Google Sheets](https://sheets.new). Cette feuille de calcul sera l’endroit où vous pourrez stocker vos contacts et suivre les performances de votre campagne. Voici l’[exemple de feuille de calcul de publipostage](https://docs.google.com/spreadsheets/d/1_ttiunevPopItX4hm1kNGGy9xzPHjo8c_RuZQqX649k/edit#gid=641632421) que nous utiliserons à travers cette démonstration.
 
-Une fois que vous avez ouvert une nouvelle feuille de calcule, assurez-vous ensuite d'y ajouter votre liste de destinataires. Vous obtenez alors une liste de diffusion à partir de laquelle Mailmeteor va expédier vos emails.
+Une fois que vous avez ouvert une nouvelle feuille de calcul, assurez-vous ensuite d'y ajouter votre liste de destinataires. Vous obtenez alors une liste de diffusion à partir de laquelle Mailmeteor va expédier vos emails.
 
 <div class="blogpost-note">
   <span class="font-weight-bold">Remarque:</span> vous pouvez soit rentrer vos destinataires manuellement, soit importer des contacts. Pour importer des contacts dans Google Sheets, allez dans <strong>Menu</strong> > <strong>Fichier</strong> > <strong>Importer</strong>. Sélectionnez ensuite votre fichier Excel ou votre fichier .csv.
@@ -101,7 +101,7 @@ Voici un modèle d’email avec des variables que vous pouvez copier-coller:
    <p>Bonjour {% raw %}{{ prénom }}{% endraw %},</p>
    <p>Je suis ravie que nous ayons pu nous rencontrer dernièrement. Comme indiqué, nous utilisons une toute nouvelle solution de publipostage appelée Mailmeteor.</p>
    <p>J'aimerais vous faire découvrir certaines de ses fonctionnalités afin que vous me donniez votre avis. Nous voulons nous assurer que Mailmeteor vous aidera réellement à optimiser vos campagnes d’emailing au sein de {% raw %}{{ entreprise }}{% endraw %}.</p>
-   <p>Auriez-vous 10 à 15 minutes à me consacrer pour en discuter ? (Je promets de respecter l'heure !). Si oui, faites-moi savoir l’horaire qui vous conviendrait le mieux.</p>
+   <p>Auriez-vous 10 à 15 minutes à me consacrer pour en discuter? (Je promets de respecter l'heure !). Si oui, faites-moi savoir l’horaire qui vous conviendrait le mieux.</p>
 </div>
 
 Lorsque vous ajoutez un champ variable à votre modèle d’email, assurez-vous qu'il correspond toujours à un en-tête de votre feuille de calcul Google Sheets.
@@ -118,7 +118,7 @@ Vous pouvez également vous auto-envoyer un email test. Il est d’ailleurs reco
 
 ### 8. Envoyer le publipostage
 
-Prêt à décoller ? C’est le moment d'envoyer votre campagne de mail merge avec Gmail.
+Prêt à décoller? C’est le moment d'envoyer votre campagne de mail merge avec Gmail.
 
 L'envoi de votre campagne de publipostage peut être assez intimidant au début. Mais ne vous inquiétez pas, si vous suivez ces étapes, tout se déroulera sans encombres!
 
@@ -230,7 +230,7 @@ Voici un guide complet de Google expliquant [comment importer votre fichier Exce
 
 ![Faire un publipostage dans Gmail avec Outlook](/assets/img/articles/fr/publipostage/gmail/publipostage-gmail-outlook.webp){:width="600px" height="300px"}
 
-Vous êtes récemment passé de Microsoft Outlook à Gmail et c'est la première fois que vous devez faire un envoi d’emails en masse sous Gmail ? Il existe deux solutions dans ce cas:
+Vous êtes récemment passé de Microsoft Outlook à Gmail et c'est la première fois que vous devez faire un envoi d’emails en masse sous Gmail? Il existe deux solutions dans ce cas:
 
 Remplacez votre méthode de publipostage dans Outlook par un add-on Google comme [Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301), qui fera exactement le même travail de fusion de courrier qu'Outlook.
 Vous pouvez envoyer des courriels à partir de votre compte Outlook en utilisant un alias d’adresse email. Un alias de messagerie est un autre compte de messagerie que vous possédez. Avec un alias d’email, vous pouvez envoyer des messages électroniques à partir de votre ancienne adresse Outlook tout en étant connecté à Google avec votre compte Gmail.
