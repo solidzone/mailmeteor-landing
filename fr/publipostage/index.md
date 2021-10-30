@@ -1,4 +1,5 @@
 ---
+lang: fr
 layout: blogpost
 title: 'Publipostage: le Guide Complet en 2021'
 description: Apprenez ce qu'est un publipostage et comment le réaliser pour envoyer des emails en masse personnalisés, créer des lettres, générer des documents ou imprimer des étiquettes.
@@ -18,9 +19,7 @@ og_url: https://mailmeteor.com/fr/publipostage/
 og_image: https://mailmeteor.com/assets/img/opengraph/publipostage.jpg
 
 meta_date_published: 'Oct 25, 2021'
-published: true
-
-lang: fr
+#meta_date_lastupdated: 'April 12, 2021'
 ---
 
 Imaginons que vous souhaitiez envoyer un email à tous vos clients, étudiants ou employés. Ecrire un mail pour chacune de ces personnes individuellement prendrait beaucoup de temps. Au lieu de cela, vous pouvez laisser votre ordinateur faire le travail à votre place. C’est le publipostage.
@@ -111,7 +110,7 @@ Comme on commence à le voir, le publipostage peut s'avérer très pratique dans
 
 Nous allons aborder ci-dessous comment faire du publipostage en utilisant les solutions principales offertes par Google et Microsoft. Nous nous concentrons sur ces outils car leur usage est répandu, notez qu'il est aussi possible d'utiliser d'autres logiciels pour réaliser un publipostage depuis LibreOffice ou un publipostage depuis Pages.
 
-## Réaliser publipostage avec Google (Gmail, Sheets, Docs)
+## Réaliser un publipostage avec Google (Gmail, Sheets, Docs)
 
 ### Comment faire un publipostage avec Gmail?
 
@@ -231,7 +230,7 @@ Il est également possible de réaliser un publipostage d’emails depuis Office
 
 6. **Enregistrez le message personnalisé et envoyer**
 
-   Enfin, cliquez sur **Terminer et Fusionner** en haut à droite puis **“**Envoyer des messages électroniques**. Pour finir, cliquez sur **Fusionner avec un message électronique\*\*.
+   Enfin, cliquez sur **Terminer et Fusionner** en haut à droite puis **Envoyer des messages électroniques**. Pour finir, cliquez sur **Fusionner avec un message électronique**.
 
 A noter que si vous possédez un compte Google, il est tout à fait possible d’utiliser votre [adresse Outlook comme un alias](https://www.youtube.com/watch?v=FhTcfUDdvHc). Cela vous permettra simplement de faire un publipostage depuis Gmail avec la technique expliquée ci-dessus, tout en utilisant votre adresse Outlook comme expéditeur.
 
