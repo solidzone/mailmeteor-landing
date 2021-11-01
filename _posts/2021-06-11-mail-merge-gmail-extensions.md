@@ -1,23 +1,23 @@
 ---
 layout: blogpost
-title: "Top 12 mail merge extensions for Gmail in 2021"
+title: 'Top 12 mail merge extensions for Gmail in 2021'
 description: A compilation of the 12 most useful Gmail merge extensions to send mass personalized emails from Gmail and Google Sheets.
 cta_title: Try the best mail merge for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail/extensions
 category: COMPARISON
 
 meta_author: Jean Dubrulle
-meta_author_link: "https://twitter.com/cuireuncroco"
+meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/mail-merge-extensions/mail-merge-extensions-meta.webp
 
-og_title: "Top 12 mail merge extensions for Gmail in 2021"
+og_title: 'Top 12 mail merge extensions for Gmail in 2021'
 og_description: A compilation of the 12 most useful Gmail merge extensions to send mass personalized emails from Gmail and Google Sheets.
 og_url: https://mailmeteor.com/mail-merge-gmail/extensions
 og_image: https://mailmeteor.com/assets/img/opengraph/blog-gmass-pricing.jpg
 
-meta_date_published: "June 14, 2021"
-meta_date_lastupdated: "June 14, 2021"
+meta_date_published: 'June 14, 2021'
+meta_date_lastupdated: 'November 1, 2021'
 published: true
 
 permalink: /mail-merge-gmail/extensions
@@ -25,7 +25,7 @@ permalink: /mail-merge-gmail/extensions
 
 Using a mail merge extension for Gmail can help you save invaluable time and effort sending emails to multiple recipients at once.
 
-We compiled the most useful Gmail merge extensions that give you the ability to send mass personalized emails from a Google Sheet to Gmail – all of which can offer a massive boost to the productivity of your email campaigns. The information below has been updated as of June 2021.
+We compiled the most useful <a href="/mail-merge-gmail">Gmail mail merge</a> extensions that give you the ability to send mass personalized emails from a Google Sheet to Gmail – all of which can offer a massive boost to the productivity of your email campaigns. The information below has been updated as of June 2021.
 
 **The Top 12 mail merge extensions for Gmail**
 

@@ -1,23 +1,23 @@
 ---
 layout: blogpost
-title: "How to mail merge in Gmail (2021 tutorial)"
+title: 'How to mail merge in Gmail (2021 tutorial)'
 description: Learn how to send personalized emails with Mail Merge in Gmail.
 cta_title: Try the best mail merge tool for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail/tutorial
 category: TUTORIAL
 
 meta_author: Jean Dubrulle
-meta_author_link: "https://twitter.com/cuireuncroco"
+meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png
 
-og_title: "How to mail merge in Gmail (2021 tutorial)"
+og_title: 'How to mail merge in Gmail (2021 tutorial)'
 og_description: Learn how to send personalized emails with Mail Merge in Gmail.
 og_url: https://mailmeteor.com/mail-merge-gmail/tutorial
 og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-tutorial.jpg
 
-meta_date_published: "April 6, 2021"
-meta_date_lastupdated: "April 12, 2021"
+meta_date_published: 'April 6, 2021'
+meta_date_lastupdated: 'November 1, 2021'
 published: true
 
 permalink: /mail-merge-gmail/tutorial
@@ -31,7 +31,7 @@ As one of the biggest email providers, Gmail allows anyone, anywhere to mail mer
 
 However, one of your first questions might be: **how to do a mail merge in Gmail?**
 
-A better question might be: what’s the best way to mail merge in Gmail properly? Well, there are 2 ways you can approach creating a mail merge in Gmail. The first is by using a Google add-on that will do everything for you, and the second is to create your own mail merge script within Gmail. In this mail merge tutorial, we’ll show you how to do both methods.
+A better question might be: what’s the best way to mail merge in Gmail properly? Well, there are 2 ways you can approach creating a [mail merge in Gmail](/mail-merge-gmail). The first is by using a Google add-on that will do everything for you, and the second is to create your own mail merge script within Gmail. In this mail merge tutorial, we’ll show you how to do both methods.
 
 ## Method 1 – Use Mailmeteor to mail merge in Gmail
 
@@ -127,7 +127,7 @@ Mailmeteor is the top-rated Google mail merge add-on, designed to make mail merg
 
    If you’ve followed our mail merge instructions above, your mail merge will get people reading your emails and engaging with your brand. It’s that simple.
 
-**With that, you’re all set! Mailmeteor is the top-rated Gmail mail merge add-on for sending high-quality, personalized email content to up to 2000 recipients with just a click of a button. [Start your mail merge in Gmail with Mailmeteor](/).**
+**With that, you’re all set! Mailmeteor is the top-rated [Gmail mail merge](/gmail-mail-merge) add-on for sending high-quality, personalized email content to up to 2000 recipients with just a click of a button. [Start your mail merge in Gmail with Mailmeteor](/).**
 
 ## Method 2 – Mail merge with Gmail through Google Apps Scripts
 

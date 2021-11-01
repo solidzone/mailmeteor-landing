@@ -1,35 +1,35 @@
 ---
 layout: blogpost
-title: "Getting started with Mail Merge in Gmail using Google Sheets"
+title: 'How to Mail Merge in Gmail & Google Sheets [2021]'
 description: Learn how to send personalized emails using Gmail and a Google Sheets spreadsheet with our guide on Mail merge in Gmail using Google Sheets.
 cta_title: Try the best mail merge tool for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail/google-sheets
 category: TUTORIAL
 
 meta_author: Jean Dubrulle
-meta_author_link: "https://twitter.com/cuireuncroco"
+meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/mail-merge-gmail/google-sheets/mail-merge-gmail-google-sheets.png
 
-og_title: "Getting started with Mail Merge in Gmail using Google Sheets"
+og_title: 'How to Mail Merge in Gmail & Google Sheets [2021]'
 og_description: Learn how to send personalized emails using Gmail and a Google Sheets spreadsheet with our guide on Mail merge in Gmail using Google Sheets.
 og_url: https://mailmeteor.com/mail-merge-gmail/google-sheets
 og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-google-sheets.jpg
 
-meta_date_published: "April 22, 2021"
-meta_date_lastupdated: "April 22, 2021"
+meta_date_published: 'April 22, 2021'
+meta_date_lastupdated: 'November 1, 2021'
 published: true
 
 permalink: /mail-merge-gmail/google-sheets
 ---
 
-Did you know you can mail merge in Gmail using [Google Sheets](https://www.google.com/sheets/about/), one of the world’s most popular pieces of spreadsheet software?
+Did you know you can mail merge in Gmail using Google Sheets, one of the world’s most popular pieces of spreadsheet software?
 
-Whether you’re a professional, an organization, a teacher or just a regular person looking to reach a load of your contacts with just one email, a mail merge in Gmail is a helpful tool to help you do that with just one click.
+Whether you’re a professional, an organization, a teacher or just a regular person looking to reach a load of your contacts with just one email, a [mail merge in Gmail](/mail-merge-gmail) is a helpful tool to help you do that with just one click.
 
 ![Mail merge in Gmail using Google Sheets](/assets/img/blog/mail-merge-gmail/google-sheets/mail-merge-gmail-from-google-sheets.png){:class="no-shadow"}{:width="600px" height="215px"}
 
-Done correctly, a mail merge can make your life a lot easier by drawing up a list of contacts from a Google spreadsheet you already have and letting you send each contact a message at the same time from Gmail.
+Done correctly, a mail merge can make your life a lot easier by drawing up a list of contacts from a [Google spreadsheet](https://www.google.com/sheets/about/) you already have and letting you send each contact a message at the same time from Gmail.
 
 ![Emails sent through a mail merge in Gmail](/assets/img/blog/mail-merge-gmail/google-sheets/mail-merge-gmail-emails-sent.png){:class="no-shadow"}{:width="600px" height="397px"}
 
@@ -45,7 +45,7 @@ All you need is a Google account with Gmail or a Google Workspace account. Once 
   <source src="/assets/img/blog/mail-merge-gmail/what-is-mail-merge-gmail.mp4" alt="Combining Gmail and Google Sheets to send personalized emails"/>
 </video>
 
-As an added benefit if you’re on a budget, a Gmail mail merge itself can be **free** when you mail merge from Google Sheets (minus add-on costs), so it’s well worth learning the actual process and practice of mail merging for both the short-and-long-term financial benefits.
+As an added benefit if you’re on a budget, a [Gmail mail merge](/gmail-mail-merge) itself can be **free** when you mail merge from Google Sheets (minus add-on costs), so it’s well worth learning the actual process and practice of mail merging for both the short-and-long-term financial benefits.
 
 ## How do I mail merge from Google Sheets to Gmail?
 

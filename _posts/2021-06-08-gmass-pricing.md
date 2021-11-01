@@ -1,23 +1,23 @@
 ---
 layout: blogpost
-title: "Gmass Pricing and Plans (is it worth the money?)"
+title: 'Gmass Pricing and Plans (is it worth the money?)'
 description: Considering GMass but unsure if it’s worth the money? Read this pricing guide for details on GMass and discover its best alternative.
 cta_title: Try the best alternative to GMass
 canonical: https://mailmeteor.com/blog/gmass-pricing
 category: COMPARISON
 
 meta_author: Jean Dubrulle
-meta_author_link: "https://twitter.com/cuireuncroco"
+meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/gmass-pricing/Gmass-logo-white.webp
 
-og_title: "Gmass Pricing and Plans (is it worth the money?)"
+og_title: 'Gmass Pricing and Plans (is it worth the money?)'
 og_description: Considering GMass but unsure if it’s worth the money? Read this pricing guide for details on GMass and discover its best alternative.
 og_url: https://mailmeteor.com/blog/gmass-pricing
 og_image: https://mailmeteor.com/assets/img/opengraph/blog-gmass-pricing.jpg
 
-meta_date_published: "June 8, 2021"
-meta_date_lastupdated: "June 8, 2021"
+meta_date_published: 'June 8, 2021'
+meta_date_lastupdated: 'November 1, 2021'
 published: true
 
 permalink: /blog/gmass-pricing
@@ -27,7 +27,7 @@ If you want to send mass personalized emails with Gmail, you’ll need access to
 
 GMass is just one of these extensions, using Gmail’s powerful email platform to send a large number of emails to your contact lists with the click of a button.
 
-But what exactly is GMass? Is it worth the money you’ll pay for the subscription? In this blog, we’re going to take a deep dive into the GMass extension, comparing it to other leading email marketing tools to help you make an informed decision about the best mail merge solution.
+But what exactly is GMass? Is it worth the money you’ll pay for the subscription? In this blog, we’re going to take a deep dive into the GMass extension, comparing it to other [Gmail marketing](/gmail-marketing) tools to help you make an informed decision about the best mail merge solution.
 
 ## What is GMass?
 
@@ -92,7 +92,7 @@ Now that you know how to send emails with GMass, here are a few things to consid
   <figcaption>GMass screenshot</figcaption>
 </figure>
 
-**Complicated interface**. As you can see GMass is as powerful as it can be complex. The add-on adds a ton of new buttons and you need to go through several steps in order to send your emails. We’ll see easier methods to send mass emails with Gmail, using our add-on called [Mailmeteor](/) at the end of this article.
+**Complicated interface**. As you can see GMass is as powerful as it can be complex. The add-on adds a ton of new buttons and you need to go through several steps in order to send your emails. We’ll see easier methods to [send mass emails with Gmail](/mass-emails-gmail), using our add-on called [Mailmeteor](/) at the end of this article.
 
 ## Is GMass free?
 

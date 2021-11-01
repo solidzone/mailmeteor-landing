@@ -1,23 +1,23 @@
 ---
 layout: blogpost
-title: "Gmail Mail Merge Script Example using Google Apps Script"
+title: 'Gmail Mail Merge Script Example using Google Apps Script'
 description: Learn how to send hundreds of emails in Gmail by building your very own mail merge Gmail script.
 cta_title: Mailmeteor is the best rated mail merge tool for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail/script
 category: TUTORIAL
 
 meta_author: Corentin Brossault
-meta_author_link: "https://twitter.com/frenchcooc"
+meta_author_link: 'https://twitter.com/frenchcooc'
 meta_image: >-
   /assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png
 
-og_title: "Gmail Mail Merge Script Example using Google Apps Script"
+og_title: 'Gmail Mail Merge Script Example using Google Apps Script'
 og_description: Learn how to send hundreds of emails in Gmail, by building your very own mail merge Gmail script.
 og_url: https://mailmeteor.com/mail-merge-gmail/script
 og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-script.jpg
 
-meta_date_published: "April 8, 2021"
-meta_date_lastupdated: "April 8, 2021"
+meta_date_published: 'April 8, 2021'
+meta_date_lastupdated: 'November 1, 2021'
 published: true
 
 permalink: /mail-merge-gmail/script
@@ -25,7 +25,7 @@ permalink: /mail-merge-gmail/script
 
 Sending mass emails from Gmail is sometimes seen as a challenge. I can tell you it's not! In this article we'll look at the basics of building a mail merge script for Gmail and how it can fit your email marketing needs.
 
-First, here's what you need to send emails in bulk with Gmail:
+First, here's what you need to build your own [mail merge for Gmail](/mail-merge-gmail):
 
 - a Gmail (or Google Workspace) account
 - a list of contacts
@@ -59,12 +59,12 @@ Emails are usually immediately delivered, but sometimes it takes a few seconds. 
 
 ## Conclusion
 
-Some say that it's impossible to send emails in bulk with Gmail. It's totally untrue. Of course, this is a very basic macro for Google Sheets to send lots of emails with Gmail. You might need to adapt it a little bit more, but thanks to Google Apps Script you can do lot of things.
+Some say that it's impossible to [send emails in bulk with Gmail](/bulk-emails-gmail). It's totally untrue. Of course, this is a very basic macro for Google Sheets to send lots of emails with Gmail. You might need to adapt it a little bit more, but thanks to Google Apps Script you can do lot of things.
 
 Before you go, here are two things to keep in mind when using Gmail as an email marketing tool:
 
 1. **Be sure to abide by [Gmail bulk senders guidelines](https://support.google.com/mail/answer/81126?hl=en){:rel="nofollow noreferrer"}.** Especially, note that you are limited to send a reasonable amount of emails per day. If you have a `@gmail.com` email address, you can send at most 500 emails/day while with a Google Workspace account, you sending limit hits 2000 emails per day. That's probably well enough for 99% of Gmail users, but it's good to have in mind those limits.
-2. If you are looking for more a advanced script, for example that let you send personalized emails (e.g. `Hi \{\{ firstname \}\}`), I'd recommend you to use a Gmail mail merge tool such a [Mailmeteor](/) that does it for you. It already handles personalization, as well as dozens of features from attachments to aliases. Learn more about the [features and benefits of Mailmeteor here](/features).
+2. If you are looking for more a advanced script, for example that let you send personalized emails (e.g. `Hi \{\{ firstname \}\}`), I'd recommend you to use a [Gmail mail merge](/gmail-mail-merge) tool such a Mailmeteor that does it for you. It already handles personalization, as well as dozens of features from attachments to aliases. Learn more about the [features and benefits of Mailmeteor here](/features).
 
 <div class="blogpost-endnote">
   <p>This guide was written by Corentin Brossault, <a href="https://mailmeteor.com">Mailmeteor</a>’s founder. Mailmeteor is a simple & privacy-focused emailing software. Trusted by millions of users worldwide, it is often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think!</p>

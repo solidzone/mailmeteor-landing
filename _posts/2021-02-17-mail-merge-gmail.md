@@ -17,7 +17,7 @@ og_url: https://mailmeteor.com/mail-merge-gmail/
 og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail.jpg
 
 meta_date_published: 'February 17, 2021'
-meta_date_lastupdated: 'May 26, 2021'
+meta_date_lastupdated: 'November 1, 2021'
 published: true
 
 permalink: /mail-merge-gmail/
@@ -106,7 +106,7 @@ The top 5 benefits of mail merge from Gmail are:
 
 1. **A mail merge is simple**. You can start sending your first emails in minutes because a mail merge relies on tools you are already familiar with (Gmail and Google Sheets).
 2. **A mail merge is time-saving**. A mail merge completely removes the friction of writing emails to multiple recipients.
-3. **A mail merge is personalized**. A Gmail mail merge will make your recipients feel unique when compared to an email blast from an email marketing platform such as Mailchimp or SendGrid.
+3. **A mail merge is personalized**. A <a href="/gmail-mail-merge">Gmail mail merge</a> will make your recipients feel unique when compared to an email blast from an email marketing platform such as Mailchimp or SendGrid.
 4. **A mail merge is affordable**. Most mail merge solutions for Gmail will provide a free version. The pricing options will be much less expensive than emailing platforms.
 5. **A mail merge is better for email deliverability**. Your emails have more chances to be read and responded to. That’s because emails are sent directly from Gmail servers, ensuring high email deliverability.
 
@@ -127,7 +127,7 @@ Here are some mail merge use cases examples with Gmail:
   <figcaption>Extract from Marketing Examples <a href="https://marketingexamples.com/sales/dave-gerhardt" rel="nofollow noreferrer">Dave Gerhardt's 1 line sales email</a></figcaption>
 </figure>
 
-➤ **Sending newsletters from Gmail**: engage with your community thanks to newsletters sent directly from Gmail. You will find that the combination of Google Sheets and Gmail is more than enough to replace a heavy email platform. You can even customize the design of your emails with HTML templates.
+➤ **[Sending newsletters from Gmail](/gmail-newsletter)**: engage with your community thanks to newsletters sent directly from Gmail. You will find that the combination of Google Sheets and Gmail is more than enough to replace a heavy email platform. You can even customize the design of your emails with HTML templates.
 
 ➤**School, Colleges & Universities communications:** a mail merge is the best medium for teach-parent communications, as well as diffusing information to your students. A lot of schools, colleges, and universities across the world use mail merge for their staff and students. If you’re working in Education, there is a [free Education Program that offers free unlimited mail merge](/education-program).
 
@@ -424,7 +424,7 @@ Here are a few services you can use to check your emails before sending them: [S
 
 ![Mail merge tip: personalize your emails](/assets/img/blog/mail-merge-gmail/mail-merge-tips-personalize-emails.png){:width="600px" height="398px"}
 
-When sending mass emails from Gmail, it’s generally a good idea to personalize your emails. Not only personalizing your email might certainly increase your open rate but also will help fight against spam.
+When sending [mass emails from Gmail](/mass-emails-gmail), it’s generally a good idea to personalize your emails. Not only personalizing your email might certainly increase your open rate but also will help fight against spam.
 
 The more your emails are personalized, the better.
 
@@ -535,7 +535,7 @@ Your recipient will be able to opt-out from your emails in just a click, thanks 
 
 As long as you are writing to people who know you, that you're not sending repeated emails to these people with commercial intent, it’s OK. Let’s say you are sending an email to your relatives, colleagues, partners, clients, or students, there is no specific need to add an unsubscribe mean.
 
-On the other hand, always include an unsubscribe option when sending cold emails or marketing newsletters. Cold emails are unsolicited emails to recipients you have had no interaction with in the past.
+On the other hand, always include an unsubscribe option when sending cold emails or [marketing newsletters in Gmail](/gmail-marketing). Cold emails are unsolicited emails to recipients you have had no interaction with in the past.
 
 I can’t emphasize this enough: mail merge emails in Gmail is legal, sending unsolicited and spam emails is not!
 
@@ -690,7 +690,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 **CONS:** It’s focused on attachments but kind of neglects other important aspects in emailing such as email deliverability. Also, they only offer limited support to their premium clients.
 
 <div class="blogpost-note">
-  The next apps presented below offer mail merge services too. However, mail merge is not a feature at the core of their value proposition. We mentioned them for the record, but we recommend using one of the first listed apps if you are looking for a solution dedicated to send bulk emails from Gmail.
+  The next apps presented below offer mail merge services too. However, mail merge is not a feature at the core of their value proposition. We mentioned them for the record, but we recommend using one of the first listed apps if you are looking for a solution dedicated to <a href="/bulk-emails-gmail">send bulk emails from Gmail</a>.
 </div>
 
 #### 6. Streak

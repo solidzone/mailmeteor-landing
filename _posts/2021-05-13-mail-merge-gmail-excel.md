@@ -1,23 +1,23 @@
 ---
 layout: blogpost
-title: "How to create a mail merge in Gmail from an Excel file?"
+title: 'How to create a mail merge in Gmail from an Excel file?'
 description: Learn how to send hundreds of emails in Gmail, using an Excel file, thanks to Mailmeteor, a mail merge tool that integrates with Google Sheets and Gmail.
 cta_title: Send a mail merge in Gmail from Excel with Mailmeteor
 canonical: https://mailmeteor.com/mail-merge-gmail/excel
 category: TUTORIAL
 
 meta_author: Corentin Brossault
-meta_author_link: "https://twitter.com/frenchcooc"
+meta_author_link: 'https://twitter.com/frenchcooc'
 meta_image: >-
   /assets/img/blog/mail-merge-gmail-excel/mail-merge-gmail-excel.webp
 
-og_title: "How to create a mail merge in Gmail from an Excel file?"
+og_title: 'How to create a mail merge in Gmail from an Excel file?'
 og_description: Learn how to send hundreds of emails in Gmail, using an Excel file, thanks to Mailmeteor, a mail merge tool that integrates with Google Sheets and Gmail.
 og_url: https://mailmeteor.com/mail-merge-gmail/
 og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-excel.jpg
 
-meta_date_published: "May 13, 2021"
-meta_date_lastupdated: "May 13, 2021"
+meta_date_published: 'May 13, 2021'
+meta_date_lastupdated: 'November 1, 2021'
 published: true
 
 permalink: /mail-merge-gmail/excel
@@ -57,7 +57,7 @@ Right from Google Sheets, in the menu, select "Add-ons" > "Mailmeteor" > "Open M
 
 If you don't have Mailmeteor, just [open this link](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301) to install the add-on in a few seconds.
 
-<div class="blogpost-note">Mailmeteor is the top rated add-on for Google Workspace. It's built with privacy in mind and you can use it for free to send up to 75 emails/day. If your Excel file has more contacts, look at our [pricing plan](/pricing).</div>
+<div class="blogpost-note">Mailmeteor is the top rated add-on for Google Workspace. It's built with privacy in mind and you can use it for free to send up to 75 emails/day. If your Excel file has more contacts, look at our <a href="/pricing">pricing plan</a>.</div>
 
 ## Step 3. Compose your template in Mailmeteor
 
@@ -84,7 +84,7 @@ Whenever you're ready, click on "Send emails" and your emails will shortly be se
 
 <img src="/assets/img/blog/mail-merge-gmail-excel/mailmeteor-send-email.jpg" alt="Sending email for a mail merge in Mailmeteor" width="600" height="461"/>
 
-It has never been so easy to send a mail merge from Gmail - even with an Excel file!
+It has never been so easy to send a [mail merge from Gmail](/mail-merge-gmail) - even with an Excel file!
 
 <div class="blogpost-endnote">
   <p>This guide was written by Jean Dubrulle, <a href="https://mailmeteor.com">Mailmeteor</a>’s founder. Mailmeteor is a simple & privacy-focused emailing software. Trusted by millions of users worldwide, it is often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think!</p>

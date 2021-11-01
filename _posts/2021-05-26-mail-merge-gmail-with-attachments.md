@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: "How to mail merge in Gmail with attachments or individual files"
+title: 'How to mail merge in Gmail with attachments or individual files'
 description: A guide to mail merge with attachments in Gmail. Learn how to send emails with personalized attachments or the same file attachment to all recipients.
 
 cta_title: Add attachments to your mail merge in Gmail with Mailmeteor
@@ -8,18 +8,18 @@ canonical: https://mailmeteor.com/mail-merge-gmail/with-attachment
 category: TUTORIAL
 
 meta_author: Jean Dubrulle
-meta_author_link: "https://twitter.com/cuireuncroco"
+meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/mail-merge-individual-attachments/mail-merge-individual-attachments-gmail.png
 
-og_title: "How to mail merge in Gmail with attachments or individual files"
+og_title: 'How to mail merge in Gmail with attachments or individual files'
 og_description: A guide to mail merge with attachments in Gmail. Learn how to send emails with personalized attachments or the same file attachment to all recipients.
 
 og_url: https://mailmeteor.com/mail-merge-gmail/
 og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-with-attachment.jpg
 
-meta_date_published: "May 26, 2021"
-meta_date_lastupdated: "May 26, 2021"
+meta_date_published: 'May 26, 2021'
+meta_date_lastupdated: 'May 26, 2021'
 published: true
 
 permalink: /mail-merge-gmail/with-attachment
@@ -31,7 +31,7 @@ We all know how it works in Gmail - click the link button while writing a new em
 
 The simple answer to this is to do a **mail merge in Gmail with attachments**.
 
-A mail merge with Gmail allows you to send emails to multiple contacts all with just the click of a button. With a mail merge tool for Gmail like Mailmeteor, you can mail merge with attachments to your emails, sharing files, videos and images instantly. Better yet, Mailmeteor allows you to add individual attachments for specific recipients for that extra special personalized touch.
+A [mail merge with Gmail](/mail-merge-gmail) allows you to send emails to multiple contacts all with just the click of a button. With a mail merge tool for Gmail like Mailmeteor, you can mail merge with attachments to your emails, sharing files, videos and images instantly. Better yet, Mailmeteor allows you to add individual attachments for specific recipients for that extra special personalized touch.
 
 ## How do I do a mail merge with attachments in Gmail?
 
@@ -51,7 +51,7 @@ A mail merge with Gmail allows you to send emails to multiple contacts all with 
 <br>
 Here is a step-by-step guide to adding attachments in a mail merge in Gmail:
 
-1. **Install a Gmail mail merge add-on**: To do a mail merge with attachments in Gmail, you’ll need to [install a mail merge tool like Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301) which enables you to add the same attachment for emails to all recipients.
+1. **Install a [Gmail mail merge](/gmail-mail-merge) add-on**: To do a mail merge with attachments in Gmail, you’ll need to install a mail merge tool like [Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301) which enables you to add the same attachment for emails to all recipients.
 
 2. **Open the add-on from Google Sheets**: Go to [Google Sheets](https://sheets.new), and open Mailmeteor from the Add-ons menu at the top.
 

@@ -1,23 +1,23 @@
 ---
 layout: blogpost
-title: "Introducing Autopilot: a New Way to Boost your Email Deliverability"
+title: 'Introducing Autopilot: A New Way to Boost Email Deliverability'
 description: Mailmeteor now gives you more sending options to maximize the deliverability rate of your campaigns and make sure every single email reaches your recipient’s inbox. Learn how to put your email marketing campaigns on Autopilot.
 cta_title: Try sending on Autopilot right now
 canonical: https://mailmeteor.com/blog/autopilot
 category: NEWS
 
 meta_author: Corentin Brossault
-meta_author_link: "https://twitter.com/frenchcooc"
+meta_author_link: 'https://twitter.com/frenchcooc'
 meta_image: >-
   /assets/img/blog/autopilot/introducing-autopilot.webp
 
-og_title: "Send Emails on Autopilot to Boost Your Email Deliverability"
+og_title: 'Introducing Autopilot: A New Way to Boost Email Deliverability'
 og_description: Mailmeteor now gives you more sending options to maximize the deliverability rate of your campaigns and make sure every single email reaches your recipient’s inbox. Learn how to put your email marketing campaigns on Autopilot.
 og_url: https://mailmeteor.com/blog/autopilot
 og_image: https://mailmeteor.com/assets/img/opengraph/blog-autopilot.jpg
 
-meta_date_published: "July 16, 2021"
-meta_date_lastupdated: "July 16, 2021"
+meta_date_published: 'July 16, 2021'
+meta_date_lastupdated: 'November 1, 2021'
 published: true
 
 permalink: /blog/autopilot
@@ -67,5 +67,7 @@ Especially the sending rate of your email address is a key factor to make sure y
 Autopilot works in pair with our [sending tips to level up your Gmail reputation](/blog/gmail-deliverability). It is especially aimed at power users (such as growth marketer or sales) that are looking for a solution to significantly increase their open-rate and click-rate.
 
 <div class="blogpost-endnote">
-  <p>The feature is currently in Beta as we collect more feedback and keep improving it. If you have something to share, please let us know <a href="https://forms.gle/q7KSXzc32YmfGvKo8">using this survey</a>.</p>
+  <p>This guide was written by Corentin Brossault, <a href="https://mailmeteor.com">Mailmeteor</a>'s co-founder. Mailmeteor is a simple & privacy-focused emailing software. Trusted by millions of users worldwide, it is often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think!</p>
+
+  <p>➤ <a href="https://mailmeteor.com" class="font-weight-bold">Start sending emails with Mailmeteor</a></p>
 </div>
