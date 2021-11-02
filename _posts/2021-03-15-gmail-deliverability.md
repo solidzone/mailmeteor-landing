@@ -1,23 +1,23 @@
 ---
 layout: blogpost
-title: "10 tips for leveling up your Gmail deliverability"
+title: '10 tips for leveling up your Gmail deliverability'
 description: When sending a mail merge with Gmail, there are few things more important to the success of a campaign than achieving solid email deliverability with each email.
 cta_title: Improve your Gmail deliverability with Mailmeteor
 canonical: https://mailmeteor.com/blog/gmail-deliverability
 category: EMAIL DELIVERABILITY
 
 meta_author: Jean Dubrulle
-meta_author_link: "https://twitter.com/cuireuncroco"
+meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/gmail-deliverability/gmail-deliverability.png
 
-og_title: "10 tips for leveling up your Gmail deliverability"
+og_title: '10 tips for leveling up your Gmail deliverability'
 og_description: When sending a mail merge with Gmail, there are few things more important to the success of a campaign than achieving solid email deliverability with each email.
 og_url: https://mailmeteor.com/blog/gmail-deliverability
 og_image: https://mailmeteor.com/assets/img/opengraph/blog-gmail-deliverability.jpg
 
-meta_date_published: "March 15, 2021"
-meta_date_lastupdated: "March 15, 2021"
+meta_date_published: 'March 15, 2021'
+meta_date_lastupdated: 'March 15, 2021'
 published: true
 
 permalink: /blog/gmail-deliverability
@@ -53,7 +53,7 @@ Gmail loves to see that first email getting clicks or replies from readers who a
 
 ## 3. Personalize your emails 
 
-![Warm-up your Gmail account](/assets/img/blog/gmail-deliverability/mail-merge-gmail-personalize.png){:width="600px" height="398px"}
+![Personalize your emails](/assets/img/blog/gmail-deliverability/mail-merge-gmail-personalize.png){:width="600px" height="398px"}
 
 Everyone likes to feel special. Personalizing emails will be of tremendous help in order to boost your Gmail deliverability, and thus replies you can get.
 
