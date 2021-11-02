@@ -57,7 +57,7 @@ Their vision was to build an intuitive, affordable and privacy-focus mail merge 
 
 **Mailmeteor Pricing**
 
-One of the most affordable mail merge options on the market, [Mailmeteor's pricing](https://mailmeteor.com/pricing) starts at $8.99 per month or $49.99 per year. Mailmeteor offers a free version that you can use to send up to 150 emails per day for free. The premium version comes with all unlimited features. There are also options dedicated to teams and enterprise, with competitive pricing as you increase the number of seats in your license.
+One of the most affordable mail merge options on the market, [Mailmeteor's pricing](https://mailmeteor.com/pricing) starts at $9.99 per month or $49.99 per year. Mailmeteor offers a free version that you can use to send up to 150 emails per day for free. The premium version comes with all unlimited features. There are also options dedicated to teams and enterprise, with competitive pricing as you increase the number of seats in your license.
 
 **Mailmeteor Features**
 

@@ -223,7 +223,8 @@ button:hover,
 }
 
 .btn-marketing-secondary-outline:hover {
-  padding: 0.25rem 1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   text-transform: uppercase;
   border-color: #363a70;
   background: #363a70;

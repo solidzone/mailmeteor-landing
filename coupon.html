@@ -21,8 +21,8 @@ og_url: https://mailmeteor.com/coupon
         <h2 style="font-size: 1.2rem">Save 20% with Mailmeteor promo code on the monthly plan</h2>
       </div>
       <div class="promo-code-cta-container">
-        <a href="https://mailmeteor.com/pricing?coupon=OFF20" class="btn btn-filled d-block">APPLY CODE</a>
-        <p class="promo-code-countdown">00:00:00</p>
+        <a href="/pricing?coupon=OFF20" class="btn btn-filled d-block">APPLY CODE</a>
+        <p class="promo-code-countdown">&nbsp;</p>
       </div>
     </div>
     <div class="promo-code-cards">
@@ -31,14 +31,54 @@ og_url: https://mailmeteor.com/coupon
         <h2 style="font-size: 1.2rem">Save €10 with Mailmeteor promo code on the yearly plan</h2>
       </div>
       <div class="promo-code-cta-container">
-        <a href="https://mailmeteor.com/pricing?coupon=OFF20" class="btn btn-filled d-block">APPLY CODE</a>
-        <p class="promo-code-countdown">00:00:00</p>
+        <a href="/pricing?coupon=OFF20" class="btn btn-filled d-block">APPLY CODE</a>
+        <p class="promo-code-countdown">&nbsp;</p>
       </div>
     </div>
     <div class="text-center my-5">{%- include ratings.html -%}</div>
   </div>
 </section>
 
-{%- include testimonials.html -%} {%- include reviews.html -%} {%- include faq-pricing.html -%}
+<script>
+  try {
+    var countdowns = document.getElementsByClassName('promo-code-countdown');
 
-<script type="text/javascript" src="/assets/js/countdown.js"></script>
+    // Countdown to next midnight
+    var countDownDate = new Date(new Date().setHours(24, 0, 0, 0));
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (hours < 10) hours = '0' + hours;
+      if (minutes < 10) minutes = '0' + minutes;
+      if (seconds < 10) seconds = '0' + seconds;
+
+      // Display the result in the element with id="demo"
+      for (countdown of countdowns) {
+        countdown.innerHTML = hours + ':' + minutes + ':' + seconds;
+      }
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        for (countdown of countdowns) {
+          countdown.innerHTML = '00:00:00';
+        }
+      }
+    }, 80);
+  } catch (err) {
+    // do nothing
+  }
+</script>
+
+{%- include testimonials.html -%} {%- include reviews.html -%} {%- include faq-pricing.html -%}
