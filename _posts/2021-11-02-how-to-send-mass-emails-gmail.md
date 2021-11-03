@@ -81,7 +81,7 @@ If you’re an email marketer and you’ve got a full email campaign you’re ge
 The reason for this is that Gmail has a daily limit on how many emails can get sent out in a day – how many emails can be sent at once in Gmail?
 
 - If you’re a free Gmail user, the daily limit is 500 emails a day.
-- If you’re a Google Workspace user, the daily limit is 2,000 words a day.
+- If you’re a Google Workspace user, the daily limit is 2,000 emails a day.
 
 ![Gmail sending limits](/assets/img/blog/how-to-send-mass-emails-gmail/gmail-limits.png){:width="600px" height="663px"}
 
