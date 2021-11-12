@@ -167,7 +167,7 @@ footer:
         es: 'Email Permutator'
         de: 'Email Permutator'
       google-logos:
-        url: '/logos'
+        url: '/logos/'
         en: 'Google Logos'
         fr: 'Google Logos'
         es: 'Google Logos'
