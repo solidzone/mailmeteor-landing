@@ -17,17 +17,19 @@ og_url: https://mailmeteor.com/blog/gmass-pricing
 og_image: https://mailmeteor.com/assets/img/opengraph/blog-gmass-pricing.jpg
 
 meta_date_published: 'June 8, 2021'
-meta_date_lastupdated: 'November 1, 2021'
+meta_date_lastupdated: 'November 16, 2021'
 published: true
 
 permalink: /blog/gmass-pricing
 ---
 
-If you want to send mass personalized emails with Gmail, you’ll need access to a Google mail merge extension that makes a mail merge in Gmail as simple, straightforward and hassle-free as possible.
+If you want to send mass personalized emails with Gmail, you’ll need access to a Google mail merge extension 1 makes a mail merge in Gmail as simple, straightforward and hassle-free as possible.
 
 GMass is just one of these extensions, using Gmail’s powerful email platform to send a large number of emails to your contact lists with the click of a button.
 
 But what exactly is GMass? Is it worth the money you’ll pay for the subscription? In this blog, we’re going to take a deep dive into the GMass extension, comparing it to other [Gmail marketing](/gmail-marketing) tools to help you make an informed decision about the best mail merge solution.
+
+**Note: on November 15th 2021, [GMass raised its pricing for all plans](https://www.gmass.co/blog/upcoming-price-changes/){:rel="nofollow noreferrer noopener"}. We have updated this blog article to review the latest changes introduced in GMass pricing.**
 
 ## What is GMass?
 
@@ -106,9 +108,15 @@ That limit is lifted with the paid version which has a number of subscription op
 
 For both of these options, you can choose either the standard GMass mail merge product or the premium model. This is where things _get complicated_.
 
-The standard package gets you unlimited use and almost all features for $12.95 a month. The premium package by comparison gives you all of that, as well as the sequences and follow-up features that let you create concurrent emails and send them automatically. This package costs **$19.95 a month for individuals**. The team pricing starts at **$89 per month for 5 users on premium**.
+The standard package gets you unlimited use and almost all features for $19.95 a month. The premium package by comparison gives you all of that, as well as the sequences and follow-up features that let you create concurrent emails and send them automatically. This package costs **$29.95 a month for individuals**. The team pricing starts at **$125 per month for 5 users on premium**.
 
-These prices can be paid on either a monthly basis or an annual one, with the annual payments coming with a slight discount over their monthly counterparts. The standard annual packages come in at $129 a year, while the premium is $199. GMass pricing was recently simplified when GMass removed the distinction between Gmail and G Suite accounts and withdrew the Minimal plan that included a GMass footer.
+These prices can be paid on either a monthly basis or an annual one, with the annual payments coming with a slight discount over their monthly counterparts. The standard annual packages come in at $199 a year, while the premium is $299. GMass made some changes to its pricing lately. In 2020, GMass removed the distinction between Gmail and G Suite accounts and withdrew the Minimal plan that included a GMass footer.
+
+**On November 15th 2021, GMass raised its pricing.** Here is a summary of what's new:
+
+- **GMass is now more expensive**. For example the Premium plan now costs <u>$100 more</u> than what it used to be before the change ($299 instead of $199). You'll have to pay an <u>additional $10 each month</u> if you are on the monthly plan ($29.95 instead of $19.95).
+- **Usage-based billing for emails sent via SMTP**. GMass is now charging users $0.40 per 1,000 emails transmitted to an SMTP service, with the first 10,000 emails being free.
+- **If you owned GMass account prior to the pricing change, your plan will be updated with the new pricing on the next renewal**. All users that are on the old plans will be moved to the new pricing plans starting from November 15th 2021.
 
 <div class="blogpost-note">
   <p>
@@ -153,7 +161,7 @@ Let’s see how Gmass compares with the Chimp. Mailchimp is probably the most we
 
 The main difference between Mailchimp and a mail merge service like GMass is that **emails are not sent directly from your Gmail account with Mailchimp**. This might affect your email deliverability as you will get higher engagement rates when sending directly from your email account. That's because you control your own email reputation.
 
-Mailchimp starts at $9.99 per month for 500 contacts. GMass on the other hand starts at $12.95 per month. But since GMass pricing does not depend on the number of contacts you have, it might be more affordable to use it instead of Mailchimp depending on your needs.
+Mailchimp starts at $9.99 per month for 500 contacts. GMass on the other hand starts at $19.95 per month. But since GMass pricing does not depend on the number of contacts you have, it might be more affordable to use it instead of Mailchimp depending on your needs.
 
 Also, take into account that **both tools have different purposes**.
 

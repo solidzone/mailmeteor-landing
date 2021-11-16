@@ -174,7 +174,7 @@ GMass is a mail merge extension, developed by Ajay Goel, an entrepreneur from Ch
 
 **GMass Pricing**
 
-GMass offers a freemium model like the previous mail merge extensions. The pricing is divided into two plans, a standard and a premium one. The premium plan will grant you access to sequences and follow-ups for $19.95 per month or $199 per year for an individual user. GMass offers pricing for teams too, it is the second most expensive option presented in this top mail merge for Gmail extensions list. GMass is more comparable with a sales automation platform, explaining its business model. For more information about Gmass' pricing, read our article: [Gmass Pricing and Plans (is it worth the money?)](https://mailmeteor.com/blog/gmass-pricing)
+GMass offers a freemium model like the previous mail merge extensions. The pricing is divided into two plans, a standard and a premium one. The premium plan will grant you access to sequences and follow-ups for $29.95 per month or $299 per year for an individual user. GMass offers pricing for teams too, it is the second most expensive option presented in this top mail merge for Gmail extensions list. GMass is more comparable with a sales automation platform, explaining its business model. For more information about Gmass' pricing, read our article: [Gmass Pricing and Plans (is it worth the money?)](https://mailmeteor.com/blog/gmass-pricing)
 
 **GMass Features**
 
