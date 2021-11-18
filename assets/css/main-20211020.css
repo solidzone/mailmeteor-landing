@@ -86,7 +86,7 @@ a:hover {
   text-decoration: none;
 }
 
-nav {
+#navbar {
   min-height: 75px;
 }
 
@@ -1287,6 +1287,68 @@ body > footer > div > p {
 
 .footer p {
   margin: 0;
+}
+
+.footer-columns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subfooter {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #a2a4cf;
+}
+
+.footer-social-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-links li {
+  margin: 0 0.5rem 0 0;
+  padding: 0;
+  display: inline-flex;
+  width: 18px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.footer-social-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-social-links li a {
+  display: inline-block;
+}
+
+.footer-social-links li a.twitter:hover {
+  color: rgb(74, 154, 228);
+}
+
+.footer-social-links li a.youtube:hover {
+  color: rgb(255, 0, 0);
+}
+
+.footer-social-links li a.linkedin:hover {
+  color: rgb(48, 113, 170);
+}
+
+@media (max-width: 992px) {
+  .footer-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .subfooter {
+    display: block;
+    text-align: center;
+  }
 }
 
 /* Footer display for Firefox */

@@ -45,42 +45,36 @@ footer:
       es: 'Producto'
       de: 'Produkt'
     links:
-      tutorial:
-        url: '/mail-merge-gmail/tutorial'
-        en: 'Tutorial'
-        fr: 'Tutoriel'
-        es: 'Tutorial'
-        de: 'Lernprogramm'
-      demovideo:
-        url: 'https://www.youtube.com/watch?v=ccO5i3gQXSk'
-        en: 'Demo video'
-        fr: 'Démo vidéo'
-        es: 'Video de demostración'
-        de: 'Demonstrationsvideo'
+      overview:
+        url: '/features'
+        en: 'Overview'
+        fr: 'Aperçu'
+        es: 'Visión general'
+        de: 'Überblick'
       pricing:
         url: '/pricing'
         en: 'Pricing'
         fr: 'Prix'
         es: 'Precios'
         de: 'Preise'
-      gmail-mail-merge:
-        url: '/gmail-mail-merge'
-        en: 'Gmail Mail Merge'
-        fr: 'Gmail Mail Merge'
-        es: 'Gmail Mail Merge'
-        de: 'Gmail Mail Merge'
-      mass-emails-gmail:
-        url: '/mass-emails-gmail'
-        en: 'Mass Emails Gmail'
-        fr: 'Emails en Masse avec Gmail'
-        es: 'Correos Masivos con Gmail'
-        de: 'Massen-E-Mails Gmail'
-      bulk-emails-gmail:
-        url: '/bulk-emails-gmail'
-        en: 'Bulk Emails Gmail'
-        fr: 'Bulk Emails Gmail'
-        es: 'Bulk Emails Gmail'
-        de: 'Bulk Emails Gmail'
+      education:
+        url: '/education-program'
+        en: 'Education Program'
+        fr: 'Programme Education'
+        es: 'Licencia Académica'
+        de: 'Erziehungsprogramm'
+      spam-checker:
+        url: '/spam-checker'
+        en: 'Spam Checker'
+        fr: 'Spam Checker'
+        es: 'Spam Checker'
+        de: 'Spam Checker'
+      email-permutator:
+        url: '/email-permutator'
+        en: 'Email Permutator'
+        fr: 'Email Permutator'
+        es: 'Email Permutator'
+        de: 'Email Permutator'
       gmail-newsletter:
         url: '/gmail-newsletter'
         en: 'Gmail Newsletter'
@@ -93,36 +87,6 @@ footer:
         fr: 'Gmail Marketing'
         es: 'Gmail Marketing'
         de: 'Gmail-Marketing'
-  company:
-    title:
-      en: 'Company'
-      fr: 'Entreprise'
-      es: 'Empresa'
-      de: 'Gesellschaft'
-    links:
-      about:
-        url: '/about'
-        en: 'About us'
-        fr: 'Notre histoire'
-        es: 'Sobre nosotros'
-        de: 'Über uns'
-      jobs:
-        url: '/contact#others/collaborate'
-        en: "We're hiring"
-        fr: 'Nous recrutons'
-        es: 'Empleo'
-        de: 'Wir sind hallo'
-      lang:
-        en: 'ES / FR / DE'
-        fr: 'EN / ES / FR'
-        es: 'EN / FR / DE'
-        de: 'EN / ES / FR'
-      education:
-        url: '/education-program'
-        en: 'Education Program'
-        fr: 'Programme Education'
-        es: 'Licencia Académica'
-        de: 'Erziehungsprogramm'
   ressources:
     title:
       en: 'Resources'
@@ -132,10 +96,10 @@ footer:
     links:
       blog:
         url: '/blog/'
-        en: 'Mailmeteor Blog'
-        fr: 'Mailmeteor Blog'
-        es: 'Mailmeteor Blog'
-        de: 'Mailmeteor Blog'
+        en: 'Blog'
+        fr: 'Blog'
+        es: 'Blog'
+        de: 'Blog'
       blog-mail-merge:
         url: '/mail-merge-gmail/'
         en: 'Mail merge Gmail guide'
@@ -154,24 +118,59 @@ footer:
         fr: 'Les meilleures apps Google'
         es: 'Las mejores apps de Google'
         de: 'Beste Google-Apps'
-      spam-checker:
-        url: '/spam-checker'
-        en: 'Spam Checker'
-        fr: 'Spam Checker'
-        es: 'Spam Checker'
-        de: 'Spam Checker'
-      email-permutator:
-        url: '/email-permutator'
-        en: 'Email Permutator'
-        fr: 'Email Permutator'
-        es: 'Email Permutator'
-        de: 'Email Permutator'
+      gmail-mail-merge:
+        url: '/gmail-mail-merge'
+        en: 'Gmail Mail Merge'
+        fr: 'Gmail Mail Merge'
+        es: 'Gmail Mail Merge'
+        de: 'Gmail Mail Merge'
+      mass-emails-gmail:
+        url: '/mass-emails-gmail'
+        en: 'Mass Emails Gmail'
+        fr: 'Emails en Masse avec Gmail'
+        es: 'Correos Masivos con Gmail'
+        de: 'Massen-E-Mails Gmail'
+      bulk-emails-gmail:
+        url: '/bulk-emails-gmail'
+        en: 'Bulk Emails Gmail'
+        fr: 'Bulk Emails Gmail'
+        es: 'Bulk Emails Gmail'
+        de: 'Bulk Emails Gmail'
       google-logos:
         url: '/logos/'
         en: 'Google Logos'
         fr: 'Google Logos'
         es: 'Google Logos'
         de: 'Google Logos'
+  for:
+    title:
+      en: 'Mailmeteor for'
+      fr: 'Mailmeteor for'
+      es: 'Mailmeteor for'
+      de: 'Mailmeteor for'
+    links:
+      nonprofits:
+        url: '/email-marketing/nonprofits'
+        en: 'Nonprofits'
+      restaurants:
+        url: '/email-marketing/restaurants'
+        en: 'Restaurants'
+      hotels:
+        url: '/email-marketing/hotels'
+        en: 'Hotels'
+      lawyers:
+        url: '/email-marketing/lawyers'
+        en: 'Lawyers'
+      realestate:
+        url: '/email-marketing/real-estate-agents'
+        en: 'Real Estate'
+      universities:
+        url: '/email-marketing/universities'
+        en: 'Universities'
+      schools:
+        url: '/email-marketing/schools'
+        en: 'Schools'
+
   compare:
     title:
       en: 'Compare'
@@ -216,6 +215,18 @@ footer:
       es: 'Ayuda'
       de: 'Hilfe'
     links:
+      tutorial:
+        url: '/mail-merge/tutorial'
+        en: 'Tutorial'
+        fr: 'Tutoriel'
+        es: 'Tutorial'
+        de: 'Lernprogramm'
+      demovideo:
+        url: 'https://www.youtube.com/watch?v=ccO5i3gQXSk'
+        en: 'Demo video'
+        fr: 'Démo vidéo'
+        es: 'Video de demostración'
+        de: 'Demonstrationsvideo'
       help:
         url: '/support'
         en: 'Help center'
@@ -224,32 +235,57 @@ footer:
         de: 'Hilfezentrum'
       contact:
         url: '/contact'
-        en: 'Contact'
-        fr: 'Nous contacter'
-        es: 'Contactarnos'
-        de: 'Kontakt'
-  transparency:
+        en: 'Contact support'
+        fr: 'Contacter le support'
+        es: 'Soporte de contacto'
+        de: 'Kontaktieren Sie Support'
+      sales:
+        url: '/sales'
+        en: 'Contact sales'
+        fr: 'Service commercial'
+        es: 'Servicio comercial'
+        de: 'Service kommerziell'
+  company:
     title:
-      en: 'Transparency'
-      fr: 'Transparence'
-      es: 'Transparencia'
-      de: 'Transparenz'
+      en: 'Company'
+      fr: 'Entreprise'
+      es: 'Empresa'
+      de: 'Gesellschaft'
     links:
-      privacy:
-        url: '/privacy-policy'
-        en: 'Privacy'
-        fr: 'Confidentialité'
-        es: 'Privacidad'
-        de: 'Privatsphäre'
-      conditions:
-        url: '/terms'
-        en: 'Terms'
-        fr: 'Mentions légales'
-        es: 'Condiciones'
-        de: 'Bedingungen'
-      security:
-        url: 'https://support.mailmeteor.com/help/privacy'
-        en: 'Data protection'
-        fr: 'Protection des données'
-        es: 'Protección de datos'
-        de: 'Datenschutz'
+      about:
+        url: '/about'
+        en: 'About us'
+        fr: 'Notre histoire'
+        es: 'Sobre nosotros'
+        de: 'Über uns'
+      jobs:
+        url: '/contact#others/collaborate'
+        en: "We're hiring"
+        fr: 'Nous recrutons'
+        es: 'Empleo'
+        de: 'Wir sind hallo'
+      lang:
+        en: 'ES / FR / DE'
+        fr: 'EN / ES / FR'
+        es: 'EN / FR / DE'
+        de: 'EN / ES / FR'
+
+subfooter:
+  terms:
+    url: '/terms'
+    en: 'Terms'
+    fr: 'Mentions légales'
+    es: 'Condiciones'
+    de: 'Bedingungen'
+  privacy:
+    url: '/privacy-policy'
+    en: 'Privacy'
+    fr: 'Confidentialité'
+    es: 'Privacidad'
+    de: 'Privatsphäre'
+  security:
+    url: 'https://support.mailmeteor.com/help/privacy'
+    en: 'Security'
+    fr: 'Protection des données'
+    es: 'Protección de datos'
+    de: 'Datenschutz'

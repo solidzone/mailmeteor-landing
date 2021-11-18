@@ -2,92 +2,102 @@
 
 <footer class="footer">
   <div class="py-5 footer-svg">
-    <div class="container d-flex justify-content-center mt-5">
-      <img
-        id="logo-bottom"
-        src="/assets/img/brand/logo_mailmeteor_white.svg"
-        alt="Mailmeteor footer logo"
-      />
-    </div>
-    <div class="container d-flex justify-content-center mt-4">
-      <div class="row">
-        <div class="d-flex flex-row flex-wrap">
-          {% for nav in site.data.navigation.footer %}
-          <div class="mx-3 pb-3">
-            <p class="font-weight-bold is-white">
-              {{ nav[1].title[page.lang] }}
-            </p>
-            {% assign footerlinks = nav[1].links %} {% for link in footerlinks
-            %} {% if link[1][page.lang] == 'ES / FR / DE' %}
-            <p><a href="/es/">ES</a> / <a href="/fr/">FR</a> / <a href="/de/">DE</a></p>
-            {% elsif link[1][page.lang] == 'EN / ES / FR' %}
-            <p><a href="/">EN</a> / <a href="/es/">ES</a> / <a href="/fr/">FR</a></p>
-            {% elsif link[1][page.lang] == 'EN / FR / DE' %}
-            <p><a href="/">EN</a> / <a href="/fr/">FR</a> / <a href="/de/">DE</a></p>
-            {% elsif link[1][page.lang] == 'EN / ES / FR' %}
-            <p><a href="/">EN</a> / <a href="/es/">ES</a> / <a href="/fr/">FR</a></p>
-            {% elsif page.lang == "fr" and link[1].url == "/mail-merge-gmail/" %}
-            <p><a href="/fr/publipostage/">{{ link[1][page.lang] }}</a></p>
-            {% else %}
-            <p><a href="{{ link[1].url }}">{{ link[1][page.lang] }}</a></p>
-            {% endif %} {% endfor %} {% if nav[0] == "transparency" %}
-            <div class="row mx-auto pt-1 d-flex flex-column">
-              <svg
-                xmlns="https://www.w3.org/2000/svg"
-                width="100"
-                height="42"
-                viewBox="0 0 108 42"
-                fill-rule="evenodd"
-              >
-                <rect
-                  stroke="#fff"
-                  fill="#fff"
-                  x=".5"
-                  y=".5"
-                  width="107"
-                  height="41"
-                  rx="6"
-                />
-                <path
-                  d="M7 1h34v40H7a6 6 0 0 1-6-6V7a6 6 0 0 1 6-6z"
-                  fill="#2050e0"
-                />
-                <path
-                  d="M21 7l.454 1.468h1.468l-1.188.907.454 1.468L21 9.935l-1.187.908.454-1.468-1.188-.907h1.468zm0 24.157l.454 1.468h1.468l-1.188.907.454 1.468L21 34.093 19.813 35l.454-1.468-1.188-.907h1.468zm6.04-21.96l.453 1.468h1.468l-1.188.908.454 1.468-1.187-.908-1.188.908.454-1.468-1.187-.908h1.468zM31.922 25l.453 1.468h1.468l-1.188.907.454 1.468-1.188-.907-1.188.907.454-1.468L30 26.468h1.468zm1.158-5.922l.453 1.468H35l-1.188.907.454 1.468-1.187-.907-1.188.907.454-1.468-1.188-.907h1.468zm-24.158 0l.453 1.468h1.468l-1.188.907.454 1.468-1.187-.907-1.188.907.454-1.468L7 20.546h1.468zm1 5.922l.453 1.468h1.468l-1.187.907.453 1.468-1.187-.907-1.188.907.454-1.468L8 26.468h1.468zm22-12l.453 1.468h1.468l-1.188.907.454 1.468-1.188-.907-1.188.907.454-1.468L30 14.468h1.468zm-21.5 0l.453 1.468h1.468l-1.187.907.453 1.468-1.187-.907-1.188.907.454-1.468-1.188-.907h1.468zm17.715 17.06l.453 1.468h1.468l-1.188.908.454 1.468-1.187-.907-1.188.907.454-1.468-1.188-.908h1.468zM14.96 9.196l.453 1.468h1.468l-1.188.908.454 1.468-1.188-.908-1.187.908.454-1.468-1.188-.908h1.468zM13.863 30.06l.454 1.468h1.468l-1.188.907.454 1.468-1.188-.907-1.187.907.454-1.468-1.188-.907H13.4z"
-                  fill="#f8d12e"
-                  fill-rule="nonzero"
-                />
-                <path
-                  d="M48 16.596c0 2.824 2.163 4.596 4.82 4.596 1.682 0 2.978-.68 3.94-1.732v-3.477h-4.3v1.905h2.043v.746c-.36.293-.988.533-1.682.533-1.455 0-2.484-1.12-2.484-2.57s1.028-2.57 2.484-2.57c.84 0 1.522.466 1.883 1.052l1.923-1.012C55.972 12.96 54.77 12 52.82 12 50.163 12 48 13.772 48 16.596zm10.108 4.436v-8.885h3.74c2.804 0 4.82 1.678 4.82 4.436s-2.016 4.45-4.807 4.45h-3.752zm2.297-1.998h1.442c1.562 0 2.47-1.132 2.47-2.45 0-1.372-.828-2.438-2.457-2.438h-1.455v4.89zm7.41 1.998v-8.885h4.46c2.003 0 3.098 1.345 3.098 2.957 0 1.6-1.095 2.917-3.098 2.917h-2.163v3.01h-2.297zm5.22-5.94c0-.613-.454-1.012-1.068-1.012h-1.856v1.998h1.856c.614 0 1.068-.386 1.068-.986zm8.332 5.94l-1.496-3.01H78.7v3.01h-2.297v-8.885h4.46c1.976 0 3.098 1.305 3.098 2.957 0 1.545-.948 2.37-1.776 2.664L84 21.032h-2.63zm.254-5.954c0-.613-.507-1-1.108-1H78.7v1.998h1.816c.6 0 1.108-.386 1.108-1z"
-                  fill="#2b3945"
-                />
-                <path
-                  d="M24.143 20.136h-.43v-1.33C23.714 17.26 22.496 16 21 16s-2.714 1.26-2.714 2.807v1.33h-.43c-.473 0-.857.397-.857.886v3.545c0 .49.384.886.857.886h6.286c.473 0 .857-.397.857-.886v-3.545c0-.49-.384-.886-.857-.886zm-1.857 0h-2.57v-1.33c0-.733.577-1.33 1.286-1.33s1.286.596 1.286 1.33v1.33z"
-                  fill="#fff"
-                  fill-rule="nonzero"
-                />
-                <path
-                  d="M52.464 28.104c-.043-.165-.1-.317-.176-.456a1.26 1.26 0 0 0-.288-.36 1.28 1.28 0 0 0-.412-.236c-.157-.056-.34-.084-.548-.084-.304 0-.567.06-.788.184s-.4.287-.54.492a2.22 2.22 0 0 0-.308.7c-.067.26-.1.528-.1.8s.033.54.1.8a2.22 2.22 0 0 0 .308.7c.14.205.32.37.54.492s.484.184.788.184a1.42 1.42 0 0 0 .592-.116 1.32 1.32 0 0 0 .44-.32c.123-.136.22-.295.288-.476a2.28 2.28 0 0 0 .136-.584h.976c-.02.34-.095.653-.22.936s-.295.527-.508.732-.464.364-.752.476-.605.168-.952.168c-.427 0-.81-.08-1.148-.236s-.625-.372-.86-.644a2.88 2.88 0 0 1-.54-.952c-.125-.363-.188-.75-.188-1.16a3.5 3.5 0 0 1 .188-1.152 2.88 2.88 0 0 1 .54-.952 2.57 2.57 0 0 1 .86-.648c.34-.16.72-.24 1.148-.24.32 0 .62.044.904.132s.532.216.748.384.39.372.524.612a2.13 2.13 0 0 1 .248.824h-1zm4.552-1.136c-.304 0-.567.06-.788.184s-.4.287-.54.492a2.22 2.22 0 0 0-.308.7c-.067.26-.1.528-.1.8s.033.54.1.8a2.22 2.22 0 0 0 .308.7c.14.205.32.37.54.492s.484.184.788.184.567-.06.788-.184.4-.287.54-.492a2.22 2.22 0 0 0 .308-.7c.067-.26.1-.528.1-.8s-.033-.54-.1-.8a2.22 2.22 0 0 0-.308-.7c-.14-.205-.32-.37-.54-.492s-.484-.184-.788-.184zm0-.816c.427 0 .81.08 1.148.24a2.57 2.57 0 0 1 .86.648 2.88 2.88 0 0 1 .54.952 3.5 3.5 0 0 1 .188 1.152c0 .41-.063.797-.188 1.16a2.88 2.88 0 0 1-.54.952c-.235.272-.52.487-.86.644s-.72.236-1.148.236-.81-.08-1.148-.236-.625-.372-.86-.644a2.88 2.88 0 0 1-.54-.952c-.125-.363-.188-.75-.188-1.16a3.5 3.5 0 0 1 .188-1.152 2.88 2.88 0 0 1 .54-.952 2.57 2.57 0 0 1 .86-.648c.34-.16.72-.24 1.148-.24zm3.832.136h1.408l1.576 4.472h.016l1.536-4.472h1.392V32h-.952v-4.408h-.016L64.224 32H63.4l-1.584-4.408H61.8V32h-.952v-5.712zm7.328 0h2.52c.405 0 .736.06.992.176s.453.264.592.44.233.368.284.576.076.4.076.576-.025.367-.076.572-.145.396-.284.572-.336.32-.592.436-.587.172-.992.172h-1.52V32h-1v-5.712zm1 2.704h1.464c.112 0 .227-.016.344-.048s.225-.084.324-.156a.8.8 0 0 0 .24-.288c.06-.12.092-.27.092-.452 0-.187-.027-.34-.08-.464a.74.74 0 0 0-.216-.292.77.77 0 0 0-.312-.148c-.117-.027-.243-.04-.376-.04h-1.48v1.888zm4.536-2.704h1v4.848h2.904V32h-3.904v-5.712zm4.792 0h1V32h-1v-5.712zm3.952 0h1.064L85.72 32h-1.072l-.536-1.512h-2.28L81.296 32h-1.032l2.192-5.712zm-.352 3.44h1.744l-.856-2.456h-.024l-.864 2.456zm4.32-3.44h1.056l2.608 4.208h.016v-4.208h.952V32H90l-2.6-4.2h-.024V32h-.952v-5.712zm5.472 0h4.624v.864h-1.816V32h-1v-4.848h-1.808v-.864z"
-                  fill="#2b3945"
-                />
-              </svg>
-              <p style="font-size: 0.7em; color: white">2018-2021 Geminides</p>
-            </div>
-            {% endif %}
+    <div class="container">
+      <div class="d-flex justify-content-center mt-5 mb-4">
+        <img id="logo-bottom" src="/assets/img/brand/logo_mailmeteor_white.svg" alt="Mailmeteor footer logo" />
+      </div>
+      <div class="footer-columns">
+        {% for nav in site.data.navigation.footer %}
+        <div class="pb-3">
+          <p class="font-weight-bold is-white">{{ nav[1].title[page.lang] }}</p>
+          {% assign footerlinks = nav[1].links %} {% for link in footerlinks %} {% assign linkName = link[1][page.lang] %} {% unless linkName %}{% assign linkName = link[1]['en']
+          %}{% endunless %} {% if link[1][page.lang] == 'ES / FR / DE' %}
+          <p><a href="/es/">ES</a> / <a href="/fr/">FR</a> / <a href="/de/">DE</a></p>
+          {% elsif link[1][page.lang] == 'EN / ES / FR' %}
+          <p><a href="/">EN</a> / <a href="/es/">ES</a> / <a href="/fr/">FR</a></p>
+          {% elsif link[1][page.lang] == 'EN / FR / DE' %}
+          <p><a href="/">EN</a> / <a href="/fr/">FR</a> / <a href="/de/">DE</a></p>
+          {% elsif link[1][page.lang] == 'EN / ES / FR' %}
+          <p><a href="/">EN</a> / <a href="/es/">ES</a> / <a href="/fr/">FR</a></p>
+          {% elsif page.lang == "fr" and link[1].url == "/mail-merge-gmail/" %}
+          <p><a href="/fr/publipostage/">{{ linkName }}</a></p>
+          {% else %}
+          <p><a href="{{ link[1].url }}">{{ linkName }}</a></p>
+          {% endif %} {% endfor %} {% if nav[0] == "company" %}
+          <div class="row mx-auto pt-1 d-flex flex-column">
+            <svg xmlns="https://www.w3.org/2000/svg" width="100" height="42" viewBox="0 0 108 42" fill-rule="evenodd">
+              <rect stroke="#fff" fill="#fff" x=".5" y=".5" width="107" height="41" rx="6" />
+              <path d="M7 1h34v40H7a6 6 0 0 1-6-6V7a6 6 0 0 1 6-6z" fill="#2050e0" />
+              <path
+                d="M21 7l.454 1.468h1.468l-1.188.907.454 1.468L21 9.935l-1.187.908.454-1.468-1.188-.907h1.468zm0 24.157l.454 1.468h1.468l-1.188.907.454 1.468L21 34.093 19.813 35l.454-1.468-1.188-.907h1.468zm6.04-21.96l.453 1.468h1.468l-1.188.908.454 1.468-1.187-.908-1.188.908.454-1.468-1.187-.908h1.468zM31.922 25l.453 1.468h1.468l-1.188.907.454 1.468-1.188-.907-1.188.907.454-1.468L30 26.468h1.468zm1.158-5.922l.453 1.468H35l-1.188.907.454 1.468-1.187-.907-1.188.907.454-1.468-1.188-.907h1.468zm-24.158 0l.453 1.468h1.468l-1.188.907.454 1.468-1.187-.907-1.188.907.454-1.468L7 20.546h1.468zm1 5.922l.453 1.468h1.468l-1.187.907.453 1.468-1.187-.907-1.188.907.454-1.468L8 26.468h1.468zm22-12l.453 1.468h1.468l-1.188.907.454 1.468-1.188-.907-1.188.907.454-1.468L30 14.468h1.468zm-21.5 0l.453 1.468h1.468l-1.187.907.453 1.468-1.187-.907-1.188.907.454-1.468-1.188-.907h1.468zm17.715 17.06l.453 1.468h1.468l-1.188.908.454 1.468-1.187-.907-1.188.907.454-1.468-1.188-.908h1.468zM14.96 9.196l.453 1.468h1.468l-1.188.908.454 1.468-1.188-.908-1.187.908.454-1.468-1.188-.908h1.468zM13.863 30.06l.454 1.468h1.468l-1.188.907.454 1.468-1.188-.907-1.187.907.454-1.468-1.188-.907H13.4z"
+                fill="#f8d12e"
+                fill-rule="nonzero"
+              />
+              <path
+                d="M48 16.596c0 2.824 2.163 4.596 4.82 4.596 1.682 0 2.978-.68 3.94-1.732v-3.477h-4.3v1.905h2.043v.746c-.36.293-.988.533-1.682.533-1.455 0-2.484-1.12-2.484-2.57s1.028-2.57 2.484-2.57c.84 0 1.522.466 1.883 1.052l1.923-1.012C55.972 12.96 54.77 12 52.82 12 50.163 12 48 13.772 48 16.596zm10.108 4.436v-8.885h3.74c2.804 0 4.82 1.678 4.82 4.436s-2.016 4.45-4.807 4.45h-3.752zm2.297-1.998h1.442c1.562 0 2.47-1.132 2.47-2.45 0-1.372-.828-2.438-2.457-2.438h-1.455v4.89zm7.41 1.998v-8.885h4.46c2.003 0 3.098 1.345 3.098 2.957 0 1.6-1.095 2.917-3.098 2.917h-2.163v3.01h-2.297zm5.22-5.94c0-.613-.454-1.012-1.068-1.012h-1.856v1.998h1.856c.614 0 1.068-.386 1.068-.986zm8.332 5.94l-1.496-3.01H78.7v3.01h-2.297v-8.885h4.46c1.976 0 3.098 1.305 3.098 2.957 0 1.545-.948 2.37-1.776 2.664L84 21.032h-2.63zm.254-5.954c0-.613-.507-1-1.108-1H78.7v1.998h1.816c.6 0 1.108-.386 1.108-1z"
+                fill="#2b3945"
+              />
+              <path
+                d="M24.143 20.136h-.43v-1.33C23.714 17.26 22.496 16 21 16s-2.714 1.26-2.714 2.807v1.33h-.43c-.473 0-.857.397-.857.886v3.545c0 .49.384.886.857.886h6.286c.473 0 .857-.397.857-.886v-3.545c0-.49-.384-.886-.857-.886zm-1.857 0h-2.57v-1.33c0-.733.577-1.33 1.286-1.33s1.286.596 1.286 1.33v1.33z"
+                fill="#fff"
+                fill-rule="nonzero"
+              />
+              <path
+                d="M52.464 28.104c-.043-.165-.1-.317-.176-.456a1.26 1.26 0 0 0-.288-.36 1.28 1.28 0 0 0-.412-.236c-.157-.056-.34-.084-.548-.084-.304 0-.567.06-.788.184s-.4.287-.54.492a2.22 2.22 0 0 0-.308.7c-.067.26-.1.528-.1.8s.033.54.1.8a2.22 2.22 0 0 0 .308.7c.14.205.32.37.54.492s.484.184.788.184a1.42 1.42 0 0 0 .592-.116 1.32 1.32 0 0 0 .44-.32c.123-.136.22-.295.288-.476a2.28 2.28 0 0 0 .136-.584h.976c-.02.34-.095.653-.22.936s-.295.527-.508.732-.464.364-.752.476-.605.168-.952.168c-.427 0-.81-.08-1.148-.236s-.625-.372-.86-.644a2.88 2.88 0 0 1-.54-.952c-.125-.363-.188-.75-.188-1.16a3.5 3.5 0 0 1 .188-1.152 2.88 2.88 0 0 1 .54-.952 2.57 2.57 0 0 1 .86-.648c.34-.16.72-.24 1.148-.24.32 0 .62.044.904.132s.532.216.748.384.39.372.524.612a2.13 2.13 0 0 1 .248.824h-1zm4.552-1.136c-.304 0-.567.06-.788.184s-.4.287-.54.492a2.22 2.22 0 0 0-.308.7c-.067.26-.1.528-.1.8s.033.54.1.8a2.22 2.22 0 0 0 .308.7c.14.205.32.37.54.492s.484.184.788.184.567-.06.788-.184.4-.287.54-.492a2.22 2.22 0 0 0 .308-.7c.067-.26.1-.528.1-.8s-.033-.54-.1-.8a2.22 2.22 0 0 0-.308-.7c-.14-.205-.32-.37-.54-.492s-.484-.184-.788-.184zm0-.816c.427 0 .81.08 1.148.24a2.57 2.57 0 0 1 .86.648 2.88 2.88 0 0 1 .54.952 3.5 3.5 0 0 1 .188 1.152c0 .41-.063.797-.188 1.16a2.88 2.88 0 0 1-.54.952c-.235.272-.52.487-.86.644s-.72.236-1.148.236-.81-.08-1.148-.236-.625-.372-.86-.644a2.88 2.88 0 0 1-.54-.952c-.125-.363-.188-.75-.188-1.16a3.5 3.5 0 0 1 .188-1.152 2.88 2.88 0 0 1 .54-.952 2.57 2.57 0 0 1 .86-.648c.34-.16.72-.24 1.148-.24zm3.832.136h1.408l1.576 4.472h.016l1.536-4.472h1.392V32h-.952v-4.408h-.016L64.224 32H63.4l-1.584-4.408H61.8V32h-.952v-5.712zm7.328 0h2.52c.405 0 .736.06.992.176s.453.264.592.44.233.368.284.576.076.4.076.576-.025.367-.076.572-.145.396-.284.572-.336.32-.592.436-.587.172-.992.172h-1.52V32h-1v-5.712zm1 2.704h1.464c.112 0 .227-.016.344-.048s.225-.084.324-.156a.8.8 0 0 0 .24-.288c.06-.12.092-.27.092-.452 0-.187-.027-.34-.08-.464a.74.74 0 0 0-.216-.292.77.77 0 0 0-.312-.148c-.117-.027-.243-.04-.376-.04h-1.48v1.888zm4.536-2.704h1v4.848h2.904V32h-3.904v-5.712zm4.792 0h1V32h-1v-5.712zm3.952 0h1.064L85.72 32h-1.072l-.536-1.512h-2.28L81.296 32h-1.032l2.192-5.712zm-.352 3.44h1.744l-.856-2.456h-.024l-.864 2.456zm4.32-3.44h1.056l2.608 4.208h.016v-4.208h.952V32H90l-2.6-4.2h-.024V32h-.952v-5.712zm5.472 0h4.624v.864h-1.816V32h-1v-4.848h-1.808v-.864z"
+                fill="#2b3945"
+              />
+            </svg>
           </div>
-          {% endfor %}
+          {% endif %}
         </div>
+        {% endfor %}
+      </div>
+
+      <div class="subfooter py-3">
+        <nav class="mb-3">
+          {% for subitem in site.data.navigation.subfooter %}
+          <a href="{{ subitem[1].url }}" class="mr-3">{{ subitem[1][page.lang] }}</a>
+          {% endfor %}
+          <span style="opacity: 0.75">&copy; 2018-{{ 'now' | date: "%Y" }} Geminides</span>
+        </nav>
+        <ul class="footer-social-links">
+          <li>
+            <a target="_blank" href="https://www.youtube.com/channel/UCdaxx2ivkw6gJySZyorDswA" class="youtube">
+              <svg viewBox="0 0 18 18" style="width: 18px; height: 18px; display: block; fill: currentcolor; flex-shrink: 0">
+                <path
+                  d="M9 2.070c-8.845 0-9 0.787-9 6.93s0.155 6.93 9 6.93 9-0.787 9-6.93-0.155-6.93-9-6.93zM11.884 9.301l-4.041 1.886c-0.354 0.164-0.644-0.020-0.644-0.41v-3.553c0-0.39 0.29-0.574 0.644-0.41l4.041 1.886c0.354 0.166 0.354 0.436 0 0.601z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://twitter.com/Mailmeteor" class="twitter">
+              <svg viewBox="0 0 22 18" style="width: 20px; height: 16px; display: block; fill: currentcolor; flex-shrink: 0; margin-top: 2px">
+                <path
+                  d="m22 2.12799c-.8083.36413-1.6798.60642-2.5899.71441.9321-.56211 1.6455-1.45374 1.9851-2.514271-.8716.51919-1.8393.899931-2.8648 1.103451-.8248-.883314-1.9974-1.43158-3.2951-1.43158-2.4922 0-4.5102 2.03384-4.5102 4.54257 0 .35444.0385.70057.1154 1.03423-3.75002-.19106-7.07532-1.99923-9.30088-4.750248-.38628.670098-.610352 1.453738-.610352 2.284438 0 1.57557.794552 2.96839 2.005622 3.7811-.73956-.02216-1.43514-.22983-2.045487-.56627v.05677c0 2.20275 1.554737 4.04141 3.620847 4.45671-.37803.1039-.77806.1606-1.19046.1606-.29142 0-.57185-.0304-.85091-.0817.57598 1.8041 2.24207 3.1193 4.2147 3.1581-1.54649 1.2198-3.48888 1.9466-5.60585 1.9466-.365658 0-.721694-.0221-1.07773-.065 2.0015 1.2931 4.37278 2.0421 6.92002 2.0421 8.29878 0 12.84068-6.9267 12.84068-12.9327 0-.19937-.0041-.3932-.0124-.58841.8812-.63549 1.6455-1.43712 2.2503-2.34952z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/company/mailmeteor/" class="linkedin">
+              <svg viewBox="0 0 20 18" style="width: 20px; height: 18px; display: block; fill: currentcolor; flex-shrink: 0" class="shareLinkedIn">
+                <path
+                  clip-rule="evenodd"
+                  d="m2.0769 4.15379c1.14644 0 2.07689-.93045 2.07689-2.07689 0-1.14645-.93045-2.0769-2.07689-2.0769-1.14645 0-2.0769.93045-2.0769 2.0769 0 1.14644.93045 2.07689 2.0769 2.07689zm-2.0769 13.84621v-12.46143h4.15379v12.46143zm6.92371-12.46143h3.83119v1.96336h.0554c.533-.95675 1.8373-1.96336 3.7827-1.96336 4.0444 0 4.7921 2.5172 4.7921 5.79173v6.6697h-3.9946v-5.9123c0-1.4095-.0291-3.22471-2.0769-3.22471-2.0796 0-2.3981 1.53551-2.3981 3.12231v6.0147h-3.99179z"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
 </footer>
 
 <!-- Third-party JS scripts -->
-<script
-  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"
-></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
   integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -102,36 +112,33 @@
 
 <script type="text/javascript">
   (function disableTransitionOnLoad() {
-    document.addEventListener("DOMContentLoaded", function () {
-      var node = document.querySelector(".preload");
+    document.addEventListener('DOMContentLoaded', function () {
+      var node = document.querySelector('.preload');
       if (node) {
-        node.classList.remove("preload");
+        node.classList.remove('preload');
       }
     });
   })();
 
   function scrollFunction() {
-    if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
-    ) {
-      document.getElementById("navbar").classList.add("navbar-shadow");
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById('navbar').classList.add('navbar-shadow');
     } else {
-      document.getElementById("navbar").classList.remove("navbar-shadow");
+      document.getElementById('navbar').classList.remove('navbar-shadow');
     }
   }
 
-  if (document.getElementById("navbar") !== null) {
+  if (document.getElementById('navbar') !== null) {
     window.onscroll = function () {
       scrollFunction();
     };
   }
 
   function initAos() {
-    if (typeof AOS !== "undefined") {
-      var aosCSS = document.createElement("link");
-      aosCSS.setAttribute("rel", "stylesheet");
-      aosCSS.setAttribute("href", "/assets/css/aos.css");
+    if (typeof AOS !== 'undefined') {
+      var aosCSS = document.createElement('link');
+      aosCSS.setAttribute('rel', 'stylesheet');
+      aosCSS.setAttribute('href', '/assets/css/aos.css');
       document.body.appendChild(aosCSS);
       return AOS.init();
     }
@@ -141,18 +148,15 @@
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script
-  async
-  src="https://www.googletagmanager.com/gtag/js?id=UA-136395985-1"
-></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136395985-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() {
     dataLayer.push(arguments);
   }
-  gtag("js", new Date());
+  gtag('js', new Date());
 
-  gtag("config", "UA-136395985-1");
+  gtag('config', 'UA-136395985-1');
 </script>
 
 {% if page.layout == "default" %}
@@ -161,16 +165,16 @@
 <script>
   if (window.fetch && window.localStorage) {
     try {
-      window._geo = JSON.parse(window.localStorage.getItem("_geo"));
+      window._geo = JSON.parse(window.localStorage.getItem('_geo'));
     } catch (err) {}
 
     if (!window._geo) {
       window
-        .fetch("https://ip-api.io/json/")
+        .fetch('https://ip-api.io/json/')
         .then((response) => response.json())
         .then((response) => {
           if (response.currency) {
-            window.localStorage.setItem("_geo", JSON.stringify(response));
+            window.localStorage.setItem('_geo', JSON.stringify(response));
             window._geo = response;
             if (window.setUserCurrency && window.renderProducts) {
               setUserCurrency(window._geo.currency);
