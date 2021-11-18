@@ -54,12 +54,6 @@
       </div>
 
       <div class="subfooter py-3">
-        <nav class="mb-3">
-          {% for subitem in site.data.navigation.subfooter %}
-          <a href="{{ subitem[1].url }}" class="mr-3">{{ subitem[1][page.lang] }}</a>
-          {% endfor %}
-          <span style="opacity: 0.75">&copy; 2018-{{ 'now' | date: "%Y" }} Geminides</span>
-        </nav>
         <ul class="footer-social-links">
           <li>
             <a target="_blank" href="https://www.youtube.com/channel/UCdaxx2ivkw6gJySZyorDswA" class="youtube">
@@ -91,6 +85,12 @@
             </a>
           </li>
         </ul>
+        <nav>
+          {% for subitem in site.data.navigation.subfooter %}
+          <a href="{{ subitem[1].url }}" class="mr-3">{{ subitem[1][page.lang] }}</a>
+          {% endfor %}
+          <span style="opacity: 0.75; white-space: nowrap">&copy; 2018-{{ 'now' | date: "%Y" }} Geminides</span>
+        </nav>
       </div>
     </div>
   </div>

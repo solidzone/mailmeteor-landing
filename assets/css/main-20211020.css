@@ -1306,6 +1306,7 @@ body > footer > div > p {
   display: flex;
   align-items: center;
   justify-content: center;
+  order: 2;
 }
 
 .footer-social-links li {
@@ -1348,6 +1349,11 @@ body > footer > div > p {
   .subfooter {
     display: block;
     text-align: center;
+  }
+
+  .footer-social-links {
+    margin: 0.25rem 0;
+    padding: 0;
   }
 }
 
