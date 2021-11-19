@@ -75,6 +75,24 @@ footer:
         fr: 'Email Permutator'
         es: 'Email Permutator'
         de: 'Email Permutator'
+      gmail-mail-merge:
+        url: '/gmail-mail-merge'
+        en: 'Gmail Mail Merge'
+        fr: 'Gmail Mail Merge'
+        es: 'Gmail Mail Merge'
+        de: 'Gmail Mail Merge'
+      mass-emails-gmail:
+        url: '/mass-emails-gmail'
+        en: 'Mass Emails Gmail'
+        fr: 'Emails en Masse avec Gmail'
+        es: 'Correos Masivos con Gmail'
+        de: 'Massen-E-Mails Gmail'
+      bulk-emails-gmail:
+        url: '/bulk-emails-gmail'
+        en: 'Bulk Emails Gmail'
+        fr: 'Bulk Emails Gmail'
+        es: 'Bulk Emails Gmail'
+        de: 'Bulk Emails Gmail'
       gmail-newsletter:
         url: '/gmail-newsletter'
         en: 'Gmail Newsletter'
@@ -118,24 +136,6 @@ footer:
         fr: 'Les meilleures apps Google'
         es: 'Las mejores apps de Google'
         de: 'Beste Google-Apps'
-      gmail-mail-merge:
-        url: '/gmail-mail-merge'
-        en: 'Gmail Mail Merge'
-        fr: 'Gmail Mail Merge'
-        es: 'Gmail Mail Merge'
-        de: 'Gmail Mail Merge'
-      mass-emails-gmail:
-        url: '/mass-emails-gmail'
-        en: 'Mass Emails Gmail'
-        fr: 'Emails en Masse avec Gmail'
-        es: 'Correos Masivos con Gmail'
-        de: 'Massen-E-Mails Gmail'
-      bulk-emails-gmail:
-        url: '/bulk-emails-gmail'
-        en: 'Bulk Emails Gmail'
-        fr: 'Bulk Emails Gmail'
-        es: 'Bulk Emails Gmail'
-        de: 'Bulk Emails Gmail'
       google-logos:
         url: '/logos/'
         en: 'Google Logos'
