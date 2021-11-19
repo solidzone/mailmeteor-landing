@@ -216,7 +216,7 @@ footer:
       de: 'Hilfe'
     links:
       tutorial:
-        url: '/mail-merge/tutorial'
+        url: '/mail-merge-gmail/tutorial'
         en: 'Tutorial'
         fr: 'Tutoriel'
         es: 'Tutorial'
