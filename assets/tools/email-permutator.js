@@ -117,20 +117,28 @@ function permutate_underscore() {
   checkNNandMN(_nn + '_' + _mn + '_' + _ln + _ee); // {nn}_{mn}_{ln}
 }
 
+function normalize(str) {
+  try {
+    return str.normalize('NFD').replace(/\p{Diacritic}/gu, '');
+  } catch (err) {
+    return str;
+  }
+}
+
 function permutate() {
   // Do the permutations
   _output = [];
 
   // Put the form field data into variables
-  _fn = $('#firstname').val().trim().toLowerCase();
+  _fn = normalize($('#firstname').val().trim().toLowerCase());
   _fni = _fn.charAt(0);
-  _ln = $('#lastname').val().trim().toLowerCase();
+  _ln = normalize($('#lastname').val().trim().toLowerCase());
   _lni = _ln.charAt(0);
-  _nn = $('#nickname').val().trim().toLowerCase();
+  _nn = normalize($('#nickname').val().trim().toLowerCase());
   _nni = _nn.charAt(0);
-  _mn = $('#middlename').val().trim().toLowerCase();
+  _mn = normalize($('#middlename').val().trim().toLowerCase());
   _mni = _mn.charAt(0);
-  _d = $('#domain').val().trim().toLowerCase();
+  _d = normalize($('#domain').val().trim().toLowerCase());
 
   // Run each category of email permutation
   permutate_basics();
