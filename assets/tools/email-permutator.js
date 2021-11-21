@@ -251,4 +251,37 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip();
 });
 
-$(document).ready(permutate);
+// Initialize
+$(document).ready(function () {
+  // Get query strings (if any)
+  try {
+    const url = new URL(window.location.href);
+    const params = url.searchParams;
+    const firstname = params.get('firstname');
+    const lastname = params.get('lastname');
+    const nickname = params.get('nickname');
+    const middlename = params.get('middlename');
+    const domain = params.get('domain');
+
+    if (firstname) {
+      $('#firstname').val(firstname);
+    }
+    if (lastname) {
+      $('#lastname').val(lastname);
+    }
+    if (nickname) {
+      $('#nickname').val(nickname);
+    }
+    if (middlename) {
+      $('#middlename').val(middlename);
+    }
+    if (domain) {
+      $('#domain').val(domain);
+    }
+  } catch (err) {
+    // do nothing
+  }
+
+  // Permutate
+  permutate();
+});
