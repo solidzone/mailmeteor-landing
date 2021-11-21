@@ -21,6 +21,7 @@ meta_date_lastupdated: 'November 1, 2021'
 published: true
 
 permalink: /mail-merge-gmail/tutorial
+redirect_from: /mail-merge/tutorial
 ---
 
 Imagine you’ve got an email you need to send out to all of your customers, students, or employees.
