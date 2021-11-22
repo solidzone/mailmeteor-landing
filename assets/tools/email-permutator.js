@@ -149,6 +149,10 @@ function permutate() {
 
   $('#result').val(_output.join('\n'));
   $('#counter').text(_output.length);
+  $('.gmail-popup-link').each(function () {
+    var baseUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=';
+    $(this).attr('href', baseUrl + _output.join(','));
+  });
 }
 
 function checkRequired() {

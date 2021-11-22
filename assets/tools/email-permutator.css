@@ -12,14 +12,25 @@
   resize: none;
 }
 
-.snippet .clipboard-copy {
+.snippet .clipboard-copy,
+.snippet .gmail-popup {
   display: none;
 }
 
-.snippet:hover .clipboard-copy {
+.snippet:hover .clipboard-copy,
+.snippet:hover .gmail-popup {
   cursor: pointer;
   display: block;
   position: absolute;
   top: 1rem;
   right: 1rem;
+}
+
+.snippet:hover .gmail-popup {
+  right: 3rem;
+}
+
+.gmail-popup-link {
+  color: inherit;
+  text-decoration: none;
 }

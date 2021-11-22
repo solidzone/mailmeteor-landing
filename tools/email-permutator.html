@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Email Permutator - Mailmeteor
+title: Email Permutator - Find Anyone Email Address for Free
 description: Find anyone's email address using this free email permutator tool. It works by combining basic information you know about someone to generate a list of their potential email addresses.
 
 permalink: /email-permutator
@@ -9,7 +9,7 @@ canonical: https://mailmeteor.com/email-permutator
 
 <header class="container text-center">
   <h1>Email Permutator</h1>
-  <p>Find anyone's email address thanks to our email permutator tool.</p>
+  <p>Find anyone's email address thanks to our email permutator tool (<a href="#getting-started">how it works?</a>).</p>
 </header>
 
 <main class="container">
@@ -45,18 +45,19 @@ canonical: https://mailmeteor.com/email-permutator
             </div>
           </div>
 
-          <button class="btn btn-primary" style="margin: .5rem 0; padding: 0.375rem 0.75rem; font-weight: bold;" type="submit" id="btn-permutate">Generate email addresses</button>
-          <button class="btn btn-light" style="margin: .5rem 0; padding: 0.375rem 0.75rem" type="button" id="btn-more">More settings</button>
+          <button class="btn btn-primary" style="margin: 0.5rem 0; padding: 0.375rem 0.75rem; font-weight: bold" type="submit" id="btn-permutate">Generate email addresses</button>
+          <button class="btn btn-light" style="margin: 0.5rem 0; padding: 0.375rem 0.75rem" type="button" id="btn-more">More settings</button>
         </form>
       </div>
       <div class="col-md-8">
         <div class="snippet" style="position: relative">
           <textarea id="result"></textarea>
           <p class="text-muted" style="padding: 0.25rem 1rem">
-            <small><span id="counter"></span> emails generated</small>
+            <small><span id="counter"></span> emails generated</small> -
+            <small><a href="#" target="_blank" class="gmail-popup-link">Open in Gmail</a></small>
           </p>
           <div class="clipboard-copy" data-toggle="tooltip" data-placement="top" title="Copy to clipboard">
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
+            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16">
               <path
                 fill-rule="evenodd"
                 d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"
@@ -67,11 +68,19 @@ canonical: https://mailmeteor.com/email-permutator
               ></path>
             </svg>
           </div>
+          <div class="gmail-popup" data-toggle="tooltip" data-placement="top" title="Open in Gmail">
+            <a href="#" target="_blank" class="gmail-popup-link">
+              <svg height="16px" viewBox="0 0 24 24" width="16px" fill="#000000" style="transform: scaleX(-1)">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <section>
+  <section id="getting-started">
     <div>
       <h2>How to use this email permutator</h2>
       <p>
@@ -82,22 +91,20 @@ canonical: https://mailmeteor.com/email-permutator
       <ol>
         <li>Fill the fields with the information you know about the person (first name, last name, domain…)</li>
         <li>Click on “Generate email addresses”</li>
-        <li>Copy and paste the generate email combinations into a <a href="https://mail.google.com/mail/?view=cm&fs=1&to=someone@example.com" target="_blank">new Gmail message</a>, inside the TO field</li>
+        <li>
+          Copy and paste the generate email combinations into a <a href="https://mail.google.com/mail/?view=cm&fs=1&to=someone@example.com" target="_blank">new Gmail message</a>,
+          inside the TO field
+        </li>
         <li>Hover the different addresses with your mouse. If one of them has a profile image, bingo! You have found the valid email address.</li>
       </ol>
-      <video autoplay muted loop playsinline style="max-width: 100%;">
+      <video autoplay muted loop playsinline style="max-width: 100%">
         <source src="/assets/img/tools/email-permutator.mp4" />
       </video>
       <br />
-      <div style="
-        padding: 1rem 2rem;
-        margin: 1rem 0;
-        background-color: #7da4ff17;
-        border: 1px solid #007bff17;
-        border-radius: 8px;"
-        >
+      <p style="padding: 1rem 2rem; margin: 1rem 0; background-color: #7da4ff17; border: 1px solid #007bff17; border-radius: 8px">
         <span class="font-weight-bold">Note:</span> don’t try to send emails to all the combinations generated in the hope to find one address that will not bounce. If you write to
-        dead-end destinations you may harm your email reputation. The email permutator method is useful to verify an email address without sending email or to know if a Gmail address exists.
+        dead-end destinations you may harm your email reputation. The email permutator method is useful to verify an email address without sending email or to know if a Gmail
+        address exists.
       </p>
     </div>
     <div>
@@ -108,8 +115,8 @@ canonical: https://mailmeteor.com/email-permutator
       </p>
       <p>
         Thus if you are looking for more precise ways to find someone’s email, you may need to look for a paying email finder software. Some of the most popular services to find
-        and verify emails include Dropcontact, Clearout, ZeroBounce, Bouncer, Emailable, ZoomInfo, NeverBounce, DeBounce, TrueMail (we're not affiliated to  them). Look for “email finder”, “email validation”,
-        “email verification” or “bounce check tool” in your searches online to find the most appropriate tool for your needs.
+        and verify emails include Dropcontact, Clearout, ZeroBounce, Bouncer, Emailable, ZoomInfo, NeverBounce, DeBounce, TrueMail (we're not affiliated to them). Look for “email
+        finder”, “email validation”, “email verification” or “bounce check tool” in your searches online to find the most appropriate tool for your needs.
       </p>
     </div>
     <div>
@@ -133,5 +140,5 @@ canonical: https://mailmeteor.com/email-permutator
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<link href="/assets/tools/email-permutator.css" rel="stylesheet" />
-<script src="/assets/tools/email-permutator.js?v=2021-11-22"></script>
+<link href="/assets/tools/email-permutator.css?v=2021-11-23" rel="stylesheet" />
+<script src="/assets/tools/email-permutator.js?v=2021-11-23"></script>
