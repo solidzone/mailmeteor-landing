@@ -13,58 +13,91 @@
    */
 
   var _allProducts = {
+    // monthly: {
+    //   title: "Monthly",
+    //   recurrence: "/ month",
+    //   prices: {
+    //     usd: {
+    //       amount: 9.99,
+    //       price_id: "price_1JrO2RKALIjZusuQLSrERGvG",
+    //     },
+    //     eur: {
+    //       amount: 9.99,
+    //       price_id: "price_1JrO2qKALIjZusuQYKDulh6T",
+    //     },
+    //   },
+    //   OFF20: true,
+    // },
+    // yearly: {
+    //   title: "Yearly",
+    //   recurrence: "/ year",
+    //   prices: {
+    //     usd: {
+    //       amount: 49.99,
+    //       price_id: "price_1HlwUXKALIjZusuQfLtFodcR",
+    //     },
+    //     eur: {
+    //       amount: 49.99,
+    //       price_id: "price_1HlwUnKALIjZusuQn9490Ffy",
+    //     },
+    //   },
+    //   OFF20: true,
+    // },
+    // BLACKFRIDAY PRICES
     monthly: {
-      title: "Monthly",
-      recurrence: "/ month",
+      title: 'Monthly',
+      recurrence: '/ month',
       prices: {
         usd: {
-          amount: 9.99,
-          price_id: "price_1JrO2RKALIjZusuQLSrERGvG",
+          amount: 6.99,
+          price_id: 'price_1JrO2RKALIjZusuQLSrERGvG',
         },
         eur: {
-          amount: 9.99,
-          price_id: "price_1JrO2qKALIjZusuQYKDulh6T",
+          amount: 6.99,
+          price_id: 'price_1JrO2qKALIjZusuQYKDulh6T',
         },
       },
-      OFF20: true,
+      OFF20: false,
     },
     yearly: {
-      title: "Yearly",
-      recurrence: "/ year",
+      title: 'Yearly',
+      recurrence: '/ year',
       prices: {
         usd: {
-          amount: 49.99,
-          price_id: "price_1HlwUXKALIjZusuQfLtFodcR",
+          amount: 24.99,
+          price_id: 'price_1HlwUXKALIjZusuQfLtFodcR',
         },
         eur: {
-          amount: 49.99,
-          price_id: "price_1HlwUnKALIjZusuQn9490Ffy",
+          amount: 24.99,
+          price_id: 'price_1HlwUnKALIjZusuQn9490Ffy',
         },
       },
-      OFF20: true,
+      OFF20: false,
     },
+    // END OF BLACKFRIDAY PRICES
     lifetime: {
-      title: "Lifetime",
-      recurrence: "for life",
+      title: 'Lifetime',
+      recurrence: 'for life',
+      cta: 'Upgrade to lifetime',
       prices: {
         usd: {
           amount: 199.99,
-          link: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FE763TJKAWPL2&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled",
+          link: 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FE763TJKAWPL2&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled',
         },
         eur: {
           amount: 199.99,
-          link: "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KFMMDARZ57HYY&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled",
+          link: 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KFMMDARZ57HYY&return=https://mailmeteor.com/checkout/success&return_cancel=https://mailmeteor.com/checkout/canceled',
         },
       },
     },
-    "team-pack": {
-      title: "Teams",
+    'team-pack': {
+      title: 'Teams',
       prices: {
         usd: {
-          price_id: "price_1Igmj3KALIjZusuQyaFm5WF0",
+          price_id: 'price_1Igmj3KALIjZusuQyaFm5WF0',
         },
         eur: {
-          price_id: "price_1IgmkHKALIjZusuQDcN3z7aP",
+          price_id: 'price_1IgmkHKALIjZusuQDcN3z7aP',
         },
       },
     },
@@ -74,18 +107,18 @@
    * Handle user's currency
    */
 
-  var _defaultCurrency = "USD";
+  var _defaultCurrency = 'USD';
   var _cachedCurrency = null;
-  var _validCurrencies = { USD: "$", EUR: "€" };
+  var _validCurrencies = { USD: '$', EUR: '€' };
 
   function setUserCurrency(currency) {
-    if (typeof currency !== "string" || !_validCurrencies[currency]) {
+    if (typeof currency !== 'string' || !_validCurrencies[currency]) {
       currency = _defaultCurrency;
     }
 
-    var currencyElt = $("[data-checkout-currency]").first();
+    var currencyElt = $('[data-checkout-currency]').first();
     if (currencyElt) {
-      currencyElt.data("checkout-currency", currency.toUpperCase());
+      currencyElt.data('checkout-currency', currency.toUpperCase());
       _cachedCurrency = null;
     }
   }
@@ -100,14 +133,14 @@
     try {
       var urlParams = new URLSearchParams(window.location.search);
 
-      if (urlParams.get("currency")) {
-        currency = urlParams.get("currency");
+      if (urlParams.get('currency')) {
+        currency = urlParams.get('currency');
       }
     } catch (err) {}
 
     if (!currency) {
-      var currencyElt = $("[data-checkout-currency]").first();
-      currency = (currencyElt && currencyElt.data("checkout-currency")) || _defaultCurrency;
+      var currencyElt = $('[data-checkout-currency]').first();
+      currency = (currencyElt && currencyElt.data('checkout-currency')) || _defaultCurrency;
     }
 
     if (!_validCurrencies[currency]) {
@@ -123,15 +156,15 @@
    */
 
   function renderProducts() {
-    $("[data-checkout-product]").each(function () {
+    $('[data-checkout-product]').each(function () {
       var card = $(this);
       var currency = getUserCurrency();
 
-      var productType = card.data("checkout-product");
+      var productType = card.data('checkout-product');
       var product = _allProducts && _allProducts[productType];
 
       if (!product) {
-        console.error("Undefined product: " + productType);
+        console.error('Undefined product: ' + productType);
         return;
       }
 
@@ -146,52 +179,47 @@
 
       if (priceElt) {
         if (productPrice) {
-          var amount = productPrice.amount.toString().split(".");
+          var amount = productPrice.amount.toString().split('.');
           var amountInteger = amount.shift();
           var amountDecimal = amount.length && amount.shift();
           var amountCurrency = _validCurrencies[currency];
 
-          var priceHtml = '<small class="pricing-card-currency">' + amountCurrency + "</small>";
+          var priceHtml = '<small class="pricing-card-currency">' + amountCurrency + '</small>';
           priceHtml += amountInteger;
-          priceHtml += "<sup>" + (amountDecimal ? "." + amountDecimal : "") + " " + productRecurrence + "</sup>";
+          priceHtml += '<sup>' + (amountDecimal ? '.' + amountDecimal : '') + ' ' + productRecurrence + '</sup>';
           priceElt.first().html(priceHtml);
 
-          if (product.OFF20 && getCoupon() === "OFF20") {
-            var discount = (Math.round(productPrice.amount * (1 - 0.2) * 100) / 100).toString().split(".");
+          if (product.OFF20 && getCoupon() === 'OFF20') {
+            var discount = (Math.round(productPrice.amount * (1 - 0.2) * 100) / 100).toString().split('.');
             var discountInteger = discount.shift();
             var discountDecimal = discount.length && discount.shift();
             var discountCurrency = _validCurrencies[currency];
 
-            var discountHtml = '<small class="pricing-card-currency">' + discountCurrency + "</small>";
+            var discountHtml = '<small class="pricing-card-currency">' + discountCurrency + '</small>';
             discountHtml += discountInteger;
-            discountHtml +=
-              "<sup>" + (discountDecimal ? "." + discountDecimal : "") + " " + productRecurrence + "</sup>";
+            discountHtml += '<sup>' + (discountDecimal ? '.' + discountDecimal : '') + ' ' + productRecurrence + '</sup>';
 
-            priceElt
-              .first()
-              .html(
-                '<strike style="font-size:0.7em">' +
-                  priceHtml +
-                  '</strike><span style="color:#FF486A;">' +
-                  discountHtml +
-                  "</span>"
-              );
+            priceElt.first().html('<strike style="font-size:0.7em">' + priceHtml + '</strike><span style="color:#FF486A;">' + discountHtml + '</span>');
           }
         }
       }
+
+      $('.pricing-card-currency').each(function () {
+        $(this).text(amountCurrency);
+      });
 
       var cta = card.find('[data-checkout-product-item="cta"]');
       if (cta && cta.first()) {
         cta = cta.first();
 
-        if (cta.prop("tagName") === "A") {
-          cta.attr("href", productPrice.link);
-        } else if (cta.prop("tagName") === "BUTTON") {
-          cta.data("checkout-product-id", (productPrice && productPrice.price_id) || "");
-          cta.data("checkout-quantity", (productPrice && productPrice.quantity) || 1);
+        if (cta.prop('tagName') === 'A') {
+          cta.attr('href', productPrice.link);
+        } else if (cta.prop('tagName') === 'BUTTON') {
+          cta.data('checkout-product-id', (productPrice && productPrice.price_id) || '');
+          cta.data('checkout-quantity', (productPrice && productPrice.quantity) || 1);
         }
 
-        cta.text(product.cta || "GET STARTED");
+        cta.text(product.cta || 'GET STARTED');
       }
     });
   }
@@ -201,15 +229,15 @@
    */
 
   function qs(key) {
-    key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx meta chars
-    var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
-    return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+    key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, '\\$&'); // escape RegEx meta chars
+    var match = location.search.match(new RegExp('[?&]' + key + '=([^&]+)(&|$)'));
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
   }
 
   function getCoupon() {
-    var coupon = qs("coupon");
+    var coupon = qs('coupon');
 
-    return coupon || "";
+    return coupon || '';
   }
 
   /**
@@ -229,26 +257,26 @@
     // Handle confirmation modals
     function planConfirmationModal(event) {
       var button = $(event.relatedTarget);
-      var productId = button.data("checkout-product-id");
-      var productQuantity = button.data("checkout-quantity") || 1;
+      var productId = button.data('checkout-product-id');
+      var productQuantity = button.data('checkout-quantity') || 1;
 
       if (!productId) {
-        window.location.href = "https://mailmeteor.com/sales";
+        window.location.href = 'https://mailmeteor.com/sales';
         event.preventDefault();
       } else {
         var modal = $(this);
 
-        modal.find("input.checkout-plan-id").val(productId);
-        modal.find("input.checkout-currency").val(getUserCurrency());
-        modal.find("input.checkout-quantity").val(productQuantity);
-        modal.find("input.checkout-coupon").val(getCoupon() === "OFF20" ? "promo_1IUC63KALIjZusuQ2mAGIzqM" : null);
+        modal.find('input.checkout-plan-id').val(productId);
+        modal.find('input.checkout-currency').val(getUserCurrency());
+        modal.find('input.checkout-quantity').val(productQuantity);
+        modal.find('input.checkout-coupon').val(getCoupon() === 'OFF20' ? 'promo_1IUC63KALIjZusuQ2mAGIzqM' : null);
 
-        var quantitySelector = modal.find("#modalTeamQuantity");
+        var quantitySelector = modal.find('#modalTeamQuantity');
         if (quantitySelector) {
-          var option = quantitySelector.find("[value=" + productQuantity + "]");
+          var option = quantitySelector.find('[value=' + productQuantity + ']');
 
           if (option.length) {
-            option.prop("selected", true);
+            option.prop('selected', true);
           } else {
             var custom = quantitySelector.find('[value="custom"]');
 
@@ -256,26 +284,24 @@
               quantitySelector.append("<option value='custom' disabled>Custom packs:</option>");
             }
 
-            quantitySelector.append(
-              "<option value='" + productQuantity + "' selected>" + productQuantity + " users included</option>"
-            );
+            quantitySelector.append("<option value='" + productQuantity + "' selected>" + productQuantity + ' users included</option>');
           }
         }
       }
     }
 
-    $("#pricingIndividualModal").on("show.bs.modal", planConfirmationModal);
-    $("#pricingTeamModal").on("show.bs.modal", planConfirmationModal);
+    $('#pricingIndividualModal').on('show.bs.modal', planConfirmationModal);
+    $('#pricingTeamModal').on('show.bs.modal', planConfirmationModal);
 
     // Handle 500 emails warning for Gmail users
-    $("#pricingIndividualModal")
+    $('#pricingIndividualModal')
       .find('input[name="active_email"]')
       .first()
-      .on("input", function (e) {
+      .on('input', function (e) {
         var input = $(this);
         var val = input.val();
-        var tip = $("#checkout-gmail-accounts-tip");
-        var isGmailAccount = val.indexOf("@gmail.com") > -1 || val.indexOf("@googlemail.com") > -1;
+        var tip = $('#checkout-gmail-accounts-tip');
+        var isGmailAccount = val.indexOf('@gmail.com') > -1 || val.indexOf('@googlemail.com') > -1;
 
         if (!tip) {
           return;
@@ -292,22 +318,19 @@
 
 <!-- Bootsrap Slider -->
 <script src="https://cdn.jsdelivr.net/gh/seiyria/bootstrap-slider@11.0.2/dist/bootstrap-slider.min.js"></script>
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/seiyria/bootstrap-slider@11.0.2/dist/css/bootstrap-slider.min.css"
-/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/seiyria/bootstrap-slider@11.0.2/dist/css/bootstrap-slider.min.css" />
 
 <script>
   function renderTeamPack(units = 5) {
-    var cta = $(".pricing-team--cta").first();
-    var pack = $(".pricing-team--pack").first();
-    var amountElt = $(".pricing-team--amount").first();
-    var savingsElt = $(".pricing-team--save").first();
+    var cta = $('.pricing-team--cta').first();
+    var pack = $('.pricing-team--pack').first();
+    var amountElt = $('.pricing-team--amount').first();
+    var savingsElt = $('.pricing-team--save').first();
 
     if (units > 25) {
-      cta.html("Contact us &rarr;");
-      cta.data("checkout-product-id", null);
-      pack.data("checkout-product-id", null);
+      cta.html('Contact us &rarr;');
+      cta.data('checkout-product-id', null);
+      pack.data('checkout-product-id', null);
       return;
     }
 
@@ -339,41 +362,41 @@
     var amount = computePackPrice(units);
     var save = Math.round(units * 9.99 * 12 - amount);
     var currency = getUserCurrency();
-    var currencySymbol = currency === "EUR" ? "€" : "$";
+    var currencySymbol = currency === 'EUR' ? '€' : '$';
 
-    cta.html("Get " + units + " users pack &rarr;");
-    pack.text(units + " users pack");
-    amountElt.text("= " + currencySymbol + amount.toFixed(2) + " / year");
-    savingsElt.text("(save " + currencySymbol + save.toFixed(0) + " / year!)");
+    cta.html('Get ' + units + ' users pack &rarr;');
+    pack.text(units + ' users pack');
+    amountElt.text('= ' + currencySymbol + amount.toFixed(2) + ' / year');
+    savingsElt.text('(save ' + currencySymbol + save.toFixed(0) + ' / year!)');
 
-    var product = _allProducts["team-pack"];
+    var product = _allProducts['team-pack'];
     var productPrice = product.prices && product.prices[currency.toLowerCase()];
-    var productId = (productPrice && productPrice.price_id) || "price_1Igmj3KALIjZusuQyaFm5WF0";
+    var productId = (productPrice && productPrice.price_id) || 'price_1Igmj3KALIjZusuQyaFm5WF0';
 
-    pack.data("checkout-product-id", productId);
-    cta.data("checkout-product-id", productId);
-    pack.data("checkout-quantity", units);
-    cta.data("checkout-quantity", units);
+    pack.data('checkout-product-id', productId);
+    cta.data('checkout-product-id', productId);
+    pack.data('checkout-quantity', units);
+    cta.data('checkout-quantity', units);
   }
 
   $(function () {
-    $("#pricingTeamSlider")
+    $('#pricingTeamSlider')
       .slider({
         min: 2,
         max: 100,
         value: 5,
-        scale: "logarithmic",
-        tooltip: "always",
-        tooltip_position: "bottom",
+        scale: 'logarithmic',
+        tooltip: 'always',
+        tooltip_position: 'bottom',
         lock_to_ticks: true,
         formatter: function (value) {
           if (value > 25) {
-            return "Contact us";
+            return 'Contact us';
           }
-          return value + " users";
+          return value + ' users';
         },
       })
-      .on("change", function (event) {
+      .on('change', function (event) {
         if (!event || !event.value) {
           return;
         }
