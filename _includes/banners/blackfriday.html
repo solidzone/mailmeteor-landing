@@ -14,8 +14,8 @@
 <div id="bf-banner">
   <a href="/pricing" style="color: white">
     <b
-      ><u>Black Friday</u> Limited Offer 🔥 UP TO 50% OFF 🔥 <span id="bf-sales-countdown">Offer ends in <span id="bf-sales-date">a few </span> days</span></b
-    >
+      ><u>Black Friday</u> Limited Offer 🔥 UP TO 50% OFF 🔥 <span id="bf-sales-countdown"><span id="bf-sales-date"></span></span
+    ></b>
     <span
       style="
         max-height: 115px;
@@ -46,9 +46,11 @@
 
     // If the count down is finished, write some text
     if (distance < 0) {
-      document.getElementById('bf-sales-date').innerHTML = '0';
+      document.getElementById('bf-sales-date').innerHTML = 'Offer ended';
+    } else if (Math.ceil(distance / (1000 * 3600 * 24)) == 1) {
+      document.getElementById('bf-sales-date').innerHTML = 'Offer ends tomorrow';
     } else {
-      document.getElementById('bf-sales-date').innerHTML = days;
+      document.getElementById('bf-sales-date').innerHTML = 'Offer ends in ' + days + ' days';
     }
   } catch (err) {
     // do nothing
