@@ -48,7 +48,7 @@
     if (distance < 0) {
       document.getElementById('bf-sales-date').innerHTML = 'Offer ended';
     } else if (Math.ceil(distance / (1000 * 3600 * 24)) == 1) {
-      document.getElementById('bf-sales-date').innerHTML = 'Offer ends tomorrow';
+      document.getElementById('bf-sales-date').innerHTML = 'Offer ends today';
     } else if (Math.ceil(distance / (1000 * 3600 * 24)) == 2) {
       document.getElementById('bf-sales-date').innerHTML = 'Offer ends in 1 day';
     } else {
