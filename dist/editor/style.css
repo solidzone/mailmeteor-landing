@@ -1054,7 +1054,7 @@
 /* Dropdown style. */
 .goog-toolbar-menu-button-dropdown {
   width: 20px;
-  background: url("gmailUI/baseline-arrow_drop_down-24px.svg");
+  background-image: url("gmailUI/baseline-arrow_drop_down-24px.svg");
   vertical-align: top;
 }
 
@@ -1411,9 +1411,11 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Common base style for all icons. */
 .tr-icon {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* .goog-color-menu-button-indicator .tr-icon {
@@ -1423,13 +1425,13 @@ div.tr_multi_bubble div.tr_bubble_panel {
 /* Undo (redo when the chrome is right-to-left). */
 .tr-undo,
 .goog-toolbar-button-rtl .tr-redo {
-  background: url("gmailUI/baseline-undo-24px.svg");
+  background-image: url("gmailUI/baseline-undo-24px.svg");
 }
 
 /* Redo (undo when the chrome is right-to-left). */
 .tr-redo,
 .goog-toolbar-button-rtl .tr-undo {
-  background: url("gmailUI/baseline-redo-24px.svg");
+  background-image: url("gmailUI/baseline-redo-24px.svg");
 }
 
 /* Font name. */
@@ -1442,7 +1444,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Font size. */
 .tr-fontSize .goog-toolbar-menu-button-caption {
-  background: url("gmailUI/baseline-text_fields-24px.svg");
+  background-image: url("gmailUI/baseline-text_fields-24px.svg");
   background-repeat: no-repeat;
   /* color: #246;
   width: 8ex;
@@ -1452,42 +1454,42 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Bold. */
 .tr-bold {
-  background: url("gmailUI/baseline-format_bold-24px.svg");
+  background-image: url("gmailUI/baseline-format_bold-24px.svg");
 }
 
 /* Italic. */
 .tr-italic {
-  background: url("gmailUI/baseline-format_italic-24px.svg");
+  background-image: url("gmailUI/baseline-format_italic-24px.svg");
 }
 
 /* Underline. */
 .tr-underline {
-  background: url("gmailUI/baseline-format_underlined-24px.svg");
+  background-image: url("gmailUI/baseline-format_underlined-24px.svg");
 }
 
 /* Foreground color. */
 .tr-foreColor {
-  background: url("gmailUI/baseline-format_color_text-24px.svg");
+  background-image: url("gmailUI/baseline-format_color_text-24px.svg");
 }
 
 /* Background color. */
 .tr-backColor {
-  background: url("gmailUI/baseline-format_color_fill-24px.svg");
+  background-image: url("gmailUI/baseline-format_color_fill-24px.svg");
 }
 
 /* Link. */
 .tr-link {
-  background: url("gmailUI/baseline-insert_link-24px.svg");
+  background-image: url("gmailUI/baseline-insert_link-24px.svg");
 }
 
 /* Insert image. */
 .tr-image {
-  background: url("gmailUI/baseline-photo_outline-24px.svg");
+  background-image: url("gmailUI/baseline-photo_outline-24px.svg");
 }
 
 /* Attach file. */
 .tr-attach-file {
-  background: url("gmailUI/baseline-attach_file-24px.svg");
+  background-image: url("gmailUI/baseline-attach_file-24px.svg");
 }
 
 /* Variables picker */
@@ -1500,7 +1502,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
   width: 24px;
   height: 24px;
   padding: 0;
-  background: url("gmailUI/baseline-merge_fields-24px.svg");
+  background-image: url("gmailUI/baseline-merge_fields-24px.svg");
   content: "";
   display: inline-block;
   position: absolute;
@@ -1520,7 +1522,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Increase indent. */
 .tr-indent {
-  background: url("gmailUI/baseline-format_indent_increase-24px.svg");
+  background-image: url("gmailUI/baseline-format_indent_increase-24px.svg");
 }
 
 /* Increase ident in right-to-left text mode, regardless of chrome direction. */
@@ -1530,7 +1532,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Decrease indent. */
 .tr-outdent {
-  background: url("gmailUI/baseline-format_indent_decrease-24px.svg");
+  background-image: url("gmailUI/baseline-format_indent_decrease-24px.svg");
 }
 
 /* Decrease indent in right-to-left text mode, regardless of chrome direction. */
@@ -1540,7 +1542,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Bullet (unordered) list. */
 .tr-insertUnorderedList {
-  background: url("gmailUI/baseline-format_list_bulleted-24px.svg");
+  background-image: url("gmailUI/baseline-format_list_bulleted-24px.svg");
 }
 
 /* Bullet list in right-to-left text mode, regardless of chrome direction. */
@@ -1550,7 +1552,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Number (ordered) list. */
 .tr-insertOrderedList {
-  background: url("gmailUI/baseline-format_list_numbered-24px.svg");
+  background-image: url("gmailUI/baseline-format_list_numbered-24px.svg");
 }
 
 /* Number list in right-to-left text mode, regardless of chrome direction. */
@@ -1560,13 +1562,13 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Text alignment buttons. */
 .tr-justifyLeft {
-  background: url("gmailUI/baseline-format_align_left-24px.svg");
+  background-image: url("gmailUI/baseline-format_align_left-24px.svg");
 }
 .tr-justifyCenter {
-  background: url("gmailUI/baseline-format_align_center-24px.svg");
+  background-image: url("gmailUI/baseline-format_align_center-24px.svg");
 }
 .tr-justifyRight {
-  background: url("gmailUI/baseline-format_align_right-24px.svg");
+  background-image: url("gmailUI/baseline-format_align_right-24px.svg");
 }
 /* .tr-justifyFull {
   background-position: -480px;
@@ -1574,7 +1576,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Blockquote. */
 .tr-BLOCKQUOTE {
-  background: url("gmailUI/baseline-format_quote-24px.svg");
+  background-image: url("gmailUI/baseline-format_quote-24px.svg");
 }
 
 /* Blockquote in right-to-left text mode, regardless of chrome direction. */
@@ -1584,7 +1586,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Remove formatting. */
 .tr-removeFormat {
-  background: url("gmailUI/baseline-format_clear-24px.svg");
+  background-image: url("gmailUI/baseline-format_clear-24px.svg");
 }
 
 /* Spellcheck. */
@@ -1609,7 +1611,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 
 /* Strike through text */
 .tr-strikeThrough {
-  background: url("gmailUI/baseline-format_clear-24px.svg");
+  background-image: url("gmailUI/baseline-format_clear-24px.svg");
 }
 
 /* Subscript */
@@ -1633,7 +1635,7 @@ div.tr_multi_bubble div.tr_bubble_panel {
 } */
 
 .tr-edit-html {
-  background: url("gmailUI/baseline-code-24px.svg");
+  background-image: url("gmailUI/baseline-code-24px.svg");
 }
 
 /* "Format block" menu. */
