@@ -1248,12 +1248,6 @@ div.tr_bubble {
   font-size: 100%;
 }
 
-.tr_bubble .tr_option-link,
-.tr_bubble #tr_delete-image,
-.tr_bubble #tr_module-options-link {
-  font-size: 83%;
-}
-
 .tr_bubble_closebox {
   position: absolute;
   cursor: pointer;
@@ -1264,7 +1258,7 @@ div.tr_bubble {
   margin: 0;
   width: 10px;
   height: 10px;
-  top: 10px;
+  top: 8px;
   right: 5px;
   opacity: 0.5;
 }
