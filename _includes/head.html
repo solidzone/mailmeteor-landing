@@ -16,14 +16,14 @@ assign og_description = page.og_description | default: page.description %}
 <meta property="og:type" content="website" />
 <meta property="og:title" content="{{ og_title }}" />
 <meta property="og:description" content="{{ og_description  }}" />
-<meta name="image" property="og:image" content="{{ page.og_image | default: 'https://mailmeteor.com/assets/img/opengraph/blackfriday.jpg' }}" />
+<meta name="image" property="og:image" content="{{ page.og_image | default: 'https://mailmeteor.com/assets/img/opengraph/main.jpg' }}" />
 <meta property="og:url" content="{{ page.og_url | default: page.canonical }}" />
 <meta name="twitter:site" content="@mailmeteor" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:url" content="{{ page.og_url | default: page.canonical }}" />
 <meta name="twitter:title" content="{{ og_title }}" />
 <meta name="twitter:description" content="{{ og_description }}" />
-<meta name="twitter:image" content="{{ page.og_image | default: 'https://mailmeteor.com/assets/img/opengraph/blackfriday.jpg' }}" />
+<meta name="twitter:image" content="{{ page.og_image | default: 'https://mailmeteor.com/assets/img/opengraph/main.jpg' }}" />
 
 <link
   rel="stylesheet"

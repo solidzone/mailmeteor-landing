@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Pricing - Mailmeteor
-description: Mailmeteor Premium for the Black Friday includes up to 2000 emails a day, real-time tracking, preview before sending. Starting from $4 per month only.
+description: Mailmeteor Premium includes up to 2000 emails a day, real-time tracking, preview before sending. Starting from $4 per month only.
 canonical: https://mailmeteor.com/pricing
 
 og_title: Pricing - Mailmeteor
-og_description: Mailmeteor Premium for the Black Friday includes up to 2000 emails a day, real-time tracking, preview before sending. Starting from $4 per month only.
-og_image: https://mailmeteor.com/assets/img/opengraph/blackfriday.jpg
+og_description: Mailmeteor Premium includes up to 2000 emails a day, real-time tracking, preview before sending. Starting from $4 per month only.
+og_image: https://mailmeteor.com/assets/img/opengraph/main.jpg
 og_url: https://mailmeteor.com/pricing
 
 stripe: 'popover'
@@ -17,22 +17,21 @@ redirect_from: '/launch/deuxio'
 <section id="pricing-plans" data-checkout-recurrence="monthly" data-checkout-currency="USD">
   <div class="pricing">
     <div class="container text-center mb-3">
-      <h1>Get your <u>Black Friday</u> discount before it's gone!</h1>
-      <p>Now is your once-a-year chance to save 50% OFF. <br class="d-none d-sm-block" />Mailmeteor is the best-rated Google Workspace application. Trusted by 3 millions users.</p>
+      <h1>Save time sending emails with Gmail</h1>
+      <p>Mailmeteor is the best-rated Google Workspace application. Trusted by 3 millions users.</p>
       {%- include ratings.html -%}
     </div>
     <br />
     <div class="container text-center">
       <div class="row">
         <div data-checkout-product="monthly" class="col-xs-6 col-sm-8 col-md-8 col-lg-4 mb-2 mx-auto">
-          <div class="pricing-card">
+          <div class="pricing-card" style="border-color: #ff486a; border-width: 2.5px">
             <div class="pricing-card-header">
+              <div id="launch-offer">Most popular</div>
               <p class="pricing-card-title" data-checkout-product-item="title">Monthly</p>
               <p class="pricing-card-price">
-                <span data-checkout-product-item="price"><small class="pricing-card-currency fade-in">$</small>6<sup>.99 / month</sup></span>
-                <strike data-checkout-product-item="price-off"><span class="pricing-card-currency" style="display: inherit; min-width: auto">$</span>9.99</strike>
+                <span data-checkout-product-item="price"><small class="pricing-card-currency fade-in">$</small>9<sup>.99 / month</sup></span>
               </p>
-              <span class="pricing-card-savings"><u>Black Friday Offer: Save 30%</u> 😎</span>
             </div>
             <div class="pricing-card-body">
               <ul class="pricing-plan-features">
@@ -56,15 +55,12 @@ redirect_from: '/launch/deuxio'
           </div>
         </div>
         <div data-checkout-product="yearly" class="col-xs-6 col-sm-8 col-md-8 col-lg-4 mb-2 mx-auto">
-          <div class="pricing-card" style="border-color: #ff486a; border-width: 2.5px">
+          <div class="pricing-card">
             <div class="pricing-card-header">
-              <div id="launch-offer">Best value</div>
               <p class="pricing-card-title" data-checkout-product-item="title">Yearly</p>
               <p class="pricing-card-price">
-                <span data-checkout-product-item="price"><small class="pricing-card-currency">$</small>24<sup>.99 / year</sup></span>
-                <strike data-checkout-product-item="price-off"><span class="pricing-card-currency" style="display: inherit; min-width: auto">$</span>49.99</strike>
+                <span data-checkout-product-item="price"><small class="pricing-card-currency">$</small>49<sup>.99 / year</sup></span>
               </p>
-              <span class="pricing-card-savings"><u>Black Friday Offer: 50% OFF</u> 😱</span>
             </div>
             <div class="pricing-card-body">
               <ul class="pricing-plan-features">
@@ -293,7 +289,6 @@ redirect_from: '/launch/deuxio'
       <input type="hidden" name="currency" class="checkout-currency" />
       <input type="hidden" name="quantity" class="checkout-quantity" />
       <input type="hidden" name="coupon" class="checkout-coupon" />
-      <input type="hidden" name="blackfriday" value="true" />
       <div class="modal-content">
         <div class="modal-header" style="padding: 1rem 2rem">
           <h5 class="modal-title" style="font-size: 1.2rem; font-weight: 700; color: #04143a">Mailmeteor upgrade</h5>
