@@ -63,11 +63,9 @@ That one is really easy and takes a few steps:
 
 Here's a very short video that hides the row number 5:
 
-<a href="https://docs.google.com/spreadsheets/d/165moV12ypcN8A61k8rIr-OSnTimD7zJAfk8Jp9DXs1Y/edit#gid=915575317" target="_blank">
-    <video autoplay muted loop playsinline controls width="730" height="566">
-        <source src="/assets/video/blog/5-things-you-can-do-with-mailmeteor/google-sheets-how-to-hide-row.mp4" />
-    </video>
-</a>
+<div style="margin: 0 auto; text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_ShTZTTZAiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen lazy></iframe>
+</div>
 
 ### How to apply filters in Google Sheet?
 
@@ -81,11 +79,9 @@ It takes a few more clicks to apply filters to a Google Sheets, compared to hidi
 
 Here's a very short video that hides all rows having "EU" in the country column:
 
-<a href="https://docs.google.com/spreadsheets/d/165moV12ypcN8A61k8rIr-OSnTimD7zJAfk8Jp9DXs1Y/edit#gid=915575317" target="_blank">
-    <video autoplay muted loop playsinline controls width="730" height="418">
-        <source src="/assets/video/blog/5-things-you-can-do-with-mailmeteor/google-sheets-apply-filters.mp4" />
-    </video>
-</a>
+<div style="margin: 0 auto; text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ADOkQeCVmyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen lazy></iframe>
+</div>
 
 ## Tip #3. Use the =HYPERLINK formulae
 
