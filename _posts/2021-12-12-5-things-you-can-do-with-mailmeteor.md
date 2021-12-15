@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: 'Mailmeteor: 5 Features You Need To Know'
-description: From sending multiple mail merges within the same sheet to AB testing, there are advanced features of Mailmeteor that you should definitely learn about.
+description: From sending multiple mail merge within the same sheet to AB testing, there are advanced features of Mailmeteor that you should definitely learn about.
 cta_title: Try the best tool to send mass emails with Gmail.
 canonical: https://mailmeteor.com/blog/5-things-you-can-do-with-mailmeteor
 category: TUTORIAL
@@ -9,11 +9,11 @@ category: TUTORIAL
 meta_author: Corentin Brossault
 meta_author_link: 'https://twitter.com/frenchcooc'
 meta_image: >-
-  /assets/img/blog/5-things-you-can-do-with-mailmeteor/mass-emails-gmail.png
+  /assets/img/blog/5-things-you-can-do-with-mailmeteor/mailmeteor-features.png
 og_title: "5 things you didn't knew you can do with Mailmeteor"
-og_description: From sending multiple mail merges within the same sheet to AB testing, there are advanced features of Mailmeteor that you should definitely learn about.
+og_description: From sending multiple mail merge within the same sheet to AB testing, there are advanced features of Mailmeteor that you should definitely learn about.
 og_url: https://mailmeteor.com/blog/5-things-you-can-do-with-mailmeteor
-og_image: https://mailmeteor.com/assets/img/opengraph/main.jpg
+og_image: https://mailmeteor.com/assets/img/opengraph/5-features.jpg
 
 meta_date_published: 'December 12, 2021'
 # meta_date_lastupdated: "December 12, 2021"
@@ -34,24 +34,24 @@ Just open your mailing list sheet and send emails right from it. Mailmeteor will
 
 [![Image of multiple merge status columns in Google Sheets](/assets/img/blog/5-things-you-can-do-with-mailmeteor/multiple-merge-status.png){:width="600px" height="323px"}](https://docs.google.com/spreadsheets/d/165moV12ypcN8A61k8rIr-OSnTimD7zJAfk8Jp9DXs1Y/edit#gid=448727038){:target="\_blank"}
 
-Some users didn't knew they can send multiple campaigns from the same sheet and they created a new sheet every time they wanted to send emails. But, there's no limit to the number of merges you can do in the same sheet so you should definitely keep the same sheet. [Look at this spreadsheet if you want to see an example.](https://docs.google.com/spreadsheets/d/165moV12ypcN8A61k8rIr-OSnTimD7zJAfk8Jp9DXs1Y/edit#gid=448727038)
+Some of our users didn't know they can send multiple campaigns from the same sheet and they created a new sheet every time they wanted to send emails. But, there's no limit to the number of merges you can do in the same sheet so you should definitely keep the same sheet. [Look at this spreadsheet if you want to see an example.](https://docs.google.com/spreadsheets/d/165moV12ypcN8A61k8rIr-OSnTimD7zJAfk8Jp9DXs1Y/edit#gid=448727038)
 
 ## Tip #2. Segment your mailing list
 
-This tip is really powerful if you want to send emails to only a portion of your mailing list. For example, you could send emails, only to:
+A handy tip if you want to send emails to only a portion of your recipients is to segment of your mailing list. For example, you could send emails, only to:
 
 - new registrations, if you manage a sport club.
 - only students of a specific class, if you are a teacher.
-- people that leave in Alabama, if you have an e-commerce store that delivers all around the USA.
-- people that have opened or clicked in your previous emails, if you are a salespeople interested in following-up.
+- people living in Alabama, if you have an e-commerce store that delivers all around the USA.
+- people that have opened or clicked in your previous emails, if you are doing sales and you want to follow-up with your prospects.
 
 <div class="blogpost-note">
-No matter how long your mailing list is or how many columns do you have, there's one single and simple rules to remember here: <strong>Mailmeteor sends emails only to visible rows of your spreadsheet.</strong>
+No matter how long your mailing list is or how many columns you have, there's one shimple thing to remember here: <strong>Mailmeteor sends emails only to visible rows of your spreadsheet.</strong>
 </div>
 
 So, whether you hide a row manually or you use the filters feature of Google Sheets, only recipients that you can see in your spreadsheet when you open Mailmeteor will receive an email.
 
-You might wonder how to use filters in Google Sheets? This is exactly what I will show you.
+You might wonder how to use filters in Google Sheets? This is exactly what I will show you next.
 
 ### How to hide a row in Google Sheets?
 
@@ -83,13 +83,13 @@ Here's a very short video that hides all rows having "EU" in the country column:
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ADOkQeCVmyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen lazy></iframe>
 </div>
 
-## Tip #3. Use the =HYPERLINK formulae
+## Tip #3. Use the =HYPERLINK function
 
-Google Sheets lets you add hyperlinks to your sheets, thanks to the `=HYPERLINK` formulae. What it does is that it links one of your cell to a web page.
+Google Sheets lets you add hyperlinks to your sheets, thanks to the `=HYPERLINK` formula. What it does is that it links one of your cell to a web page.
 
 [![Example of using =HYPERLINK in a Google Sheets spreadsheet](/assets/img/blog/5-things-you-can-do-with-mailmeteor/google-sheets-add-hyperlink.png){:width="600px" height="292px"}](https://docs.google.com/spreadsheets/d/165moV12ypcN8A61k8rIr-OSnTimD7zJAfk8Jp9DXs1Y/edit#gid=139904977){:target="\_blank"}
 
-It could be really powerful where you want to add personalized links in your emails. For example, you can use it:
+The HYPERLINK function lets you add personalized links in your emails. For example, you can use it:
 
 - to send personalized coupons code to your customers.
 - to share a link to a personalized file that your customer can download.
@@ -99,7 +99,7 @@ With this in mind, let's give it a try together.
 
 ### How to use =HYPERLINK in Google Sheets?
 
-Here's how to use the =HYPERLINK formulae in Google Sheets:
+Here's how to use the =HYPERLINK function in Google Sheets:
 
 1. Click on a any cell of your spreadsheet.
 2. Enter the following: `=HYPERLINK("https://mailmeteor.com","Mailmeteor")`
@@ -146,7 +146,7 @@ You might have received some emails that look really apart. They have this well 
 
 HTML is a language to design both a webpage and an email. And If you master HTML, you will be able to send really well designed emails. I'm not going to give you a course on HTML unfortunately. There are like millions of tutorials online if that's something you are interested in.
 
-Though, I'm going to show you how you can insert an HTML snippet into your emails, using only Google Sheets and Mailmeteor. In this example we will insert a big blue button (aka a CTA) in your email.
+Though, I'm going to show you how you can insert an HTML snippet into your emails, using only Google Sheets and Mailmeteor. In this example we will insert a big blue button (aka a CTA for Call To Action) in your email.
 
 Follow these steps to add a CTA in your own email:
 
@@ -191,7 +191,7 @@ Basically, to create an A/B test, you'll have to split your mailing list (or jus
 
 Using the tracking report (which is a paid feature, just to let you know), you can determine easily which variation has performed the better. But even without the tracking, you can determine how much replies you received and then conclude which variation you should focus on.
 
-If you are interested in A/B testing, just have a look at this in-depth tutorial on [how to A/B test in Gmail](/blog/how-to-ab-test-gmail).
+If you are interested in A/B testing, have a look at this in-depth tutorial on [how to A/B test in Gmail](/blog/how-to-ab-test-gmail).
 
 <div class="blogpost-endnote">
   <p>This article was written by Corentin Brossault, <a href="https://mailmeteor.com">Mailmeteor</a>'s co-founder. Mailmeteor is a simple & privacy-focused emailing software. Trusted by millions of users worldwide, it is often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think!</p>
