@@ -1,6 +1,6 @@
 <ol class="academy-playlist">
   {% for video in include.videos %}
-  <li>
+  <li id="{{ video.slug }}">
     <a class="academy-playlist--video" href="https://www.youtube.com/watch?v={{ video.youtube_id }}" target="_blank">
       <div class="academy-playlist--video-poster">
         <img src="https://img.youtube.com/vi/{{ video.youtube_id }}/mqdefault.jpg" width="200" height="112.5" />
