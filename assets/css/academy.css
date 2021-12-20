@@ -1,0 +1,227 @@
+/**
+ * Academy pages CSS
+ */
+
+/* Header */
+
+.academy-header--title {
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #eb576d;
+  position: relative;
+}
+
+.academy-header--title-prefix {
+  display: block;
+  color: #81899c;
+  font-size: 1.4rem;
+}
+
+.academy-header--title-badge {
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -2rem;
+  right: 0;
+  height: 2rem;
+  color: #eb576d;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.25rem 0;
+  display: block;
+}
+
+.academy-header--description p {
+  max-width: 900px;
+}
+
+.academy-header--description ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.academy-header--description ul li {
+  border-bottom: 1px solid #f0f0f4;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.academy-header--description ul li::before {
+  content: '';
+  background-image: url(/assets/img/elements/tick-round.svg);
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-right: 0.5rem;
+  font-size: 200%;
+}
+
+@media (min-width: 992px) {
+  .academy-header--title-badge {
+    background-color: #eb576d;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 0.5rem 1rem;
+    color: white;
+  }
+
+  .academy-header--description {
+    font-size: 1.2rem;
+  }
+
+  .academy-header--description ul {
+    columns: 2;
+    column-gap: 0px;
+  }
+}
+
+/* Playlist */
+
+.academy-playlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.academy-playlist > li {
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.academy-playlist > li > a.academy-playlist--video {
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem 0.5rem;
+  border-radius: 8px;
+}
+
+.academy-playlist--video-poster {
+  position: relative;
+  width: 200px;
+  height: 112.5px;
+}
+
+.academy-playlist--video-poster img {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.academy-playlist--video-poster div[role='button'] {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  width: 80px;
+  height: 80px;
+}
+
+.academy-playlist--video-content {
+  padding-top: 1rem;
+}
+
+.academy-playlist--video-duration {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.academy-playlist--video-duration span {
+  padding-left: 0.5rem;
+  opacity: 0.8;
+}
+
+.academy-playlist--video-title {
+  margin: 0.5rem 0;
+}
+
+.academy-playlist--video-description {
+  margin: 0;
+}
+
+/* Hover state */
+
+a.academy-playlist--video:hover {
+  background-color: #f4f7fe;
+}
+
+a.academy-playlist--video:hover .academy-playlist--video-title {
+  color: #0a58ca;
+}
+
+a.academy-playlist--video:hover .academy-playlist--video-poster img {
+  filter: brightness(60%);
+  transition: filter 200ms ease;
+}
+
+a.academy-playlist--video:hover .academy-playlist--video-poster:hover img {
+  filter: brightness(80%);
+  transition: filter 200ms ease;
+}
+
+a.academy-playlist--video:hover .academy-playlist--video-poster div[role='button'] {
+  display: block;
+}
+
+/* Mobile */
+
+@media (min-width: 576px) {
+  .academy-playlist > li > a.academy-playlist--video {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .academy-playlist--video-content {
+    padding-top: 0;
+    padding-left: 2rem;
+  }
+}
+
+/* Feebdack form */
+
+.academy-feedback input[type='radio'] {
+  display: none;
+}
+
+.academy-feedback label {
+  cursor: pointer;
+  padding: 0 0.5rem;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.academy-feedback label span {
+  opacity: 0.8;
+}
+
+.academy-feedback input:checked + span {
+  opacity: 1;
+  font-size: 2.5rem;
+}
+
+/* Get started */
+
+.academy-get-started ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.academy-get-started ul li {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.academy-get-started ul li::before {
+  content: '';
+  background-image: url(/assets/img/elements/tick-round.svg);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 0.25rem;
+}

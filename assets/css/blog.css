@@ -119,14 +119,14 @@ body.blogpost {
 .blogpost-content .blogpost-note {
   padding: 1rem 2rem;
   margin: 1rem 0;
-  background-color: #7da4ff17;
+  background-color: #f4f7fe;
   border: 1px solid #007bff17;
   border-radius: 8px;
 }
 
 .blogpost-content .blogpost-endnote {
   padding: 3rem;
-  background-color: #7da4ff17;
+  background-color: #f4f7fe;
   margin: 1rem 0;
 }
 
@@ -154,7 +154,7 @@ body.blogpost {
 }
 
 .blogpost-toc li.active {
-  background: #7da4ff17;
+  background: #f4f7fe;
   border-radius: 4px;
 }
 
@@ -270,7 +270,7 @@ body.blogpost {
   padding: 0.25rem 0.5rem;
   color: #7da4ff;
   font-weight: bold;
-  background-color: #7da4ff17;
+  background-color: #f4f7fe;
   border-radius: 8px;
 }
 

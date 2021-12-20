@@ -86,7 +86,7 @@ a:hover {
   text-decoration: none;
 }
 
-nav {
+#navbar {
   min-height: 75px;
 }
 
@@ -441,7 +441,7 @@ button:hover,
 }
 
 .navbar li.features-dropdown-item a:hover {
-  background-color: #7da4ff17;
+  background-color: #f4f7fe;
 }
 
 .navbar li.features-dropdown-item img {
@@ -486,7 +486,7 @@ button:hover,
 }
 
 .navbar li.features-dropdown-video a:hover {
-  background-color: #7da4ff17;
+  background-color: #f4f7fe;
 }
 
 /* ######## 4. SECTIONS ######## */
@@ -776,8 +776,9 @@ section.values {
 }
 
 .pricing-card-price strike {
-  margin-right: 10px;
-  font-size: 80%;
+  font-weight: normal;
+  font-size: 1rem;
+  opacity: 0.8;
 }
 
 /* #### 5.4 Pricing card body ####*/
@@ -1264,12 +1265,6 @@ sup {
   position: relative;
 }
 
-#logo-bottom {
-  width: 150px;
-  height: 10%;
-  padding-top: 50px;
-  padding-bottom: 10px;
-}
 body > footer > div > p {
   color: white;
 }
@@ -1289,15 +1284,79 @@ body > footer > div > p {
   margin: 0;
 }
 
+.footer-columns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subfooter {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #a2a4cf;
+}
+
+.footer-social-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+}
+
+.footer-social-links li {
+  margin: 0 0.5rem 0 0;
+  padding: 0;
+  display: inline-flex;
+  width: 18px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.footer-social-links li:last-child {
+  margin-right: 0;
+}
+
+.footer-social-links li a {
+  display: inline-block;
+}
+
+.footer-social-links li a.twitter:hover {
+  color: rgb(74, 154, 228);
+}
+
+.footer-social-links li a.youtube:hover {
+  color: rgb(255, 0, 0);
+}
+
+.footer-social-links li a.linkedin:hover {
+  color: rgb(48, 113, 170);
+}
+
+@media (max-width: 992px) {
+  .footer-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .subfooter {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-social-links {
+    margin: 0.25rem 0;
+    padding: 0;
+  }
+}
+
 /* Footer display for Firefox */
 @-moz-document url-prefix() {
   body > footer > div > p {
     margin-top: -0.3rem;
     color: white;
-  }
-  #logo-bottom {
-    width: 135px;
-    margin-bottom: 10px;
   }
 }
 
@@ -1655,7 +1714,7 @@ article img :first-of-type {
 }
 
 .features-card:hover {
-  background-color: #7da4ff17;
+  background-color: #f4f7fe;
 }
 
 .features-card h2 {
