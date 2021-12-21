@@ -1291,10 +1291,14 @@ body > footer > div > p {
 }
 
 .footer-breadcrumb ul {
-  display: flex;
+  display: block;
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.footer-breadcrumb ul > li {
+  display: inline-block;
 }
 
 .footer-breadcrumb span[itemprop='name']:not(:hover) {
