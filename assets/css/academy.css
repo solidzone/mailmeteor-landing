@@ -50,6 +50,7 @@
 .academy-header--description ul li::before {
   content: '';
   background-image: url(/assets/img/elements/tick-round.svg);
+  background-repeat: no-repeat;
   width: 20px;
   height: 20px;
   display: block;
@@ -203,13 +204,6 @@ a.academy-playlist--video:hover .academy-playlist--video-poster div[role='button
 
 /* Get started */
 
-.academy-get-started ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .academy-get-started ul li {
   padding: 0 1rem;
   display: flex;
@@ -220,8 +214,18 @@ a.academy-playlist--video:hover .academy-playlist--video-poster div[role='button
 .academy-get-started ul li::before {
   content: '';
   background-image: url(/assets/img/elements/tick-round.svg);
+  background-repeat: no-repeat;
   width: 20px;
   height: 20px;
   display: inline-block;
   margin-right: 0.25rem;
+}
+
+@media (min-width: 576px) {
+  .academy-get-started ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
