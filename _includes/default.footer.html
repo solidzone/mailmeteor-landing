@@ -53,7 +53,7 @@
         {% endfor %}
       </div>
 
-      {% if page.breadcrumb != nil %}
+      {% assign breadcrumb = page.breadcrumb | default: layout.breadcrumb %} {% if breadcrumb != nil %}
       <div class="footer-breadcrumb pb-3">
         <nav itemscope itemtype="https://schema.org/BreadcrumbList">
           <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -62,14 +62,15 @@
               <meta itemprop="position" content="1" />
             </a>
           </span>
-          {% assign postion = 2 %} {% for item in page.breadcrumb %}
+          {% assign postion = 2 %} 
+          {% for item in breadcrumb %}
           <span>&nbsp;›&nbsp;</span>
           <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
             {% if item.link %}
             <a href="{{ item.link }}" itemprop="item"><span itemprop="name">{{ item.name }}</span></a>
             <meta itemprop="position" content="{{postion}}" />
             {% else %}
-            <span itemprop="name">{{ item.name }}</span>
+            <span itemprop="name">{{ item.name | default: page.title | replace: "(X) ", "" }}</span>
             <meta itemprop="position" content="{{postion}}" />
             {%endif%}
           </span>
