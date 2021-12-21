@@ -20,6 +20,9 @@ meta_date_published: 'February 17, 2021'
 meta_date_lastupdated: 'November 1, 2021'
 published: true
 
+breadcrumb:
+  - name: Mail Merge Guide
+
 permalink: /mail-merge-gmail/
 ---
 

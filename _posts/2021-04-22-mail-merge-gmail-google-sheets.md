@@ -20,6 +20,11 @@ meta_date_published: 'April 22, 2021'
 meta_date_lastupdated: 'November 1, 2021'
 published: true
 
+breadcrumb:
+  - name: Mail Merge Guide
+    link: /mail-merge-gmail/
+  - name: How to Mail Merge in Gmail & Google Sheets
+
 permalink: /mail-merge-gmail/google-sheets
 ---
 

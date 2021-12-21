@@ -20,6 +20,11 @@ meta_date_published: 'September 30, 2021'
 meta_date_lastupdated: 'October 25, 2021'
 published: true
 
+breadcrumb:
+  - name: Blog
+    link: /blog/
+  - name: 25 SEO Tips (using Ahrefs)
+
 permalink: /blog/seo-tips
 redirect_from: /blog/seo-for-dummies
 ---

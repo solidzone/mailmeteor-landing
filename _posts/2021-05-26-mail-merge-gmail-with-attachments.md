@@ -22,6 +22,11 @@ meta_date_published: 'May 26, 2021'
 meta_date_lastupdated: 'May 26, 2021'
 published: true
 
+breadcrumb:
+  - name: Mail Merge Guide
+    link: /mail-merge-gmail/
+  - name: Mail merge with attachments
+
 permalink: /mail-merge-gmail/with-attachment
 ---
 

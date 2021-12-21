@@ -20,6 +20,11 @@ meta_date_published: 'June 8, 2021'
 meta_date_lastupdated: 'November 16, 2021'
 published: true
 
+breadcrumb:
+  - name: Blog
+    link: /blog/
+  - name: Gmass Pricing and Plans
+
 permalink: /blog/gmass-pricing
 ---
 

@@ -20,6 +20,11 @@ meta_date_published: 'October 26, 2021'
 
 published: true
 
+breadcrumb:
+  - name: Blog
+    link: /blog/
+  - name: How to send an A/B test in Gmail?
+
 permalink: /blog/how-to-ab-test-gmail
 ---
 

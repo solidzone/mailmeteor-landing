@@ -4,7 +4,7 @@
   <div class="py-5 footer-svg">
     <div class="container">
       <div class="d-flex justify-content-center mt-5 mb-4">
-        <a href="/"><img src="/assets/img/brand/logo_mailmeteor_white.svg" width="135" height="60" class="my-3" alt="Mailmeteor logo" /></a>
+        <a href="/" class="py-3"><img src="/assets/img/brand/logo_mailmeteor_white.svg" width="135" height="60" class="my-3" alt="Mailmeteor logo" /></a>
       </div>
       <div class="footer-columns">
         {% for nav in site.data.navigation.footer %}
@@ -52,6 +52,31 @@
         </div>
         {% endfor %}
       </div>
+
+      {% if page.breadcrumb != nil %}
+      <div class="footer-breadcrumb pb-3">
+        <nav itemscope itemtype="https://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" itemprop="item">
+              <span itemprop="name">Mailmeteor</span>
+              <meta itemprop="position" content="1" />
+            </a>
+          </span>
+          {% assign postion = 2 %} {% for item in page.breadcrumb %}
+          <span>&nbsp;›&nbsp;</span>
+          <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            {% if item.link %}
+            <a href="{{ item.link }}" itemprop="item"><span itemprop="name">{{ item.name }}</span></a>
+            <meta itemprop="position" content="{{postion}}" />
+            {% else %}
+            <span itemprop="name">{{ item.name }}</span>
+            <meta itemprop="position" content="{{postion}}" />
+            {%endif%}
+          </span>
+          {% assign postion = postion | plus:1 %} {% endfor %}
+        </nav>
+      </div>
+      {% endif %}
 
       <div class="subfooter py-3">
         <ul class="footer-social-links">

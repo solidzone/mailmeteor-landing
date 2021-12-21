@@ -18,6 +18,11 @@ og_image: https://mailmeteor.com/assets/img/opengraph/how-to-send-mass-emails-gm
 meta_date_published: 'November 2, 2021'
 # meta_date_lastupdated: "October 12, 2021"
 
+breadcrumb:
+  - name: Blog
+    link: /blog/
+  - name: How to send mass emails with Gmail in 2021
+
 permalink: /blog/how-to-send-mass-emails-gmail
 ---
 

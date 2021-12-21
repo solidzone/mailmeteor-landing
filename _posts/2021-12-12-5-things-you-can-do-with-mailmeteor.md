@@ -18,6 +18,11 @@ og_image: https://mailmeteor.com/assets/img/opengraph/5-features.jpg
 meta_date_published: 'December 12, 2021'
 # meta_date_lastupdated: "December 12, 2021"
 
+breadcrumb:
+  - name: Blog
+    link: /blog/
+  - name: 5 Features You Need To Know
+
 permalink: /blog/5-things-you-can-do-with-mailmeteor
 ---
 

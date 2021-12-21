@@ -20,6 +20,11 @@ meta_date_published: 'March 15, 2021'
 meta_date_lastupdated: 'March 15, 2021'
 published: true
 
+breadcrumb:
+  - name: Blog
+    link: /blog/
+  - name: Level up your Gmail Deliverability
+
 permalink: /blog/gmail-deliverability
 ---
 

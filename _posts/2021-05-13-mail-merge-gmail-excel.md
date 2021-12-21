@@ -20,6 +20,11 @@ meta_date_published: 'May 13, 2021'
 meta_date_lastupdated: 'November 1, 2021'
 published: true
 
+breadcrumb:
+  - name: Mail Merge Guide
+    link: /mail-merge-gmail/
+  - name: Mail merge in Gmail from Excel
+
 permalink: /mail-merge-gmail/excel
 ---
 

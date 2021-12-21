@@ -20,6 +20,11 @@ meta_date_published: 'April 6, 2021'
 meta_date_lastupdated: 'November 1, 2021'
 published: true
 
+breadcrumb:
+  - name: Mail Merge Guide
+    link: /mail-merge-gmail/
+  - name: How to mail merge in Gmail?
+
 permalink: /mail-merge-gmail/tutorial
 redirect_from: /mail-merge/tutorial
 ---

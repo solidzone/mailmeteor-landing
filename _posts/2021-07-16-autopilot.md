@@ -20,6 +20,11 @@ meta_date_published: 'July 16, 2021'
 meta_date_lastupdated: 'November 1, 2021'
 published: true
 
+breadcrumb:
+  - name: Blog
+    link: /blog/
+  - name: Introducing Autopilot
+
 permalink: /blog/autopilot
 ---
 

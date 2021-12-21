@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: 'Top 12 mail merge extensions for Gmail in 2021'
+title: 'Top 12 Mail Merge Extensions for Gmail in 2021'
 description: A compilation of the 12 most useful Gmail merge extensions to send mass personalized emails from Gmail and Google Sheets.
 cta_title: Try the best mail merge for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail/extensions
@@ -19,6 +19,11 @@ og_image: https://mailmeteor.com/assets/img/opengraph/blog-gmass-pricing.jpg
 meta_date_published: 'June 14, 2021'
 meta_date_lastupdated: 'November 1, 2021'
 published: true
+
+breadcrumb:
+  - name: Mail Merge Guide
+    link: /mail-merge-gmail/
+  - name: Top 12 Mail Merge Extensions
 
 permalink: /mail-merge-gmail/extensions
 ---

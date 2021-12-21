@@ -19,6 +19,11 @@ og_image: https://mailmeteor.com/assets/img/opengraph/spam-words.jpg
 meta_date_published: 'October 12, 2021'
 # meta_date_lastupdated: "October 12, 2021"
 
+breadcrumb:
+  - name: Blog
+    link: /blog/
+  - name: 750 Spam Words to avoid in 2021
+
 permalink: /blog/spam-words
 ---
 

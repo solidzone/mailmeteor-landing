@@ -20,6 +20,11 @@ meta_date_published: 'April 8, 2021'
 meta_date_lastupdated: 'November 1, 2021'
 published: true
 
+breadcrumb:
+  - name: Mail Merge Guide
+    link: /mail-merge-gmail/
+  - name: Gmail Mail Merge Script Example
+
 permalink: /mail-merge-gmail/script
 ---
 
