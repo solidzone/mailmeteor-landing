@@ -56,24 +56,28 @@
       {% assign breadcrumb = page.breadcrumb | default: layout.breadcrumb %} {% if breadcrumb != nil %}
       <div class="footer-breadcrumb pb-3">
         <nav itemscope itemtype="https://schema.org/BreadcrumbList">
-          <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a href="/" itemprop="item" itemscope itemtype="https://schema.org/WebPage">
-              <span itemprop="name">Mailmeteor</span>
+          <ul>
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <a href="/" itemprop="item" itemid="https://mailmeteor.com/" itemscope itemtype="https://schema.org/WebPage">
+                <span itemprop="name">Mailmeteor</span>
+              </a>
               <meta itemprop="position" content="1" />
-            </a>
-          </span>
-          {% assign postion = 2 %} {% for item in breadcrumb %}
-          <span>&nbsp;›&nbsp;</span>
-          <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            {% if item.link %}
-            <a href="{{ item.link }}" itemprop="item" itemscope itemtype="https://schema.org/WebPage"><span itemprop="name">{{ item.name }}</span></a>
-            <meta itemprop="position" content="{{postion}}" />
-            {% else %}
-            <span itemprop="name">{{ item.name | default: page.title | replace: "(X) ", "" }}</span>
-            <meta itemprop="position" content="{{postion}}" />
-            {%endif%}
-          </span>
-          {% assign postion = postion | plus:1 %} {% endfor %}
+            </li>
+            {% assign postion = 2 %} {% for item in breadcrumb %}
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+              <span>&nbsp;›&nbsp;</span>
+              {% if item.link %}
+              <a href="{{ item.link }}" itemprop="item" itemid="https://mailmeteor.com{{ item.link }}" itemscope itemtype="https://schema.org/WebPage">
+                <span itemprop="name">{{ item.name }}</span>
+              </a>
+              <meta itemprop="position" content="{{postion}}" />
+              {% else %}
+              <span itemprop="name">{{ item.name | default: page.title | replace: "(X) ", "" }}</span>
+              <meta itemprop="position" content="{{postion}}" />
+              {%endif%}
+            </li>
+            {% assign postion = postion | plus:1 %} {% endfor %}
+          </ul>
         </nav>
       </div>
       {% endif %}
