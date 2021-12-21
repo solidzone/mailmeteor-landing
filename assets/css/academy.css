@@ -204,6 +204,11 @@ a.academy-playlist--video:hover .academy-playlist--video-poster div[role='button
 
 /* Get started */
 
+.academy-get-started ul {
+  margin: 0;
+  padding: 0;
+}
+
 .academy-get-started ul li {
   padding: 0 1rem;
   display: flex;
