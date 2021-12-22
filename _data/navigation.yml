@@ -124,12 +124,12 @@ footer:
         fr: 'Guide du publipostage'
         es: 'Guía de mail merge'
         de: 'Gmail-Anleitung für Seriendruck'
-      tips:
-        url: '/blog/gmail-deliverability'
-        en: 'Gmail sending tips'
-        fr: "Conseils d'utilisation"
-        es: 'Consejos de uso'
-        de: 'Google Mail Tipps'
+      gmail-tips:
+        url: '/gmail-tips'
+        en: 'Gmail Tips & Tricks'
+        fr: 'Conseils Gmail'
+        es: 'Consejos de Gmail'
+        de: 'Google-Mail-Tipps'
       best-google-apps:
         url: '/best-google-apps/'
         en: 'Best Google Apps'
