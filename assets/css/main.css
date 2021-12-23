@@ -2,7 +2,9 @@
 *  CSS TABLE OF CONTENTS
 *   
 *  1 - Global
-*  2 - Buttons
+*  2 - Commons
+*   2.1 - Buttons
+*   2.2 - List
 *  3 - Navbar
 *  4 - Homepage sections
 *   4.1 - Hero
@@ -97,7 +99,7 @@ a:hover {
 /* Headings */
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   font-weight: 700;
   color: #04143a;
 }
@@ -234,6 +236,10 @@ button:hover,
 
 .btn-filled {
   display: block;
+}
+
+.btn-filled,
+.btn-marketing {
   text-decoration: none;
   text-align: center;
   color: white;
@@ -245,7 +251,8 @@ button:hover,
   cursor: pointer;
 }
 
-.btn-filled:hover {
+.btn-filled:hover,
+.btn-marketing:hover {
   color: #fff;
   background-color: #e83f5e;
 }
@@ -270,6 +277,39 @@ button:hover,
 .btn-lifetime-plan:hover {
   color: white;
   background: rgba(85, 90, 191, 0.35);
+}
+
+/* #### 2.1 List #### */
+
+ul.list-marketing-inline {
+  margin: 0;
+  padding: 0;
+}
+
+ul.list-marketing-inline li {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+ul.list-marketing-inline li::before {
+  content: '';
+  background-image: url(/assets/img/elements/tick-round.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+@media (min-width: 576px) {
+  ul.list-marketing-inline {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* ######## 3. NAVBAR ######## */

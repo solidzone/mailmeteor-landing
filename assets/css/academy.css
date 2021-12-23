@@ -201,36 +201,3 @@ a.academy-playlist--video:hover .academy-playlist--video-poster div[role='button
   opacity: 1;
   font-size: 2.5rem;
 }
-
-/* Get started */
-
-.academy-get-started ul {
-  margin: 0;
-  padding: 0;
-}
-
-.academy-get-started ul li {
-  padding: 0 1rem;
-  display: flex;
-  align-items: center;
-  font-size: 1.1rem;
-}
-
-.academy-get-started ul li::before {
-  content: '';
-  background-image: url(/assets/img/elements/tick-round.svg);
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  margin-right: 0.25rem;
-}
-
-@media (min-width: 576px) {
-  .academy-get-started ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
