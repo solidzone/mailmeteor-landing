@@ -724,11 +724,9 @@ reviews:
     <!-- -->
     {% assign totalReviewsPerColumn = page.reviews.size | divided_by: 3 | plus: 2 %}
     <div class="row">
-      <div class="col-4">
-        {% for review in page.reviews offset:currentReview limit:totalReviewsPerColumn %} 
-            {% include reviews-card.html author=review.author body=review.body datePublished=review.datePublished %} 
-            {% assign currentReview = currentReview | plus:1 %} 
-        {% endfor %}
+      <div class="col-md-12 col-lg-4">
+        {% for review in page.reviews offset:currentReview limit:totalReviewsPerColumn %} {% include reviews-card.html author=review.author body=review.body
+        datePublished=review.datePublished %} {% assign currentReview = currentReview | plus:1 %} {% endfor %}
         <p class="text-center">
           <i>
             All reviews are publicly availble on our
@@ -736,23 +734,19 @@ reviews:
           </i>
         </p>
       </div>
-      <div class="col-4">
-        {% for review in page.reviews offset:currentReview limit:totalReviewsPerColumn %}
-            {% include reviews-card.html author=review.author body=review.body datePublished=review.datePublished %}
-            {% assign currentReview = currentReview | plus:1 %}
-        {% endfor %}
+      <div class="col-md-12 col-lg-4 d-none d-lg-block">
+        {% for review in page.reviews offset:currentReview limit:totalReviewsPerColumn %} {% include reviews-card.html author=review.author body=review.body
+        datePublished=review.datePublished %} {% assign currentReview = currentReview | plus:1 %} {% endfor %}
       </div>
-      <div class="col-4">
-        {% for review in page.reviews offset:currentReview %}
-            {% include reviews-card.html author=review.author body=review.body datePublished=review.datePublished %}
-            {% assign currentReview = currentReview | plus:1 %} 
-        {% endfor %}
+      <div class="col-md-12 col-lg-4 d-none d-lg-block">
+        {% for review in page.reviews offset:currentReview %} {% include reviews-card.html author=review.author body=review.body datePublished=review.datePublished %} {% assign
+        currentReview = currentReview | plus:1 %} {% endfor %}
       </div>
     </div>
   </div>
 </section>
 
-<section class="my-5 py-3 text-center">
+<section class="container my-5 py-3 text-center">
   <strong style="color: #eb576d">Why Mailmeteor?</strong>
   <h2 class="mb-3">Get started with Mailmeteor for free</h2>
   <ul class="list-marketing-inline">
