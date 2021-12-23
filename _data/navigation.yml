@@ -258,6 +258,12 @@ footer:
         fr: 'Notre histoire'
         es: 'Sobre nosotros'
         de: 'Über uns'
+      reviews:
+        url: '/reviews'
+        en: 'Reviews'
+        fr: 'Avis des clients'
+        es: 'Valoración de los clientes'
+        de: 'Kundenbewertungen'
       jobs:
         url: '/contact#others/collaborate'
         en: "We're hiring"
