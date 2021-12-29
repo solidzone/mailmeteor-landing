@@ -9,12 +9,12 @@ og_description: Discover all the unique mail merge features offered by Mailmeteo
 og_url: https://mailmeteor.com/features
 ---
 
-<div class="container text-center mt-5">
-  <h1>Gmail mail merge, made easy.</h1>
-  <p>Discover all the unique features offered by Mailmeteor, the best rated Google Workspace add-on.</p>
-</div>
+<main>
+  <div class="text-center">
+    <h1>Gmail mail merge, made easy.</h1>
+    <p>Discover all the unique features offered by Mailmeteor, the best rated Google Workspace add-on.</p>
+  </div>
 
-<section>
   <div class="container features-grid">
     {% for section in site.data.features.sections %}
     <div class="features-card">
@@ -25,6 +25,6 @@ og_url: https://mailmeteor.com/features
     </div>
     {% endfor %}
   </div>
-</section>
 
-{%- include pricingtable.html -%} {%- include faq.html -%}
+  {%- include pricingtable.html -%} {%- include faq.html -%}
+</main>

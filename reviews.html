@@ -703,7 +703,7 @@ reviews:
 ---
 
 <!-- REVIEWS  -->
-<div class="container mt-5">
+<main>
   <div class="text-center">
     <h1>Trusted by 3 million professionals</h1>
     <p class="text-center">
@@ -716,50 +716,49 @@ reviews:
     <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-filled btn-inline">START SENDING EMAILS TODAY</a>
     {% include ratings.html %}
   </div>
-</div>
 
-<section class="reviews">
-  <div class="container" style="width: 80%">
-    {% assign currentReview = 0 %}
-    <!-- -->
-    {% assign totalReviewsPerColumn = page.reviews.size | divided_by: 3 | plus: 2 %}
-    <div class="row">
-      <div class="col-md-12 col-lg-4">
-        {% for review in page.reviews offset:currentReview limit:totalReviewsPerColumn %} {% include reviews-card.html author=review.author body=review.body
-        datePublished=review.datePublished %} {% assign currentReview = currentReview | plus:1 %} {% endfor %}
-        <p class="text-center">
-          <i>
-            All testimonials are publicly availble on our
-            <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301">Google Workspace Marketplace listing</a>.
-          </i>
-        </p>
-      </div>
-      <div class="col-md-12 col-lg-4 d-none d-lg-block">
-        {% for review in page.reviews offset:currentReview limit:totalReviewsPerColumn %} {% include reviews-card.html author=review.author body=review.body
-        datePublished=review.datePublished %} {% assign currentReview = currentReview | plus:1 %} {% endfor %}
-      </div>
-      <div class="col-md-12 col-lg-4 d-none d-lg-block">
-        {% for review in page.reviews offset:currentReview %} {% include reviews-card.html author=review.author body=review.body datePublished=review.datePublished %} {% assign
-        currentReview = currentReview | plus:1 %} {% endfor %}
+  <section class="reviews">
+    <div class="container" style="width: 80%">
+      {% assign currentReview = 0 %}
+      <!-- -->
+      {% assign totalReviewsPerColumn = page.reviews.size | divided_by: 3 | plus: 2 %}
+      <div class="row">
+        <div class="col-md-12 col-lg-4">
+          {% for review in page.reviews offset:currentReview limit:totalReviewsPerColumn %} {% include reviews-card.html author=review.author body=review.body
+          datePublished=review.datePublished %} {% assign currentReview = currentReview | plus:1 %} {% endfor %}
+          <p class="text-center">
+            <i>
+              All testimonials are publicly availble on our
+              <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301">Google Workspace Marketplace listing</a>.
+            </i>
+          </p>
+        </div>
+        <div class="col-md-12 col-lg-4 d-none d-lg-block">
+          {% for review in page.reviews offset:currentReview limit:totalReviewsPerColumn %} {% include reviews-card.html author=review.author body=review.body
+          datePublished=review.datePublished %} {% assign currentReview = currentReview | plus:1 %} {% endfor %}
+        </div>
+        <div class="col-md-12 col-lg-4 d-none d-lg-block">
+          {% for review in page.reviews offset:currentReview %} {% include reviews-card.html author=review.author body=review.body datePublished=review.datePublished %} {% assign
+          currentReview = currentReview | plus:1 %} {% endfor %}
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="container my-5 py-3 text-center">
-  <strong style="color: #eb576d">Why Mailmeteor?</strong>
-  <h2 class="mb-3">Get started with Mailmeteor for free</h2>
-  <ul class="list-marketing-inline">
-    <li>Up to 2000 emails/day</li>
-    <li>Rated 4.9/5 out of 8000 reviews</li>
-    <li>Free plan available</li>
-  </ul>
-  <div class="mt-2">
-    <a href="/pricing" class="btn btn-filled btn-inline">View all plans</a>
-    <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-marketing-outline btn-inline" role="link"
-      ><strong>Start sending emails</strong></a
-    >
-  </div>
-</section>
-
+  <section class="container my-5 py-3 text-center">
+    <strong style="color: #eb576d">Why Mailmeteor?</strong>
+    <h2 class="mb-3">Get started with Mailmeteor for free</h2>
+    <ul class="list-marketing-inline">
+      <li>Up to 2000 emails/day</li>
+      <li>Rated 4.9/5 out of 8000 reviews</li>
+      <li>Free plan available</li>
+    </ul>
+    <div class="mt-2">
+      <a href="/pricing" class="btn btn-filled btn-inline">View all plans</a>
+      <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-marketing-outline btn-inline" role="link"
+        ><strong>Start sending emails</strong></a
+      >
+    </div>
+  </section>
+</main>
 {%- include schema.org.html -%}

@@ -10,9 +10,9 @@ breadcrumb:
 {% assign apps = "" | split: ',' %} {% for app_id in page.apps %} {% for app_hash in site.data.googleapps %} {% assign app = app_hash[1] %} {% if app.id == app_id %} {% assign apps
 = apps | push: app %} {% endif %} {% endfor %} {% endfor %} {% assign appsCounter = apps.size %}
 
-<div itemscope="" itemtype="https://schema.org/ItemList">
+<main itemscope="" itemtype="https://schema.org/ItemList">
   <link itemprop="itemListOrder" href="https://schema.org/ItemListOrderDescending" />
-  <div class="container page-title mt-5">
+  <div class="container page-title">
     <a href="/best-google-apps/" class="is-small-purple">BEST GOOGLE APPS</a>
     <h1 itemprop="name">{{ page.heading | default: page.title }}</h1>
     <p itemprop="description">{{ page.punchline | replace: "(X)", appsCounter | default: page.description }}</p>
@@ -130,4 +130,4 @@ breadcrumb:
       </div>
     </div>
   </section>
-</div>
+</main>

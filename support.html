@@ -10,45 +10,47 @@ og_url: https://mailmeteor.com/support
 ---
 
 <!-- SUPPORT  -->
-<div class="container page-support-search page-title mt-5">
-  <!-- SUPPORT > SEARCH -->
-  <h1 class="text-center">Need help with Mailmeteor?</h1>
-  <form action="https://support.mailmeteor.com/" class="text-center" method="get">
-    <div class="form-inline">
-      <input class="form-control" type="search" name="q" placeholder="Search the Help Center" aria-label="Search" id="support-searchbar" />
-    </div>
-  </form>
-  <p class="text-center">Search for answers or browse our <a href="https://support.mailmeteor.com/" target"_blank">knowledge base</a>.</p>
-</div>
+<main>
+  <div class="page-support-search page-title">
+    <!-- SUPPORT > SEARCH -->
+    <h1 class="text-center">Need help with Mailmeteor?</h1>
+    <form action="https://support.mailmeteor.com/" class="text-center" method="get">
+      <div class="form-inline">
+        <input class="form-control" type="search" name="q" placeholder="Search the Help Center" aria-label="Search" id="support-searchbar" />
+      </div>
+    </form>
+    <p class="text-center">Search for answers or browse our <a href="https://support.mailmeteor.com/" target="_blank">knowledge base</a>.</p>
+  </div>
 
-<section class="page-support-featured">
-  <!-- SUPPORT > FEATURED SECTIONS -->
-  <div id="support-svg"></div>
-  <div class="container">
-    <div class="row page-support-featured-sections">
-      {% for section in site.data.support.sections %}
+  <section class="page-support-featured">
+    <!-- SUPPORT > FEATURED SECTIONS -->
+    <div id="support-svg"></div>
+    <div class="container">
+      <div class="row page-support-featured-sections">
+        {% for section in site.data.support.sections %}
         <a href="{{ section.link }}" class="col-md-12 col-lg-3 help-box">
-          <img src="{{ section.image }}" alt="{{section.name}}">
+          <img src="{{ section.image }}" alt="{{section.name}}" />
           <h2>{{section.name}}</h2>
           <p>{{section.description}}</p>
         </a>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- SUPPORT > TOP ARTICLES -->
-<section class="page-support-articles container" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out">
-  <h2>Featured articles</h2>
-  <ul>
-    {% for article in site.data.support.articles %}
-    <li>
-      <a href="{{ article.link }}"> {{ article.name }} </a>
-    </li>
-    {% endfor %}
-  </ul>
-</section>
-<br>
-<br>
+  <!-- SUPPORT > TOP ARTICLES -->
+  <section class="page-support-articles container" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out">
+    <h2>Featured articles</h2>
+    <ul>
+      {% for article in site.data.support.articles %}
+      <li>
+        <a href="{{ article.link }}"> {{ article.name }} </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <br />
+  <br />
 
-{%- include faq.html -%}
+  {%- include faq.html -%}
+</main>

@@ -50,6 +50,10 @@ body {
   color: #333;
 }
 
+body > main {
+  margin-top: 3rem;
+}
+
 section {
   margin-bottom: 4rem;
 }
@@ -1410,11 +1414,7 @@ body > footer > div > p {
   }
 }
 
-/* ######## 7. Articles ######## */
-
-article {
-  padding: 2rem 0;
-}
+/* ######## 7. Articles (aka Landing Pages) ######## */
 
 article h2 {
   font-size: 1.5rem;
@@ -1513,8 +1513,7 @@ article img :first-of-type {
   justify-content: center;
 }
 
-.page-support-featured .container,
-.page-contact {
+.page-support-featured .container {
   padding-bottom: 10rem;
 }
 
@@ -1585,42 +1584,38 @@ article img :first-of-type {
 
 /* #### 8.3 Contact > Dropdown #### */
 
-.page-contact main > .container > ul {
+.page-contact .container > ul {
   list-style: none;
   padding: 0;
 }
 
-.page-contact main > .container > ul > li > a {
+.page-contact .container > ul > li > a {
   display: block;
   padding: 1rem;
   color: inherit;
 }
 
-.page-contact main > .container > ul > li:not(:last-child) {
+.page-contact .container > ul > li:not(:last-child) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 /* #### 8.4 Contact > Articles #### */
 
-.page-contact main > .container article {
-  padding: 0;
-}
-
-.page-contact main > .container article > header {
+.page-contact .container article > header {
   margin: 0;
   padding: 2rem 1.5rem 0.5rem 1.5rem;
 }
 
-.page-contact main > .container article > header > h2 {
+.page-contact .container article > header > h2 {
   margin: 0;
   padding: 0;
 }
 
-.page-contact main > .container article > main {
+.page-contact .container article > main {
   padding: 1.5rem;
 }
 
-.page-contact main > .container article > footer {
+.page-contact .container article > footer {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   margin: 0;
   padding: 1rem 1.5rem;
@@ -1635,9 +1630,9 @@ article img :first-of-type {
 /* #### 8.6 Contact > Card #### */
 
 .page-contact-form,
-.page-contact main > .container > ul,
-.page-contact main > .container > ul,
-.page-contact main > .container article {
+.page-contact .container > ul,
+.page-contact .container > ul,
+.page-contact .container article {
   display: block;
   margin: 1rem auto;
   border-radius: 10px;
