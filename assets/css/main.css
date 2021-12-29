@@ -47,11 +47,7 @@ html,
 body {
   scroll-behavior: smooth;
   font-size: 17px;
-}
-
-body {
-  padding-top: 6rem;
-  color: black;
+  color: #333;
 }
 
 section {
@@ -127,7 +123,6 @@ h4 {
 .page-title {
   max-width: 720px;
   margin: auto;
-  padding-top: 2rem;
   text-align: center;
 }
 

@@ -12,17 +12,15 @@ breadcrumb:
 
 <div itemscope="" itemtype="https://schema.org/ItemList">
   <link itemprop="itemListOrder" href="https://schema.org/ItemListOrderDescending" />
-  <section class="m-3">
-    <div class="container page-title">
-      <a href="/best-google-apps/" class="is-small-purple">BEST GOOGLE APPS</a>
-      <h1 itemprop="name">{{ page.heading | default: page.title }}</h1>
-      <p itemprop="description">{{ page.punchline | replace: "(X)", appsCounter | default: page.description }}</p>
-    </div>
-  </section>
+  <div class="container page-title mt-5">
+    <a href="/best-google-apps/" class="is-small-purple">BEST GOOGLE APPS</a>
+    <h1 itemprop="name">{{ page.heading | default: page.title }}</h1>
+    <p itemprop="description">{{ page.punchline | replace: "(X)", appsCounter | default: page.description }}</p>
+  </div>
 
   <!-- Category page -->
 
-  <article class="article-container">
+  <div class="article-container">
     <div class="container">
       <h2>{{ page.list | replace: "(X)", appsCounter }}</h2>
 
@@ -91,7 +89,7 @@ breadcrumb:
       </div>
       {% endfor %}
     </div>
-  </article>
+  </div>
 
   <!-- Related categories -->
 
