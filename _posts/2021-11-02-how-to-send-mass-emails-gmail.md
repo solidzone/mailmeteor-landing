@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: 'How to send mass emails with Gmail in 2021'
+title: 'How to send mass emails with Gmail in 2022'
 description: Sending mass emails on Gmail is quick and easy with Mailmeteor. Find out how with our step-by-step guide on how to send mass personalized emails with Gmail.
 cta_title: Try the best tool to send mass emails with Gmail.
 canonical: https://mailmeteor.com/blog/how-to-send-mass-emails-gmail
@@ -10,13 +10,13 @@ meta_author: Jean Dubrulle
 meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/how-to-send-mass-emails-gmail/mass-emails-gmail.png
-og_title: 'How to send mass emails with Gmail in 2021'
+og_title: 'How to send mass emails with Gmail in 2022'
 og_description: Sending mass emails on Gmail is quick and easy with Mailmeteor. Find out how with our step-by-step guide on how to send mass personalized emails with Gmail.
 og_url: https://mailmeteor.com/blog/how-to-send-mass-emails-gmail
 og_image: https://mailmeteor.com/assets/img/opengraph/how-to-send-mass-emails-gmail.jpg
 
 meta_date_published: 'November 2, 2021'
-# meta_date_lastupdated: "October 12, 2021"
+meta_date_lastupdated: 'Jan 1, 2022'
 
 breadcrumb:
   - name: Blog

@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: 'How to Mail Merge in Gmail & Google Sheets [2021]'
+title: 'How to Mail Merge in Gmail & Google Sheets [2022]'
 description: Learn how to send personalized emails using Gmail and a Google Sheets spreadsheet with our guide on Mail merge in Gmail using Google Sheets.
 cta_title: Try the best mail merge tool for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail/google-sheets
@@ -11,13 +11,13 @@ meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/mail-merge-gmail/google-sheets/mail-merge-gmail-google-sheets.png
 
-og_title: 'How to Mail Merge in Gmail & Google Sheets [2021]'
+og_title: 'How to Mail Merge in Gmail & Google Sheets [2022]'
 og_description: Learn how to send personalized emails using Gmail and a Google Sheets spreadsheet with our guide on Mail merge in Gmail using Google Sheets.
 og_url: https://mailmeteor.com/mail-merge-gmail/google-sheets
 og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-google-sheets.jpg
 
 meta_date_published: 'April 22, 2021'
-meta_date_lastupdated: 'November 1, 2021'
+meta_date_lastupdated: 'Jan 1, 2022'
 published: true
 
 breadcrumb:
@@ -123,7 +123,7 @@ There are a number of different options out there for creating mail merges quick
 </div>
 <br>
 
-We’re proud to be the 2021 [best mail merge add-on](https://mailmeteor.com/mail-merge-gmail/#4-the-best-mail-merge-solutions-for-gmail) based on average review scores out of five, chosen thanks to our extensive [feature list](/features), our [rapid tech support](https://mailmeteor.com/support) and our dedication to making mail merging as straightforward as possible.
+We’re proud to be the 2022 [best mail merge add-on](https://mailmeteor.com/mail-merge-gmail/#4-the-best-mail-merge-solutions-for-gmail) based on average review scores out of five, chosen thanks to our extensive [feature list](/features), our [rapid tech support](https://mailmeteor.com/support) and our dedication to making mail merging as straightforward as possible.
 
 With personalization, tracking, HTML and CRM support, address alias functions, scheduling and more, this is **mail merging made simple**.
 
@@ -135,5 +135,5 @@ With personalization, tracking, HTML and CRM support, address alias functions, s
 
 <small class="blogpost-related-articles">
 Learn more about Gmail & mailmerge: 
-<a href="/mail-merge-gmail/">Mail merge Gmail in 2021: the Definitive Guide</a>
+<a href="/mail-merge-gmail/">Mail merge Gmail in 2022: the Definitive Guide</a>
 </small>

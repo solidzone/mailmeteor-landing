@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: 'How to mail merge in Gmail (2021 tutorial)'
+title: 'How to mail merge in Gmail (2022 tutorial)'
 description: Learn how to send personalized emails with Mail Merge in Gmail.
 cta_title: Try the best mail merge tool for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail/tutorial
@@ -11,13 +11,13 @@ meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png
 
-og_title: 'How to mail merge in Gmail (2021 tutorial)'
+og_title: 'How to mail merge in Gmail (2022 tutorial)'
 og_description: Learn how to send personalized emails with Mail Merge in Gmail.
 og_url: https://mailmeteor.com/mail-merge-gmail/tutorial
 og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-tutorial.jpg
 
 meta_date_published: 'April 6, 2021'
-meta_date_lastupdated: 'November 1, 2021'
+meta_date_lastupdated: 'Jan 1, 2022'
 published: true
 
 breadcrumb:
@@ -187,5 +187,5 @@ Learn more about the [features and benefits of Mailmeteor here](/features).
 
 <small class="blogpost-related-articles">
 Learn more about Gmail merge: 
-<a href="/mail-merge-gmail/">Mail merge Gmail in 2021: the Definitive Guide</a>
+<a href="/mail-merge-gmail/">Mail merge Gmail in 2022: the Definitive Guide</a>
 </small>

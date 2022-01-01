@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: 'Taking on the Spam Filters: 750 Spam Words to avoid in 2021'
+title: 'Taking on the Spam Filters: 750 Spam Words to avoid in 2022'
 description: The ultimate list of spam words to avoid in your emails. Learn how to write better emails to avoid landing in the spam folder.
 cta_title: Send emails that land in inbox with Mailmeteor
 canonical: https://mailmeteor.com/blog/spam-words
@@ -11,13 +11,13 @@ meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/spam-words/spam-words.png
 
-og_title: 'Taking on the Spam Filters: 750 Spam Words to avoid in 2021'
+og_title: 'Taking on the Spam Filters: 750 Spam Words to avoid in 2022'
 og_description: The ultimate list of 750 spam words to avoid in your emails. Learn how to write better emails to avoid landing in the spam folder.
 og_url: https://mailmeteor.com/blog/spam-words
 og_image: https://mailmeteor.com/assets/img/opengraph/spam-words.jpg
 
 meta_date_published: 'October 12, 2021'
-# meta_date_lastupdated: "October 12, 2021"
+meta_date_lastupdated: 'Jan 1, 2022'
 
 breadcrumb:
   - name: Blog
@@ -35,7 +35,7 @@ When this happens, it can be quite frustrating and as email marketers, it's up t
 
 Quick links to navigate this article:
 
-- [The ultimate list of spam words list to avoid in 2021](#spam-words-list)
+- [The ultimate list of spam words list to avoid in 2022](#spam-words-list)
 - [10 tips to avoid landing your emails into spam](#10-tips-to-avoid-landing-your-emails-into-spam)
 - [Test your emails using our Spam Words Checker](/spam-checker)
 
@@ -49,7 +49,7 @@ Quick links to navigate this article:
 - **Money** 💰 All things related to money or offers in general, such as _$$$_ or _Earn cash_
 - **Unnatural** 💬 Words or phrases that don't feel natural such as _Dear friend_ or that are difficult to understand, such as: _Multi-level marketing_
 
-## List of +750 spam words to avoid in 2021 {#spam-words-list}
+## List of +750 spam words to avoid in 2022 {#spam-words-list}
 
 We've compiled **the most comprehensive list of spam words to avoid** to ensure your emails steer clear of the spam filters. Browse the list below or [access the Google Sheets version](https://docs.google.com/spreadsheets/d/1ttWHAQ1kGcN5ScTi_b7SHbQxJ62JzbWaAWtWfbnBxdQ/edit?usp=sharing).
 

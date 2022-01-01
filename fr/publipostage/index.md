@@ -1,7 +1,7 @@
 ---
 lang: fr
 layout: blogpost
-title: 'Publipostage: le Guide Complet en 2021'
+title: 'Publipostage: le Guide Complet en 2022'
 description: Apprenez ce qu'est un publipostage et comment le réaliser pour envoyer des emails en masse personnalisés, créer des lettres, générer des documents ou imprimer des étiquettes.
 canonical: https://mailmeteor.com/fr/publipostage/
 
@@ -13,13 +13,13 @@ meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/articles/fr/publipostage/publipostage-guide.png
 
-og_title: 'Publipostage: le Guide Complet en 2021'
+og_title: 'Publipostage: le Guide Complet en 2022'
 og_description: Apprenez ce qu'est un publipostage et comment le réaliser pour envoyer des emails en masse personnalisés, créer des lettres, générer des documents ou imprimer des étiquettes.
 og_url: https://mailmeteor.com/fr/publipostage/
 og_image: https://mailmeteor.com/assets/img/opengraph/publipostage.jpg
 
 meta_date_published: 'Oct 25, 2021'
-#meta_date_lastupdated: 'April 12, 2021'
+meta_date_lastupdated: 'Jan 12, 2022'
 ---
 
 Imaginons que vous souhaitiez envoyer un email à tous vos clients, étudiants ou employés. Ecrire un mail pour chacune de ces personnes individuellement prendrait beaucoup de temps. Au lieu de cela, vous pouvez laisser votre ordinateur faire le travail à votre place. C’est le publipostage.
@@ -305,10 +305,10 @@ Nous espérons que cette introduction vous permettra de mieux comprendre cet out
 <small class="blogpost-related-articles">En apprendre plus sur le publipostage au travers de nos articles (en anglais):</small>
 
 <ul class="small">
-  <li><a href="/mail-merge-gmail/tutorial">How to mail merge in Gmail (2021 tutorial)</a></li>
+  <li><a href="/mail-merge-gmail/tutorial">How to mail merge in Gmail (2022 tutorial)</a></li>
   <li><a href="/mail-merge-gmail/script">Gmail Mail Merge Script Example using Google Apps Script</a></li>
   <li><a href="/mail-merge-gmail/google-sheets"> Getting started with Mail Merge in Gmail using Google Sheets</a></li>
   <li><a href="/mail-merge-gmail/excel">How to create a mail merge in Gmail from an Excel file?</a></li>
   <li><a href="/mail-merge-gmail/with-attachment">How to mail merge in Gmail with attachments or individual files</a></li>
-  <li><a href="/mail-merge-gmail/extensions">Top 12 mail merge extensions for Gmail in 2021</a></li>
+  <li><a href="/mail-merge-gmail/extensions">Top 12 mail merge extensions for Gmail in 2022</a></li>
 </ul>

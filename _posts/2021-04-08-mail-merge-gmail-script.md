@@ -79,5 +79,5 @@ Before you go, here are two things to keep in mind when using Gmail as an email 
 
 <small class="blogpost-related-articles">
 Learn more about Gmail & mailmerge: 
-<a href="/mail-merge-gmail/">Mail merge Gmail in 2021: the Definitive Guide</a>
+<a href="/mail-merge-gmail/">Mail merge Gmail in 2022: the Definitive Guide</a>
 </small>

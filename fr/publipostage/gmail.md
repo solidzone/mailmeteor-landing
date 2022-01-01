@@ -1,7 +1,7 @@
 ---
 lang: fr
 layout: blogpost
-title: 'Comment faire un publipostage dans Gmail en 2021?'
+title: 'Comment faire un publipostage dans Gmail en 2022?'
 description: Apprenez à réaliser un publipostage avec Gmail et Google Sheets. Ce guide vous donnera les clés pour vos envois groupés de mails personnalisés depuis Gmail.
 cta_title: Essayer Mailmeteor, le meilleur outil de publipostage pour Gmail
 cta_button: Démarrer un publipostage dans Gmail
@@ -13,16 +13,16 @@ meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/articles/fr/publipostage/gmail/publipostage-gmail-illustration.png
 
-og_title: 'Comment faire un publipostage dans Gmail en 2021?'
+og_title: 'Comment faire un publipostage dans Gmail en 2022?'
 og_description: Apprenez à réaliser un publipostage avec Gmail et Google Sheets. Ce guide vous donnera les clés pour vos envois groupés de mails personnalisés depuis Gmail.
 og_url: https://mailmeteor.com/fr/publipostage/gmail
 og_image: https://mailmeteor.com/assets/img/opengraph/publipostage-gmail.jpg
 
 meta_date_published: '29 Oct, 2021'
-#meta_date_lastupdated: 'April 12, 2021'
+meta_date_lastupdated: 'Jan 1, 2022'
 ---
 
-Il existe 2 façons de faire du [publipostage](/fr/publipostage) sur Gmail en 2021 : vous pouvez soit utiliser un module complémentaire de Google qui effectuera le travail pour vous, soit créer votre propre script de publipostage dans Gmail.
+Il existe 2 façons de faire du [publipostage](/fr/publipostage) sur Gmail en 2022 : vous pouvez soit utiliser un module complémentaire de Google qui effectuera le travail pour vous, soit créer votre propre script de publipostage dans Gmail.
 
 À travers ce guide, nous traiterons les deux méthodes, bien que nous vous recommandons fortement d’utiliser un logiciel prévu à cet effet. De manière générale, il est plus simple et plus sécurisé d’utiliser un module complémentaire plutôt que d’écrire un script pour effectuer un publipostage.
 
@@ -168,7 +168,7 @@ Gardez à l’esprit que l’utilisation d’un script se fait à vos propres ri
 
 Pour ces raisons, nous vous recommandons d’utiliser une solution de publipostage telle que [Mailmeteor](/fr/). Mailmeteor couvre tous ces aspects et veille à ce que votre vie privée soit protégée.
 
-## Top 5 des meilleures solutions de publipostage pour Gmail en 2021
+## Top 5 des meilleures solutions de publipostage pour Gmail en 2022
 
 Quels sont les [meilleurs modules complémentaires pour envoyer un publipostage dans Gmail](/best-google-apps/mail-merge-gmail)? Nous vous en avons sélectionné 5 parmis les meilleures solutions de publipostage de Google. Ils sont ci-dessous classés en fonction de leur note moyenne sur 5.
 
@@ -301,7 +301,7 @@ Voici les étapes à suivre pour ajouter des pièces jointes à votre publiposta
 
 ### Prêt pour le décollage?
 
-Notre guide du publipostage pour Gmail en 2021 est maintenant terminé! Nous espérons que vous comprenez maintenant mieux cet outil à la fois simple et incroyablement puissant qu'est le mail merge avec Gmail. A votre tour de jouer ;-)
+Notre guide du publipostage pour Gmail en 2022 est maintenant terminé! Nous espérons que vous comprenez maintenant mieux cet outil à la fois simple et incroyablement puissant qu'est le mail merge avec Gmail. A votre tour de jouer ;-)
 
 <div class="blogpost-endnote">
   <p>Ce guide a été rédigé par Jean Dubrulle, fondateur de <a href="https://mailmeteor.com/fr/"> Mailmeteor</a>. Mailmeteor est un logiciel d'emailing simple et fondé sur la confidentialité de vos données. Reconnu par des millions d'utilisateurs dans le monde, Mailmeteor est souvent considéré comme le <a href="https://mailmeteor.com/fr/">meilleur publipostage Gmail</a> pour envoyer des e-mails personnalisés en masse. Essayez Mailmeteor et dites-nous ce que vous en pensez!</p>
@@ -311,5 +311,5 @@ Notre guide du publipostage pour Gmail en 2021 est maintenant terminé! Nous esp
 
 <small class="blogpost-related-articles">
    En apprendre plus sur le publipostage:
-   <a href="/fr/publipostage/">Publipostage: le Guide Complet en 2021</a>
+   <a href="/fr/publipostage/">Publipostage: le Guide Complet en 2022</a>
 </small>

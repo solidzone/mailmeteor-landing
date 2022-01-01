@@ -17,7 +17,7 @@ og_url: https://mailmeteor.com/mail-merge-gmail/
 og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-excel.jpg
 
 meta_date_published: 'May 13, 2021'
-meta_date_lastupdated: 'November 1, 2021'
+meta_date_lastupdated: 'Jan 1, 2022'
 published: true
 
 breadcrumb:
@@ -28,7 +28,7 @@ breadcrumb:
 permalink: /mail-merge-gmail/excel
 ---
 
-Gmail is the most popular email platform, with over 1.8 billions active users in 2021. Unfortunately, Gmail does not have a built-in solution to send a mail merge from an Excel. You need to use a third-party solution such as Mailmeteor, which let you send a mail merge from an Excel file (or a .CSV).
+Gmail is the most popular email platform, with over 1.8 billions active users in 2022. Unfortunately, Gmail does not have a built-in solution to send a mail merge from an Excel. You need to use a third-party solution such as Mailmeteor, which let you send a mail merge from an Excel file (or a .CSV).
 
 First, here's what you need to send emails in Gmail using an Excel file:
 
@@ -99,5 +99,5 @@ It has never been so easy to send a [mail merge from Gmail](/mail-merge-gmail) -
 
 <div class="blogpost-related-articles">
 Learn more about Gmail & mailmerge: 
-<a href="/mail-merge-gmail/">Mail merge Gmail in 2021: the Definitive Guide</a>
+<a href="/mail-merge-gmail/">Mail merge Gmail in 2022: the Definitive Guide</a>
 </div>

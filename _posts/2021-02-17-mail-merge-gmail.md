@@ -1,7 +1,7 @@
 ---
 layout: blogpost
-title: 'Mail merge Gmail in 2021: the Definitive Guide'
-description: Everything you need to know about mail merge in Gmail in 2021. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail
+title: 'Mail merge Gmail in 2022: the Definitive Guide'
+description: Everything you need to know about mail merge in Gmail in 2022. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail
 cta_title: Try the best mail merge tool for Gmail
 canonical: https://mailmeteor.com/mail-merge-gmail/
 category: GUIDE
@@ -11,13 +11,13 @@ meta_author_link: 'https://twitter.com/cuireuncroco'
 meta_image: >-
   /assets/img/blog/mail-merge-gmail/mail-merge-for-gmail-guide.png
 
-og_title: 'Mail merge Gmail in 2021: the Definitive Guide'
-og_description: Everything you need to know about mail merge in Gmail in 2021. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail
+og_title: 'Mail merge Gmail in 2022: the Definitive Guide'
+og_description: Everything you need to know about mail merge in Gmail in 2022. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail
 og_url: https://mailmeteor.com/mail-merge-gmail/
 og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail.jpg
 
 meta_date_published: 'February 17, 2021'
-meta_date_lastupdated: 'November 1, 2021'
+meta_date_lastupdated: 'January 1, 2022'
 published: true
 
 breadcrumb:
@@ -26,7 +26,7 @@ breadcrumb:
 permalink: /mail-merge-gmail/
 ---
 
-This is a complete guide to mail merge from Gmail in 2021.
+This is a complete guide to mail merge from Gmail in 2022.
 
 In this all-new guide you’ll learn:
 
@@ -96,7 +96,7 @@ You can personalize every part of the email, from the email subject line to the 
 
 ### Why use mail merge for Gmail?
 
-Email makes a comeback in 2021. For years, email remains the channel generating the best results. It’s a widespread means of communication that is affordable and a perfect way to reach people in a direct way. Studies show that email is still the channel with the highest return on investment. For every $1 spent, email marketing generates a $42 ROI.
+Email makes a comeback in 2022. For years, email remains the channel generating the best results. It’s a widespread means of communication that is affordable and a perfect way to reach people in a direct way. Studies show that email is still the channel with the highest return on investment. For every $1 spent, email marketing generates a $42 ROI.
 
 <figure>
   <img src="/assets/img/blog/mail-merge-gmail/email-return-investment.png" alt="Email has a $42 ROI" width="600px" height="485px"/>
@@ -552,12 +552,12 @@ The most popular CRMs, such as Salesforce or Hubspot, offer to log conversations
 
 ## 4. The best mail merge solutions for Gmail
 
-### The 11 best mail merge add-ons for Gmail in 2021
+### The 11 best mail merge add-ons for Gmail in 2022
 
 What are the best add-ons to send a merge mail in Gmail? We picked the best Google mail merge solutions offered on the Workplace Marketplace and ranked them by their average ratings out of 5. You’ll find different kinds of mail merge software: [Google Workspace mail merge add-ons](/best-google-apps/mail-merge-gmail), Chrome [mail merge extensions](/mail-merge-gmail/extensions) and sales platforms offering mail merge services.
 
 <div class="blogpost-note">
-  <p class="font-weight-bold">Top Gmail mail merge software in 2021</p> 
+  <p class="font-weight-bold">Top Gmail mail merge software in 2022</p> 
   <ol>
   <li>Mailmeteor</li>
   <li>YAMM (Yet Another Mail Merge)</li>
@@ -873,7 +873,7 @@ Learn [how to mail merge documents using Google Docs](https://developers.google.
 
 ### Now it’s your turn
 
-So that’s it for our guide to mail merge in 2021.
+So that’s it for our guide to mail merge in 2022.
 
 We hope you now better understand this simple yet incredibly powerful tool called mail merge. No need to bother about costly and complicated emailing platforms anymore!
 
@@ -886,10 +886,10 @@ We hope you now better understand this simple yet incredibly powerful tool calle
 <small class="blogpost-related-articles">Learn more about mail merge in Gmail:</small>
 
 <ul class="small">
-  <li><a href="/mail-merge-gmail/tutorial">How to mail merge in Gmail (2021 tutorial)</a></li>
+  <li><a href="/mail-merge-gmail/tutorial">How to mail merge in Gmail (2022 tutorial)</a></li>
   <li><a href="/mail-merge-gmail/script">Gmail Mail Merge Script Example using Google Apps Script</a></li>
   <li><a href="/mail-merge-gmail/google-sheets"> Getting started with Mail Merge in Gmail using Google Sheets</a></li>
   <li><a href="/mail-merge-gmail/excel">How to create a mail merge in Gmail from an Excel file?</a></li>
   <li><a href="/mail-merge-gmail/with-attachment">How to mail merge in Gmail with attachments or individual files</a></li>
-  <li><a href="/mail-merge-gmail/extensions">Top 12 mail merge extensions for Gmail in 2021</a></li>
+  <li><a href="/mail-merge-gmail/extensions">Top 12 mail merge extensions for Gmail in 2022</a></li>
 </ul>
