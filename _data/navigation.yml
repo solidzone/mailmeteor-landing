@@ -208,13 +208,13 @@ footer:
         fr: 'Comparaison avec Lemlist'
         es: 'Comparación con Lemlist'
         de: 'Vergleichen mit Lemlist'
-      alternative-lemlist:
+      alternative-woodpecker:
         url: '/alternative/woodpecker'
         en: 'Compare with Woodpecker'
         fr: 'Comparaison avec Woodpecker'
         es: 'Comparación con Woodpecker'
         de: 'Vergleichen mit Woodpecker'
-      alternative-lemlist:
+      alternative-mailshake:
         url: '/alternative/mailshake'
         en: 'Compare with Mailshake'
         fr: 'Comparaison avec Mailshake'
