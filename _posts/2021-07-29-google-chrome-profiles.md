@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: 'How to create multiple Google Chrome profiles? [2021]'
+title: 'How to create multiple Google Chrome profiles? [2022]'
 description: When dealing with multiple Google accounts, such as your personal acccount and your business account, you should definitely consider using Google Chrome profiles.
 
 cta_title: Send a mail merge with multiple Google Chrome profiles
@@ -11,13 +11,13 @@ meta_author: Mary Pesquet
 meta_author_link: 'https://mailmeteor.com'
 meta_image: /assets/img/blog/howto-google-chrome-profiles/multiple-google-chrome-profiles.png
 
-og_title: 'How to create multiple Google Chrome profiles? [2021]'
+og_title: 'How to create multiple Google Chrome profiles? [2022]'
 og_description: Learn how to create a Google Chrome profile. One for your business, one for the family and one for your personal Google account. Learn also how to manage them all.
 og_url: https://mailmeteor.com/blog/how-to-create-google-chrome-profile
 og_image: https://mailmeteor.com/assets/img/opengraph/main.jpg
 
 meta_date_published: 'July 29, 2021'
-meta_date_lastupdated: 'July 29, 2021'
+meta_date_lastupdated: 'January 3, 2022'
 published: true
 
 breadcrumb:
