@@ -200,14 +200,26 @@ footer:
         url: '/alternative/mailchimp'
         en: 'Compare with Mailchimp'
         fr: 'Comparaison avec Mailchimp'
-        es: 'Comparación con GMass'
+        es: 'Comparación con Mailchimp'
         de: 'Vergleichen mit Mailchimp'
       alternative-lemlist:
         url: '/alternative/lemlist'
         en: 'Compare with Lemlist'
         fr: 'Comparaison avec Lemlist'
-        es: 'Comparación con GMass'
+        es: 'Comparación con Lemlist'
         de: 'Vergleichen mit Lemlist'
+      alternative-lemlist:
+        url: '/alternative/woodpecker'
+        en: 'Compare with Woodpecker'
+        fr: 'Comparaison avec Woodpecker'
+        es: 'Comparación con Woodpecker'
+        de: 'Vergleichen mit Woodpecker'
+      alternative-lemlist:
+        url: '/alternative/mailshake'
+        en: 'Compare with Mailshake'
+        fr: 'Comparaison avec Mailshake'
+        es: 'Comparación con Mailshake'
+        de: 'Vergleichen mit Mailshake'
   support:
     title:
       en: 'Support'
