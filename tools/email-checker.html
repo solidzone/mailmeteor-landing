@@ -19,12 +19,12 @@ canonical: https://mailmeteor.com/email-checker
   </header>
 
   <section>
-    <div class="w-75 mx-auto" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 8px">
+    <div class="w-75 mx-auto mt-4" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 8px">
       <form id="email-checker-form" class="px-5" autocomplete="off" style="padding-top: 1.75rem; padding-bottom: 2rem">
         <input type="hidden" autocomplete="false" />
         <label for="email-to-check">Enter an email address to verify:</label>
         <div class="input-group">
-          <input id="email-to-check" class="form-control" name="email" type="text" required value="test" placeholder="elon.musk@spacex.com" />
+          <input id="email-to-check" class="form-control" name="email" type="text" required value="test@mailinator.com" placeholder="elon.musk@spacex.com" />
           <div class="input-group-append">
             <button type="submit" class="btn btn-marketing btn-normal px-5">Verify</button>
           </div>
@@ -36,8 +36,8 @@ canonical: https://mailmeteor.com/email-checker
             <div class="d-flex align-items-center">
               <img src="/assets/img/tools/email-checker-valid.svg" width="62" height="62" />
               <div class="ml-4">
-                <h3>Valid</h3>
-                <p class="m-0">Valid email address</p>
+                <h3></h3>
+                <p class="m-0"></p>
               </div>
             </div>
           </div>
@@ -46,12 +46,12 @@ canonical: https://mailmeteor.com/email-checker
     </div>
   </section>
 
-  <section class="container">
+  <!-- <section class="container">
     <div class="row"></div>
-  </section>
+  </section> -->
 
   <section class="container faq" itemscope itemtype="https://schema.org/FAQPage">
-    <h2 id="faq" class="text-center">Questions & answers about email checks</h2>
+    <h2 id="faq" class="text-center">Questions & answers about email checker</h2>
     <p class="text-center">Everything you need to know about how and why checking email addresses.</p>
 
     <div id="accordion-general" class="accordions">
@@ -61,46 +61,130 @@ canonical: https://mailmeteor.com/email-checker
           <span class="faq-expander"></span>
         </div>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion-general">
-          <div class="card-body" itemprop="text">TODO</div>
+          <div class="card-body" itemprop="text">
+            Email checker is a free, easy to use and simple tool. Just enter the email address and click on "Verify". We will then proceed with several checks to verify the email
+            address and flag it as valid or invalid.
+          </div>
         </div>
       </div>
 
       <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <div class="card-header accordionpointer collapsed" id="heading2" data-toggle="collapse" data-target="#collapse2">
-          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse2">What is the purpose of an email checker?</h4>
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse2">What is an email checker?</h4>
           <span class="faq-expander"></span>
         </div>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion-general">
-          <div class="card-body" itemprop="text">TODO</div>
+          <div class="card-body" itemprop="text">
+            Email checker is a free tool to verify anyone's email address. It validates that the email address is well formed, not from a disposable email service and that the
+            email address is technically well-configured (MX records are present, SMTP mailbox replies successfully). In case we detect something wrong, the email address will be
+            flagged as invalid.
+          </div>
         </div>
       </div>
 
       <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <div class="card-header accordionpointer collapsed" id="heading3" data-toggle="collapse" data-target="#collapse3">
-          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse3">What does an email verifier check?</h4>
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse3">How does an email verifier work?</h4>
           <span class="faq-expander"></span>
         </div>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion-general">
-          <div class="card-body" itemprop="text">TODO</div>
+          <div class="card-body" itemprop="text">
+            <p>Email checker proceeds with several checks to determine if an email address is valid:</p>
+            <ol>
+              <li>The email address must be well formed (e.g. {firstname.lastname}@{domain}).</li>
+              <li>It should not be generated by a disposable email service (such as <code>mailinator.com</code>).</li>
+              <li>The MX records should be present on DNS.</li>
+              <li>An SMTP server should run for the domain.</li>
+              <li>A mailbox with that email address should exists on the SMTP server.</li>
+            </ol>
+            <p>Depending on the provided email address, we might apply extra-checks on a per basis.</p>
+          </div>
         </div>
       </div>
 
       <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <div class="card-header accordionpointer collapsed" id="heading5" data-toggle="collapse" data-target="#collapse5">
-          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse5">Is Email Checker free?</h4>
+        <div class="card-header accordionpointer collapsed" id="heading5" data-toggle="collapse" data-target="#collapse4">
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse4">Is Email Checker Free?</h4>
           <span class="faq-expander"></span>
         </div>
-        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion-general">
-          <div class="card-body" itemprop="text">TODO</div>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse4" class="collapse" aria-labelledby="heading5" data-parent="#accordion-general">
+          <div class="card-body" itemprop="text">
+            <p>Email Checker is totally free to use. Mailmeteor makes it available to anyone interested in checking an email address and make sure you won't get a bounce.</p>
+            <p>
+              If you have large volume and/or want to verify multiple emails in batch, you should definitly check out a third-party solution, such as
+              <a href="https://withlove.usebouncer.com/mailmeteor" rel="noopener noreferrer nofollow">Bouncer</a>,
+              <a href="https://clearout.io/" rel="noopener noreferrer nofollow">Clearout</a>, <a href="https://www.emailable.com/" rel="noopener noreferrer nofollow">Emailable</a>,
+              <a href="https://neverbounce.com/" rel="noopener noreferrer nofollow">Neverbounce</a> or
+              <a href="https://www.zerobounce.net/" rel="noopener noreferrer nofollow">Zerobounce</a>. We partnered with those companies to offer you excusive discounts. Feel free
+              to grab your discount <a href="https://dashboard.mailmeteor.com/account/partners">right from our partners page</a>.
+            </p>
+          </div>
         </div>
       </div>
 
       <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <div class="card-header accordionpointer collapsed" id="heading4" data-toggle="collapse" data-target="#collapse4">
-          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse4">What to do once an email is verified?</h4>
+        <div class="card-header accordionpointer collapsed" id="heading3" data-toggle="collapse" data-target="#collapse5">
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse5">How many email can I verify per day?</h4>
           <span class="faq-expander"></span>
         </div>
-        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion-general">
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse5" class="collapse" aria-labelledby="heading3" data-parent="#accordion-general">
+          <div class="card-body" itemprop="text">
+            We apply a fair-use policy, so you are free to manually use Email Checker as long as you don't abuse of it. Any abuse includes, but is not limited to, making automatic
+            requests to our service.
+          </div>
+        </div>
+      </div>
+
+      <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="card-header accordionpointer collapsed" id="heading4" data-toggle="collapse" data-target="#collapse6">
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse6">Can I verify emails in batch?</h4>
+          <span class="faq-expander"></span>
+        </div>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse6" class="collapse" aria-labelledby="heading4" data-parent="#accordion-general">
+          <div class="card-body" itemprop="text">
+            <p>
+              Email checker lets you verify one email address at a time. If you have large volume and/or want to verify multiple emails in batch, you should definitly check out a
+              third-party solution, such as <a href="https://withlove.usebouncer.com/mailmeteor" rel="noopener noreferrer nofollow">Bouncer</a>,
+              <a href="https://clearout.io/" rel="noopener noreferrer nofollow">Clearout</a>, <a href="https://www.emailable.com/" rel="noopener noreferrer nofollow">Emailable</a>,
+              <a href="https://neverbounce.com/" rel="noopener noreferrer nofollow">Neverbounce</a> or
+              <a href="https://www.zerobounce.net/" rel="noopener noreferrer nofollow">Zerobounce</a>.
+            </p>
+            <p>
+              We partnered with those companies to offer you excusive discounts. Feel free to grab your discount
+              <a href="https://dashboard.mailmeteor.com/account/partners">right from our partners page</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="card-header accordionpointer collapsed" id="heading3" data-toggle="collapse" data-target="#collapse7">
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse7">Does email checker use my data?</h4>
+          <span class="faq-expander"></span>
+        </div>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse7" class="collapse" aria-labelledby="heading3" data-parent="#accordion-general">
+          <div class="card-body" itemprop="text">
+            <p>
+              Your data stays yours - <i>like all products made by Mailmeteor</i>. Email addresses that you verify using our email checker are not saved by us nor shared with a
+              third-party. Although, we might temporarly log requests made to the service for maintenance purposes.
+            </p>
+            <p>
+              With this said, this page has Google Analytics and is protected by reCAPTCHA. Consequentyl, the Google
+              <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Privacy Policy</a>
+              and
+              <a href="https://policies.google.com/terms" rel="noopener" target="_blank">Terms of Service</a>
+              apply.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="card-header accordionpointer collapsed" id="heading4" data-toggle="collapse" data-target="#collapse8">
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse8">What to do once an email is verified?</h4>
+          <span class="faq-expander"></span>
+        </div>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse8" class="collapse" aria-labelledby="heading4" data-parent="#accordion-general">
           <div class="card-body" itemprop="text">
             Once you have verified a list of valid email addresses, you can send a highly personalized email campaign using Gmail with <a href="/">Mailmeteor</a>. Mailmeteor lets
             you send mass emails in Gmail that feel personal. It’s the most popular <a href="/mail-merge-gmail">Gmail mail merge</a> tool, trusted by 3 million people worldwide for
@@ -115,6 +199,7 @@ canonical: https://mailmeteor.com/email-checker
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
   var email = '';
+  var failureReason = '';
 
   $('#email-checker-form').submit(function (e) {
     e.preventDefault();
@@ -124,15 +209,21 @@ canonical: https://mailmeteor.com/email-checker
   });
 
   function EmailChecker() {
+    if (typeof email !== 'string' || !email.trim()) {
+      failureReason = 'The email address to verify is empty';
+      return EmailCheckerInvalid();
+    }
     if (!/[^@]+@[^@]+\.[^@]+/.test(email)) {
-      return EmailCheckerInvalid(email);
+      failureReason = 'The email address "' + email + '" is malformed.';
+      return EmailCheckerInvalid();
     }
 
     EmailCheckerLoading();
 
-    fetch('https://example.org', { mode: 'no-cors' })
-      .then(function () {
-        window.setTimeout(EmailCheckerValid, 500);
+    fetch('https://mailchecker-service-rnpm3pzcqa-ue.a.run.app/verify\?email\=' + email, { method: 'POST', mode: 'no-cors' })
+      .then((response) => response.json())
+      .then((result) => {
+        window.setTimeout(result.valid ? EmailCheckerValid : EmailCheckerInvalid, 500);
       })
       .catch(EmailCheckerInvalid);
   }
@@ -164,6 +255,6 @@ canonical: https://mailmeteor.com/email-checker
     $('#email-checker-state h3').first().text('Invalid');
     $('#email-checker-state p')
       .first()
-      .text(email + ' is an invalid email address');
+      .text(failureReason || email + ' is an invalid email address');
   }
 </script>
