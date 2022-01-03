@@ -196,6 +196,12 @@ canonical: https://mailmeteor.com/email-checker
   </section>
 </main>
 
+<style>
+  .grecaptcha-badge {
+    display: none;
+  }
+</style>
+<script src="https://www.google.com/recaptcha/api.js?render=6LdNSeodAAAAAJlFvgy3Apoo9Hm5mupppRPJo0hB"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
   var email = '';
@@ -220,41 +226,48 @@ canonical: https://mailmeteor.com/email-checker
 
     EmailCheckerLoading();
 
-    fetch('https://mailchecker-service-rnpm3pzcqa-ue.a.run.app/verify\?email\=' + email, { method: 'POST', mode: 'no-cors' })
-      .then((response) => response.json())
-      .then((result) => {
-        window.setTimeout(result.valid ? EmailCheckerValid : EmailCheckerInvalid, 500);
-      })
-      .catch(EmailCheckerInvalid);
+    grecaptcha.ready(function () {
+      grecaptcha.execute('6LdNSeodAAAAAJlFvgy3Apoo9Hm5mupppRPJo0hB', { action: 'submit' }).then(function (token) {
+        // Add your logic to submit to your backend server here.
+
+        // fetch('http://localhost:8080/verify?g-recaptcha-response=' + token + '&email\=' + email, { method: 'POST' })
+        fetch('https://emailchecker.api.mailmeteor.com/verify?g-recaptcha-response=' + token + '&email\=' + email, { method: 'POST' })
+          .then((response) => response.json())
+          .then((result) => {
+            window.setTimeout(result.valid ? EmailCheckerValid : EmailCheckerInvalid, 500);
+          })
+          .catch(EmailCheckerInvalid);
+      });
+    });
   }
 
   function EmailCheckerValid() {
-    $('#email-checker-result').toggle(true);
-
     $('#email-checker-state img').first().attr('src', '/assets/img/tools/email-checker-valid.svg');
     $('#email-checker-state h3').first().text('Valid');
     $('#email-checker-state p')
       .first()
       .text(email + ' is a valid email address');
+
+    $('#email-checker-result').toggle(true);
   }
 
   function EmailCheckerLoading() {
-    $('#email-checker-result').toggle(true);
-
     $('#email-checker-state img').first().attr('src', '/assets/img/tools/email-checker-loading.svg');
     $('#email-checker-state h3').first().text('Loading');
     $('#email-checker-state p')
       .first()
       .text('Currently checking ' + email);
+
+    $('#email-checker-result').toggle(true);
   }
 
   function EmailCheckerInvalid() {
-    $('#email-checker-result').toggle(true);
-
     $('#email-checker-state img').first().attr('src', '/assets/img/tools/email-checker-invalid.svg');
     $('#email-checker-state h3').first().text('Invalid');
     $('#email-checker-state p')
       .first()
       .text(failureReason || email + ' is an invalid email address');
+
+    $('#email-checker-result').toggle(true);
   }
 </script>
