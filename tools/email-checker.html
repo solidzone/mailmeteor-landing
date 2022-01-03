@@ -228,9 +228,6 @@ canonical: https://mailmeteor.com/email-checker
 
     grecaptcha.ready(function () {
       grecaptcha.execute('6LdNSeodAAAAAJlFvgy3Apoo9Hm5mupppRPJo0hB', { action: 'submit' }).then(function (token) {
-        // Add your logic to submit to your backend server here.
-
-        // fetch('http://localhost:8080/verify?g-recaptcha-response=' + token + '&email\=' + email, { method: 'POST' })
         fetch('https://emailchecker.api.mailmeteor.com/verify?g-recaptcha-response=' + token + '&email\=' + email, { method: 'POST' })
           .then((response) => response.json())
           .then((result) => {
