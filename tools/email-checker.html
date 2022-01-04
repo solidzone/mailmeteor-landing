@@ -262,7 +262,8 @@ canonical: https://mailmeteor.com/email-checker
         fetch('https://emailchecker.api.mailmeteor.com/verify?g-recaptcha-response=' + token + '&email\=' + email, { method: 'POST' })
           .then((response) => response.json())
           .then((result) => {
-            window.setTimeout(result.valid ? EmailCheckerValid : EmailCheckerInvalid, 500);
+            var callback = result.error ? EmailCheckerError : result.valid ? EmailCheckerValid : EmailCheckerInvalid;
+            window.setTimeout(callback, 500);
           })
           .catch(EmailCheckerError);
       });
@@ -307,7 +308,7 @@ canonical: https://mailmeteor.com/email-checker
   function EmailCheckerError() {
     $('#email-checker-state img').first().attr('src', '/assets/img/tools/email-checker-invalid.svg');
     $('#email-checker-state h3').first().text('Something went wrong');
-    $('#email-checker-state p').first().text('We could not validated that email address right now. Please try again');
+    $('#email-checker-state p').first().text('We could not validate that email address right now. Please try again');
 
     $('#email-checker-result').toggle(true);
   }
