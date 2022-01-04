@@ -241,6 +241,7 @@ canonical: https://mailmeteor.com/email-checker
   $('#email-checker-form').submit(function (e) {
     e.preventDefault();
     email = $('#email-checker-form input[type=text]').first().val();
+    failureReason = '';
 
     EmailChecker();
   });
