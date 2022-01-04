@@ -1,7 +1,7 @@
 ---
 layout: tool
 
-title: "Spam Checker: Write Better Email Messages"
+title: 'Spam Checker: Write Better Email Messages'
 description: Free tool to check spam trigger words in your email message. A quick and easy way to write better emails and avoid landing in spam.
 
 og_title: Spam Checker by Mailmeteor
@@ -12,18 +12,21 @@ permalink: /spam-checker
 canonical: https://mailmeteor.com/spam-checker
 ---
 
-<main class="container">
-  <div class="text-center pb-2">
+<main>
+  <div class="container text-center">
     <h1>Spam Checker</h1>
     <p>
       Copy/paste an email message to detect and remove
       <a href="/blog/spam-words">spam words</a>.
     </p>
   </div>
-  
-  <div class="row">
-    <section class="col-sm-8" id="spam-checker--input">
-      <textarea id="spam-checker--textarea" style="width: 100%" rows="20">
+
+  <section class="container mt-4 mb-5">
+    <div class="mx-auto" style="width: 95%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 8px">
+      <div class="row" style="margin: 0 !important">
+        <div class="col-md-8">
+          <div id="spam-checker--input">
+            <textarea id="spam-checker--textarea" style="width: 100%" rows="20">
 Dear friend,
 
 I am a Financial Consultant in control of privately owned funds placed for long term investments.
@@ -31,187 +34,313 @@ I am a Financial Consultant in control of privately owned funds placed for long 
 My client intends to invest these funds in projects. I am willing to finance projects at a guaranteed 5% ROI per annum for projects ranging from 2 years term and above but not exceeding 12 years.
 
 Please answer ASAP.</textarea
-      >
-    </section>
-    <aside class="col-sm-4" id="spam-checker--aside"></aside>
-  </div>
-
-  <section>
-    <h2>How does this spam checker tool work?</h2>
-    <p>This tool looks for <a href="/blog/spam-words">spam trigger words</a> in your email. Spam words are keywords or expressions that email service providers see as red flags.</p>     
-    <p>We divided spam keywords into 5 main categories:</p>
-    <ol>
-      <li>Urgency 🚨 - words that pressure recipients</li>
-      <li>Shady 🔞  - ethically or legally questionable words</li>
-      <li>Overpromise 🤩 - exaggerated claims</li>
-      <li>Money 💰 - all things related to money in general</li>
-      <li>Unnatural 💬 - words that don't feel natural</li>
-    </ol>
-    </p>
-    <p>The spam checker tool will highlight words that could be avoided or rephrased in your email. To do so, we compiled the most exhaustive <a href="/blog/spam-words#spam-words-list">spam words list</a> to avoid in your emails.</p>
-    <p>
-      Remember that if your copy contains one or a few spam words, it doesn't necessarily mean your email will be considered spam. Using words in their context is fine.
-    </p>
-    <div class="is-centered">
-      <a href="/blog/spam-words" class="btn btn-outline btn-inline">Learn more about spam words</a>
+            >
+          </div>
+        </div>
+        <aside class="col-md-4" style="background-color: #f5f7f9"><div id="spam-checker--aside"></div></aside>
+      </div>
     </div>
   </section>
-  
+
+  <div class="container" style="max-width: 960px">
+    <section>
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="mb-3">Don't land in SPAM anymore</h2>
+          <p style="font-size: 1.2rem">
+            Spam Checker by Mailmeteor helps you validate your emails before sending them. It detects spam words that looks unnatural, shady, overpromise and more. By rephrasing or
+            using synonyms, you avoid spam filters.
+          </p>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4">
+          <div>
+            <h3>Other tools</h3>
+            <div>
+              <h4 class="mt-3">Email Permutator</h4>
+              <p>Find anyone's email address thanks to our <a href="/email-permutator">free email permutator &rarr;</a></p>
+            </div>
+            <div>
+              <h4 class="mt-3">Email Checker</h4>
+              <p>Verify anyone's email address thanks to our <a href="/email-checker">free email checker &rarr;</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials text-center my-5">
+      <h3>Mailmeteor is trusted by 3 million professionnals</h3>
+      {%- include testimonials-logo.html size="sm" -%}
+    </section>
+
+    <section class="faq" itemscope itemtype="https://schema.org/FAQPage">
+      <h3 id="faq" class="text-center">Questions & answers about spam checker</h3>
+      <p class="text-center">Everything you need to know about SPAM.</p>
+
+      <div id="accordion-general" class="accordions">
+        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="card-header accordionpointer collapsed" id="heading1" data-toggle="collapse" data-target="#collapse1">
+            <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse1">How does spam checker work?</h4>
+            <span class="faq-expander"></span>
+          </div>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion-general">
+            <div class="card-body" itemprop="text">
+              <p>
+                Spam Checker looks for <a href="/blog/spam-words">spam trigger words</a> in your email. Spam words are keywords or expressions that email service providers see as
+                red flags.
+              </p>
+              <p>We divided spam keywords into 5 main categories:</p>
+              <ol>
+                <li>Urgency 🚨 - words that pressure recipients</li>
+                <li>Shady 🔞 - ethically or legally questionable words</li>
+                <li>Overpromise 🤩 - exaggerated claims</li>
+                <li>Money 💰 - all things related to money in general</li>
+                <li>Unnatural 💬 - words that don't feel natural</li>
+              </ol>
+              <p>
+                The spam checker tool will highlight words that could be avoided or rephrased in your email. To do so, we compiled the most exhaustive
+                <a href="/blog/spam-words#spam-words-list">spam words list</a> to avoid in your emails.
+              </p>
+              <p>
+                Remember that if your copy contains one or a few spam words, it doesn't necessarily mean your email will be considered spam. Using words in their context is fine.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="card-header accordionpointer collapsed" id="heading2" data-toggle="collapse" data-target="#collapse2">
+            <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse2">What is a spam checker?</h4>
+            <span class="faq-expander"></span>
+          </div>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion-general">
+            <div class="card-body" itemprop="text">
+              A spam checker is a tool that detects spammy words, like an anti-spam filter would. By replacing spammy words or phrases, you make sure your emails land in inbox (and
+              not in a SPAM folder).
+            </div>
+          </div>
+        </div>
+
+        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="card-header accordionpointer collapsed" id="heading3" data-toggle="collapse" data-target="#collapse3">
+            <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse3">Where to learn more about spam?</h4>
+            <span class="faq-expander"></span>
+          </div>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion-general">
+            <div class="card-body" itemprop="text">SPAM is a vast subject, but thankfully we made a <a href="/blog/spam-words">detailed article about spam</a>.</div>
+          </div>
+        </div>
+
+        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="card-header accordionpointer collapsed" id="heading4" data-toggle="collapse" data-target="#collapse4">
+            <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse4">Is Spam Checker Free?</h4>
+            <span class="faq-expander"></span>
+          </div>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion-general">
+            <div class="card-body" itemprop="text">Spam Checker is totally free to use. Mailmeteor makes it available to anyone interested in checking their email content.</div>
+          </div>
+        </div>
+
+        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="card-header accordionpointer collapsed" id="heading5" data-toggle="collapse" data-target="#collapse5">
+            <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse5">Is Spam Checker safe to use?</h4>
+            <span class="faq-expander"></span>
+          </div>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion-general">
+            <div class="card-body" itemprop="text">
+              Spam Checker detects hundreds of words and phrases that appears to be spammy. But anti-SPAM filters take into account more factors than just your email content. Your
+              email address reputation and the frequency of your sending are two other important factors (amongst many others). If you are interested in learning more about this
+              topic, read our <a href="https://mailmeteor.com/blog/gmail-deliverability">article about email deliverability</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="card-header accordionpointer collapsed" id="heading7" data-toggle="collapse" data-target="#collapse7">
+            <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse7">Does spam checker use my data?</h4>
+            <span class="faq-expander"></span>
+          </div>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordion-general">
+            <div class="card-body" itemprop="text">
+              Your data stays yours - <i>like all products made by Mailmeteor</i>. Emails content that you verify using our spam checker are not saved by us nor shared with a
+              third-party.
+            </div>
+          </div>
+        </div>
+
+        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <div class="card-header accordionpointer collapsed" id="heading8" data-toggle="collapse" data-target="#collapse8">
+            <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse8">What to do once an email is cleaned?</h4>
+            <span class="faq-expander"></span>
+          </div>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordion-general">
+            <div class="card-body" itemprop="text">
+              Once you have cleaned your email from any spam words, you can send a highly personalized email campaign using Gmail with <a href="/">Mailmeteor</a>. Mailmeteor lets
+              you send mass emails in Gmail that feel personal. It’s the most popular <a href="/mail-merge-gmail">Gmail mail merge</a> tool, trusted by 3 million people worldwide
+              for its simplicity and privacy focus.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </main>
 
 <style>
   #spam-checker--input {
-  padding: 1rem;
-  width: 100%;
-  min-height: 100%;
-  border: 1px solid #eee;
-  border-radius: 5px;
-  transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
-  background-color: white;
-  -webkit-box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01);
-  box-shadow: 0px 8px 26px 2px rgba(0, 0, 0, 0.01) l;
-}
+    padding: 1rem;
+    width: 100%;
+    min-height: 100%;
+    transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
+  }
 
-#spam-checker--textarea {
-  border-color: transparent;
-  outline: none;
-}
+  #spam-checker--textarea {
+    border-color: transparent;
+    outline: none;
+    padding: 0;
+    margin: 0;
+  }
 
-.hwt-container {
-  display: block;
-  position: relative;
-  overflow: hidden !important;
-  -webkit-text-size-adjust: none !important;
-}
+  .hwt-container {
+    display: block;
+    position: relative;
+    overflow: hidden !important;
+    -webkit-text-size-adjust: none !important;
+  }
 
-.hwt-backdrop {
-  position: absolute !important;
-  top: 0 !important;
-  right: -99px !important;
-  bottom: 0 !important;
-  left: 0 !important;
-  padding-right: 99px !important;
-  overflow-x: hidden !important;
-  overflow-y: auto !important;
-}
+  .hwt-backdrop {
+    position: absolute !important;
+    top: 0 !important;
+    right: -99px !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    padding-right: 99px !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
 
-.hwt-highlights {
-  width: auto !important;
-  height: auto !important;
-  border-color: transparent !important;
-  white-space: pre-wrap !important;
-  word-wrap: break-word !important;
-  color: transparent !important;
-  overflow: hidden !important;
-}
+  .hwt-highlights {
+    width: auto !important;
+    height: auto !important;
+    border-color: transparent !important;
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    color: transparent !important;
+    overflow: hidden !important;
+  }
 
-.hwt-input {
-  display: block !important;
-  position: relative !important;
-  margin: 0;
-  padding: 0;
-  border-radius: 0;
-  font: inherit;
-  overflow-x: hidden !important;
-  overflow-y: auto !important;
-}
+  .hwt-input {
+    display: block !important;
+    position: relative !important;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    font: inherit;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
 
-.hwt-content {
-  border: 1px solid;
-  background: none transparent !important;
-}
+  .hwt-content {
+    border: 1px solid;
+    background: none transparent !important;
+  }
 
-.hwt-content mark {
-  padding: 0 !important;
-  color: inherit;
-  border-radius: 3px;
-}
+  .hwt-content mark {
+    padding: 0 !important;
+    color: inherit;
+    border-radius: 3px;
+  }
 
-.hwt-content mark.spam-category-shady {
-  background-color: #f9a8d4; /* pink-300 */
-}
+  .hwt-content mark.spam-category-shady {
+    background-color: #f9a8d4; /* pink-300 */
+  }
 
-.hwt-content mark.spam-category-money {
-  background-color: #fcd34d; /* yellow-300 */
-}
+  .hwt-content mark.spam-category-money {
+    background-color: #fcd34d; /* yellow-300 */
+  }
 
-.hwt-content mark.spam-category-urgency {
-  background-color: #f87171; /* red-400 */
-}
+  .hwt-content mark.spam-category-urgency {
+    background-color: #f87171; /* red-400 */
+  }
 
-.hwt-content mark.spam-category-overpromise {
-  background-color: #fdba74; /* orange-300 */
-}
+  .hwt-content mark.spam-category-overpromise {
+    background-color: #fdba74; /* orange-300 */
+  }
 
-.hwt-content mark.spam-category-unnatural {
-  background-color: #d1d5db; /* grey-300 */
-}
+  .hwt-content mark.spam-category-unnatural {
+    background-color: #d1d5db; /* grey-300 */
+  }
 
-li.spam-category-shady {
-  border-radius: 3;
-  border-left: 3px solid #f9a8d4; /* pink-300 */
-}
+  #spam-checker--aside li.spam-category-shady {
+    border-radius: 3;
+    border-left: 3px solid #f9a8d4; /* pink-300 */
+  }
 
-li.spam-category-money {
-  border-radius: 3;
-  border-left: 3px solid #fcd34d; /* yellow-300 */
-}
+  #spam-checker--aside li.spam-category-money {
+    border-radius: 3;
+    border-left: 3px solid #fcd34d; /* yellow-300 */
+  }
 
-li.spam-category-urgency {
-  border-radius: 3;
-  border-left: 3px solid #f87171; /* red-400 */
-}
+  #spam-checker--aside li.spam-category-urgency {
+    border-radius: 3;
+    border-left: 3px solid #f87171; /* red-400 */
+  }
 
-li.spam-category-overpromise {
-  border-radius: 3;
-  border-left: 3px solid #fdba74; /* orange-300 */
-}
+  #spam-checker--aside li.spam-category-overpromise {
+    border-radius: 3;
+    border-left: 3px solid #fdba74; /* orange-300 */
+  }
 
-li.spam-category-unnatural {
-  border-radius: 3;
-  border-left: 3px solid #d1d5db; /* grey-300 */
-}
+  #spam-checker--aside li.spam-category-unnatural {
+    border-radius: 3;
+    border-left: 3px solid #d1d5db; /* grey-300 */
+  }
 
-#spam-checker--aside table {
-  width: 100%;
-  margin-bottom: 1rem;
-}
+  #spam-checker--aside {
+    padding: 1rem 0.5rem;
+  }
 
-#spam-checker--aside table td:first-child {
-  color: #64748b;
-}
+  #spam-checker--aside table {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 
-#spam-checker--aside table td:last-child {
-  text-align: right;
-  font-weight: 600;
-}
+  #spam-checker--aside table td:first-child {
+    color: #64748b;
+  }
 
-#spam-checker--aside table td:last-child .text-poor {
-  color: #e11d48;
-}
+  #spam-checker--aside table td:last-child {
+    text-align: right;
+    font-weight: 600;
+  }
 
-#spam-checker--aside table td:last-child .text-okay {
-  color: #2563eb;
-}
+  #spam-checker--aside table td:last-child .text-poor {
+    color: #e11d48;
+  }
 
-#spam-checker--aside table td:last-child .text-great {
-  color: #16a34a;
-}
+  #spam-checker--aside table td:last-child .text-okay {
+    color: #2563eb;
+  }
 
-#spam-checker--aside ul,
-#spam-checker--aside ol {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+  #spam-checker--aside table td:last-child .text-great {
+    color: #16a34a;
+  }
 
-#spam-checker--aside li {
-  margin: 0.5rem 0;
-  padding: 0.75rem;
-  border-radius: 3px;
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-}
+  #spam-checker--aside ul,
+  #spam-checker--aside ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #spam-checker--aside li {
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
 </style>
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Droid+Sans+Mono" rel="stylesheet" />

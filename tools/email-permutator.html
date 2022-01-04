@@ -51,133 +51,259 @@ canonical: https://mailmeteor.com/email-permutator
   }
 </style>
 
-<main class="container">
+<main class="container" style="max-width: 960px">
   <header class="text-center">
     <h1>Email Permutator</h1>
-    <p>Find anyone's email address thanks to our email permutator tool (<a href="#getting-started">how it works?</a>).</p>
+    <p>Find anyone's email address thanks to our email permutator tool (<a href="#faq">how it works?</a>).</p>
   </header>
 
   <section>
-    <div class="row">
-      <div class="col-md-4">
-        <form>
-          <div class="form-group">
-            <label for="firstname">First name</label>
-            <input type="text" class="form-control" id="firstname" required="required" placeholder="First name" value="Elon" />
-          </div>
-          <div class="form-group">
-            <label for="lastname">Last name</label>
-            <input type="text" class="form-control" id="lastname" required="required" placeholder="Last name" value="Musk" />
-          </div>
-          <div id="more-options" class="d-none">
+    <div class="mx-auto my-5 p-4" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 8px">
+      <div class="row">
+        <div class="col-md-4">
+          <form>
             <div class="form-group">
-              <label for="nickname">Nick name</label>
-              <input type="text" class="form-control" id="nickname" placeholder="Nick name" />
+              <label for="firstname">First name</label>
+              <input type="text" class="form-control" id="firstname" required="required" placeholder="First name" value="Elon" />
             </div>
             <div class="form-group">
-              <label for="middlename">Middle name</label>
-              <input type="text" class="form-control" id="middlename" placeholder="Middle name" />
+              <label for="lastname">Last name</label>
+              <input type="text" class="form-control" id="lastname" required="required" placeholder="Last name" value="Musk" />
             </div>
-          </div>
-          <div class="form-group">
-            <label for="domain">Domain</label>
-            <div class="input-group mb-2">
-              <div class="input-group-prepend">
-                <div class="input-group-text">@</div>
+            <div id="more-options" class="d-none">
+              <div class="form-group">
+                <label for="nickname">Nick name</label>
+                <input type="text" class="form-control" id="nickname" placeholder="Nick name" />
               </div>
-              <input type="text" class="form-control" id="domain" required="required" placeholder="Domain" value="spacex.com" />
+              <div class="form-group">
+                <label for="middlename">Middle name</label>
+                <input type="text" class="form-control" id="middlename" placeholder="Middle name" />
+              </div>
             </div>
-          </div>
+            <div class="form-group">
+              <label for="domain">Domain</label>
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">@</div>
+                </div>
+                <input type="text" class="form-control" id="domain" required="required" placeholder="Domain" value="spacex.com" />
+              </div>
+            </div>
 
-          <button class="btn btn-primary" style="margin: 0.5rem 0; padding: 0.375rem 0.75rem; font-weight: bold" type="submit" id="btn-permutate">Generate email addresses</button>
-          <button class="btn btn-light" style="margin: 0.5rem 0; padding: 0.375rem 0.75rem" type="button" id="btn-more">More settings</button>
-        </form>
-      </div>
-      <div class="col-md-8">
-        <div class="snippet" style="position: relative">
-          <textarea id="result"></textarea>
-          <p class="text-muted" style="padding: 0.25rem 1rem">
-            <small><span id="counter"></span> emails generated</small> -
-            <small><a href="#" target="_blank" class="gmail-popup-link">Open in Gmail</a></small>
-          </p>
-          <div class="clipboard-copy" data-toggle="tooltip" data-placement="top" title="Copy to clipboard">
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16">
-              <path
-                fill-rule="evenodd"
-                d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"
-              ></path>
-              <path
-                fill-rule="evenodd"
-                d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"
-              ></path>
-            </svg>
-          </div>
-          <div class="gmail-popup" data-toggle="tooltip" data-placement="top" title="Open in Gmail">
-            <a href="#" target="_blank" class="gmail-popup-link">
-              <svg height="20px" viewBox="0 0 24 24" width="20px" fill="#000000" style="transform: scaleX(-1)">
-                <path d="M0 0h24v24H0z" fill="none" />
-                <path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z" />
+            <button class="btn btn-marketing" style="margin: 0.5rem 0; padding: 0.375rem 0.75rem; font-weight: bold" type="submit" id="btn-permutate">
+              Generate email addresses
+            </button>
+            <button class="btn btn-light" style="margin: 0.5rem 0; padding: 0.375rem 0.75rem" type="button" id="btn-more">More settings</button>
+          </form>
+        </div>
+        <div class="col-md-8">
+          <div class="snippet" style="position: relative">
+            <textarea id="result"></textarea>
+            <p class="text-muted m-0" style="padding: 0.25rem 1rem 0 1rem">
+              <small><span id="counter"></span> emails generated</small> -
+              <small><a href="#" target="_blank" class="gmail-popup-link">Open in Gmail</a></small>
+            </p>
+            <div class="clipboard-copy" data-toggle="tooltip" data-placement="top" title="Copy to clipboard">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16">
+                <path
+                  fill-rule="evenodd"
+                  d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"
+                ></path>
               </svg>
-            </a>
+            </div>
+            <div class="gmail-popup" data-toggle="tooltip" data-placement="top" title="Open in Gmail">
+              <a href="#" target="_blank" class="gmail-popup-link">
+                <svg height="20px" viewBox="0 0 24 24" width="20px" fill="#000000" style="transform: scaleX(-1)">
+                  <path d="M0 0h24v24H0z" fill="none" />
+                  <path d="M10 9V5l-7 7 7 7v-4.1c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z" />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="getting-started">
+
+  <section>
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="mb-3">All possible permutations of someone's email address</h2>
+        <p style="font-size: 1.2rem">
+          Email Permutator by Mailmeteor guesses all possible combinations of someone's email address totally for free. Dozens of permutations are generated each time based on the
+          firstname, lastname and more settings.
+        </p>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-4">
+        <div>
+          <h3>Other tools</h3>
+          <div>
+            <h4 class="mt-3">Spam Word Checker</h4>
+            <p>Make sure your emails don't land in spam with our <a href="/spam-checker">free spam words checker &rarr;</a></p>
+          </div>
+          <div>
+            <h4 class="mt-3">Email Checker</h4>
+            <p>Verify anyone's email address thanks to our <a href="/email-checker">free email checker &rarr;</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials text-center my-5">
+    <h3>Mailmeteor is trusted by 3 million professionnals</h3>
+    {%- include testimonials-logo.html size="sm" -%}
+  </section>
+
+  <section class="faq" itemscope itemtype="https://schema.org/FAQPage">
+    <h3 id="faq" class="text-center">Questions & answers about email permutator</h3>
+    <p class="text-center">Everything you need to know about how to find someone's email email address.</p>
+
+    <div id="accordion-general" class="accordions">
+      <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="card-header accordionpointer collapsed" id="heading1" data-toggle="collapse" data-target="#collapse1">
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse1">How to use this email permutator</h4>
+          <span class="faq-expander"></span>
+        </div>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion-general">
+          <div class="card-body" itemprop="text">
+            <p>
+              <strong>Email permutator is a free tool to help you find anyone’s email</strong>. It works by combining basic information you know about someone to generate a list of
+              their potential email addresses.
+            </p>
+            <p>Follow these simple steps to use the email permutator:</p>
+            <ol>
+              <li>Fill the fields with the information you know about the person (first name, last name, domain…)</li>
+              <li>Click on “Generate email addresses”</li>
+              <li>
+                Copy and paste the generate email combinations into a
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=someone@example.com" target="_blank">new Gmail message</a>, inside the TO field
+              </li>
+              <li>Hover the different addresses with your mouse. If one of them has a profile image, bingo! You have found the valid email address.</li>
+            </ol>
+            <video autoplay muted loop playsinline style="max-width: 100%">
+              <source src="/assets/img/tools/email-permutator.mp4" />
+            </video>
+            <br />
+            <p style="padding: 1rem 2rem; margin: 1rem 0; background-color: #f4f7fe; border: 1px solid #007bff17; border-radius: 8px">
+              <span class="font-weight-bold">Note:</span> don’t try to send emails to all the combinations generated in the hope to find one address that will not bounce. If you
+              write to dead-end destinations you may harm your email reputation. The email permutator method is useful to verify an email address without sending email or to know
+              if a Gmail address exists.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="card-header accordionpointer collapsed" id="heading2" data-toggle="collapse" data-target="#collapse2">
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse2">How to find anyone's email address</h4>
+          <span class="faq-expander"></span>
+        </div>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion-general">
+          <div class="card-body" itemprop="text">
+            <p>
+              Email permutator is a quick and easy way to find anyone's email address. It’s important to note that the email permutator will only generate possible email address
+              combinations. Also, sometimes the person you are looking for will not have a profile picture displayed in Gmail.
+            </p>
+            <p>
+              Thus if you are looking for more precise ways to find someone’s email, you may need to look for a paying email finder software. Some of the most popular services to
+              find and verify emails include such as
+              <a href="https://withlove.usebouncer.com/mailmeteor" rel="noopener noreferrer nofollow">Bouncer</a>,
+              <a href="https://clearout.io/" rel="noopener noreferrer nofollow">Clearout</a>, <a href="https://www.emailable.com/" rel="noopener noreferrer nofollow">Emailable</a>,
+              <a href="https://neverbounce.com/" rel="noopener noreferrer nofollow">Neverbounce</a> or
+              <a href="https://www.zerobounce.net/" rel="noopener noreferrer nofollow">Zerobounce</a>.
+            </p>
+            <p>
+              We partnered with those companies to offer you excusive discounts. Feel free to grab your discount
+              <a href="https://dashboard.mailmeteor.com/account/partners">right from our partners page</a>. You can also find more services by searching for “email finder”, “email
+              validation”, “email verification” or “bounce check tool” in Google and find the most appropriate tool for your needs.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="card-header accordionpointer collapsed" id="heading3" data-toggle="collapse" data-target="#collapse3">
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse3">Email permutator spreadsheet</h4>
+          <span class="faq-expander"></span>
+        </div>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion-general">
+          <div class="card-body" itemprop="text">
+            <p>
+              This email permutator is based on the work of Rob Ousbey, who created an
+              <a href="https://docs.google.com/spreadsheets/d/17URMtNmXfEZEW9oUL_taLpGaqTDcMkA79J8TRw4xnz8/htmlview" target="_blank">email permutator spreadsheet</a> in Google
+              sheet. You can make a copy of this document to work in Google Sheets or convert it to use the email permutator in Excel.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="card-header accordionpointer collapsed" id="heading4" data-toggle="collapse" data-target="#collapse4">
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse4">Is Email Permutator Free?</h4>
+          <span class="faq-expander"></span>
+        </div>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion-general">
+          <div class="card-body" itemprop="text">
+            <p>Email Checker is totally free to use. Mailmeteor makes it available to anyone interested in finding someone's email address.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="card-header accordionpointer collapsed" id="heading3" data-toggle="collapse" data-target="#collapse7">
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse7">Does email checker use my data?</h4>
+          <span class="faq-expander"></span>
+        </div>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse7" class="collapse" aria-labelledby="heading3" data-parent="#accordion-general">
+          <div class="card-body" itemprop="text">
+            <p>
+              Your data stays yours - <i>like all products made by Mailmeteor</i>. Email addresses that you find using our email permutator tool are not saved by us nor shared with
+              a third-party.
+            </p>
+            <p>
+              With this said, this page has Google Analytics and is protected by reCAPTCHA. Consequently, the Google
+              <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Privacy Policy</a>
+              and
+              <a href="https://policies.google.com/terms" rel="noopener" target="_blank">Terms of Service</a>
+              apply.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="card-header accordionpointer collapsed" id="heading5" data-toggle="collapse" data-target="#collapse5">
+          <h4 itemprop="name" class="mb-0" aria-expanded="true" aria-controls="collapse5">What to do once you've find someone's email address?</h4>
+          <span class="faq-expander"></span>
+        </div>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion-general">
+          <div class="card-body" itemprop="text">
+            <p>
+              Once you have collected a list of valid email addresses, you can send a highly personalized email campaign using Gmail with <a href="/">Mailmeteor</a>. Mailmeteor
+              lets you send mass emails in Gmail that feel personal. It’s the most popular <a href="/mail-merge-gmail">Gmail mail merge</a> tool, trusted by 3 million people
+              worldwide for its simplicity and privacy focus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
     <div>
-      <h2>How to use this email permutator</h2>
-      <p>
-        <strong>Email permutator is a free tool to help you find anyone’s email</strong>. It works by combining basic information you know about someone to generate a list of their
-        potential email addresses.
-      </p>
-      <p>Follow these simple steps to use the email permutator:</p>
-      <ol>
-        <li>Fill the fields with the information you know about the person (first name, last name, domain…)</li>
-        <li>Click on “Generate email addresses”</li>
-        <li>
-          Copy and paste the generate email combinations into a <a href="https://mail.google.com/mail/?view=cm&fs=1&to=someone@example.com" target="_blank">new Gmail message</a>,
-          inside the TO field
-        </li>
-        <li>Hover the different addresses with your mouse. If one of them has a profile image, bingo! You have found the valid email address.</li>
-      </ol>
-      <video autoplay muted loop playsinline style="max-width: 100%">
-        <source src="/assets/img/tools/email-permutator.mp4" />
-      </video>
-      <br />
-      <p style="padding: 1rem 2rem; margin: 1rem 0; background-color: #f4f7fe; border: 1px solid #007bff17; border-radius: 8px">
-        <span class="font-weight-bold">Note:</span> don’t try to send emails to all the combinations generated in the hope to find one address that will not bounce. If you write to
-        dead-end destinations you may harm your email reputation. The email permutator method is useful to verify an email address without sending email or to know if a Gmail
-        address exists.
-      </p>
+      <h2></h2>
     </div>
     <div>
-      <h2>How to find anyone's email address</h2>
-      <p>
-        Email permutator is a quick and easy way to find anyone's email address. It’s important to note that the email permutator will only generate possible email address
-        combinations. Also, sometimes the person you are looking for will not have a profile picture displayed in Gmail.
-      </p>
-      <p>
-        Thus if you are looking for more precise ways to find someone’s email, you may need to look for a paying email finder software. Some of the most popular services to find
-        and verify emails include Dropcontact, Clearout, ZeroBounce, Bouncer, Emailable, ZoomInfo, NeverBounce, DeBounce, TrueMail (we're not affiliated to them). Look for “email
-        finder”, “email validation”, “email verification” or “bounce check tool” in your searches online to find the most appropriate tool for your needs.
-      </p>
+      <h2></h2>
     </div>
     <div>
-      <h2>Email permutator spreadsheet</h2>
-      <p>
-        This email permutator is based on the work of Rob Ousbey, who created an
-        <a href="https://docs.google.com/spreadsheets/d/17URMtNmXfEZEW9oUL_taLpGaqTDcMkA79J8TRw4xnz8/htmlview" target="_blank">email permutator spreadsheet</a> in Google sheet. You
-        can make a copy of this document to work in Google Sheets or convert it to use the email permutator in Excel.
-      </p>
-    </div>
-    <div>
-      <h2>Send mass personalized emails with Gmail</h2>
-      <p>
-        Once you have collected a list of valid email addresses, you can send a highly personalized email campaign using Gmail with <a href="/">Mailmeteor</a>. Mailmeteor lets you
-        send mass emails in Gmail that feel personal. It’s the most popular <a href="/mail-merge-gmail">Gmail mail merge</a> tool, trusted by 3 million people worldwide for its
-        simplicity and privacy focus.
-      </p>
+      <h2></h2>
     </div>
   </section>
 </main>
