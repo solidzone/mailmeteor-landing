@@ -2,9 +2,10 @@ id: 254259794936
 title: "gPanel"
 slug: "gpanel"
 author: "promevo.com"
-description: "Comprehensive management and reporting solution for G Suite."
+description: "Comprehensive management and reporting solution for Google Workspace"
 image: https://lh3.googleusercontent.com/-2_s5pAeN4Lo/XEjypXalKQI/AAAAAAAAkRA/qLfxIAMwfXc-gy_a01TcvO8ZKoxYCqQywCLcBGAs/s400/App_Icon-128x128.png
-link: https://gsuite.google.com/marketplace/app/gpanel/254259794936
-stars: 4.4
-votes: 28
-installs: 4102834
+link: https://workspace.google.com/marketplace/app/gpanel/254259794936
+stars: 4.24
+votes: 29
+installs: 4213691
+screenshot: https://lh3.googleusercontent.com/0HdzZALAYK_K3ZK5KcgqmO6B9-GxY_devKFAi5xKaGN1yGGjGdPlHTY_N3_COZCGTnlSMSlUEg=s640-w640-h400

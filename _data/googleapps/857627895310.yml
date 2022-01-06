@@ -1,10 +1,11 @@
 id: 857627895310
-title: "Data connector for Salesforce"
+title: "Salesforce Connector"
 slug: "data-connector-for-salesforce"
 author: "google.com"
 description: "Import reports or custom data queries from Salesforce into Sheets, or make changes to Salesforce directly from Sheets."
 image: https://lh3.googleusercontent.com/--PYbW-Z77ZM/Xfehtc6XsmI/AAAAAAAAEoM/nTQnMu4gq4EWYSN1nof_5RRc5wRpgyARwCNcBGAsYHQ/s400/cloud-logo-128x128.png
-link: https://gsuite.google.com/marketplace/app/data_connector_for_salesforce/857627895310
-stars: 4
-votes: 161
-installs: 934148
+link: https://workspace.google.com/marketplace/app/salesforce_connector/857627895310
+stars: 4.03
+votes: 174
+installs: 1270349
+screenshot: https://lh3.googleusercontent.com/-HxbVfWSErR0/XfvTC4FuNmI/AAAAAAAAEpw/9hxVFpa-9g0CVAVymhDbDpKue53uK6fewCNcBGAsYHQ/s640-w640-h400/revised-sfdc-image-640x400.png

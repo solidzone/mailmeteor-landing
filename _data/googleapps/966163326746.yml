@@ -1,10 +1,11 @@
 id: 966163326746
-title: "Apipheny - API Tool"
+title: "Apipheny - API connector"
 slug: "apipheny-api-tool"
 author: "Apipheny.io"
-description: "Google Sheets API Connector. Import API into Google Sheets, easily. Make GET & POST requests. Save & Schedule API requests."
+description: "API data connector for Google Sheets. Connect data sources to your sheets. Eliminate manual data entry tasks & save hours of time every week."
 image: https://lh3.googleusercontent.com/-EJsXUffZbRU/XlSor8OVZxI/AAAAAAABkGk/2_VnWjh9uTMQrrlLkHnouQTdc81LjWRogCLcBGAsYHQ/s400/apipheny-128-128.png
-link: https://gsuite.google.com/marketplace/app/apipheny_api_tool/966163326746
-stars: 4.5
-votes: 29
-installs: 18634
+link: https://workspace.google.com/marketplace/app/apipheny_api_connector/966163326746
+stars: 4.55
+votes: 33
+installs: 41777
+screenshot: https://lh3.googleusercontent.com/-7-u14-y2DEM/YSAhbSCMlLI/AAAAAAABlps/Z90_BvoUPNsTsxXWuSd5k2hB_xGXMqfLwCLcBGAsYHQ/s640-w640-h400/Apipheny%2B1.jpg

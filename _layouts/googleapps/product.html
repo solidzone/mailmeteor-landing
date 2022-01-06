@@ -20,7 +20,7 @@ breadcrumb:
           {% if app.title != app.author %}
           <p itemprop="author" class="gapps-products-page-card-subtitle">{{ app.author }}</p>
           {% endif %}
-          <p itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+          <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
             <svg width="20" height="20" viewBox="0 0 16 14" fill="#FFEB83" xmlns="http://www.w3.org/2000/svg" style="vertical-align: top; margin: 0.1rem 0.1rem 0.1rem 0">
               <path
                 d="M8 11.6l3.458 2.091a.831.831 0 0 0 1.242-.9l-.917-3.933 3.059-2.65c.558-.483.258-1.4-.475-1.458l-4.025-.342L8.767.691c-.284-.675-1.25-.675-1.534 0L5.658 4.4l-4.025.341C.9 4.8.6 5.716 1.158 6.2l3.059 2.65-.917 3.933a.831.831 0 0 0 1.242.9L8 11.6z"
@@ -33,8 +33,11 @@ breadcrumb:
                 </linearGradient>
               </defs>
             </svg>
-            <span itemprop="ratingValue">{{ page.stars }}</span>/5 (out of <span itemprop="reviewCount">{{ page.votes}}</span> reviews) • {{ page.installs}} installs
-          </p>
+            <span itemprop="ratingValue">{{ page.stars }}</span>/5 (out of <span itemprop="reviewCount">{{ page.votes}}</span> reviews) • {{ page.installs }} installs
+          </div>
+          {% if page.screenshot %}
+          <img src="{{ page.screenshot }}" alt="Screenshot of {{ page.title | escape }}" style="width: auto; max-width: 100%; margin: 2rem 0" />
+          {% endif %}
           <p itemprop="description">{{ page.description }}</p>
           <a href="{{ page.link }}" itemprop="installUrl">
             Google Workspace Marketplace link
@@ -83,7 +86,7 @@ breadcrumb:
         </div>
         <div class="text-center">
           <h2>The best alternative to Mergo</h2>
-          <p>Looking for a Mergo alternative? you’ve found it with Mailmeteor.</p>
+          <p>Looking for a Mergo alternative? You’ve found it with Mailmeteor.</p>
           <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-filled btn-inline">START SENDING EMAILS</a>
         </div>
       </div>
@@ -104,12 +107,7 @@ breadcrumb:
             <a href="/best-google-apps/{{ category.title | slugify }}">
               <h2>{{ category.title }}</h2>
               <p style="text-transform: capitalize">The best {{ category.title }} apps</p>
-              <span>
-                View
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="18" height="18" viewBox="0 0 24 24" fill="#007bff">
-                  <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />
-                </svg>
-              </span>
+              <span> View more </span>
             </a>
           </div>
           {% endfor %}

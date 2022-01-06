@@ -4,7 +4,8 @@ slug: "colaboratory"
 author: "colab-team"
 description: "Colab is a Jupyter notebook environment that runs in the browser using Google Cloud."
 image: https://lh3.googleusercontent.com/-l6dUgmPOKMM/X7w3nNn3OpI/AAAAAAAALAg/74fTRiPqikMURTD_Dn4PzAVADey2_6lLwCNcBGAsYHQ/s400/colab-logo-128x128.png
-link: https://gsuite.google.com/marketplace/app/colaboratory/1014160490159
-stars: 4.7
-votes: 3162
-installs: 4825221
+link: https://workspace.google.com/marketplace/app/colaboratory/1014160490159
+stars: 4.71
+votes: 3466
+installs: 10000000
+screenshot: https://lh3.googleusercontent.com/-U942LFFpDZI/X7w30iDAXkI/AAAAAAAALA4/oVaylpfkynAGhOe7k40ZNP1cwSRYixeRQCNcBGAsYHQ/s640-w640-h400/screenshot.png

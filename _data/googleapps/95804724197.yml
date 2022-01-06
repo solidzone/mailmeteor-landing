@@ -2,9 +2,10 @@ id: 95804724197
 title: "API Connector"
 slug: "api-connector"
 author: "Mixed Analytics"
-description: "Connect and import data from APIs to Google Sheets."
-image: https://lh3.googleusercontent.com/-9IMZFP805zA/XjO7rnRCzPI/AAAAAAAADkk/iaL-j74914w8EZuT8ch40dmkSZGguAbNQCNcBGAsYHQ/s400/202001_128x128.png
-link: https://gsuite.google.com/marketplace/app/api_connector/95804724197
-stars: 4.4
-votes: 172
-installs: 186301
+description: "Connect and import data from any API to Google Sheets."
+image: https://lh3.googleusercontent.com/-L2qieUO63t8/YU2qrO5MGZI/AAAAAAAAEdc/qopXoVne1MsYUO7D3JS7BZ-jbYV3YNWfwCNcBGAsYHQ/s400/128x128.png
+link: https://workspace.google.com/marketplace/app/api_connector/95804724197
+stars: 4.32
+votes: 200
+installs: 815121
+screenshot: https://lh3.googleusercontent.com/-mS4K4S58bBA/YU2fl0ErjxI/AAAAAAAAEcg/L3zc1IpX1qoZHxoTB-QLYAzeiLITwGzfwCNcBGAsYHQ/s640-w640-h400/1.png
