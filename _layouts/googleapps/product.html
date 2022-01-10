@@ -15,11 +15,17 @@ breadcrumb:
       <div class="{% if page.alternative %}col-md-6 m-auto{%else%}col-12 m-auto{%endif%} text-center" style="max-width: 720px">
         <a href="/best-google-apps/all/" class="is-small-purple">GOOGLE APPS DIRECTORY</a>
         <div class="gapps-products-page-card mt-3">
+          <!-- Logo -->
           <img src="{{ page.image }}" alt="Logo of {{ page.title | escape }}" style="max-width: 50px" />
+
+          <!-- Title -->
           <h1 itemprop="name">{{ page.title }}</h1>
           {% if app.title != app.author %}
           <p itemprop="author" class="gapps-products-page-card-subtitle">{{ app.author }}</p>
           {% endif %}
+
+          <!-- Rating / Installs-->
+          {% if page.votes > 0 %}
           <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
             <svg width="20" height="20" viewBox="0 0 16 14" fill="#FFEB83" xmlns="http://www.w3.org/2000/svg" style="vertical-align: top; margin: 0.1rem 0.1rem 0.1rem 0">
               <path
@@ -33,12 +39,20 @@ breadcrumb:
                 </linearGradient>
               </defs>
             </svg>
-            <span itemprop="ratingValue">{{ page.stars }}</span>/5 (out of <span itemprop="reviewCount">{{ page.votes}}</span> reviews) • {{ page.installs }} installs
+            <span itemprop="ratingValue">{{ page.stars }}</span>/5 (out of <span itemprop="reviewCount">{{ page.votes}}</span> reviews) •
+            <data value="{{ page.installs }}" data-type="number">{{ page.installs }}</data> installs
           </div>
+          {% else %} <data value="{{ page.installs }}" data-type="number">{{ page.installs }}</data> installs {% endif %}
+
+          <!-- Screenshot -->
           {% if page.screenshot %}
           <img src="{{ page.screenshot }}" alt="Screenshot of {{ page.title | escape }}" style="width: auto; max-width: 100%; margin: 2rem 0" />
           {% endif %}
+
+          <!-- Description -->
           <p itemprop="description">{{ page.description }}</p>
+
+          <!-- Install link -->
           <a href="{{ page.link }}" itemprop="installUrl">
             Google Workspace Marketplace link
             <svg
@@ -116,3 +130,16 @@ breadcrumb:
     </div>
   </section>
 </main>
+
+<script type="text/javascript">
+  try {
+    const numbers = document.querySelectorAll('data[data-type=number]');
+    const numberFormat = new Intl.NumberFormat();
+    for (let i = 0; i < numbers.length; i++) {
+      const numberElt = numbers[i];
+      const numberVal = numberElt.getAttribute('value');
+
+      numberElt.innerText = numberFormat.format(numberVal);
+    }
+  } catch (err) {}
+</script>
