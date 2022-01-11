@@ -68,9 +68,11 @@ categories:
   - title: Confirmation emails
   - title: Contacts
   - title: Customer support
+  - title: Crypto
   # - title: Dashboard
   - title: Data Protection
   - title: Developers
+  - title: Diagrams
   - title: Dictionary
   - title: Educators
   - title: Email
@@ -80,6 +82,7 @@ categories:
   - title: Email newsletters
   - title: Email signature
   - title: Email Tracking
+  - title: Email Finder
   # - title: Email Verification
   - title: Excel
     description: Switch from Excel to Sheets easily
@@ -121,8 +124,11 @@ categories:
   - title: Salesforce
   - title: Scheduling
   - title: Schools
+  - title: Security
   - title: SEO
   - title: SMS
   - title: Spelling & Grammar
+  - title: Students
   - title: Timer
+  - title: Work
   - title: Workflow automation
