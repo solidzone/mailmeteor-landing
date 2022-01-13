@@ -3,11 +3,6 @@
 
 <!-- Products pricing -->
 <script>
-  // Enabling Stripe popovers
-  $(function () {
-    $('[data-toggle="popover"]').popover();
-  });
-
   /**
    * Render products cards
    */
@@ -281,12 +276,15 @@
           tip.hide();
         }
       });
+
+    // Enabling popovers
+    $('[data-toggle="popover"]').popover();
   });
 </script>
 
 <!-- Bootsrap Slider -->
-<script src="https://cdn.jsdelivr.net/gh/seiyria/bootstrap-slider@11.0.2/dist/bootstrap-slider.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/seiyria/bootstrap-slider@11.0.2/dist/css/bootstrap-slider.min.css" />
+<script src="/assets/js/lib/bootstrap-slider@11.0.2.min.js"></script>
+<link rel="stylesheet" href="/assets/css/lib/bootstrap-slider@11.0.2.min.css" />
 
 <script>
   function renderTeamPack(units = 5) {
