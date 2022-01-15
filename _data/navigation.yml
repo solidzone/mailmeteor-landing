@@ -240,7 +240,7 @@ footer:
         es: 'Video de demostración'
         de: 'Demonstrationsvideo'
       help:
-        url: '/support'
+        url: 'https://support.mailmeteor.com/'
         en: 'Help center'
         fr: 'Documentation'
         es: 'Documentación'
