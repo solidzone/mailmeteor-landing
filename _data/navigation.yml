@@ -245,12 +245,6 @@ footer:
         fr: 'Documentation'
         es: 'Documentación'
         de: 'Hilfezentrum'
-      contact:
-        url: '/contact'
-        en: 'Contact support'
-        fr: 'Contacter le support'
-        es: 'Soporte de contacto'
-        de: 'Kontaktieren Sie Support'
       sales:
         url: '/sales'
         en: 'Contact sales'
