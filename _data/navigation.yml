@@ -228,7 +228,7 @@ footer:
       de: 'Hilfe'
     links:
       tutorial:
-        url: '/mail-merge-gmail/tutorial'
+        url: 'https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial'
         en: 'Tutorial'
         fr: 'Tutoriel'
         es: 'Tutorial'
