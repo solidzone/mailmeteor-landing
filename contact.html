@@ -11,8 +11,14 @@ og_url: https://mailmeteor.com/contact
 
 <!-- CONTACT  -->
 
+<style>
+  [v-cloak] {
+    display: none;
+  }
+</style>
+
 {% raw %}
-<main id="app" class="page-contact">
+<main id="app" class="page-contact" v-cloak>
   <!-- CONTACT > HEADER(HOME) -->
   <header class="container page-contact-search page-title" v-if="step === 1">
     <h1 class="text-center">Hi! 👋 How can we help you?</h1>
