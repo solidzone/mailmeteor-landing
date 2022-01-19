@@ -30,7 +30,7 @@ permalink: /mail-merge-gmail/extensions
 
 Using a mail merge extension for Gmail can help you save invaluable time and effort sending emails to multiple recipients at once.
 
-We compiled the most useful <a href="/mail-merge-gmail">Gmail mail merge</a> extensions that give you the ability to send mass personalized emails from a Google Sheet to Gmail – all of which can offer a massive boost to the productivity of your email campaigns. The information below has been updated as of June 2021.
+We compiled the most useful <a href="/mail-merge-gmail/">Gmail mail merge</a> extensions that give you the ability to send mass personalized emails from a Google Sheet to Gmail – all of which can offer a massive boost to the productivity of your email campaigns. The information below has been updated as of June 2021.
 
 **The Top 12 mail merge extensions for Gmail**
 
