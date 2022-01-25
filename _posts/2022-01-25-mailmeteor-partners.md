@@ -34,7 +34,7 @@ Today we’re making another leap forward. **We’re glad to announce new partne
 
 <img src="/assets/img/blog/mailmeteor-partners/announcement.webp" alt="Mailmeteor partners"/>
 
-At Mailmeteor, we are committed to saving you time sending emails. We’ve been focused on building **the simplest, most affordable and privacy-friendly email solution** that works with the tools you’re already familiar with. We’ve always believed that doing one thing really, really well, is better than chasing the next feature. That’s why we deliberately chose to partner with top notch solution providers to complete your email experience.
+At Mailmeteor, we are committed to saving you time sending emails. We’ve been focused on building **the simplest, most affordable and privacy-friendly email solution** that works with the tools you’re already familiar with. We’ve always believed that doing one thing really, really well, is better than chasing the next feature. That’s why we deliberately chose to partner with top notch solution providers to complete your emailing experience.
 
 Each partner solution will expand your emailing experience with Mailmeteor: from building your contact list thanks to **email finding tools**, cleaning your list with **email verification services**, improving your email reputation using **email warm ups tools**, automating tasks before sending your campaigns and more.
 
@@ -69,7 +69,7 @@ Find below a list of Mailmeteor partners sorted by alphabetical order:
 
 <img alt="Neverbounce logo" src="/assets/img/blog/mailmeteor-partners/neverbounce.webp" class="no-shadow" style="max-width:30px; display:inline-block; margin:0"/> **[Neverbounce](https://dashboard.mailmeteor.com/account/partners/neverbounce)**: An email address is your first line of communication with a customer. With NeverBounce, you can ensure that you reach their inbox. With their best-in-class email verification, you’ll improve engagement rates, reduce the risk of having your domain blacklisted, and increase conversions.
 
-<img alt="Phantombuster logo" src="/assets/img/blog/mailmeteor-partners/phantombuster.webp" class="no-shadow" style="max-width:30px; display:inline-block; margin:0"/> **[PhantomBuster](https://dashboard.mailmeteor.com/account/partners/phantombuster)** offers solutions in the form of 'Phantoms' (i.e., automations) available for over 20 categories online, including LinkedIn and Sales Navigator. Their tools are mainly used for lead generation, with marketers, sales teams, and agencies using their products to optimize and scale their growth on autopilot. Users can use the 100+ Phantoms in the Phantom Store to extract and enrich lists of leads, create outreach campaigns on LinkedIn, and automate on social media.
+<img alt="Phantombuster logo" src="/assets/img/blog/mailmeteor-partners/phantombuster.webp" class="no-shadow" style="max-width:30px; display:inline-block; margin:0"/> **[PhantomBuster](https://dashboard.mailmeteor.com/account/partners/phantombuster)** offers solutions in the form of 'Phantoms' (i.e., automations) available for over 20 categories online, including LinkedIn and Sales Navigator. Their tools are mainly used for lead generation, with marketers, sales teams, and agencies using their products to optimize and scale their growth on autopilot. You can use the 100+ Phantoms from the Phantom Store to extract and enrich lists of leads, create outreach campaigns on LinkedIn, and automate on social media.
 
 <img alt="RocketReach logo" src="/assets/img/blog/mailmeteor-partners/rocketreach.webp" class="no-shadow" style="max-width:30px; display:inline-block; margin:0"/> **[RocketReach](https://dashboard.mailmeteor.com/account/partners/rocketreach)** is a giant, continually updated database of 20+ million companies and 620+ million professional profiles, that is used by 9.5+ million users to source real-time, verified contact information, create bulk list, and make prospecting & networking a breeze!
 
@@ -89,7 +89,7 @@ You will find instructions on how to activate each deal, such as a special coupo
 <div class="blogpost-endnote">
   <p class="font-weight-bold">On a last note, we  want to thank our partners for their trust and efforts in bringing exclusive discounts to our users. It’s an honour to associate Mailmeteor with such renowned companies. Our hope is to build a strong network of trusted partners over time. Let’s become better at emailing together. Merci!
   </p>
-  <p>This article was written by Jean Durbulle, <a href="https://mailmeteor.com">Mailmeteor</a>'s co-founder. Mailmeteor is a simple & privacy-focused emailing software. Trusted by millions of users worldwide, it is often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think!</p>
+  <p>This article was written by Jean Dubrulle, <a href="https://mailmeteor.com">Mailmeteor</a>'s co-founder. Mailmeteor is a simple & privacy-focused emailing software. Trusted by millions of users worldwide, it is often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think!</p>
 
   <p>➤ <a href="https://mailmeteor.com" class="font-weight-bold">Start sending mass emails in Gmail with Mailmeteor</a></p>
 </div>
