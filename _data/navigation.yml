@@ -270,6 +270,12 @@ footer:
         fr: 'Avis des clients'
         es: 'Valoración de los clientes'
         de: 'Kundenbewertungen'
+      mailmeteor-partners:
+        url: '/blog/mailmeteor-partners'
+        en: 'Partners'
+        fr: 'Partenaires'
+        es: 'Socios'
+        de: 'Partner'
       jobs:
         url: '/contact#others/collaborate'
         en: "We're hiring"
