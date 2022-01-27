@@ -79,8 +79,7 @@ Find below a list of Mailmeteor partners sorted by alphabetical order:
 
 ## How to activate these offers?
 
-To browse all exclusive offers of our partners, go to the Mailmeteor Dashboard:
-[https://dashboard.mailmeteor.com/account/partners](https://dashboard.mailmeteor.com/account/partners)
+To browse all exclusive offers of our partners, [go to the Mailmeteor Dashboard](https://dashboard.mailmeteor.com/account/partners).
 
 You will find instructions on how to activate each deal, such as a special coupon code for Mailmeteor users or going through a dedicated landing page.
 
