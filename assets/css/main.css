@@ -1464,6 +1464,11 @@ article img :first-of-type {
   vertical-align: middle;
 }
 
+ol.education-list li::marker {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 /* ######## 8. Support & Contact page ######## */
 
 /* #### 8.1 Page support search #### */
