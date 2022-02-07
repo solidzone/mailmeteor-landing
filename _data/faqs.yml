@@ -190,3 +190,41 @@ help:
       Need help with Mailmeteor? You may find answers to your questions in our [Help Center](/support).
   - question: Can I send emails from space?
     answer: Mailmeteor works anywhere you can access the internet, so technically you should be able to send emails from space. If you manage to do it, please send us an email with a picture!
+
+#
+# FAQ Education
+#
+
+education:
+  - question: Who uses Mailmeteor for Education?
+    answer: More than 300 schools, colleges and universities from all over the world have joined our Education Program. Our members range from K-12 schools to Ivy Leagues universities. Our Education Program members are teachers, students, members of staff representing schools from almost all countries in the world. Feel free to apply!
+
+  - question: Is Mailmeteor safe to install on my domain?
+    answer: Mailmeteor is a verified Google Workspace add-on trusted by 3 million users. Contrary to most email platforms, Mailmeteor only requires the least amount of permissions in order to send emails on your behalf. For that reason, Mailmeteor is the safest mail merge option for Gmail. When installing Mailmeteor on your domain, you can <a href="https://support.mailmeteor.com/help/privacy">review all permissions</a> required by the add-on. Also, it's possible to restrict Mailmeteor to specific Organizational Units in your Google Workspace domain if you don't want everyone to access the add-on.
+
+  - question: What are the benefits of using mail merge for teachers?
+    answer: A mail merge in Gmail will save you countless hours of time as teacher. Mailmeteor helps you with time-consuming tasks, such as sending grades or an assignement email to your students. Also, Mailmeteor is a great teacher parent communication app. Mailmeteor makes it really easy to communicate with parents, helping you boost parents engagement.
+
+  - question: How do you send an email to all students?
+    answer: With Mailmeteor, you can email all your students in a few clicks. All you need to do is gathering your students contact list in a Google Sheets. Then, you can email all students using Mailmeteor. Follow our <a href="https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial">tutorial</a> to send an email campaign to all your students.
+
+  - question: How do you send an email to everyone in your school district?
+    answer: Sending an email to everyone in your school district can be daunting. Thankfully, Mailmeteor makes it really easy. To email everyone in your school district, add your contact list in Google Sheets, compose your email and personalize it, then use Mailmeteor to mail merge emails from Gmail.
+
+  - question: How to send grades via email?
+    answer: If you're a teacher, you know the hassle of sending grades to each student manuallu. Using a mail merge like Mailmeteor to email student results or to mail merge registration information is the solution that will save you hours at the end of the next semester!
+
+  - question: What is the importance of mail merge as a student?
+    answer: In most colleges and universities, mail merge is being taught as a key skill to master. A mail merge will help you automated time-consuming tasks such as sending emails, generating documents or letters. Knowing how to mail merge will be of great help both in your studies and future professional life.
+
+  - question: How do I do a mail merge for studies?
+    answer: Let's say you need to email a group of people for a research, or you want to write emails to schools for admission. Using a Gmail mail merge add-on like Mailmeteor will help you complete these taks in a few clicks!
+
+  - question: How to email your teacher or classmates?
+    answer: In case your Google administrator has activated the Gmail and Directory services for students, you can email your teachers and classmates in Google Classroom. Go to Google Classroom, head over to the teacher's class, then under the "People" tab, click "Email" to send an email.
+
+  - question: What are the best Gmail tips for teachers?
+    answer: Bringing technology in the classroom will enhance teaching and learning. We have compiled the most useful <a href="https://mailmeteor.com/gmail-tips">Gmail tips</a> for teachers to help you save time sending emails with Gmail and amaze your students.
+
+  - question: Why is Mailmeteor the best mail merge for Education?
+    answer: Mailmeteor is one the best tech tools for teachers and students in 2022 for three reasons. Mailmeteor is simple to use even if you're not tech savvy. Mailmeteor is free for Education purposes. Last but not least, Mailmeteor is built to protect your data privacy. Join our Education Program to benefit from Mailmeteor Premium features!

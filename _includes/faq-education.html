@@ -1,0 +1,35 @@
+<!-- FAQs  -->
+<section class="faq" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-easing="ease-out">
+  <div class="container" itemscope itemtype="https://schema.org/FAQPage">
+    <h2 id="faq" class="text-center">Questions & answers</h2>
+    <p class="text-center">Find tutorials & help guides in our <a href="https://mailmeteor.com/support" target="_blank" rel="noopener">documentation</a>.</p>
+    <div id="accordion-general" class="accordions">
+      {% assign i = 0 %} {% for entry in site.data.faqs.education %}
+      <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <div class="card-header accordionpointer collapsed" id="heading{{i}}" data-toggle="collapse" data-target="#collapse{{i}}">
+          <h4 class="mb-0" aria-expanded="true" aria-controls="collapse{{i}}" itemprop="name" style="padding: 0.15rem 0">{{entry.question}}</h4>
+          <span class="faq-expander"></span>
+        </div>
+
+        <div
+          id="collapse{{i}}"
+          class="collapse"
+          aria-labelledby="heading{{i}}"
+          data-parent="#accordion-general"
+          itemscope
+          itemprop="acceptedAnswer"
+          itemtype="https://schema.org/Answer"
+        >
+          <div class="card-body" itemprop="text">{{entry.answer | markdownify}}</div>
+        </div>
+      </div>
+      {% assign i = i | plus:1 %} {% endfor %}
+    </div>
+    <div class="container d-flex justify-content-center mt-3">
+      <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-filled" style="margin: auto; max-width: 400px"
+        >INSTALL MAILMETEOR<br />
+        FREE FOR EDUCATION
+      </a>
+    </div>
+  </div>
+</section>
