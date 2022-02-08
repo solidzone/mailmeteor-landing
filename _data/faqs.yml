@@ -197,7 +197,7 @@ help:
 
 education:
   - question: Who uses Mailmeteor for Education?
-    answer: More than 300 schools, colleges and universities from all over the world have joined our Education Program. Our members range from K-12 schools to Ivy Leagues universities. Our Education Program members are teachers, students, members of staff representing schools from almost all countries in the world. Feel free to apply!
+    answer: More than 300 schools, colleges and universities from all over the world have joined our Education Program. Our members range from K-12 schools to Ivy League universities. Our Education Program members are teachers, students, members of staff representing schools from almost all countries in the world. Feel free to apply!
 
   - question: Is Mailmeteor safe to install on my domain?
     answer: Mailmeteor is a verified Google Workspace add-on trusted by 3 million users. Contrary to most email platforms, Mailmeteor only requires the least amount of permissions in order to send emails on your behalf. For that reason, Mailmeteor is the safest mail merge option for Gmail. When installing Mailmeteor on your domain, you can <a href="https://support.mailmeteor.com/help/privacy">review all permissions</a> required by the add-on. Also, it's possible to restrict Mailmeteor to specific Organizational Units in your Google Workspace domain if you don't want everyone to access the add-on.
