@@ -233,8 +233,14 @@ footer:
         fr: 'Tutoriel'
         es: 'Tutorial'
         de: 'Lernprogramm'
+      getting_started:
+        url: '/learning/getting-started'
+        en: 'Getting started'
+        fr: 'Prise en main'
+        es: 'Empezando'
+        de: 'Einstieg'
       demovideo:
-        url: 'https://www.youtube.com/watch?v=-YX65-kywOE'
+        url: 'https://www.youtube.com/watch?v=-YX65-kywOE&list=PLsZLp_pMhGGX50TEojjFHefFjJTkKtXVp'
         en: 'Demo video'
         fr: 'Démo vidéo'
         es: 'Video de demostración'
