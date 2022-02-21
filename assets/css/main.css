@@ -154,7 +154,7 @@ a:hover {
   text-decoration: none;
 }
 
-a:hover:not(.reviews-badge) svg path {
+a.link-svg:hover svg path {
   fill: #FC4B6D;
 }
 

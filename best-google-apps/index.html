@@ -26,7 +26,7 @@ breadcrumb:
     <div class="gapps-directory container">
       {% for category in site.data.gapps-directory.categories %}
       <div class="gapps-categories-card">
-        <a href="{{ category.title | replace: '&', '' | slugify }}">
+        <a href="{{ category.title | replace: '&', '' | slugify }}" class="link-svg">
           {% if category.image %}
           <img class="mx-auto" src="{{ category.image }}" alt="{{ category.title | replace: '&', '' | slugify }}" />
           {% endif %}
@@ -55,7 +55,7 @@ breadcrumb:
         <h3 class="mt-5 mb-3">Browse all Google Apps</h3>
         <p>The complete list of Google Apps for Workspace & G Suite</p>
         <p class="mb-5">
-          <a href="/best-google-apps/all/"
+          <a href="/best-google-apps/all/" class="link-svg"
             >View all the best Google Workspace Apps
             <svg width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
