@@ -13,7 +13,7 @@ body.blogpost {
  */
 
 .blogpost-header {
-  padding: 1rem 0 3rem 0;
+  padding-bottom: 3rem;
   background: rgb(19, 2, 164);
   background: radial-gradient(circle, rgba(19, 2, 164, 1) 0%, rgba(15, 2, 116, 1) 80%);
 }
