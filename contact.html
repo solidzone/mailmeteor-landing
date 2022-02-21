@@ -20,13 +20,13 @@ og_url: https://mailmeteor.com/contact
 {% raw %}
 <main id="app" class="page-contact" v-cloak>
   <!-- CONTACT > HEADER(HOME) -->
-  <header class="container page-contact-search page-title" v-if="step === 1">
+  <header class="container page-contact-search title-centered" v-if="step === 1">
     <h1 class="text-center">Hi! 👋 How can we help you?</h1>
     <p class="text-center">Select a topic below, we'll do our best to answer as quickly as we can. <br class="d-none d-sm-block" />Our team speaks English, French and Spanish.</p>
   </header>
 
   <!-- CONTACT > HEADER(STEPS) -->
-  <header class="container page-title mt-5" style="margin-bottom: 3rem" v-else-if="!isFormVisible">
+  <header class="container title-centered mt-5" style="margin-bottom: 3rem" v-else-if="!isFormVisible">
     <h1 style="margin-bottom: 2rem">{{ step === 2 ? "Tell us a little bit more?" : "You may find this article helpful" }}</h1>
     <div class="page-contact-progress">
       <div class="d-flex justify-content-between mb-2">
@@ -470,7 +470,7 @@ og_url: https://mailmeteor.com/contact
 <!-- CONTACT > TEMPLATES > FORM -->
 <script type="text/x-template" id="help-form">
   <form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLSex7568Bew5QHmOtNzVG0AarA8eTvynAPbepDDm52t5tOKi2w/formResponse">
-    <header v-if="!noheader" class="container page-contact-search page-title">
+    <header v-if="!noheader" class="container page-contact-search title-centered">
       <h1 class="text-center">Contact us</h1>
       <p>Our team speaks English, French and Spanish.<br />We'll do our best to answer as quickly as we can.</p>
     </header>
@@ -490,10 +490,10 @@ og_url: https://mailmeteor.com/contact
       </div>
       <input type="hidden" name="entry.742539293" placeholder="topic" v-model="topic" />
       <div class="d-flex align-items-center">
-        <button type="submit" class="btn btn-filled" style="padding: 0.5rem 1rem; margin-right: 1rem">
+        <button type="submit" class="btn btn-primary" style="padding: 0.5rem 1rem; margin-right: 1rem">
           <strong>Let's get in touch</strong>
         </button>
-        <button class="btn btn-outline" style="padding: 0.5rem 1rem; margin-right: 1rem" @click.prevent="goback">
+        <button class="btn btn-secondary" style="padding: 0.5rem 1rem; margin-right: 1rem" @click.prevent="goback">
           <strong>Cancel</strong>
         </button>
         <span class="text-secondary"></span>

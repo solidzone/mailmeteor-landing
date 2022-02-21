@@ -3,82 +3,92 @@
 #
 
 entries:
-  - question: Is there a free trial?
-    answer: You can enjoy Mailmeteor for free with up to **75 emails a day**. It's more free email quota compared to what you can find in other mail merge solutions. Whenever you want to send more emails, Mailmeteor Premium includes up to 2000 emails, real-time tracking, scheduling, attachments or email alias & more. If you want to benefit from premium features, you can upgrade your account on our [paid plans](/pricing).
+  - question: How is Mailmeteor different from other emailing solutions?
+    answer: >
+      Mailmeteor lets you send email campaigns from your Gmail inbox, contrary to classic email marketing software, such as Mailchimp or Sendgrid. When your recipients receive an email sent using Mailmeteor, it will feel unique, personal, and highly-relevant. It means **better email deliverability, fewer spams and way better opening rates**!
+
+
+      You could compare Mailmeteor to other popular sales automations tools, like [Lemlist](/alternative/lemlist), [Mailshake](/alternative/mailshake), [Yesware](/alternative/yesware) or mail merge extensions for Gmail, like [Yet another mail merge](/alternative/yetanothermailmerge) or [Gmass](/alternative/gmass).
+
+      Mailmeteor is different in 3 ways:
+
+        1. **Simpler to use**: Mailmeteor is an award-winning tool and the best rated Google add-on. With Mailmeteor, you can send emails within minutes. The sending experience is made effortless.
+        2. **Designed to respect your privacy**. Mailmeteor has no access to your Gmail inbox, contrary to other add-ons that ask for read access to your Gmail inbox and Google Drive files.
+        3. **More affordable pricing options**. Mailmeteor has a generous free plan and a [simple pricing](/pricing) that works at any scale.
 
   - question: How many emails can I send with Mailmeteor?
     answer: >
       Mailmeteor Premium allows you to send personalized emails up to the limits imposed by Gmail:
 
-        - Google Workspace (formerly G Suite) accounts can send up to 2000 emails per day
+        - Google Workspace accounts (formerly G Suite) can send up to 2000 emails per day
         - Gmail accounts (@gmail.com) can send up to 500 emails per day
 
       Mailmeteor abides by these limits and allows you to send as many emails as you can using your own Gmail account. Your quota varies depending on the type of your Google account (G Suite or Gmail) and your plan. Read more about [email quota](https://support.mailmeteor.com/introduction/quick-start/email-quota).
 
-  - question: How is Mailmeteor different from other mailing solutions?
-    answer: >
-      Mailmeteor lets you send email campaigns from your Gmail inbox, contrary to email marketing software, like Mailchimp or Sendgrid. Emails sent with Mailmeteor look as if you typed them manually for each contact. It means **better email deliverability, fewer spams and way better opening rates**!
-
-
-      You can also compare Mailmeteor to other mail merge extensions for Gmail - like [Yet another mail merge](/alternative/yetanothermailmerge) or [Gmass](/alternative/gmass).
-
-
-      Mailmeteor is different in 3 ways:
-
-        1. **The best rated Google add-on**. Your mail merge experience is made effortless, no computer skills are required.
-        2. **Designed to respect your privacy**. Mailmeteor has no access to your Gmail inbox, contrary to other add-ons that ask for read access to your Gmail inbox and Google Drive files.
-        3. **Affordable pricing options**. Mailmeteor has a generous free plan and a [simple pricing](/pricing) that works at any scale.
-
   - question: How can I ensure that my emails won’t go to spam?
-    answer: Mailmeteor sends emails directly from your Gmail account and adds a sending delay between each email sent. These mechanisms prevent your emails falling into spam folders. In addition, we strongly recommend you to read our [guidelines to maximize email deliverability](https://support.mailmeteor.com/introduction/sending-guidelines) before sending large volumes of emails.
+    answer: >
+      Using Mailmeteor and following a few simple rules will help you achieve greats results while keeping you safe from the spam inbox.
+
+      Mailmeteor sends emails directly from your Gmail account and adds a sending delay between each email sent. These mechanisms prevent your emails falling into spam folders. 
+
+      In addition, we strongly recommend you to read our [guidelines to maximize email deliverability](https://support.mailmeteor.com/introduction/sending-guidelines) before sending large volumes of emails.
 
   - question: How can I personalize my emails?
     answer: >
-      You can personalize every part of the email, from subject line to email body, as well as CC/BCC fields. The only limit is your imagination!
+      You can personalize every part of the email, from subject line to email body, as well as CC/BCC fields. The only limit is your imagination! 
 
-
-      Imagine having a “firstname” column in your spreadsheet, adding *"Hi {{firstname}}"* in your email will be automatically replaced by your recipient’s first name (*"Hi Sally"* for example). You just need to put your variables inside double brackets, like this → {{ }}
-
-
-      Here are some examples:
-        - Personalized email subject: *{{ Mutual connection }} recommended we talk*
-        - Personalized greetings and recipients: *Hello {{ firstname }}*
-        - Personalized content, custom links, postscriptum...
-
-      Emails sent with Mailmeteor look as if you typed them manually for each of your recipients.
+      Emails sent with Mailmeteor look as if you typed them manually for each of your recipients. It makes your recipients feel unique. Learn more about [personalizing your emails](https://support.mailmeteor.com/introduction/advanced/personalize-emails).
 
   - question: How does Mailmeteor keep my data safe?
     answer: >
-      By design, your data stays at all times on your Google Spreadsheet. Here's all the data we need in order to make Mailmeteor work:
+      By design, your data stays at all times on your Google Spreadsheet. 
+
+      Contary to most emailing platforms, Mailmeteor requires minimal permissions to send emails on your behalf.
+
+      Here's all the data we need in order to make Mailmeteor work:
         - Your email address to identify your account
         - If you are a paying customer, your name to identify payment
-        - Campaigns sent metadata (number of emails, date of sending, sheet's name, *that's all*)
-        - Emails sent metadata (date of sending, opens and clicks events, *that's all again*)
+        - Campaigns sent metadata (number of emails, date of sending, sheet's name)
+        - Emails sent metadata (date of sending, opens and clicks events)
 
-      Mailmeteor complies with the French Data Protection Laws and the European General Data Protection Regulation 2016/679 (GDPR). You have a right of access, correction and removal of your personal data which you may exercise by sending us an email at [privacy@mailmeteor.com](mailto:privacy@mailmeteor.com).
+      Mailmeteor complies with the French Data Protection Laws and the European General Data Protection Regulation 2016/679 (GDPR). 
+
+      You have a right of access, correction and removal of your personal data which you may exercise by sending us an email at [privacy@mailmeteor.com](mailto:privacy@mailmeteor.com).
 
   - question: How to add CC or BCC recipients?
     answer: Sure you can. Add a column in your sheet with "cc" or "bcc" as header. Then, add emails in the cells. If you have several recipients in CC or BCC, separate emails with commas. Here is a [video tutorial](https://www.youtube.com/watch?v=3me-iWYFSY0).
 
   - question: Is Mailmeteor suitable for working in teams?
-    answer: Sure! [Mailmeteor Enterprise](/sales) allows teams to collaborate on the same document and access the email tracking report of campaigns. Large companies, organizations and academic institutions trust Mailmeteor for their email needs. Our largest customer has 100,000 employees using Mailmeteor.
+    answer: >
+      Sure! Mailmeteor offers collaboration features for teams, such as working on the same spreadsheet and access a shared tracking report.
+
+      Mailmeteor has a complete dashboard allowing you to manage your team efficiently. The dashboard lets you add or remove users easily and provides your email campaigns stats at a glance.
+
+      Our solution can used at scale. Large companies, organizations and academic institutions trust Mailmeteor for their email needs. For example, our largest customer has 100,000 employees using Mailmeteor.
+
+      You can contact our [sales team](/sales) in case you're looking for a simple and privacy-focused solution to scale your emailing efforts.
 
   - question: What CRMs does Mailmeteor integrate with?
     answer: You can use Mailmeteor with your favorite CRM tool, like Salesforce or Hubspot. To log emails sent with Mailmeteor, you will need to find your unique BCC address provided by your CRM. You will put this address as a BCC recipient when sending emails from Mailmeteor. Here is a [guide to help you use Mailmeteor with your CRM](https://support.mailmeteor.com/introduction/advanced/crm-integration).
 
+  - question: Is there a free trial?
+    answer: >
+      You can enjoy Mailmeteor for free with up to **75 emails a day**. It's more free email quota compared to what you can find in other mail merge solutions. 
+
+      Whenever you want to send more emails, Mailmeteor Premium includes up to 2000 emails, real-time tracking, scheduling, attachments or email alias & more. If you want to benefit from premium features, you can upgrade your account on our [paid plans](/pricing).
+
   - question: How do I manage my subscription?
     answer: >
-      To manage your account, [access your settings from Mailmeteor's dashboard](https://dashboard.mailmeteor.com/account).
+      To manage your account, [go to your Mailmeteor's dashboard](https://dashboard.mailmeteor.com/account).
 
-
-      To cancel your account, on the same page click on “Cancel” within your account profile. Follow the instructions and the subscription will be cancelled immediately afterward. If you cancel before the end of your subscription period, you will still be able to use your Mailmeteor premium account (up to the last day of the subscription).
+      You can cancel your account anytime. On the same page click on “Cancel”. Follow the instructions and the subscription will be cancelled immediately afterward. If you cancel before the end of your subscription period, you will still be able to use your Mailmeteor premium account, up to the last day of the subscription.
 
   - question: I need help with Mailmeteor
     answer: >
       Need help with Mailmeteor? Check our [Help Center](https://support.mailmeteor.com/) with answers to the most frequently asked questions.
 
   - question: Can I send emails from space?
-    answer: Mailmeteor works anywhere you can access the internet, so technically you should be able to send emails from space. If you manage to do it, please send us an email sharing the news!
+    answer: Mailmeteor works anywhere you can access the internet, so technically you should be able to send emails from space. If you manage to do it, please send us an email with a picture!
 
 #
 # FAQ pricing
@@ -116,13 +126,19 @@ billing:
 security:
   - question: How does Mailmeteor keep my data safe?
     answer: >
-      By design, your data stays at all times on your Google Spreadsheet. Here's all the data we need in order to make Mailmeteor work:
+      By design, your data stays at all times on your Google Spreadsheet. 
+
+      Contary to most emailing platforms, Mailmeteor requires minimal permissions to send emails on your behalf.
+
+      Here's all the data we need in order to make Mailmeteor work:
         - Your email address to identify your account
         - If you are a paying customer, your name to identify payment
-        - Campaigns sent metadata (number of emails, date of sending, sheet's name, *that's all*)
-        - Emails sent metadata (date of sending, opens and clicks events, *that's all again*)
+        - Campaigns sent metadata (number of emails, date of sending, sheet's name)
+        - Emails sent metadata (date of sending, opens and clicks events)
 
-      Mailmeteor complies with the French Data Protection Laws and the European General Data Protection Regulation 2016/679 (GDPR). You have a right of access, correction and removal of your personal data which you may exercise by sending us an email at [privacy@mailmeteor.com](mailto:privacy@mailmeteor.com).
+      Mailmeteor complies with the French Data Protection Laws and the European General Data Protection Regulation 2016/679 (GDPR). 
+
+      You have a right of access, correction and removal of your personal data which you may exercise by sending us an email at [privacy@mailmeteor.com](mailto:privacy@mailmeteor.com).
 
   - question: What permissions are needed to use Mailmeteor?
     answer: >
@@ -133,53 +149,54 @@ security:
       You can find here the exhaustive [list of permissions requested by Mailmeteor](https://support.mailmeteor.com/help/privacy) and their meaning.
 
 deliverability:
-  - question: How is Mailmeteor different from other mailing solutions?
+  - question: How is Mailmeteor different from other emailing solutions?
     answer: >
-      Mailmeteor lets you send email campaigns from your Gmail inbox, contrary to email marketing software, like Mailchimp or Sendgrid. Emails sent with Mailmeteor look as if you typed them manually for each contact. It means **better email deliverability, fewer spams and way better opening rates**!
+      Mailmeteor lets you send email campaigns from your Gmail inbox, contrary to classic email marketing software, such as Mailchimp or Sendgrid. When your recipients receive an email sent using Mailmeteor, it will feel unique, personal, and highly-relevant. It means **better email deliverability, fewer spams and way better opening rates**!
 
-
-      You can also compare Mailmeteor to other mail merge extensions for Gmail - like [Yet another mail merge](/alternative/yetanothermailmerge) or [Gmass](/alternative/gmass).
-
+      You could compare Mailmeteor to other popular sales automations tools, like [Lemlist](/alternative/lemlist), [Mailshake](/alternative/mailshake), [Yesware](/alternative/yesware) or mail merge extensions for Gmail, like [Yet another mail merge](/alternative/yetanothermailmerge) or [Gmass](/alternative/gmass).
 
       Mailmeteor is different in 3 ways:
 
-        1. **The best rated Google add-on**. Your mail merge experience is made effortless, no computer skills are required.
+        1. **Simpler to use**: Mailmeteor is an award-winning tool and the best rated Google add-on. With Mailmeteor, you can send emails within minutes. The sending experience is made effortless.
         2. **Designed to respect your privacy**. Mailmeteor has no access to your Gmail inbox, contrary to other add-ons that ask for read access to your Gmail inbox and Google Drive files.
-        3. **Affordable pricing options**. Mailmeteor has a generous free plan and a [simple pricing](/pricing) that works at any scale.
+        3. **More affordable pricing options**. Mailmeteor has a generous free plan and a [simple pricing](/pricing) that works at any scale.
 
   - question: How many emails can I send with Mailmeteor?
     answer: >
       Mailmeteor Premium allows you to send personalized emails up to the limits imposed by Gmail:
 
-        - Google Workspace (formerly G Suite) accounts can send up to 2000 emails per day
+        - Google Workspace accounts (formerly G Suite) can send up to 2000 emails per day
         - Gmail accounts (@gmail.com) can send up to 500 emails per day
 
       Mailmeteor abides by these limits and allows you to send as many emails as you can using your own Gmail account. Your quota varies depending on the type of your Google account (G Suite or Gmail) and your plan. Read more about [email quota](https://support.mailmeteor.com/introduction/quick-start/email-quota).
 
   - question: How can I ensure that my emails won’t go to spam?
-    answer: Mailmeteor sends emails directly from your Gmail account and adds a sending delay between each email sent. These mechanisms prevent your emails falling into spam folders. In addition, we strongly recommend you to read our [guidelines to maximize email deliverability](https://support.mailmeteor.com/introduction/sending-guidelines) before sending large volumes of emails.
+    answer: >
+      Using Mailmeteor and following a few simple rules will help you achieve greats results while keeping you safe from the spam inbox.
+
+      Mailmeteor sends emails directly from your Gmail account and adds a sending delay between each email sent. These mechanisms prevent your emails falling into spam folders. 
+
+      In addition, we strongly recommend you to read our [guidelines to maximize email deliverability](https://support.mailmeteor.com/introduction/sending-guidelines) before sending large volumes of emails.
 
 features:
   - question: How can I personalize my emails?
     answer: >
-      You can personalize every part of the email, from subject line to email body, as well as CC/BCC fields. The only limit is your imagination!
+      You can personalize every part of the email, from subject line to email body, as well as CC/BCC fields. The only limit is your imagination! 
 
+      Emails sent with Mailmeteor look as if you typed them manually for each of your recipients. It makes your recipients feel unique. Learn more about [personalizing your emails](https://support.mailmeteor.com/introduction/advanced/personalize-emails).
 
-      Imagine having a “firstname” column in your spreadsheet, adding *"Hi {{firstname}}"* in your email will be automatically replaced by your recipient’s first name (*"Hi Sally"* for example). You just need to put your variables inside double brackets, like this → {{ }}
-
-
-      Here are some examples:
-        - Personalized email subject: *{{ Mutual connection }} recommended we talk*
-        - Personalized greetings and recipients: *Hello {{ firstname }}*
-        - Personalized content, custom links, postscriptum...
-
-      Emails sent with Mailmeteor look as if you typed them manually for each of your recipients.
-
-  - question: How to add CC or BCC recipients?
+  - question: Can I add CC or BCC recipients?
     answer: That's really easy. In your spreadsheet, add a column with "cc" (and/or "bcc") as header. Then, add emails in the cells. Mailmeteo will add those recipients in CC (or BCC). If you have several recipients in CC or BCC, separate emails with commas. Here is a [video tutorial](https://www.youtube.com/watch?v=3me-iWYFSY0).
 
   - question: Is Mailmeteor suitable for working in teams?
-    answer: Sure! [Mailmeteor Enterprise](/sales) allows teams to collaborate on the same document and access the email tracking report of campaigns. Large companies, organizations and academic institutions trust Mailmeteor for their email needs. Our largest customer has 100,000 employees using Mailmeteor.
+    answer: >
+      Sure! Mailmeteor offers collaboration features for teams, such as working on the same spreadsheet and access a shared tracking report.
+
+      Mailmeteor has a complete dashboard allowing you to manage your team efficiently. The dashboard lets you add or remove users easily and provides your email campaigns stats at a glance.
+
+      Our solution can used at scale. Large companies, organizations and academic institutions trust Mailmeteor for their email needs. For example, our largest customer has 100,000 employees using Mailmeteor.
+
+      You can contact our [sales team](/sales) in case you're looking for a simple and privacy-focused solution to scale your emailing efforts.
 
   - question: What CRMs does Mailmeteor integrate with?
     answer: You can use Mailmeteor with your favorite CRM tool, like Salesforce or Hubspot. To log emails sent with Mailmeteor, you will need to find your unique BCC address provided by your CRM. You will put this address as a BCC recipient when sending emails from Mailmeteor. Here is a [guide to help you use Mailmeteor with your CRM](https://support.mailmeteor.com/introduction/advanced/crm-integration).

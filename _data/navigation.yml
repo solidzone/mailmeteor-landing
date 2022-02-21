@@ -2,6 +2,12 @@
 # Navbar
 #
 navbar:
+  blog:
+    url: '/blog/'
+    en: 'Blog'
+    fr: 'Blog'
+    es: 'Blog'
+    de: 'Bloggen'
   support:
     url: '/support'
     en: 'Support'

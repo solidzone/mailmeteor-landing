@@ -7,14 +7,8 @@
 .academy-header--title {
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
-  border-bottom: 3px solid #eb576d;
+  border-bottom: 3px solid #fc4b6d;
   position: relative;
-}
-
-.academy-header--title-prefix {
-  display: block;
-  color: #81899c;
-  font-size: 1.4rem;
 }
 
 .academy-header--title-badge {
@@ -23,8 +17,8 @@
   bottom: -2rem;
   right: 0;
   height: 2rem;
-  color: #eb576d;
-  font-size: 0.8rem;
+  color: #fc4b6d;
+  font-size: 0.875rem;
   font-weight: bold;
   padding: 0.25rem 0;
   display: block;
@@ -41,10 +35,10 @@
 }
 
 .academy-header--description ul li {
-  border-bottom: 1px solid #f0f0f4;
   padding: 1rem 0;
   display: flex;
   align-items: center;
+  font-size: 1rem;
 }
 
 .academy-header--description ul li::before {
@@ -60,7 +54,7 @@
 
 @media (min-width: 992px) {
   .academy-header--title-badge {
-    background-color: #eb576d;
+    background-color: #fc4b6d;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     padding: 0.5rem 1rem;
@@ -94,17 +88,13 @@
   text-decoration: none;
   color: inherit;
   padding: 1rem 0.5rem;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .academy-playlist--video-poster {
   position: relative;
   width: 200px;
   height: 112.5px;
-}
-
-.academy-playlist--video-poster img {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .academy-playlist--video-poster div[role='button'] {
@@ -126,7 +116,7 @@
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.875rem;
 }
 
 .academy-playlist--video-duration span {
@@ -145,11 +135,11 @@
 /* Hover state */
 
 a.academy-playlist--video:hover {
-  background-color: #f4f7fe;
+  background-color: #e8eeff;
 }
 
 a.academy-playlist--video:hover .academy-playlist--video-title {
-  color: #0a58ca;
+  color: #1a53ff;
 }
 
 a.academy-playlist--video:hover .academy-playlist--video-poster img {
@@ -181,6 +171,15 @@ a.academy-playlist--video:hover .academy-playlist--video-poster div[role='button
 }
 
 /* Feebdack form */
+
+.academy-feedback {
+  margin: auto;
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid #e6e7eb;
+  border-radius: 0.5rem;
+  max-width: 600px;
+}
 
 .academy-feedback input[type='radio'] {
   display: none;

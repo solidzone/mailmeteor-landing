@@ -1,12 +1,7 @@
 <div class="text-center my-4 py-3">
   <h2 class="mt-5">Questions? Comments?</h2>
   <p>Feel free to let us know what you think.</p>
-  <form
-    method="POST"
-    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScDJz2jk4dCyNG8oucMe0iCUwdWr19Q4zjxyQLkb5gbMb8QTg/formResponse"
-    class="academy-feedback p-4"
-    style="max-width: 600px; border: 1px solid #dddddd; margin: 2rem auto; border-radius: 4px"
-  >
+  <form method="POST" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScDJz2jk4dCyNG8oucMe0iCUwdWr19Q4zjxyQLkb5gbMb8QTg/formResponse" class="academy-feedback">
     <div><strong>How satisfied were you with the course overall?</strong></div>
     <div style="height: 3rem" class="d-flex align-items-center justify-content-center mb-3">
       <label><input type="radio" name="entry.1234308694" value="😞" /><span>😞</span></label>
@@ -23,6 +18,6 @@
       placeholder="Your comments and feedback help shape future courses"
     ></textarea>
     <input type="hidden" name="entry.635369813" value="{{ include.course }}" />
-    <button type="submit" class="btn btn-filled w-100 mb-0 p-1">Share feedback</button>
+    <button type="submit" class="btn btn-secondary d-inline-block w-100">Share feedback</button>
   </form>
 </div>

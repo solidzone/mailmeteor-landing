@@ -13,7 +13,7 @@ breadcrumb:
   <div class="container" itemprop="itemListElement" itemscope="" itemtype="https://schema.org/WebApplication">
     <div class="row">
       <div class="{% if page.alternative %}col-md-6 m-auto{%else%}col-12 m-auto{%endif%} text-center" style="max-width: 720px">
-        <a href="/best-google-apps/all/" class="is-small-purple">GOOGLE APPS DIRECTORY</a>
+        <a href="/best-google-apps/all/" class="text-blue-dark-reverse action-lg">GOOGLE APPS DIRECTORY</a>
         <div class="gapps-products-page-card mt-3">
           <!-- Logo -->
           <img src="{{ page.image }}" alt="Logo of {{ page.title | escape }}" style="max-width: 50px" />
@@ -101,7 +101,23 @@ breadcrumb:
         <div class="text-center">
           <h2>The best alternative to {{ page.alternative }}</h2>
           <p>Looking for a {{ page.alternative }} alternative? You’ve found it with Mailmeteor.</p>
-          <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-filled btn-inline">START SENDING EMAILS</a>
+          <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" class="btn btn-primary d-inline-block"
+            >START SENDING EMAILS
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-send"
+            >
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg
+          ></a>
         </div>
       </div>
       {%endif%}

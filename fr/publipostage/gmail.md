@@ -30,7 +30,7 @@ Il existe 2 façons de faire du [publipostage](/fr/publipostage) sur Gmail en 20
 
 Commençons par une démonstration qui illustre comment faire un publipostage depuis Gmail en utilisant un module complémentaire de Google Sheets. Dans cet exemple, nous utiliserons Mailmeteor, le module complémentaire de publipostage le mieux noté de Google.
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9 border-radius-lg w-100">
    <iframe class="embed-responsive-item" title="Mailmeteor Demo" show-info="O" src="https://www.youtube.com/embed/HUtetIcphlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 

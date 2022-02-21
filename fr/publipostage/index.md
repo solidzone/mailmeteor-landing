@@ -120,7 +120,7 @@ Il existe 2 façons d'aborder la création d'un publipostage dans Gmail. La prem
 
 Voici un exemple de publipostage réalisé dans Gmail, grâce à [Mailmeteor](/fr/), l’outil de publipostage pour Gmail le plus populaire sur le Google Workspace Marketplace.
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9 border-radius-lg w-100">
     <iframe class="embed-responsive-item" title="Envoyez des centaines d'emails personnalisés depuis Gmail" show-info="O" src="https://www.youtube.com/embed/YxVW91VXlNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 
@@ -202,7 +202,7 @@ Maintenant que nous avons vu comment réaliser un publipostage depuis la suite G
 
 Il est également possible de réaliser un publipostage d’emails depuis Office 365 grâce à Outlook.
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9 border-radius-lg w-100">
     <iframe class="embed-responsive-item" title="Comment faire un envoi de courriel multiple (publipostage) dans OUTLOOK" show-info="O" src="https://www.youtube.com/embed/K8-sVsP7z7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 
@@ -240,7 +240,7 @@ Autrement, il existe des solutions développées par des entreprises tierces tel
 
 Tout comme nous l’avons vu précédemment avec Google Sheets, il est possible de réaliser un publipostage depuis Excel dans l’optique de faire un envoi d’emails personnalisés ou bien générer des documents.
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9 border-radius-lg w-100">
     <iframe class="embed-responsive-item" title="EXCEL - FAIRE UN PUBLIPOSTAGE (Avec Word et un tableau Excel)" show-info="O" src="https://www.youtube.com/embed/QuKXkB6wfg4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 
@@ -260,7 +260,7 @@ Tout comme nous l’avons vu précédemment avec Google Sheets, il est possible 
 
 Le publipostage avec Word est probablement l’un des usages les plus répandus. Pour beaucoup, le publipostage peut sembler être une tâche ardue. Cependant grâce à nos astuces de publipostage pour Word vous allez pouvoir réaliser un publipostage de lettres, un publipostage d’étiquettes, de documents ou d’emails en toute simplicité.
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9 border-radius-lg w-100">
     <iframe class="embed-responsive-item" title="Comment réaliser un PUBLIPOSTAGE facilement? (Cours Word en français)" show-info="O" src="https://www.youtube.com/embed/u4oNEbY6QbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 

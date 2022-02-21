@@ -54,45 +54,42 @@ breadcrumb:
   </head>
   <body class="blogpost">
     <div itemid="{{ page.canonical }}" itemscope itemtype="https://schema.org/Blog">
-      <header class="blogpost-header">
+      <header style="
+      background: rgb(19, 2, 164);
+      background: radial-gradient(circle, rgba(19, 2, 164, 1) 0%, rgba(15, 2, 116, 1) 80%);
+      padding-bottom:4rem;
+      ">
+         {%- include nav-blog.html -%}
         <div class="container">
-          <nav class="row">
-            <div class="col-xs-12 col-md-6 col-lg-8">
-              <a href="/"><img src="/assets/img/brand/logo_mailmeteor_white.svg" alt="Mailmeteor logo" id="logo" /></a>
-            </div>
-            <div class="col-md-6 col-lg-4 blogpost-header-tagline d-none d-md-block">
-              Brought to you by <a href="/">Mailmeteor</a>, the best rated mail merge tool for Gmail.
-            </div>
-          </nav>
           <div class="text-center">
             <img itemprop="image" src="{{page.meta_image}}" class="blogpost-header-image" />
-            <h1 itemprop="name">The Mailmeteor Blog</h1>
-            <p class="is-white" style="max-width: 720px; margin:auto">{{ page.description}}</p>
+            <h1 itemprop="name" class="text-white">The Mailmeteor Blog</h1>
+            <p class="text-white title-centered">{{ page.description}}</p>
         </div>
       </header>
       <main>
         <div class="container blog-home-featured">
           <div class="row">
               <div class="col-lg-5 d-flex align-items-center">
-                <a href="/blog/mailmeteor-partners"><img class="w-100 rounded" src="/assets/img/blog/mailmeteor-partners/announcement.webp" alt="Mailmeteor Partners"/></a>
+                <img class="w-100 border-radius-lg" src="/assets/img/opengraph/mailmeteor-partners.jpg" alt="Mailmeteor Partners"/>
               </div>
               <div class="col-lg-7 px-md-5 pt-4">
                 <span class="blog-home-cards-header-tags">FEATURED</span>
-                <h2 class="my-3"><a href="/blog/mailmeteor-partners">Announcing Mailmeteor Partnerships</a></h2>
-                <p>We’re glad to announce a dozen of partnerships with world’s leading software companies! 🎉 From email finding to warm-up tools, there's a deal for you.</p>
-                <small>Jean Dubrulle • January 25, 2022</small>
+                <h2 class="my-3"><a href="/blog/mailmeteor-partners">Announcing Mailmeteor Partnerships: Exclusive Email Offers</a></h2>
+                <p>We're glad to announce a series of exclusive partnerships with world's leading software. Expand your emailing experience, from building your contact list thanks to email finding tools, cleaning your list with email verification services, improving your email reputation using email warm ups tools & more.</p>
+                <small class="text-neutral-6">Jean Dubrulle • January 25, 2022</small>
               </div>
           </div>
         </div>
         <div class="container blog-home-grid">
         {% for post in site.posts %}
-          <div class="blog-home-cards">
+          <div class="blog-home-cards d-flex flex-column">
             <div class="blog-home-cards-header">
-              <span>{{ post.meta_date_published }}</span>
+              <span class="text-neutral-6">{{ post.meta_date_published }}</span>
               <span class="blog-home-cards-header-tags">{{ post.category }}</span>
             </div>
-            <h2 class="blog-home-headings"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p><small>By {{ post.meta_author }}</small></p>
+            <h2 class="blog-home-headings" style="flex: 1 0 auto;"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p><small class="text-neutral-6 d-flex mt-1" >By {{ post.meta_author }}</small></p>
         </div>
         {% endfor %}
       </div>

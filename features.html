@@ -10,21 +10,79 @@ og_url: https://mailmeteor.com/features
 ---
 
 <main>
-  <div class="text-center">
+  <div class="container text-center">
     <h1>Gmail mail merge, made easy.</h1>
     <p>Discover all the unique features offered by Mailmeteor, the best rated Google Workspace add-on.</p>
   </div>
-
-  <div class="container features-grid">
+  <section class="container features-grid">
     {% for section in site.data.features.sections %}
-    <div class="features-card">
-      <img class="rounded my-2" style="max-width: 100%" src="{{section.image}}" alt="{{section.title}}" />
+    <div class="features-card d-flex flex-column">
+      <img class="border-radius-lg my-2" style="max-width: 100%" src="{{section.image}}" alt="{{section.title}}" />
       <h2>{{section.title}}</h2>
-      <p>{{section.description}}</p>
-      <a class="features-link" href="{{section.link}}" target="_blank" rel="noopener"> Learn more →</a>
+      <p style="flex: 1 0 auto">{{section.description}}</p>
+      <a class="features-link" href="{{section.link}}" target="_blank" rel="noopener">
+        Learn more
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM15 8L15.7071 8.70711C16.0976 8.31658 16.0976 7.68342 15.7071 7.29289L15 8ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893C6.90237 0.683418 6.90237 1.31658 7.29289 1.70711L8.70711 0.292893ZM7.29289 14.2929C6.90237 14.6834 6.90237 15.3166 7.29289 15.7071C7.68342 16.0976 8.31658 16.0976 8.70711 15.7071L7.29289 14.2929ZM1 9H15V7H1V9ZM7.29289 1.70711L14.2929 8.70711L15.7071 7.29289L8.70711 0.292893L7.29289 1.70711ZM14.2929 7.29289L7.29289 14.2929L8.70711 15.7071L15.7071 8.70711L14.2929 7.29289Z"
+            fill="#1a53ff"
+          /></svg
+      ></a>
     </div>
     {% endfor %}
-  </div>
-
-  {%- include pricingtable.html -%} {%- include faq.html -%}
+  </section>
+  <section>
+    <p class="text-center action-lg text-blue-dark-reverse m-0">All features</p>
+    <h2 class="text-center">All Mailmeteor features at a glance</h2>
+    <div class="container features-list-grid mt-5">
+      <div>
+        <h3 class="title-4 text-neutral-6">Compose</h3>
+        <ul>
+          <li>Rich text editor based on Gmail's editor</li>
+          <li>Personalize emails</li>
+          <li>Add images</li>
+          <li>Include personalized links</li>
+          <li>Attach files and individual attachments</li>
+          <li>Add unsubscribe links</li>
+          <li>Import HTML templates</li>
+          <li>Add Cc or Bcc recipients</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="title-4 text-neutral-6">Send</h3>
+        <ul>
+          <li>Preview emails before sending</li>
+          <li>Segment your recipients</li>
+          <li>Skip sending to hidden or filtered rows</li>
+          <li>Schedule emails</li>
+          <li>Send from an alias</li>
+          <li>Optimized deliverability</li>
+          <li>Send emails on Autopilot</li>
+          <li>Define email throttling</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="title-4 text-neutral-6">Track</h3>
+        <ul>
+          <li>Realtime email tracking</li>
+          <li>Advanced tracking report</li>
+          <li>Complete Mailmeteor Dashboard</li>
+          <li>Track opens and clicks</li>
+          <li><div class="class="d-inline-block">Track replies <span class="action-sm text-blue-dark-reverse">(coming soon)</span></div></li>
+          <li><div class="class="d-inline-block">Track bounce <span class="action-sm text-blue-dark-reverse">(coming soon)</span></div></li>
+          <li><div class="class="d-inline-block">Track unsubscribes <span class="action-sm text-blue-dark-reverse">(coming soon)</span></div></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="title-4 text-neutral-6">Follow-up</h3>
+        <ul>
+          <li><div class="class="d-inline-block">Emails sequences in Gmail <span class="action-sm text-blue-dark-reverse">(coming soon)</span></div></li>
+          <li><div class="class="d-inline-block">Auto-follow up with Gmail <span class="action-sm text-blue-dark-reverse">(coming soon)</span></div></li>
+          <li><div class="class="d-inline-block">Stop sequences depending on events (replies, opens, clicks...) <span class="action-sm text-blue-dark-reverse">(coming soon)</span></div></li>
+          <li>Follow-up in the same thread</li>
+          <li>Integrate with your CRM</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </main>

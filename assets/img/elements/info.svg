@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
-    <title>Shape</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="info" transform="translate(-2.000000, -2.000000)" fill="#6C757D" fill-rule="nonzero">
-            <path d="M9.2,6 L10.8,6 L10.8,7.6 L9.2,7.6 L9.2,6 Z M9.2,9.2 L10.8,9.2 L10.8,14 L9.2,14 L9.2,9.2 Z M10,2 C5.584,2 2,5.584 2,10 C2,14.416 5.584,18 10,18 C14.416,18 18,14.416 18,10 C18,5.584 14.416,2 10,2 Z M10,16.4 C6.472,16.4 3.6,13.528 3.6,10 C3.6,6.472 6.472,3.6 10,3.6 C13.528,3.6 16.4,6.472 16.4,10 C16.4,13.528 13.528,16.4 10,16.4 Z" id="Shape"></path>
-        </g>
-    </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11 16C11 16.5523 11.4477 17 12 17C12.5523 17 13 16.5523 13 16H11ZM13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12H13ZM12 7C11.4477 7 11 7.44772 11 8C11 8.55228 11.4477 9 12 9V7ZM12.01 9C12.5623 9 13.01 8.55228 13.01 8C13.01 7.44772 12.5623 7 12.01 7V9ZM21 12C21 16.9706 16.9706 21 12 21V23C18.0751 23 23 18.0751 23 12H21ZM12 21C7.02944 21 3 16.9706 3 12H1C1 18.0751 5.92487 23 12 23V21ZM3 12C3 7.02944 7.02944 3 12 3V1C5.92487 1 1 5.92487 1 12H3ZM12 3C16.9706 3 21 7.02944 21 12H23C23 5.92487 18.0751 1 12 1V3ZM13 16V12H11V16H13ZM12 9H12.01V7H12V9Z" fill="#687289"/>
 </svg>

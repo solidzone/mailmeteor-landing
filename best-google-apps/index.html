@@ -14,7 +14,7 @@ breadcrumb:
 ---
 
 <main itemscope itemtype="https://schema.org/ItemList">
-  <div class="container page-title">
+  <div class="container title-centered">
     <h1 itemprop="name">The Best Google apps to improve Google Workspace & G Suite</h1>
     <link itemprop="itemListOrder" href="https://schema.org/ItemListOrderDescending" />
     <p itemprop="description">Choose from 100+ hand-curated collections of free & paid Google Apps to enhance your Google Workspace (formerly G Suite apps)</p>
@@ -32,7 +32,15 @@ breadcrumb:
           {% endif %}
           <h2 itemprop="itemListElement">{{ category.title }}</h2>
           <p style="text-transform: capitalize">{% if category.description %} {{ category.description }} {% else %} Best {{ category.title }} apps {% endif %}</p>
-          <span> View </span>
+          <span>
+            View
+            <svg width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM15 8L15.7071 8.70711C16.0976 8.31658 16.0976 7.68342 15.7071 7.29289L15 8ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893C6.90237 0.683418 6.90237 1.31658 7.29289 1.70711L8.70711 0.292893ZM7.29289 14.2929C6.90237 14.6834 6.90237 15.3166 7.29289 15.7071C7.68342 16.0976 8.31658 16.0976 8.70711 15.7071L7.29289 14.2929ZM1 9H15V7H1V9ZM7.29289 1.70711L14.2929 8.70711L15.7071 7.29289L8.70711 0.292893L7.29289 1.70711ZM14.2929 7.29289L7.29289 14.2929L8.70711 15.7071L15.7071 8.70711L14.2929 7.29289Z"
+                fill="#1A53FF"
+              />
+            </svg>
+          </span>
         </a>
       </div>
       {% endfor %}
@@ -47,7 +55,14 @@ breadcrumb:
         <h3 class="mt-5 mb-3">Browse all Google Apps</h3>
         <p>The complete list of Google Apps for Workspace & G Suite</p>
         <p class="mb-5">
-          <a href="/best-google-apps/all/">View all the best Google Workspace Apps</a>
+          <a href="/best-google-apps/all/"
+            >View all the best Google Workspace Apps
+            <svg width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM15 8L15.7071 8.70711C16.0976 8.31658 16.0976 7.68342 15.7071 7.29289L15 8ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893C6.90237 0.683418 6.90237 1.31658 7.29289 1.70711L8.70711 0.292893ZM7.29289 14.2929C6.90237 14.6834 6.90237 15.3166 7.29289 15.7071C7.68342 16.0976 8.31658 16.0976 8.70711 15.7071L7.29289 14.2929ZM1 9H15V7H1V9ZM7.29289 1.70711L14.2929 8.70711L15.7071 7.29289L8.70711 0.292893L7.29289 1.70711ZM14.2929 7.29289L7.29289 14.2929L8.70711 15.7071L15.7071 8.70711L14.2929 7.29289Z"
+                fill="#1A53FF"
+              /></svg
+          ></a>
         </p>
       </div>
     </div>
