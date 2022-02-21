@@ -54,7 +54,7 @@
       </div>
 
       {% assign breadcrumb = page.breadcrumb | default: layout.breadcrumb %} {% if breadcrumb != nil %}
-      <div class="footer-breadcrumb pb-3">
+      <div class="footer-breadcrumb text-white pb-3">
         <nav itemscope itemtype="https://schema.org/BreadcrumbList">
           <ul>
             <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -118,7 +118,7 @@
           {% for subitem in site.data.navigation.subfooter %}
           <a href="{{ subitem[1].url }}" class="mr-3">{{ subitem[1][page.lang] }}</a>
           {% endfor %}
-          <span style="opacity: 0.75; white-space: nowrap">&copy; 2018-{{ 'now' | date: "%Y" }} Mailmeteor</span>
+          <span class="text-white" style="opacity: 0.75; white-space: nowrap">&copy; 2018-{{ 'now' | date: "%Y" }} Mailmeteor</span>
         </nav>
       </div>
     </div>
