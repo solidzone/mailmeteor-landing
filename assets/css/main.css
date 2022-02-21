@@ -140,8 +140,8 @@ p {
   color: #04143a;
 }
 
-strong {
-  font-weight: 700;
+strong, b, .font-weight-bold {
+  font-weight: 600;
 }
 
 a {
