@@ -54,9 +54,11 @@
 
 html,
 body {
+  margin: 0;
+  line-height: 1.5;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  color: #04143A;
+  color: #04143A;  
   scroll-behavior: smooth;
 }
 
@@ -71,6 +73,11 @@ section {
 }
 
 /* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
 
 .title-1,
 h1 {
@@ -116,7 +123,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8 rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: #04143a;
 }
@@ -141,7 +148,7 @@ p {
 }
 
 strong, b, .font-weight-bold {
-  font-weight: 600!important;
+  font-weight: 600;
 }
 
 a {
