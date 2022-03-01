@@ -1602,6 +1602,7 @@ ol.education-list li::marker {
   border-radius: 0.5rem;
   box-sizing: border-box;
   background-color: #ffffff;
+  border: 1px solid #E6E7EB;
   -webkit-box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
   box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
   transition: all 0.2s ease-in-out;

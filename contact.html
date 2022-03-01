@@ -110,7 +110,7 @@ og_url: https://mailmeteor.com/contact
       </p>
     </help-article>
 
-    <help-article url="#billing/500-only" title="I've purchased Mailmeteor but I can only send 500 emails a day (instead of 2,000)">
+    <help-article url="#billing/500-only" title="I've purchased Mailmeteor but I can only send 500 emails a day (instead of 2,000)" nofooter>
       <p>Mailmeteor Premium allows you to send personalized emails up to the limits imposed by Gmail:</p>
 
       <ul>
@@ -165,7 +165,7 @@ og_url: https://mailmeteor.com/contact
       </p>
     </help-article>
 
-    <help-article url="#billing/remove-teammates" title="I want to remove users in my team">
+    <help-article url="#billing/remove-teammates" title="I want to remove users in my team" nofooter>
       <p>
         To delete a user from your account, please go to the
         <a href="https://dashboard.mailmeteor.com/account/users">Account section in your dashboard</a>.
@@ -176,9 +176,18 @@ og_url: https://mailmeteor.com/contact
       </p>
     </help-article>
 
-    <help-article url="#billing/wrong-teammates" title="I added a user by mistake" form nofooter>
+    <!-- <help-article url="#billing/wrong-teammates" title="I added a user by mistake" form nofooter>
       <p>In case you added a new user by error, we can cancel and refund the account added by mistake, provided the account wasn't used to send emails using Mailmeteor.</p>
       <p>Contact us and let us know which email address was added by error. We'll adjust your account accordingly.</p>
+    </help-article> -->
+
+    <help-article url="#billing/unrecognized-charge" title="I don't understand a charge on my credit card">
+      <p>You have noticed one or several charges made by Mailmeteor on your bank statement, but you don't understand where it comes from?</p>
+      <p>First, log into your <a href="https://dashboard.mailmeteor.com/account/">Mailmeteor dashboard</a> and check your latest invoices.</p>
+      <p>
+        If you still need help to understand the charge, please contact us. Make sure to let us know the last 4 digits of the credit card that was charged, so that we can identify
+        your account and resolve your situation as soon as possible.
+      </p>
     </help-article>
 
     <!-- CONTACT > ARTICLES > SALES -->
@@ -214,43 +223,31 @@ og_url: https://mailmeteor.com/contact
       </p>
       <p>To know more about your campaign's situation:</p>
       <ol>
-        <li>Go to your Mailmeteor Dashboard</li>
+        <li>Open <a href="https://dashboard.mailmeteor.com">Mailmeteor's dashboard</a></li>
         <li>Select the campaign you want to investigate</li>
-        <li>Access the campaign's metrics to understand what caused your emails not to be sent</li>
+        <li>Access the campaign's details to understand what caused your emails not to be sent</li>
       </ol>
     </help-article>
 
     <help-article url="#issues/spam" title="My emails are going to spam">
-      <p>Here are two great guides to help you deal with spam issues:</p>
-
-      <ul>
-        <li>
-          <a href="https://support.mailmeteor.com/introduction/sending-guidelines">Mailmeteor sending guidelines</a>
-        </li>
-        <li>
-          <a href="https://mailmeteor.com/blog/gmail-deliverability">10 tips to improve Gmail deliverability</a>
-        </li>
-      </ul>
-
       <p>
-        Take some time to review your emails using these guidelines. If you still have no clue as to why your emails are going to spam, contact us so that we can review your
-        situation together.
+        To keep account safe and prevent spam, email providers like Gmail have developed anti-spam filters. If they detect something unusual, your emails may land in the spam
+        folder.
       </p>
+      <p>If you are having spam issues, have a look at our in-depth <a href="https://support.mailmeteor.com/introduction/sending-guidelines">sending guidelines</a>.</p>
+      <p>Take some time to review your email campaigns using these guidelines.</p>
     </help-article>
 
-    <help-article url="#issues/open-mailmeteor" title="I can't open Mailmeteor">
+    <help-article url="#issues/open-mailmeteor" title="I can't open Mailmeteor" nofooter>
       <p>Your issue might be due to using multiple Google accounts under the same Chrome browser. Google can't handle when multiple accounts are logged in simultaneously.</p>
       <p>
         Since you are using multiple Google accounts we recommend creating a new profile in Google Chrome with the account you are using Mailmeteor with. This will make sure it'll
         always work with the right account. It takes only 1 minute to set up!
       </p>
-      <p>
-        To create a new Google Chrome profile, here's a simple step by step guide:
-        <a href="https://mailmeteor.com/blog/how-to-create-google-chrome-profile">https://mailmeteor.com/blog/how-to-create-google-chrome-profile</a>
-      </p>
+      <p>Follow our step-by-step guide to <a href="https://mailmeteor.com/blog/how-to-create-google-chrome-profile">create a new Google Chrome profile</a>.</p>
     </help-article>
 
-    <help-article url="#issues/500-only" title="I've purchased Mailmeteor but I can only send 500 emails a day (instead of 2,000)">
+    <!-- <help-article url="#issues/500-only" title="I've purchased Mailmeteor but I can only send 500 emails a day (instead of 2,000)" nofooter>
       <p>Mailmeteor Premium allows you to send personalized emails up to the limits imposed by Gmail:</p>
 
       <ul>
@@ -264,9 +261,9 @@ og_url: https://mailmeteor.com/contact
       </p>
 
       <p>This information is available on our website at the time of purchase, as well as in the pricing section and FAQ section.</p>
-    </help-article>
+    </help-article> -->
 
-    <help-article url="#issues/alias" title="Email alias is not working">
+    <help-article url="#issues/alias" title="Email alias is not working" nofooter>
       <p>
         If you are using an email alias but emails are not sending correctly, the main reason might be that your email alias is not well configured in Gmail. Indeed, Mailmeteor
         falls back to your primary email address when your alias is not properly set up.
@@ -276,15 +273,15 @@ og_url: https://mailmeteor.com/contact
 
       <ol>
         <li>
-          Check that your alias is well configured in Gmail using
-          <a href="https://support.google.com/mail/answer/22370?hl=en">Google's guide on how to set up an alias</a>
+          First, check that your alias is well configured in Gmail. Review
+          <a href="https://support.google.com/mail/answer/22370?hl=en">Google's step-by-step guide on how to set up an alias</a>
         </li>
-        <li>Once you made sure your alias is set up correctly, try to send a test email from your Gmail account with your email alias</li>
+        <li>Once you made sure your alias is set up correctly, try to send a test email from your Gmail account usin your alias address</li>
         <li>If everything works in Gmail, then it will work in Mailmeteor too!</li>
       </ol>
     </help-article>
 
-    <help-article url="#issues/attachments" title="My attachments files are not sent">
+    <help-article url="#issues/attachments" title="My attachments files are not sent" nofooter>
       <p>If your attachment is not sending with your emails, it might be due to the file size being too large or a temporary connection issue.</p>
 
       <ul>
@@ -298,7 +295,7 @@ og_url: https://mailmeteor.com/contact
       </p>
     </help-article>
 
-    <help-article url="#issues/tracking-report" title="My tracking report does not update">
+    <help-article url="#issues/tracking-report" title="My tracking report does not update" nofooter>
       <p>To refresh your tracking report, please proceed as follow:</p>
       <ol>
         <li>Close your tracking report window</li>
@@ -307,7 +304,7 @@ og_url: https://mailmeteor.com/contact
       </ol>
     </help-article>
 
-    <help-article url="#issues/no-clicks" title="Clicks on links are not tracked">
+    <help-article url="#issues/no-clicks" title="Clicks on links are not tracked" nofooter>
       <p>To track clicks on links, make sure that your campaign was sent with the tracking enabled. It's a premium feature that requires a paid plan.</p>
       <p>You also need to make sure that you use the link button in the editor:</p>
       <ol>
@@ -316,7 +313,7 @@ og_url: https://mailmeteor.com/contact
       </ol>
     </help-article>
 
-    <help-article url="#issues/all-emails-opened" title="All my emails are marked as opened">
+    <help-article url="#issues/all-emails-opened" title="All my emails are marked as opened" nofooter>
       <p>
         The tracking system that Mailmeteor uses is industry standard. It works by adding a small image (called a 1x1 pixel) on the bottom of each email you send. Every time
         someone opens your email, it downloads that small image and Mailmeteor records that opening in its database.
@@ -331,7 +328,7 @@ og_url: https://mailmeteor.com/contact
       </p>
     </help-article>
 
-    <help-article url="#issues/reached-limit" title="Gmail says “I've reached a limit”">
+    <help-article url="#issues/reached-limit" title="Gmail says “I've reached a limit”" nofooter>
       <p>When sending large campaigns, Google may temporarily stop your campaign and tell you have "reached a limit" if it meets one of these conditions:</p>
 
       <ul>
@@ -353,7 +350,7 @@ og_url: https://mailmeteor.com/contact
       </ol>
     </help-article>
 
-    <help-article url="#issues/blocked" title="My Google account got blocked">
+    <help-article url="#issues/blocked" title="My Google account got blocked" nofooter>
       <p>
         Blocking accounts is the standard Gmail procedure when an unusual activity is detected. For example, if your email campaign has been marked as spam by your contacts.
         Fortunately, it's possible to unblock a Gmail account.
@@ -380,43 +377,46 @@ og_url: https://mailmeteor.com/contact
     </help-article>
 
     <help-article url="#issues/help" title="I need help with Mailmeteor" form nofooter>
-      <p>Please let us know how we can help. We'll get back to your as quickly as we can.</p>
+      <p>
+        Please let us know how we can help. Make sure to include any details that can be helpful to better understand your situation. We'll get back to your as quickly as we can.
+      </p>
     </help-article>
 
     <help-article url="#others/feedback" title="I’d like to share a feedback or an idea" form nofooter>
       <p>Thank you! We definitely appreciate having your feedback. Just fill out the form below and the team will promptly get back to you.</p>
     </help-article>
 
-    <help-article url="#others/features-request" title="I want to suggest a missing feature" nofooter>
+    <help-article url="#others/features-request" title="I want to suggest a missing feature" form nofooter>
       <p>
         All features available within Mailmeteor are listed on both our
         <a href="https://mailmeteor.com/features">Features</a> page, as well as on our <a href="https://support.mailmeteor.com/introduction/advanced">Help Center</a>.
       </p>
-      <p>If you think something is missing, <a href="#help">please contact us</a>.</p>
-      <p>Your feedback is precious to help us improve Mailmeteor!</p>
+      <p>If you think something is missing, we'd be glad to hear how we can improve Mailmeteor!</p>
     </help-article>
 
     <help-article url="#others/collaborate" title="I want to collaborate with Mailmeteor" form nofooter>
       <p>If you want to work with us or suggest a project, fill out the form below and the team will promptly get back to you. We look forward to working with you!</p>
     </help-article>
 
-    <help-article url="#others/available-languages" title="Does Mailmeteor support languages other than English?">
-      <p>Mailmeteor for Google Sheets is available in English, French and Spanish. To change from one language to another follow these steps:</p>
+    <help-article url="#others/available-languages" title="Does Mailmeteor support languages other than English?" nofooter>
+      <p>
+        Mailmeteor for Google Sheets is <span class="font-weight-bold">available in English, French and Spanish</span>. To change from one language to another follow these steps:
+      </p>
       <ol>
-        <li>Open a Google Sheets</li>
+        <li>Open a <a href="https://sheets.new">Google Sheets</a></li>
         <li>In the “Add-ons” menu, click on “Mailmeteor” > “My account”</li>
         <li>From “My account”, select the language you want to use</li>
       </ol>
 
-      <p>
+      <p class="font-italic">
         PS: Of course, changing languages does not affect your emails. You can even write emails in any language (even in
         <a href="https://en.wikipedia.org/wiki/Klingon_language">Klingon</a>).
       </p>
     </help-article>
 
-    <help-article url="#others/blog" title="Do you have a blog?" nofooter>
+    <!-- <help-article url="#others/blog" title="Do you have a blog?" nofooter>
       <p>The <a href="https://mailmeteor.com/blog">Mailmeteor Blog</a> is the home of all things fascinating and fun about emailing and mail merge.</p>
-    </help-article>
+    </help-article> -->
 
     <help-article url="#others/affiliate" title="Can I become an affiliate?" form nofooter>
       <p>If you'd like to promote Mailmeteor, tell us more about you and your project. We'd be glad to see how we can collaborate.</p>
