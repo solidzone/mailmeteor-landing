@@ -454,7 +454,7 @@ og_url: https://mailmeteor.com/contact
     <article itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
       <header><h2 itemprop="name">{{ title }}</h2></header>
       <main itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><div itemprop="text"><slot></slot></div></main>
-      <footer v-if="!nofooter">Still having trouble? <a href="#help">Contact us</a>, we are here to help.</footer>
+      <footer v-if="!nofooter">Still having trouble? <a href="#help" @click.prevent="form = true">Contact us</a>, we are here to help.</footer>
     </article>
     <help-form v-if="form" noheader></help-form>
   </div>
