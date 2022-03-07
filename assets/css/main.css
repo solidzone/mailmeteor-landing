@@ -58,7 +58,7 @@ body {
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  color: #04143A;  
+  color: #04143a;
   scroll-behavior: smooth;
 }
 
@@ -74,7 +74,12 @@ section {
 
 /* Headings */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -147,7 +152,9 @@ p {
   color: #04143a;
 }
 
-strong, b, .font-weight-bold {
+strong,
+b,
+.font-weight-bold {
   font-weight: 600;
 }
 
@@ -157,12 +164,12 @@ a {
 }
 
 a:hover {
-  color: #FC4B6D;
+  color: #fc4b6d;
   text-decoration: none;
 }
 
 a.link-svg:hover svg path {
-  fill: #FC4B6D;
+  fill: #fc4b6d;
 }
 
 /* Actions */
@@ -214,7 +221,7 @@ a.link-svg:hover svg path {
 }
 
 .text-coral-dark {
-  color: #FC4B6D;
+  color: #fc4b6d;
 }
 
 .text-neutral-6 {
@@ -222,7 +229,7 @@ a.link-svg:hover svg path {
 }
 
 .text-neutral-4 {
-  color: #CDD0D8;
+  color: #cdd0d8;
 }
 
 /* Font weights */
@@ -325,7 +332,6 @@ button:hover,
   border: 2px solid white;
 }
 
-
 /* Secondary buttons */
 
 .btn-secondary {
@@ -387,8 +393,8 @@ button:hover,
 }
 
 .btn-reverse:focus {
-    box-shadow: 0 0 0 0.1rem rgb(252 255 255 / 80%);
-    border: 2px solid white;
+  box-shadow: 0 0 0 0.1rem rgb(252 255 255 / 80%);
+  border: 2px solid white;
 }
 
 /* Actions buttons (download, tools) */
@@ -413,7 +419,7 @@ button:hover,
 }
 
 .btn-tertiary:focus {
-  box-shadow: 0 0 0 0.1rem rgb(24 75 230 / 80%)
+  box-shadow: 0 0 0 0.1rem rgb(24 75 230 / 80%);
   border: 2px solid white;
 }
 
@@ -433,11 +439,11 @@ button:hover,
 .btn-tertiary-outline:active {
   color: #1a53ff !important;
   background-color: #1a53ff1a !important;
-  border: 2px solid  #1a53ff !important;
+  border: 2px solid #1a53ff !important;
 }
 
 .btn-tertiary-outline:focus {
-  box-shadow: 0 0 0 0.1rem rgb(24 75 230 / 80%)
+  box-shadow: 0 0 0 0.1rem rgb(24 75 230 / 80%);
   border: 2px solid white;
 }
 
@@ -485,7 +491,7 @@ ul.list-marketing-inline li::before {
 }
 
 .nav-link {
-  color: #04143a ;
+  color: #04143a;
   font-weight: 600 !important;
   text-align: center !important;
 }
@@ -494,7 +500,7 @@ ul.list-marketing-inline li::before {
   .nav-link {
     margin: 0 2rem 0 0 !important;
   }
-  .navbar .dropdown-menu  {
+  .navbar .dropdown-menu {
     min-width: 650px !important;
     left: 50%;
     transform: translateX(-50%);
@@ -502,7 +508,7 @@ ul.list-marketing-inline li::before {
 }
 
 .nav-link:hover {
-  color: #FC4B6D !important;
+  color: #fc4b6d !important;
 }
 
 .nav-item {
@@ -587,7 +593,7 @@ ul.list-marketing-inline li::before {
 
 .navbar .dropdown-menu {
   margin-top: 0;
-  border: 1px solid #E6E7EB;
+  border: 1px solid #e6e7eb;
   border-radius: 0.5rem;
   -webkit-box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
   box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
@@ -608,7 +614,6 @@ ul.list-marketing-inline li::before {
   animation: fadeIn 0.25s;
 }
 
-
 @media only screen and (max-width: 767px) {
   .navbar .dropdown:hover > .dropdown-menu {
     display: none; /* hide drop down menu for small devices */
@@ -623,7 +628,7 @@ ul.list-marketing-inline li::before {
 }
 
 .navbar li.features-dropdown-item a:hover {
-  background-color: #E8EEFF;
+  background-color: #e8eeff;
 }
 
 .navbar li.features-dropdown-item img {
@@ -659,7 +664,7 @@ ul.list-marketing-inline li::before {
 }
 
 .navbar li.features-dropdown-video a:hover {
-  background-color: #E8EEFF;
+  background-color: #e8eeff;
 }
 
 /* ######## 4. SECTIONS ######## */
@@ -724,7 +729,7 @@ section.values {
   font-weight: 700;
   display: block;
   position: relative;
-  padding-bottom: .25rem;
+  padding-bottom: 0.25rem;
 }
 
 .values-items .summary {
@@ -780,7 +785,7 @@ section.values {
 .tutorial-card {
   padding: 2rem 1rem;
   width: 100%;
-  border: 1px solid #E6E7EB;
+  border: 1px solid #e6e7eb;
   border-radius: 0.5rem;
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
   background-color: white;
@@ -792,9 +797,7 @@ section.values {
   box-shadow: 0px 4px 32px rgba(4, 20, 58, 0.04);
 }
 
-
 /* ####### 5. PRICING ######## */
-
 
 /* #### 5.1 Pricing toggle #### */
 
@@ -830,7 +833,7 @@ section.values {
   flex-direction: column;
   height: 100%;
   background-color: white;
-  border: 1px solid #E6E7EB;
+  border: 1px solid #e6e7eb;
   border-radius: 0.5rem;
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
   padding: 1rem 1rem 0 1rem;
@@ -908,7 +911,7 @@ section.values {
   content: '';
   min-width: 20px;
   height: 20px;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   display: inline-block;
   background-image: url(../img/elements/tick-round.svg);
   background-repeat: no-repeat;
@@ -929,7 +932,7 @@ section.values {
 
 sup {
   font-weight: 400;
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 #launch-offer {
@@ -990,12 +993,12 @@ sup {
   font-family: 'Poppins', sans-serif;
   padding: 1rem 0.5rem;
   max-width: 400px;
-  border: 1px solid #E6E7EB;
+  border: 1px solid #e6e7eb;
 }
 
 .popover-header {
   background: white;
-  border:none;
+  border: none;
 }
 
 #pricingIndividualModal input:focus,
@@ -1010,7 +1013,7 @@ sup {
 
 .modal-content {
   padding: 1rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .modal-header {
@@ -1077,7 +1080,7 @@ sup {
   background-color: white;
   -webkit-box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
   box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
-  border: 1px solid #E6E7EB;
+  border: 1px solid #e6e7eb;
   border-radius: 0.5rem;
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
   padding: 1rem;
@@ -1101,7 +1104,7 @@ sup {
   background-color: white;
   -webkit-box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
   box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
-  border: 1px solid #E6E7EB;
+  border: 1px solid #e6e7eb;
   border-radius: 0.5rem;
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
   padding: 2rem 2rem;
@@ -1114,7 +1117,7 @@ sup {
 }
 
 .promo-code-cta-container {
-  border-top: 1px solid #E6E7EB;
+  border-top: 1px solid #e6e7eb;
   padding: 1rem 0 0 0;
   width: 100%;
 }
@@ -1125,7 +1128,7 @@ sup {
     padding: 0rem 2rem;
   }
   .promo-code-cta-container {
-    border-left: 1px solid #E6E7EB;
+    border-left: 1px solid #e6e7eb;
     padding: 0 0 0 2rem;
     width: auto;
   }
@@ -1155,7 +1158,7 @@ sup {
 .review-card {
   margin: 1rem;
   width: 100%;
-  border: 1px solid #E6E7EB;
+  border: 1px solid #e6e7eb;
   border-radius: 0.5rem;
   background-color: white;
   padding: 2rem;
@@ -1203,7 +1206,7 @@ sup {
 
 .faq .accordions .card-header {
   background-color: white;
-  border-top: 1px solid #F2F3F5;
+  border-top: 1px solid #f2f3f5;
   border-bottom: none;
   padding: 1rem 0;
   font-weight: 600;
@@ -1259,7 +1262,9 @@ sup {
   background-size: cover;
 }
 
-.footer a, .footer p {
+.footer a,
+.footer p,
+.footer .text-small {
   margin: 0;
   font-size: 0.875rem;
   text-decoration: none;
@@ -1371,7 +1376,7 @@ article h2 {
 
 article p {
   line-height: 1.75rem;
-} 
+}
 
 article img :first-of-type {
   -webkit-box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
@@ -1409,19 +1414,19 @@ article img :first-of-type {
 
 .comparison-table th:nth-child(2),
 .comparison-table td:nth-child(2) {
-  background-color: #E8EEFF;
+  background-color: #e8eeff;
 }
 
 .comparison-table th:nth-child(2) {
-  border-radius: .5rem .5rem 0 0;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.comparison-table tr:last-of-type td:nth-child(2){
-  border-radius: 0 0 .5rem .5rem;
+.comparison-table tr:last-of-type td:nth-child(2) {
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .comparison-table td {
-  border-top: 1px solid #E6E7EB;
+  border-top: 1px solid #e6e7eb;
   vertical-align: middle;
 }
 
@@ -1460,7 +1465,7 @@ ol.education-list li::marker {
   padding: 0.375rem 3rem;
   border-radius: 1.5rem;
   height: 50px;
-  border: 2px solid #E6E7EB;
+  border: 2px solid #e6e7eb;
   -webkit-box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
   box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
 }
@@ -1488,7 +1493,7 @@ ol.education-list li::marker {
   margin: 1.5rem;
   box-sizing: border-box;
   text-align: center;
-  border: 1px solid #E6E7EB;
+  border: 1px solid #e6e7eb;
   padding: 0 1rem;
   border-radius: 0.5rem;
   display: block;
@@ -1507,7 +1512,7 @@ ol.education-list li::marker {
   border-radius: 0.5rem;
   -webkit-box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.04);
   box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.04);
-  border: 1px solid #E6E7EB;
+  border: 1px solid #e6e7eb;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
@@ -1602,7 +1607,7 @@ ol.education-list li::marker {
   border-radius: 0.5rem;
   box-sizing: border-box;
   background-color: #ffffff;
-  border: 1px solid #E6E7EB;
+  border: 1px solid #e6e7eb;
   -webkit-box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
   box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.02);
   transition: all 0.2s ease-in-out;
@@ -1658,7 +1663,7 @@ ol.education-list li::marker {
 }
 
 .page-support-articles li a {
-  margin-left: .375rem;
+  margin-left: 0.375rem;
 }
 
 #support-svg {
@@ -1703,7 +1708,7 @@ ol.education-list li::marker {
   }
 }
 
-.features-list-grid  ul {
+.features-list-grid ul {
   list-style: none;
   margin: none;
   padding: 0;
@@ -1740,7 +1745,7 @@ ol.education-list li::marker {
 }
 
 .features-card:hover {
-  background-color: #E8EEFF;
+  background-color: #e8eeff;
 }
 
 .features-card h2 {
@@ -1786,7 +1791,7 @@ ol.education-list li::marker {
   padding: 1rem 1.2rem;
   width: 100%;
   min-height: 100%;
-  border: 1px solid #E6E7EB;
+  border: 1px solid #e6e7eb;
   border-radius: 0.5rem;
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
   background-color: white;
@@ -1858,7 +1863,7 @@ ol.education-list li::marker {
   padding: 1rem 2rem;
   width: 100%;
   min-height: 100%;
-  border: 1px solid #E6E7EB;
+  border: 1px solid #e6e7eb;
   border-radius: 0.5rem;
   transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
   background-color: white;

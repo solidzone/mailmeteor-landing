@@ -72,7 +72,7 @@
               </a>
               <meta itemprop="position" content="{{postion}}" />
               {% else %}
-              <span itemprop="name">{{ item.name | default: page.title | replace: "(X) ", "" }}</span>
+              <span class="text-small" itemprop="name">{{ item.name | default: page.title | replace: "(X) ", "" }}</span>
               <meta itemprop="position" content="{{postion}}" />
               {%endif%}
             </li>
@@ -118,7 +118,7 @@
           {% for subitem in site.data.navigation.subfooter %}
           <a href="{{ subitem[1].url }}" class="mr-3">{{ subitem[1][page.lang] }}</a>
           {% endfor %}
-          <span class="text-white" style="opacity: 0.75; white-space: nowrap">&copy; 2018-{{ 'now' | date: "%Y" }} Mailmeteor</span>
+          <span class="text-white text-small" style="opacity: 0.75; white-space: nowrap">&copy; 2018-{{ 'now' | date: "%Y" }} Mailmeteor</span>
         </nav>
       </div>
     </div>
