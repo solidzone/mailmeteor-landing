@@ -257,12 +257,6 @@ footer:
         fr: 'Documentation'
         es: 'Documentación'
         de: 'Hilfezentrum'
-      sales:
-        url: '/sales'
-        en: 'Contact sales'
-        fr: 'Service commercial'
-        es: 'Servicio comercial'
-        de: 'Service kommerziell'
   company:
     title:
       en: 'Company'
