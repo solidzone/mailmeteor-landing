@@ -43,7 +43,7 @@ Getting a mass email sent out to a large list of recipients is simple. **Here’
 
 1.  **Install Mailmeteor**
 
-    Head to the Google Workspace Marketplace and [install Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301).
+    Head to the Google Workspace Marketplace and [install Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301).
 
     <img src="/assets/img/blog/how-to-send-mass-emails-gmail/1-install-mailmeteor.png" alt="Install Mailmeteor for Google Sheets" style="box-shadow:none" width="600px" height="381px"/>
 

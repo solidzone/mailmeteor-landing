@@ -213,7 +213,7 @@ We’ll start with a real-life example to show you how to do a mail merge from G
 
 #### 1. Get Mailmeteor
 
-All you have to do is to [install Mailmeteor from the Google Workspace Marketplace](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301). The Worskpace Marketplace is a place where you can find all the apps compatible with your Google Suite. Mailmeteor is a tool that integrates with Gmail and Google Sheets to merge emails with Gmail.
+All you have to do is to [install Mailmeteor from the Google Workspace Marketplace](https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301). The Worskpace Marketplace is a place where you can find all the apps compatible with your Google Suite. Mailmeteor is a tool that integrates with Gmail and Google Sheets to merge emails with Gmail.
 
 <img src="/assets/img/blog/mail-merge-gmail/tutorial-mailmeteor-install.png" alt="Install Mailmeteor for Google Sheets" style="box-shadow:none" width="600px" height="381px"/>
 
@@ -586,7 +586,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 
 **How to use Mailmeteor?** [Get Started with Mailmeteor](https://support.mailmeteor.com/introduction/quick-start/mailmeteor-tutorial)
 
-**Installation:** [Mailmeteor install link](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301)
+**Installation:** [Mailmeteor install link](https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301)
 
 **Pricing:** [Mailmeteor pricing](https://mailmeteor.com/pricing)
 

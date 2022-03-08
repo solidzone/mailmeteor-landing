@@ -60,7 +60,7 @@ Right from Google Sheets, in the menu, select "Add-ons" > "Mailmeteor" > "Open M
 
 <img src="/assets/img/blog/mail-merge-gmail-excel/addon-menu-open-mailmeteor.jpg" alt="Open Mailmeteor from the Add-ons menu in Google Sheets" width="600" height="217"/>
 
-If you don't have Mailmeteor, just [open this link](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301) to install the add-on in a few seconds.
+If you don't have Mailmeteor, just [open this link](https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301) to install the add-on in a few seconds.
 
 <div class="blogpost-note">Mailmeteor is the top rated add-on for Google Workspace. It's built with privacy in mind and you can use it for free to send up to 75 emails/day. If your Excel file has more contacts, look at our <a href="/pricing">pricing plan</a>.</div>
 

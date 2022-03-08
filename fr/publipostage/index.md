@@ -154,7 +154,7 @@ Les étapes pour réaliser un publipostage depuis Google Sheets sont proches de 
 
 3. **Ouvrir Mailmeteor**
 
-   Dans le menu **Module complémentaire** choisissez Mailmeteor. [Installez Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301) au préalable si ce n’est pas déjà fait.
+   Dans le menu **Module complémentaire** choisissez Mailmeteor. [Installez Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301) au préalable si ce n’est pas déjà fait.
 
 4. **Ecrire un nouveau modèle d’email**
 

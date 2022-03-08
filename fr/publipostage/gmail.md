@@ -47,11 +47,11 @@ Commençons par une démonstration qui illustre comment faire un publipostage de
 
 ### 1. Installer Mailmeteor
 
-Commencez par [installer Mailmeteor depuis le Google Workplace Marketplace](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301). Le Workplace Marketplace est une plateforme sur laquelle vous pouvez trouver toutes les applications compatibles avec la suite de productivité de Google.
+Commencez par [installer Mailmeteor depuis le Google Workplace Marketplace](https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301). Le Workplace Marketplace est une plateforme sur laquelle vous pouvez trouver toutes les applications compatibles avec la suite de productivité de Google.
 
 Mailmeteor est disponible depuis 2018 sur cette plateforme. C'est un outil disponible en français qui s'intègre à Gmail et à Google Sheets pour envoyer des emails personnalisés en masse. Mailmeteor offre la possibilité de réaliser gratuitement des publipostages depuis Gmail.
 
-[![Installation de Mailmeteor](/assets/img/articles/fr/publipostage/gmail/1-obtenir-mailmeteor.webp){:width="600px" height="338px"}](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301)
+[![Installation de Mailmeteor](/assets/img/articles/fr/publipostage/gmail/1-obtenir-mailmeteor.webp){:width="600px" height="338px"}](https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301)
 
 ### 2. Ajouter des contacts sur Google Sheets
 
@@ -186,7 +186,7 @@ Quels sont les [meilleurs modules complémentaires pour envoyer un publipostage 
    </thead>
    <tbody>
       <tr>
-         <td class="font-weight-bold">1. <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301" rel="nofollow noreferrer">Mailmeteor</a></td>
+         <td class="font-weight-bold">1. <a href="https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301" rel="nofollow noreferrer">Mailmeteor</a></td>
          <td>4.9/5</td>
          <td><a href="/pricing">€49</a></td>
       </tr>
@@ -236,7 +236,7 @@ Voici un guide complet de Google expliquant [comment importer votre fichier Exce
 
 Vous êtes récemment passé de Microsoft Outlook à Gmail et c'est la première fois que vous devez faire un envoi d’emails en masse sous Gmail? Il existe deux solutions dans ce cas:
 
-Remplacez votre méthode de publipostage dans Outlook par un add-on Google comme [Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301), qui fera exactement le même travail de fusion de courrier qu'Outlook.
+Remplacez votre méthode de publipostage dans Outlook par un add-on Google comme [Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301), qui fera exactement le même travail de fusion de courrier qu'Outlook.
 Vous pouvez envoyer des courriels à partir de votre compte Outlook en utilisant un alias d’adresse email. Un alias de messagerie est un autre compte de messagerie que vous possédez. Avec un alias d’email, vous pouvez envoyer des messages électroniques à partir de votre ancienne adresse Outlook tout en étant connecté à Google avec votre compte Gmail.
 
 Si vous souhaitez effectuer un publipostage Outlook avec pièce jointe, vous pouvez utiliser une solution de mail merge telle que Mailmeteor. Pour en savoir plus, vous pouvez consulter [le guide de publipostage dans Gmail avec pièce jointe](#bonus-faire-un-publipostage-dans-gmail-avec-pièce-jointe). Les instructions sont les mêmes pour effectuer un publipostage dans Outlook en joignant des fichiers.
@@ -267,7 +267,7 @@ Voici les étapes à suivre pour ajouter des pièces jointes à votre publiposta
 
 1. **Installez un module complémentaire de publipostage**
 
-   Pour faire une fusion de courrier avec des pièces jointes dans Gmail, vous devez installer un outil de publipostage comme [Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301) qui vous permet d'ajouter la même pièce jointe pour des courriels adressés à tous les destinataires.
+   Pour faire une fusion de courrier avec des pièces jointes dans Gmail, vous devez installer un outil de publipostage comme [Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301) qui vous permet d'ajouter la même pièce jointe pour des courriels adressés à tous les destinataires.
 
 2. **Ouvrez Mailmeteor à partir de Google Sheets**
 

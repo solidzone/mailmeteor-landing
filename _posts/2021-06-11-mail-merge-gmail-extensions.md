@@ -92,7 +92,7 @@ One of the most affordable mail merge options on the market, [Mailmeteor's prici
 
 **Mailmeteor Install**
 
-You can install Mailmeteor from the [Google Workspace Marketplace](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301). Once installed, open Google Sheets and then launch Mailmeteor from the Add-ons menu.
+You can install Mailmeteor from the [Google Workspace Marketplace](https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301). Once installed, open Google Sheets and then launch Mailmeteor from the Add-ons menu.
 
 <div class="row">
   <div class="col-md-6 p-3">

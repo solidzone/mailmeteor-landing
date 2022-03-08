@@ -52,7 +52,7 @@ Mailmeteor is the top-rated Google mail merge add-on, designed to make mail merg
 
    <img src="/assets/img/blog/mail-merge-gmail/tutorial-mailmeteor-install.png" alt="Install Mailmeteor for Google Sheets" style="box-shadow:none" width="600px" height="381px"/>
 
-   Let’s start right at the beginning. [Download and install Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301) on your Gmail account from the Google Workspace Marketplace. Mailmeteor effortlessly integrates with your current Google Suite setup, specifically in Sheets and on Gmail.
+   Let’s start right at the beginning. [Download and install Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301) on your Gmail account from the Google Workspace Marketplace. Mailmeteor effortlessly integrates with your current Google Suite setup, specifically in Sheets and on Gmail.
 
 2. **Create a contact list on Google Sheets**
 

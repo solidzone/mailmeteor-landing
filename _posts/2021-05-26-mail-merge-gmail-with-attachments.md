@@ -56,7 +56,7 @@ A [mail merge with Gmail](/mail-merge-gmail) allows you to send emails to multip
 <br>
 Here is a step-by-step guide to adding attachments in a mail merge in Gmail:
 
-1. **Install a [Gmail mail merge](/gmail-mail-merge) add-on**: To do a mail merge with attachments in Gmail, you’ll need to install a mail merge tool like [Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301) which enables you to add the same attachment for emails to all recipients.
+1. **Install a [Gmail mail merge](/gmail-mail-merge) add-on**: To do a mail merge with attachments in Gmail, you’ll need to install a mail merge tool like [Mailmeteor](https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301) which enables you to add the same attachment for emails to all recipients.
 
 2. **Open the add-on from Google Sheets**: Go to [Google Sheets](https://sheets.new), and open Mailmeteor from the Add-ons menu at the top.
 
@@ -147,7 +147,7 @@ This is a good question, and as it happens, Mailmeteor has a special feature des
 <div class="blogpost-endnote">
    <p>That’s just about everything! We hope you’ve learnt something from our brief Google mail merge with attachments introduction, and you can always find out more with our tutorials and guides on the <a href="/blog/">Mailmeteor blog</a>.</p>
    <p>
-   And if you’re itching to get started, don’t let us hold you back - <a href="https://workspace.google.com/marketplace/app/mailmeteor_mail_merge_for_gmail/1008170693301">Install Mailmeteor</a> today and get try sending your first mail merge with attachments.</p>
+   And if you’re itching to get started, don’t let us hold you back - <a href="https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301">Install Mailmeteor</a> today and get try sending your first mail merge with attachments.</p>
   <br>
   <br>
   <p><a href="https://mailmeteor.com" class="font-weight-bold">Try Mailmeteor to mail merge in Gmail with attachments</a></p>
