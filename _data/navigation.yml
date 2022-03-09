@@ -28,16 +28,10 @@ navbar:
     de: 'Preise'
   signin:
     url: 'https://dashboard.mailmeteor.com'
-    en: 'Sign in'
-    fr: 'Se connecter'
-    es: 'Iniciar sesión'
-    de: 'Einloggen'
-  install:
-    url: 'https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301'
-    en: 'Install'
-    fr: 'Installer'
-    es: 'Instalar'
-    de: 'Installieren'
+    en: 'Sign in →'
+    fr: 'Se connecter →'
+    es: 'Iniciar sesión →'
+    de: 'Einloggen →'
 
 #
 # Footer

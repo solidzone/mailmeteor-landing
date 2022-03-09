@@ -75,12 +75,8 @@
           <a class="nav-link" href="{{ nav[1].url }}"> {{ nav[1][page.lang] }}</a>
         </li>
         {% elsif nav[0] == "signin" %}
-        <li class="nav-item">
-          <a href="https://dashboard.mailmeteor.com" class="btn-sm btn-secondary d-inline-block">{{ nav[1][page.lang] }}</a>
-        </li>
-        {% elsif nav[0] == "install" %}
         <li class="nav-item text-center my-auto ml-lg-2">
-          <a href="https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301" class="btn-sm btn-primary d-inline-block">{{ nav[1][page.lang] }}</a>
+          <a href="https://dashboard.mailmeteor.com" class="btn-sm btn-primary d-inline-block">{{ nav[1][page.lang] }}</a>
         </li>
         {% endif %} {% endfor %}
       </ul>
