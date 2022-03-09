@@ -28,10 +28,10 @@ navbar:
     de: 'Preise'
   signin:
     url: 'https://dashboard.mailmeteor.com'
-    en: 'Sign in →'
-    fr: 'Se connecter →'
-    es: 'Iniciar sesión →'
-    de: 'Einloggen →'
+    en: 'Sign in'
+    fr: 'Se connecter'
+    es: 'Iniciar sesión'
+    de: 'Einloggen'
 
 #
 # Footer
