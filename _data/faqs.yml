@@ -18,7 +18,7 @@ entries:
 
   - question: How many emails can I send with Mailmeteor?
     answer: >
-      Mailmeteor Premium allows you to send personalized emails up to the limits imposed by Gmail:
+      Mailmeteor allows you to send personalized emails up to the limits imposed by Gmail:
 
         - Google Workspace accounts (formerly G Suite) can send up to 2000 emails per day
         - Gmail accounts (@gmail.com) can send up to 500 emails per day
@@ -72,16 +72,13 @@ entries:
     answer: You can use Mailmeteor with your favorite CRM tool, like Salesforce or Hubspot. To log emails sent with Mailmeteor, you will need to find your unique BCC address provided by your CRM. You will put this address as a BCC recipient when sending emails from Mailmeteor. Here is a [guide to help you use Mailmeteor with your CRM](https://support.mailmeteor.com/introduction/advanced/crm-integration).
 
   - question: Is there a free trial?
-    answer: >
-      You can enjoy Mailmeteor for free with up to **75 emails a day**. It's more free email quota compared to what you can find in other mail merge solutions. 
-
-      Whenever you want to send more emails, Mailmeteor Premium includes up to 2000 emails, real-time tracking, scheduling, attachments or email alias & more. If you want to benefit from premium features, you can upgrade your account on our [paid plans](/pricing).
+    answer: You can enjoy Mailmeteor for free with up to **75 emails a day**. It's totally free to use and you can [start right now](https://dashboard.mailmeteor.com/). Whenever you want to send more emails, Mailmeteor paid plans includes up to 2000 emails, real-time tracking, scheduling, attachments, email alias & more. If you want to benefit from premium features, you can upgrade your account on our [paid plans](/pricing).
 
   - question: How do I manage my subscription?
     answer: >
       To manage your account, [go to your Mailmeteor's dashboard](https://dashboard.mailmeteor.com/account).
 
-      You can cancel your account anytime. On the same page click on “Cancel”. Follow the instructions and the subscription will be cancelled immediately afterward. If you cancel before the end of your subscription period, you will still be able to use your Mailmeteor premium account, up to the last day of the subscription.
+      You can cancel your account anytime. On the same page click on “Cancel”. Follow the instructions and the subscription will be cancelled immediately afterward. If you cancel before the end of your subscription period, you will still be able to use your Mailmeteor license, up to the last day of the subscription.
 
   - question: I need help with Mailmeteor
     answer: >
@@ -96,7 +93,7 @@ entries:
 
 billing:
   - question: Is there a free trial?
-    answer: You can enjoy Mailmeteor for free with up to **75 emails a day**. It's more free email quota compared to what you can find in other mail merge solutions. Whenever you want to send more emails, Mailmeteor Premium includes up to 2000 emails, real-time tracking, scheduling, attachments, email alias & more. If you want to benefit from premium features, you can upgrade your account on our [paid plans](/pricing).
+    answer: You can enjoy Mailmeteor for free with up to **75 emails a day**. It's totally free to use and you can [start right now](https://dashboard.mailmeteor.com/). Whenever you want to send more emails, Mailmeteor Premium includes up to 2000 emails, real-time tracking, scheduling, attachments, email alias & more. If you want to benefit from premium features, you can upgrade your account on our [paid plans](/pricing).
 
   - question: How can I pay?
     answer: >
@@ -118,7 +115,7 @@ billing:
       To manage your account, [access your settings from Mailmeteor's dashboard](https://dashboard.mailmeteor.com/account).
 
 
-      To cancel your account, on the same page click on “Cancel”. Follow the instructions and the subscription will be cancelled immediately afterward. If you cancel before the end of your subscription period, you will still be able to use your Mailmeteor premium account (up to the last day of the subscription).
+      To cancel your account, on the same page click on “Cancel”. Follow the instructions and the subscription will be cancelled immediately afterward. If you cancel before the end of your subscription period, you will still be able to use your Mailmeteor license (up to the last day of the subscription).
 
   - question: Is it possible to transfer my license to a different Gmail or Google Workspace account?
     answer: Of course! If you need to change ownership of your license, please [contact us](/contact) and we’ll proceed with the change.
@@ -163,7 +160,7 @@ deliverability:
 
   - question: How many emails can I send with Mailmeteor?
     answer: >
-      Mailmeteor Premium allows you to send personalized emails up to the limits imposed by Gmail:
+      Mailmeteor allows you to send personalized emails up to the limits imposed by Gmail:
 
         - Google Workspace accounts (formerly G Suite) can send up to 2000 emails per day
         - Gmail accounts (@gmail.com) can send up to 500 emails per day

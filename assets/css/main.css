@@ -358,6 +358,13 @@ button:hover,
   border: 2px solid white;
 }
 
+.btn-group .btn-secondary.active {
+  background-color: #fc4b6d !important;
+  color: white !important;
+  border-color: #fc4b6d !important;
+  box-shadow: none !important;
+}
+
 /* Dark background primary*/
 
 .btn-reverse {
@@ -853,12 +860,13 @@ section.values {
 }
 
 .pricing-card-title {
-  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
   font-weight: bold;
 }
 
 .pricing-card-price {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -871,7 +879,7 @@ section.values {
 /* #### 5.4 Pricing card body ####*/
 
 .pricing-card-body {
-  padding: 0 1rem 0 1rem;
+  padding: 0 1rem;
   flex: 1 0 auto;
 }
 
@@ -1067,7 +1075,18 @@ sup {
   top: -1px;
 }
 
-.pricing-team .badge,
+#pricingTeamSlider .slider-tick,
+#pricingTeamSlider .slider-tick.in-selection {
+  background: #ededed !important;
+  opacity: 1 !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+#pricingTeamSlider .slider-tick.in-selection {
+  background: #0039e6 !important;
+}
+
 .pricing-team .tooltip-inner {
   cursor: pointer;
 }

@@ -1,0 +1,189 @@
+<!-- PLAN CONFIRMATION MODAL  -->
+{% raw %}
+
+<div id="checkout-app" v-cloak>
+  <div class="modal fade" id="planConfirmationModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <form method="POST" action="https://us-central1-mailmeteor-prod.cloudfunctions.net/stripe/checkout" @submit="isSubmitting = true">
+        <input type="hidden" name="plan_id" v-model="productId" />
+        <input type="hidden" name="currency" v-model="currency" />
+        <input type="hidden" name="recurrence" v-model="recurrence" />
+        <input type="hidden" name="quantity" v-model="quantity" />
+        <input type="hidden" name="coupon" v-model="coupon" />
+        <div class="modal-content">
+          <div class="modal-body my-2">
+            <div class="row">
+              <div class="col-sm-6 order-12 order-md-1">
+                <h2 style="margin-top: 1rem">Mailmeteor {{ productName }} includes:</h2>
+                <div class="my-4">
+                  <ul class="pricing-plan-features pl-0">
+                    <template v-if="productType === 'premium'">
+                      <li>2000 emails per day</li>
+                      <li>Email deliverability booster</li>
+                      <li>Hundreds of other features</li>
+                    </template>
+                    <template v-else-if="productType === 'pro'">
+                      <li>Everything in Premium, plus:</li>
+                      <li>Follow-ups if no-reply</li>
+                      <li>Automated sequence</li>
+                      <li>Bounce &amp; reply detection</li>
+                    </template>
+                    <template v-else-if="productType === 'business'">
+                      <li>Everything in Pro, plus:</li>
+                      <li>Follow-ups after a minute</li>
+                      <li>Custom tracking domain</li>
+                      <li>Integrations &amp; API</li>
+                      <li>Priority email support</li>
+                    </template>
+                  </ul>
+                </div>
+                <hr class="my-4" />
+
+                <p class="text-center text-neutral-6 m-0">3 million professionals trust Mailmeteor</p>
+                {% endraw %} {%- include testimonials-logo.html size="sm" -%} {% raw %}
+              </div>
+              <div class="col-sm-6 order-1 order-md-12">
+                <div>
+                  <div class="pricing-card">
+                    <div class="pricing-card-header" style="margin-bottom: 1rem">
+                      <div class="font-weight-bold">Plan summary</div>
+                      <div class="pricing-card-price mt-2" style="line-height: 1">
+                        <small>{{ currencySymbol }}</small>{{ amountIntegers }}<sup>{{ amountDecimals }}/{{recurrence}}</sup>
+                      </div>
+                      <small v-if="quantity > 1" class="text-muted">{{ quantity }} users at {{ currencySymbol }}{{ amountPerUser }}/{{ recurrence }} each </small>
+                    </div>
+                    <div class="mb-3" v-if="quantity > 1">
+                      <label>Save even more with Annual Billing:</label>
+                      <select class="custom-select" v-model="recurrence">
+                        <option value="year">
+                          Annual
+                          <template v-if="productType === 'premium'">(save over {{ currencySymbol }}70/user 🎁)</template><template v-else>(2 months free 🎁)</template>
+                        </option>
+                        <option value="month">Monthly</option>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                      <label for="emailAddress">
+                        <template v-if="quantity > 1">Your email address:</template>
+                        <template v-else>Email address to upgrade:</template>
+                      </label>
+                      <input id="emailAddress" type="email" class="form-control" placeholder="mary@mailmeteor.com" required="true" name="active_email" v-model="email" />
+                      <p v-if="isGmail" class="text-center text-muted mt-2 mb-0">
+                        <small
+                          >👋 You have a Gmail account (@gmail.com). That's great! Just to let you know, Gmail grants you up to 500 recipients/day (<a
+                            target="_blank"
+                            href="https://support.mailmeteor.com/introduction/quick-start/email-quota"
+                            >learn more</a
+                          >).</small
+                        >
+                      </p>
+                    </div>
+                    <div class="mb-3">
+                      <label><input type="checkbox" autocomplete="off" checked value="true" v-model="isEmailBillable" />&nbsp;Use as billing email address</label>
+                      <div v-if="!isEmailBillable">
+                        <!-- <label class="m-0 above" for="billingEmailAddress">Billing email address</label> -->
+                        <input id="billingEmailAddress" type="email" class="form-control" placeholder="billing@mailmeteor.com" name="billing_email" />
+                      </div>
+                    </div>
+
+                    <div class="mb-3 text-center">
+                      <button class="btn btn-primary" type="submit" style="width: 100%; margin: 0"><span v-if="isSubmitting" class="spinner"></span>Upgrade now</button>
+                      <small class="text-muted" style="font-size: 70%"
+                        >By subscribing, you agree to our <a href="/terms" target="_blank" class="text-muted" style="text-decoration: underline">Terms & Conditions</a>.</small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endraw %}
+
+<style>
+  form label {
+    font-weight: 500;
+    user-select: none;
+  }
+
+  .spinner {
+    content: '';
+    border: 1px solid transparent;
+    border-top: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0.5rem;
+    animation: spin 0.45s linear infinite;
+  }
+
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+<script src="/assets/js/lib/vue@2.6.14.min.js"></script>
+<script>
+  var _checkoutApp = new Vue({
+    el: '#checkout-app',
+    data() {
+      return {
+        productType: '',
+        productId: '',
+        currency: '',
+        recurrence: '',
+        quantity: '',
+        coupon: '',
+        email: '',
+
+        isSubmitting: false,
+        isEmailBillable: true,
+      };
+    },
+    computed: {
+      amount() {
+        var productRecurrence = this.recurrence;
+
+        if (typeof getProductPrice === 'undefined') return 0;
+
+        var productPrice = getProductPrice(this.productType, productRecurrence);
+        return computeProductPrice(productPrice.amount, this.quantity);
+      },
+      amountIntegers() {
+        return ~~this.amount;
+      },
+      amountDecimals() {
+        return '.' + ((this.amount - this.amountIntegers).toFixed(2) + '').split('.').pop();
+      },
+
+      amountPerUser() {
+        return (this.amount / this.quantity).toFixed(2);
+      },
+
+      currencySymbol() {
+        return this.currency === 'EUR' ? '€' : '$';
+      },
+
+      productName() {
+        const productType = this.productType;
+
+        if (typeof _allProducts !== 'object') return '';
+
+        const product = _allProducts[this.productType];
+        return (product && product.title) || '';
+      },
+
+      isGmail() {
+        return this.email.indexOf('@gmail.com') > -1 || this.email.indexOf('@googlemail.com') > -1;
+      },
+    },
+  });
+</script>

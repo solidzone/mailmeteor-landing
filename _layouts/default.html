@@ -12,5 +12,9 @@
     {% if page.stripe == "popover"%}
     {%- include pricing-script.html -%}
     {% endif %}
+
+    {% if page.checkout %}
+    {%- include pricing-script-new.html -%}
+    {% endif %}
   </body>
 </html>

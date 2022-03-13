@@ -1,0 +1,436 @@
+<!-- Stripe SDK -->
+<script async src="https://js.stripe.com/v3/"></script>
+
+<!-- Products pricing -->
+<script>
+  /**
+   * Render products cards
+   */
+
+  var _allProducts = {
+    premium: {
+      title: 'Premium',
+      prices: {
+        month: {
+          usd: {
+            amount: 9.99,
+            price_id: 'price_1KcyKdKALIjZusuQPkdhGEo8',
+          },
+          eur: {
+            amount: 9.99,
+            price_id: 'price_1KcyKdKALIjZusuQPkdhGEo8',
+          },
+        },
+        year: {
+          usd: {
+            amount: 49.99,
+            price_id: 'price_1Jr',
+          },
+          eur: {
+            amount: 49.99,
+            price_id: 'price_1Jr',
+          },
+        },
+      },
+      OFF20: true,
+    },
+    pro: {
+      title: 'Pro',
+      prices: {
+        month: {
+          usd: {
+            amount: 24.99,
+            price_id: 'price_1KcyRRKALIjZusuQFzBrZFtE',
+          },
+          eur: {
+            amount: 24.99,
+            price_id: 'price_1KcyRRKALIjZusuQFzBrZFtE',
+          },
+        },
+        year: {
+          usd: {
+            amount: 249.99,
+            price_id: 'price_1Jr',
+          },
+          eur: {
+            amount: 249.99,
+            price_id: 'price_1Jr',
+          },
+        },
+      },
+      OFF20: true,
+    },
+    business: {
+      title: 'Business',
+      prices: {
+        month: {
+          usd: {
+            amount: 49.99,
+            price_id: 'price_1Jr',
+          },
+          eur: {
+            amount: 49.99,
+            price_id: 'price_1Jr',
+          },
+        },
+        year: {
+          usd: {
+            amount: 499.99,
+            price_id: 'price_1Jr',
+          },
+          eur: {
+            amount: 499.99,
+            price_id: 'price_1Jr',
+          },
+        },
+      },
+    },
+  };
+
+  /**
+   * Handle user's currency
+   */
+
+  var _defaultCurrency = 'USD';
+  var _defaultRecurrence = 'month';
+  var _defaultQuantity = 1;
+  var _cachedCurrency = null;
+  var _validCurrencies = { USD: '$', EUR: '€' };
+
+  function setUserCurrency(currency) {
+    if (typeof currency !== 'string' || !_validCurrencies[currency]) {
+      currency = _defaultCurrency;
+    }
+
+    var currencyElt = $('[data-checkout-currency]').first();
+    if (currencyElt) {
+      currencyElt.data('checkout-currency', currency.toUpperCase());
+      _cachedCurrency = null;
+    }
+  }
+
+  function getUserCurrency() {
+    if (_cachedCurrency) {
+      return _cachedCurrency;
+    }
+
+    var currency;
+
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+
+      if (urlParams.get('currency')) {
+        currency = urlParams.get('currency');
+      }
+    } catch (err) {}
+
+    if (!currency) {
+      var currencyElt = $('[data-checkout-currency]').first();
+      currency = (currencyElt && currencyElt.data('checkout-currency')) || _defaultCurrency;
+    }
+
+    if (!_validCurrencies[currency]) {
+      currency = _defaultCurrency;
+    }
+
+    _cachedCurrency = currency;
+    return currency.toUpperCase();
+  }
+
+  function getUserCurrencySymbol() {
+    var currency = getUserCurrency();
+    return currency === 'EUR' ? '€' : '$';
+  }
+
+  function getProductRecurrence() {
+    return $('input[name="checkout-recurrence"]:checked').first().val() || _defaultRecurrence;
+  }
+
+  function getProductQuantity() {
+    return $('[data-checkout-quantity]').first().data('checkout-quantity') || _defaultQuantity;
+  }
+
+  function getProductPrice(plan, recurrence) {
+    var product = _allProducts && _allProducts[plan];
+    var productRecurrence = recurrence || getProductRecurrence();
+    var currency = getUserCurrency();
+
+    var productPrices = (product.prices && product.prices[productRecurrence]) || null;
+    var productPrice = (productPrices && productPrices[currency.toLowerCase()]) || null;
+
+    return productPrice;
+  }
+
+  function computeProductPrice(pricing, units) {
+    var total = 0;
+
+    if (units >= 25) {
+      total += (units - 24) * pricing * (1 - 0.3);
+      units = 24;
+    }
+
+    if (units >= 10) {
+      total += (units - 9) * pricing * (1 - 0.25);
+      units = 9;
+    }
+
+    if (units >= 5) {
+      total += (units - 4) * pricing * (1 - 0.2);
+      units = 4;
+    }
+
+    if (units > 0) {
+      total += units * pricing;
+    }
+
+    return total;
+  }
+
+  /**
+   * Render products
+   */
+
+  function renderProducts() {
+    var currency = getUserCurrency();
+    var productRecurrence = getProductRecurrence();
+
+    $('[data-checkout-product]').each(function () {
+      var card = $(this);
+      var productType = card.data('checkout-product');
+      var product = _allProducts && _allProducts[productType];
+
+      if (!product) {
+        console.error('Undefined product: ' + productType);
+        return;
+      }
+
+      var title = card.find('[data-checkout-product-item="title"]');
+      if (title && product.title) {
+        title.first().text(product.title);
+      }
+
+      var priceElt = card.find('[data-checkout-product-item="price"]');
+      var productPrices = (product.prices && product.prices[productRecurrence]) || null;
+      var productPrice = (productPrices && productPrices[currency.toLowerCase()]) || null;
+
+      if (priceElt && productPrice) {
+        var amount = productPrice.amount.toString().split('.');
+        var amountInteger = amount.shift();
+        var amountDecimal = amount.length && amount.shift();
+        var amountCurrency = _validCurrencies[currency];
+
+        var priceHtml = '<small class="pricing-card-currency">' + amountCurrency + '</small>';
+        priceHtml += amountInteger;
+        priceHtml += '<sup>' + (amountDecimal ? '.' + amountDecimal : '') + ' /' + productRecurrence + '</sup>';
+        priceElt.first().html(priceHtml);
+
+        if (product.OFF20 && getCoupon() === 'OFF20') {
+          var discount = (Math.round(productPrice.amount * (1 - 0.2) * 100) / 100).toString().split('.');
+          var discountInteger = discount.shift();
+          var discountDecimal = discount.length && discount.shift();
+          var discountCurrency = _validCurrencies[currency];
+
+          var discountHtml = '<small class="pricing-card-currency">' + discountCurrency + '</small>';
+          discountHtml += discountInteger;
+          discountHtml += '<sup>' + (discountDecimal ? '.' + discountDecimal : '') + ' ' + productRecurrence + '</sup>';
+
+          priceElt.first().html('<strike style="font-size:0.7em">' + priceHtml + '</strike><span style="color:#FF486A;">' + discountHtml + '</span>');
+        }
+      }
+
+      $('.pricing-card-currency').each(function () {
+        $(this).text(amountCurrency);
+      });
+
+      var cta = card.find('[data-checkout-product-item="cta"]');
+      if (cta && cta.first()) {
+        cta = cta.first();
+
+        if (cta.prop('tagName') === 'A') {
+          cta.attr('href', productPrice.link);
+        } else if (cta.prop('tagName') === 'BUTTON') {
+          cta.data('checkout-product', productType);
+          cta.data('checkout-product-id', (productPrice && productPrice.price_id) || '');
+        }
+
+        cta.text(product.cta || 'GET STARTED');
+      }
+    });
+  }
+
+  /**
+   * Handle coupons
+   */
+
+  function qs(key) {
+    key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, '\\$&'); // escape RegEx meta chars
+    var match = location.search.match(new RegExp('[?&]' + key + '=([^&]+)(&|$)'));
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+  }
+
+  function getCoupon() {
+    var coupon = qs('coupon');
+
+    return coupon || '';
+  }
+
+  /**
+   * Initialize products
+   */
+
+  $(function () {
+    // Try to retrieve user's currency
+    if (window._geo && window._geo.currency) {
+      setUserCurrency(window._geo.currency);
+    }
+
+    // Render products with user's currency
+    renderProducts();
+    renderTeamPack();
+
+    // Handle confirmation modals
+    function planConfirmationModal(event) {
+      var button = $(event.relatedTarget);
+      var productId = button.data('checkout-product-id');
+      var productType = button.data('checkout-product');
+      var product = _allProducts[productType];
+      var productQuantity = getProductQuantity();
+
+      if (productQuantity === 1) {
+        productQuantity = button.data('checkout-default-quantity') || productQuantity;
+      }
+
+      if (!productId || !product) {
+        window.location.href = 'https://mailmeteor.com/sales';
+        event.preventDefault();
+      } else {
+        var modal = $(this);
+
+        var productPrice = getProductPrice(productType);
+        var amount = computeProductPrice(productPrice.amount, productQuantity);
+
+        // Update form inputs
+        _checkoutApp.$data.productType = productType;
+        _checkoutApp.$data.productId = productId;
+        _checkoutApp.$data.currency = getUserCurrency();
+        _checkoutApp.$data.recurrence = getProductRecurrence();
+        _checkoutApp.$data.quantity = productQuantity;
+        _checkoutApp.$data.coupon = getCoupon() === 'OFF20' ? 'promo_1IUC63KALIjZusuQ2mAGIzqM' : null;
+      }
+    }
+
+    $('#planConfirmationModal').on('show.bs.modal', planConfirmationModal);
+
+    // Handle 500 emails warning for Gmail users
+    $('#planConfirmationModal')
+      .find('input[name="active_email"]')
+      .first()
+      .on('input', function (e) {
+        var input = $(this);
+        var val = input.val();
+        var tip = $('#checkout-gmail-accounts-tip');
+        var isGmailAccount = val.indexOf('@gmail.com') > -1 || val.indexOf('@googlemail.com') > -1;
+
+        if (!tip) {
+          return;
+        }
+
+        if (isGmailAccount) {
+          tip.show();
+        } else {
+          tip.hide();
+        }
+      });
+
+    // Handle billing email address
+    $('#planConfirmationModal')
+      .find('input[name="billing_email_check"]')
+      .first()
+      .on('input', function (e) {
+        var input = $(this);
+        var val = input.is(':checked');
+
+        if (val) $('.checkout-billing-address').hide();
+        else $('.checkout-billing-address').show();
+      });
+
+    // Handle monthly / yearly
+    $('input[name=checkout-recurrence]').on('change', function () {
+      renderProducts();
+      renderTeamPack();
+    });
+
+    // Enabling popovers
+    $('[data-toggle="popover"]').popover();
+  });
+</script>
+
+<!-- Bootsrap Slider -->
+<script src="/assets/js/lib/bootstrap-slider@11.0.2.min.js"></script>
+<link rel="stylesheet" href="/assets/css/lib/bootstrap-slider@11.0.2.min.css" />
+
+<script>
+  function renderTeamPack(units) {
+    var pack = $('.pricing-team--pack').first();
+    var cta = $('.pricing-team--cta').first();
+    var amountElt = $('.pricing-team--amount').first();
+    var savingsElt = $('.pricing-team--save').first();
+    var units = units || (_teamSlider ? _teamSlider.slider('getValue') : 1);
+
+    var selectedPlan = $('.pricing-team--plan').first().val();
+    var productRecurrence = getProductRecurrence();
+    var productPrice = getProductPrice(selectedPlan);
+    var amount = computeProductPrice(productPrice.amount, units);
+    var amountPerUser = amount / units;
+    var amountPerYear = amount * (productRecurrence === 'month' ? 12 : 1);
+    var savePerYear = Math.round(units * productPrice.amount * (productRecurrence === 'month' ? 12 : 1) - amountPerYear);
+    var currencySymbol = getUserCurrencySymbol();
+
+    pack.text(units + ' user' + (units > 1 ? 's' : '') + ' pack');
+    amountElt.html('= <b style="font-size:1.2rem">' + currencySymbol + amountPerUser.toFixed(2) + '</b>/user/' + productRecurrence);
+
+    if (units < 5) savingsElt.text('(discount starts at 5 users)');
+    else savingsElt.text('(save ' + currencySymbol + savePerYear.toFixed(0) + ' per year!)');
+
+    $('[data-checkout-quantity]').first().data('checkout-quantity', units);
+    cta.data('checkout-product', selectedPlan);
+    cta.data('checkout-product-id', productPrice.price_id);
+  }
+
+  var _teamSlider;
+
+  $(function () {
+    // Initialize pricing team slider
+    _teamSlider = $('#pricingTeamSlider')
+      .slider({
+        min: 1,
+        max: 50,
+        value: 1,
+        // scale: 'logarithmic',
+        tooltip: 'always',
+        tooltip_position: 'bottom',
+        // lock_to_ticks: false,
+        ticks: [5, 10, 25],
+        formatter: function (value) {
+          if (value >= 50) {
+            return '50+ users';
+          }
+          return value + ' user' + (value > 1 ? 's' : '');
+        },
+      })
+      .on('change', function (event) {
+        if (!event || !event.value) {
+          return;
+        }
+        var units = event.value.newValue;
+        renderTeamPack(units);
+      });
+
+    // Initialize pricing team plan selector
+    $('.pricing-team--plan')
+      .first()
+      .on('change', function () {
+        renderTeamPack();
+      });
+  });
+</script>
