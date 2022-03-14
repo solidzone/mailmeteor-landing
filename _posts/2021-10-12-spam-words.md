@@ -22,7 +22,7 @@ meta_date_lastupdated: 'Jan 1, 2022'
 breadcrumb:
   - name: Blog
     link: /blog/
-  - name: 750 Spam Words to avoid in 2021
+  - name: 750 Spam Words to avoid in 2022
 
 permalink: /blog/spam-words
 ---

@@ -21,7 +21,7 @@ meta_date_lastupdated: 'Jan 1, 2022'
 breadcrumb:
   - name: Blog
     link: /blog/
-  - name: How to send mass emails with Gmail in 2021
+  - name: How to send mass emails with Gmail in 2022
 
 permalink: /blog/how-to-send-mass-emails-gmail
 ---
