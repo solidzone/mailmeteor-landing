@@ -453,7 +453,7 @@ Warmup Inbox's single plan is $9 per inbox, each month. This program allows you 
 
 **Warmup Inbox reviews**
 
-Warmup Inbox is rated 2.9 / 5 on average, out of 9 reviews on G2 and Capterra. **Note: This low rating doesn't necessarily reflect the Warmup Inbox actual value. Indeed, since they have a few ratings, a few low reviews degraded their overall note.**
+Warmup Inbox is rated 2.9 / 5 on average, out of 9 reviews on G2 and Capterra. _Note: This low rating doesn't necessarily reflect the Warmup Inbox's actual value. Indeed, since they have only 9 ratings, a few bad reviews were enough to downgrade their overall note._
 
 ### 7. Mailwarm
 
@@ -688,6 +688,8 @@ Warm Up Your Email has a 1.9 / 5 note on Product Hunt out of 2 reviews. So it ma
 This article highlights the best email warm up tools in 2022. Now that you know more about email warmup, you probably want to know **how long it takes to warm up your email?** And, when can you turn off your email warming software?
 
 The warm up time of an email address depends on the tool used, the method it uses to warm up your inbox, and the parameters you set yourself, such as the speed and volume of emails sent. However, after having studied many warm up tools, **the minimum period of time for warming up your email is 3 weeks**.
+
+<hr>
 
 ## Conclusion
 
