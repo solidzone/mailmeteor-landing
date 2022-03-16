@@ -11,25 +11,35 @@
         <input type="hidden" name="quantity" v-model="quantity" />
         <input type="hidden" name="coupon" v-model="coupon" />
         <div class="modal-content">
+          <div class="modal-header d-sm-none" style="padding: 0 1rem">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.7071 1.70711C14.0976 1.31658 14.0976 0.683417 13.7071 0.292893C13.3166 -0.0976311 12.6834 -0.0976311 12.2929 0.292893L13.7071 1.70711ZM0.292893 12.2929C-0.0976311 12.6834 -0.0976311 13.3166 0.292893 13.7071C0.683417 14.0976 1.31658 14.0976 1.70711 13.7071L0.292893 12.2929ZM1.70711 0.292893C1.31658 -0.0976311 0.683417 -0.0976311 0.292893 0.292893C-0.0976311 0.683417 -0.0976311 1.31658 0.292893 1.70711L1.70711 0.292893ZM12.2929 13.7071C12.6834 14.0976 13.3166 14.0976 13.7071 13.7071C14.0976 13.3166 14.0976 12.6834 13.7071 12.2929L12.2929 13.7071ZM12.2929 0.292893L0.292893 12.2929L1.70711 13.7071L13.7071 1.70711L12.2929 0.292893ZM0.292893 1.70711L12.2929 13.7071L13.7071 12.2929L1.70711 0.292893L0.292893 1.70711Z"
+                  fill="#04143A"
+                ></path>
+              </svg>
+            </button>
+          </div>
           <div class="modal-body my-2">
             <div class="row">
-              <div class="col-sm-6 order-12 order-md-1">
+              <div class="col-lg-6 order-2 order-lg-1">
                 <h2 style="margin-top: 1rem">Mailmeteor {{ productName }} includes:</h2>
                 <div class="my-4">
                   <ul class="pricing-plan-features pl-0">
                     <template v-if="productType === 'premium'">
-                      <li>2000 emails per day</li>
-                      <li>Email deliverability booster</li>
-                      <li>Hundreds of other features</li>
+                      <li>Send up to 2000 emails per day</li>
+                      <li>All premium feature</li>
+                      <li>Invite new users</li>
                     </template>
                     <template v-else-if="productType === 'pro'">
-                      <li>Everything in Premium, plus:</li>
-                      <li>Follow-ups if no-reply</li>
-                      <li>Automated sequence</li>
-                      <li>Bounce &amp; reply detection</li>
+                      <li class="font-weight-bold">Everything in Pro, plus:</li>
+                      <li>Email sequences</li>
+                      <li>Auto follow-up emails</li>
+                      <li>Bounce &amp; replies detection</li>
                     </template>
                     <template v-else-if="productType === 'business'">
-                      <li>Everything in Pro, plus:</li>
+                      <li class="font-weight-bold">Everything in Pro, plus:</li>
                       <li>Follow-ups after a minute</li>
                       <li>Custom tracking domain</li>
                       <li>Integrations &amp; API</li>
@@ -37,12 +47,10 @@
                     </template>
                   </ul>
                 </div>
-                <hr class="my-4" />
-
-                <p class="text-center text-neutral-6 m-0">3 million professionals trust Mailmeteor</p>
+                <p class="text-center text-neutral-6 font-small m-0">3 million professionals trust Mailmeteor</p>
                 {% endraw %} {%- include testimonials-logo.html size="sm" -%} {% raw %}
               </div>
-              <div class="col-sm-6 order-1 order-md-12">
+              <div class="col-lg-6 order-1 order-lg-2">
                 <div>
                   <div class="pricing-card">
                     <div class="pricing-card-header" style="margin-bottom: 1rem">

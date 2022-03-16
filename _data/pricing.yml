@@ -4,13 +4,13 @@
 
 features:
   - title: Send up to 2000 emails per day with Gmail.
-    description: Mailmeteor Premium lets you email a maximum number of recipients with Gmail.
+    description: Mailmeteor lets you email a maximum number of recipients with Gmail.
 
   - title: Track emails in real-time.
-    description: Know when your emails are opened and clicked.
+    description: Know when your emails are opened and clicked. Track bounce and replies in follow-up sequences.
 
   - title: Personalize your emails.
-    description: From subject line to email content, the possibilities are endless.
+    description: From subject line to email content, the possibilities are endless. Go even further with personalized links, images and text with spintax.
 
   - title: Schedule your email campaigns.
     description: Schedule your mail merge in advance. Set a date and time to send messages when you like with Gmail. Sit back, relax and enjoy!
@@ -18,11 +18,20 @@ features:
   - title: Send emails on Autopilot.
     description: Boost your email deliverability by defining how many emails you want to send per day and setting your own delay between emails.
 
+  - title: Email sequences in Gmail.
+    description: Create email sequences in Gmail across several days such as drip campaigns or onboarding sequences.
+
+  - title: Auto-follow up on emails.
+    description: Follow up automatically and get more replies. It's possible to send follow up emails based on events such as replies, clicks, opens & more.
+
+  - title: Follow up after a few minutes.
+    description: Timing is everything. Send follow-ups a few minutes after your recipients interacted with your email to be perfectly on spot.
+
   - title: Attach files and personalized attachments,
     description: such as PDF, Word, Excel, pictures and various other file types. Perfect for sending invoices, payslips, invitations and more.
 
   - title: Send from an email alias.
-    description: Useful when you want to send emails from another email address you own (Gmail, Outlook and more).
+    description: Connect multiple inboxes to Mailmeteor to share your daily email quota. Useful when you want to send emails from another email address you own (Gmail, Outlook and more).
 
   - title: Add CC and BCC recipients.
     description: You can add Cc and Bcc recipients to involve more people in the conversation, keep someone in the loop or log your emails in your CRM.

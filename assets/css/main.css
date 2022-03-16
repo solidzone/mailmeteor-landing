@@ -806,34 +806,7 @@ section.values {
 
 /* ####### 5. PRICING ######## */
 
-/* #### 5.1 Pricing toggle #### */
-
-/* #pricing-plans .btn-group-toggle-recurrence .btn {
-  padding: 0.5rem;
-  font-size: .875rem;
-  margin-top: 0rem;
-}
-
-#pricing-plans .btn-group-toggle-recurrence .btn {
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-  color: #fc4b6d;
-  border: 2px solid;
-  border-color: #fc4b6d;
-  background-color: white;
-  outline: none;
-  cursor: pointer;
-  padding: 0.25rem 1rem;
-}
-
-#pricing-plans .btn-group-toggle-recurrence .btn.active {
-  color: white;
-  background-color: #fc4b6d;
-} */
-
-/* #### 5.2 Pricing cards #### */
+/* #### 5.1 Pricing cards #### */
 
 .pricing-card {
   display: flex;
@@ -852,20 +825,24 @@ section.values {
   box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.04);
 }
 
-/* #### 5.3 Pricing header #### */
+/* #### 5.2 Pricing header #### */
 
 .pricing-card-header {
   background-color: white;
-  margin-bottom: 1.5rem;
 }
 
 .pricing-card-title {
   font-size: 1.2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.25rem;
   font-weight: bold;
 }
 
+.pricing-card-subtitle {
+  font-size: 0.875rem;
+}
+
 .pricing-card-price {
+  margin: 1.5rem 0;
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -876,7 +853,7 @@ section.values {
   opacity: 0.8;
 }
 
-/* #### 5.4 Pricing card body ####*/
+/* #### 5.3 Pricing card body ####*/
 
 .pricing-card-body {
   padding: 0 1rem;
@@ -901,7 +878,7 @@ section.values {
   display: inline-block;
 }
 
-/* #### 5.5 Pricing features ####*/
+/* #### 5.4 Pricing features ####*/
 
 .pricing-plan-features {
   min-height: 100px; /* can be removed to obtain squared pricings */
@@ -923,6 +900,24 @@ section.values {
   display: inline-block;
   background-image: url(../img/elements/tick-round.svg);
   background-repeat: no-repeat;
+}
+
+/* #### 5.4 Pricing features grid ####*/
+
+.pricing-features-grid th {
+  padding: 1rem 0;
+}
+
+.pricing-features-grid td {
+  padding: 0.5rem 0;
+}
+
+@media (min-width: 768px) {
+  .pricing-features-grid th {
+    position: sticky;
+    top: 95px;
+    background: white;
+  }
 }
 
 /* What's included features */
@@ -983,9 +978,10 @@ sup {
   }
 }
 
-/* #### 5.6 Lifetime plan #### */
+/* #### 5.6 Lifetime plan / Business plan #### */
 
-.lifetime-plan .pricing-plan-features li:before {
+.lifetime-plan .pricing-plan-features li:before,
+.business-plan .pricing-plan-features li:before {
   content: '';
   min-width: 20px;
   height: 20px;
@@ -1089,6 +1085,11 @@ sup {
 
 .pricing-team .tooltip-inner {
   cursor: pointer;
+}
+
+.custom-select.pricing-team--plan {
+  border: 1px solid #e6e7eb;
+  border-right: none;
 }
 
 /* #### 5.9 Sales #### */

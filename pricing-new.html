@@ -20,13 +20,16 @@ redirect_from: '/launch/deuxio'
       <div class="text-center">
         <h1>Save time sending emails with Gmail</h1>
         <p>Mailmeteor is the best-rated Google Workspace application. Trusted by 3 millions users.</p>
-
         {%- include ratings.html -%}
       </div>
       <div class="text-center">
         <div class="btn-group btn-group-toggle btn-group-sm" data-toggle="buttons">
-          <label class="btn btn-secondary m-0 active"> <input type="radio" name="checkout-recurrence" autocomplete="off" checked value="month" /> Monthly </label>
-          <label class="btn btn-secondary m-0"> <input type="radio" name="checkout-recurrence" autocomplete="off" value="year" /> Yearly </label>
+          <label class="btn btn-secondary m-0 active" style="border-radius: 0.25rem 0 0 0.25rem">
+            <input type="radio" name="checkout-recurrence" autocomplete="off" checked value="month" /> Monthly
+          </label>
+          <label class="btn btn-secondary m-0" style="border-radius: 0 0.25rem 0.25rem 0">
+            <input type="radio" name="checkout-recurrence" autocomplete="off" value="year" /> Yearly (2 months offered)
+          </label>
         </div>
       </div>
     </div>
@@ -37,6 +40,7 @@ redirect_from: '/launch/deuxio'
           <div class="pricing-card">
             <div class="pricing-card-header">
               <p class="pricing-card-title" data-checkout-product-item="title">Premium</p>
+              <p class="pricing-card-subtitle">Send email campaigns with Gmail</p>
               <p class="pricing-card-price">
                 <span data-checkout-product-item="price"><small class="pricing-card-currency">$</small>9<sup>.99/month</sup></span>
               </p>
@@ -54,8 +58,8 @@ redirect_from: '/launch/deuxio'
                     ><img class="ml-1" style="max-width: 16px" src="/assets/img/elements/info.svg" alt="Information mark"
                   /></span>
                 </li>
-                <li>Email deliverability booster</li>
-                <li>Hundreds of other features</li>
+                <li><a href="#bundle-pack">All premium features</a></li>
+                <li>Invite new users</li>
               </ul>
             </div>
             <button class="btn btn-primary" data-toggle="modal" data-target="#planConfirmationModal" data-checkout-product-item="cta">GET STARTED</button>
@@ -68,6 +72,7 @@ redirect_from: '/launch/deuxio'
             <div class="pricing-card-header">
               <div id="launch-offer">Launch offer</div>
               <p class="pricing-card-title" data-checkout-product-item="title">Pro</p>
+              <p class="pricing-card-subtitle">Complete email automation suite</p>
               <p class="pricing-card-price">
                 <span data-checkout-product-item="price"><small class="pricing-card-currency">$</small>24<sup>.99/month</sup></span>
               </p>
@@ -75,9 +80,9 @@ redirect_from: '/launch/deuxio'
             <div class="pricing-card-body">
               <ul class="pricing-plan-features">
                 <li class="font-weight-bold">Everything in Premium, plus:</li>
-                <li>Follow-ups if no-reply</li>
-                <li>Automated sequence</li>
-                <li>Bounce & reply detection</li>
+                <li>Email sequences</li>
+                <li>Auto follow-up emails</li>
+                <li>Bounce & replies detection</li>
               </ul>
             </div>
             <button class="btn btn-primary" data-toggle="modal" data-target="#planConfirmationModal" data-checkout-product-item="cta">GET STARTED</button>
@@ -85,25 +90,26 @@ redirect_from: '/launch/deuxio'
         </div>
 
         <!-- Business -->
-        <div data-checkout-product="business" class="col-xs-6 col-sm-8 col-md-8 col-lg-4 mb-2 mx-auto">
-          <div class="pricing-card">
-            <div class="pricing-card-header">
-              <p class="pricing-card-title" data-checkout-product-item="title">Business</p>
-              <p class="pricing-card-price">
+        <div data-checkout-product="business" class="col-xs-6 col-sm-8 col-md-8 col-lg-4 mb-2 mx-auto business-plan">
+          <div class="pricing-card" style="background-color: #04143a">
+            <div class="pricing-card-header" style="background-color: transparent">
+              <p class="pricing-card-title text-white" data-checkout-product-item="title">Business</p>
+              <p class="pricing-card-subtitle text-white">Highly personalized outreach at scale</p>
+              <p class="pricing-card-price text-white">
                 <span data-checkout-product-item="price"><small class="pricing-card-currency">$</small>49<sup>.99/month</sup></span>
               </p>
             </div>
-            <div class="pricing-card-body">
+            <div class="pricing-card-body text-white">
               <ul class="pricing-plan-features">
                 <li class="font-weight-bold">Everything in Pro, plus:</li>
-                <li>Follow-ups after a minute</li>
+                <li>Follow-ups after minutes</li>
                 <li>Custom tracking domain</li>
-                <li>Integrations & API</li>
+                <li>Custom coaching with an email deliverability expert</li>
                 <li>Priority email support</li>
               </ul>
               <br />
             </div>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#planConfirmationModal" data-checkout-product-item="cta">GET STARTED</button>
+            <button class="btn btn-reverse-outline" data-toggle="modal" data-target="#planConfirmationModal" data-checkout-product-item="cta">GET STARTED</button>
           </div>
         </div>
       </div>
@@ -130,26 +136,33 @@ redirect_from: '/launch/deuxio'
               data-target="#planConfirmationModal"
               data-checkout-default-quantity="5"
             >
-              Get pack →
+              Get pack
+              <svg width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM15 8L15.7071 8.70711C16.0976 8.31658 16.0976 7.68342 15.7071 7.29289L15 8ZM8.70711 0.292893C8.31658 -0.0976311 7.68342 -0.0976311 7.29289 0.292893C6.90237 0.683418 6.90237 1.31658 7.29289 1.70711L8.70711 0.292893ZM7.29289 14.2929C6.90237 14.6834 6.90237 15.3166 7.29289 15.7071C7.68342 16.0976 8.31658 16.0976 8.70711 15.7071L7.29289 14.2929ZM1 9H15V7H1V9ZM7.29289 1.70711L14.2929 8.70711L15.7071 7.29289L8.70711 0.292893L7.29289 1.70711ZM14.2929 7.29289L7.29289 14.2929L8.70711 15.7071L15.7071 8.70711L14.2929 7.29289Z"
+                  fill="#fff"
+                />
+              </svg>
             </button>
           </div>
         </div>
         <div class="col-lg-8">
-          <div style="line-height: 1.5; margin-bottom: 5px">Estimate how much you save:</div>
+          <div style="line-height: 1.5; margin-bottom: 8px">Estimate how much you save:</div>
           <div>
-            <span class="badge badge-light pricing-team--pack" style="padding: 0.75rem 1rem; width: 125px">1 user pack</span>
-            <span class="pricing-team--amount">= <b style="font-size: 1.2rem">$24.99</b>/user/month</span>
-            <span class="pricing-team--save text-neutral-6"></span>
+            <span class="badge badge-light pricing-team--pack" style="padding: 0.75rem 1rem; width: 125px; border: 1px solid rgb(230, 231, 235)">1 user pack</span>
+            <span class="pricing-team--amount">= <b style="font-size: 1.2rem">$24.99</b> per user per month</span>
+            <span class="pricing-team--save text-blue-dark"></span>
           </div>
-          <div class="mt-3">
+          <div class="mt-4 mr-5">
             <input id="pricingTeamSlider" data-slider-id="pricingTeamSlider" type="text" />
           </div>
         </div>
       </div>
     </div>
+    <br id="features-grid" />
   </section>
 
-  {%- include features-included.html -%} {%- include testimonials.html -%} {%- include reviews.html -%}
+  {%- include features-grid.html -%} {%- include features-included.html -%} {%- include testimonials.html -%} {%- include reviews.html -%}
 
   <!-- Talk to sales -->
   <section style="margin-bottom: 8rem; background-color: #04143a; padding: 8rem 0">
