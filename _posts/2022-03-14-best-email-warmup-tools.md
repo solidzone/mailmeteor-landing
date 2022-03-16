@@ -61,7 +61,7 @@ Find out more on how and why we ranked these warm up tools in this order below.
 
 Think of it like a work-out session: before lifting heavy weights or running a long distance, you will prepare your body with low-intensity exercises for 5 to 10 minutes. It’s the same for your email account.
 
-Email service providers such as Gmail, Outlook or Yahoo have implemented strong spam filters. They will check your emails for spam words, filter out anything that seems unsolicited and ensure that your email activity looks normal. If you start sending hundreds of emails from a brand new email account, you will end up in spam pretty quickly.
+Email service providers such as Gmail, Outlook or Yahoo have implemented strong spam filters. They will [check your emails for spam words](/spam-checker), filter out anything that seems unsolicited and ensure that your email activity looks normal. If you start sending hundreds of emails from a brand new email account, you will end up in spam pretty quickly.
 
 ![Email activity](/assets/img/blog/warm-up-tools/email-activity.png)
 
