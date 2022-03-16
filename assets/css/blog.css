@@ -98,7 +98,7 @@ body.blogpost {
 }
 
 .blogpost-content strong {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .blogpost-content figcaption {

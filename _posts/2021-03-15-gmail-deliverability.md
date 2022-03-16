@@ -17,7 +17,7 @@ og_url: https://mailmeteor.com/blog/gmail-deliverability
 og_image: https://mailmeteor.com/assets/img/opengraph/blog-gmail-deliverability.jpg
 
 meta_date_published: 'March 15, 2021'
-meta_date_lastupdated: 'March 15, 2021'
+meta_date_lastupdated: 'March 15, 2022'
 published: true
 
 breadcrumb:
