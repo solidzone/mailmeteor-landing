@@ -62,6 +62,10 @@ body {
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-padding-top: 98px; /* height of sticky header */
+}
+
 /* Spacing */
 
 body > main {

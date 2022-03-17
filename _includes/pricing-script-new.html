@@ -371,7 +371,7 @@
 
 <script>
   function renderTeamPack(units) {
-    var pack = $('.pricing-team--pack').first();
+    var badge = $('.pricing-team--badge').first();
     var cta = $('.pricing-team--cta').first();
     var amountElt = $('.pricing-team--amount').first();
     var savingsElt = $('.pricing-team--save').first();
@@ -386,7 +386,7 @@
     var savePerYear = Math.round(units * productPrice.amount * (productRecurrence === 'month' ? 12 : 1) - amountPerYear);
     var currencySymbol = getUserCurrencySymbol();
 
-    pack.text(units + ' user' + (units > 1 ? 's' : '') + ' pack');
+    badge.text(units + ' user' + (units > 1 ? 's' : '') + ' pack');
     amountElt.html('= <b style="font-size:1.2rem">' + currencySymbol + amountPerUser.toFixed(2) + '</b>/user/' + productRecurrence);
 
     if (units < 5) savingsElt.text('(discount starts at 5 users)');
@@ -395,6 +395,8 @@
     $('[data-checkout-quantity]').first().data('checkout-quantity', units);
     cta.data('checkout-product', selectedPlan);
     cta.data('checkout-product-id', productPrice.price_id);
+    badge.data('checkout-product', selectedPlan);
+    badge.data('checkout-product-id', productPrice.price_id);
   }
 
   var _teamSlider;

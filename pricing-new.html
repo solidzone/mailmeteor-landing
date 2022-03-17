@@ -58,8 +58,8 @@ redirect_from: '/launch/deuxio'
                     ><img class="ml-1" style="max-width: 16px" src="/assets/img/elements/info.svg" alt="Information mark"
                   /></span>
                 </li>
-                <li><a href="#bundle-pack">All premium features</a></li>
-                <li>Invite new users</li>
+                <li><a href="#features" style="color: inherit; text-decoration: underline; text-decoration-style: dotted">All premium features</a></li>
+                <!-- <li>Invite new users</li> -->
               </ul>
             </div>
             <button class="btn btn-primary" data-toggle="modal" data-target="#planConfirmationModal" data-checkout-product-item="cta">GET STARTED</button>
@@ -116,10 +116,10 @@ redirect_from: '/launch/deuxio'
     </div>
 
     <!-- Team Plans -->
-    <div class="container pt-5 pricing-team" id="bundle-pack">
+    <div class="container pt-5 pricing-team" id="team-pack">
       <div class="row">
         <div class="col-lg-4">
-          <h4>Save even more with bundle packs</h4>
+          <h4>Save even more with team packs</h4>
           <p>Upgrade your team to Mailmeteor right now with a pack sized to your needs.</p>
           <div class="input-group mb-3" style="display: inline-flex; max-width: 300px">
             <select class="custom-select pricing-team--plan" autocomplete="off">
@@ -149,7 +149,13 @@ redirect_from: '/launch/deuxio'
         <div class="col-lg-8">
           <div style="line-height: 1.5; margin-bottom: 8px">Estimate how much you save:</div>
           <div>
-            <span class="badge badge-light pricing-team--pack" style="padding: 0.75rem 1rem; width: 125px; border: 1px solid rgb(230, 231, 235)">1 user pack</span>
+            <span
+              class="badge badge-light pricing-team--badge"
+              style="padding: 0.75rem 1rem; width: 125px; border: 1px solid rgb(230, 231, 235); cursor: pointer"
+              data-toggle="modal"
+              data-target="#planConfirmationModal"
+              >1 user pack</span
+            >
             <span class="pricing-team--amount">= <b style="font-size: 1.2rem">$24.99</b> per user per month</span>
             <span class="pricing-team--save text-blue-dark"></span>
           </div>
@@ -159,10 +165,10 @@ redirect_from: '/launch/deuxio'
         </div>
       </div>
     </div>
-    <br id="features-grid" />
   </section>
 
-  {%- include features-grid.html -%} {%- include features-included.html -%} {%- include testimonials.html -%} {%- include reviews.html -%}
+  <div id="features">{%- include features-grid.html -%}</div>
+  {%- include features-included.html -%} {%- include testimonials.html -%} {%- include reviews.html -%}
 
   <!-- Talk to sales -->
   <section style="margin-bottom: 8rem; background-color: #04143a; padding: 8rem 0">
