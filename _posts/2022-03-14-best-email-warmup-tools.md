@@ -27,16 +27,16 @@ permalink: /blog/best-email-warmup-tools
 
 When you become serious about emailing, one thing you want to prevent is that your emails end up in spam. But how can you make sure your emails don’t land up in the spam folder? Warming up your email account may be the solution.
 
-Email warmup has been trending lately in the email industry. When you start diving into email outreach best practices, you will likely be advised to warm up your email account to increase your email deliverability, in other words: your chances to end up in the inbox folder.
+Email warmup has been trending lately in the email industry. When you start diving into email outreach best practices, you will likely be advised to warm up your email account to increase your email deliverability, in other words: increase your chances to end up in the primary inbox folder.
 
 More and more companies are offering email warmup tools and it’s becoming hard to pick one. We’ve written this guide to help you understand what email warmup really is, how to do it properly and pick the right warmup tool (should you actually need one).
 
 Here’s what you’ll learn in this guide:
 
-- what is warming up an email
+- what is warming up an email?
 - why use an email warm up service? (and do you need one?)
-- what is the best email warmup tool
-- how to warm up your email for free
+- what is the best email warmup tool?
+- how to warm up your email for free?
 
 Before we dive into the details, here is a foretaste of our ranking.
 
@@ -87,15 +87,19 @@ _Note: Email warmup is also sometimes called IP warmup. To dive into technical d
 
 ## 2. Should you use an email warm up service?
 
-There are two ways to warm up your email. Either you can do it manually or use a dedicated email warmup service that will do the job for you.
+There are two ways to warm up your email account. Either you can do it manually or use a dedicated email warmup service that will do the job for you.
 
 ### Email warmup: the manual way
 
 **It is possible to warm up your email manually, but it is a difficult process that will take time**.
 
-You'll need to send and respond to emails repeatedly each day, and make sure that people you contact respond to you.
+You’ll need to send emails repeatedly each day and make sure that people you contact respond to you. That’s because getting a high reply-rate is one of the key factors to gain email reputation.
 
-Therefore, manual email warming isn't the greatest use of your time, given the quality of the automated inbox warming options available.
+But you won’t gain much reputation if you regularly send emails from let’s say your professional email address to your personal one (and vice-versa). Your reputation score depends on multiple criteria. The reply-rate, which is just one factor amongst many others, takes into account how many different email addresses you get replies from. Worst, most advanced algorithms, also take into account the reputation of the email address that replies to you.
+
+Think of it a little bit like the Pagerank algorithms in SEO. The best ranked websites that link to your own website, send you more domain reputation than spammy websites.
+
+Therefore, manual email warming takes time and many efforts. That’s why so many warmup solutions have taken the leap. And given the quality of the automated inbox warming options available, warming your account manually isn’t the greatest use of your time.
 
 ### Email warmup: using an email warmup service
 
@@ -107,9 +111,9 @@ Otherwise, you can use an email warmup service to do this process automatically.
 
 Email warm up tools use different methods for warming emails.
 
-Some email warmup services will make your address interact with other members from their user base, that’s how Lemwarm or GMass work for example. Your account will be sending emails to other users and will reply to their incoming emails. It might cause some privacy issues as you may not want your address to be interacting with other real users from your email warmup service.
+Some email warmup services will make your address interact with other members from their user base, that’s how [Lemwarm](#4-lemwarm-by-lemlist) or [GMass](#8-email-warmup-by-gmass) work for example. Your account will be sending emails to other users and will reply to their incoming emails. It might cause some privacy issues as you may not want your address to be interacting with other real users from your email warmup service.
 
-Other services have built a network of email addresses entirely dedicated to the purpose of warming up emails (such as Mailwarm or Warmbox). Of course, this has also disadvantages because this network isn’t constituted of email addresses used by real people. It's only a computer generated network and you can't know for sure that anti-spam filters won't be able to catch this method in the near future.
+Other services have built a network of email addresses entirely dedicated to the purpose of warming up emails (such as [Mailwarm](#7-mailwarm) or [Warmbox](#5-warmbox)). Of course, this has also disadvantages because this network isn’t constituted of email addresses used by real people. It's only a computer generated network and you can't know for sure that anti-spam filters won't be able to catch this method.
 
 When it comes to the actual content email warm up tools send from your inbox, it varies depending on the service you use. Some warm up tools use human and unique email copy in each of your warming emails. Others will stuff the warming emails with random words that may look less natural (even though these warm up tools promise that it will still be enough to trick anti-spam filters).
 
