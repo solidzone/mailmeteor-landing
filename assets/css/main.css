@@ -845,18 +845,6 @@ section.values {
   font-size: 0.875rem;
 }
 
-.pricing-card-price {
-  margin: 1.5rem 0;
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.pricing-card-price strike {
-  font-weight: normal;
-  font-size: 1rem;
-  opacity: 0.8;
-}
-
 /* #### 5.3 Pricing card body ####*/
 
 .pricing-card-body {
@@ -876,10 +864,37 @@ section.values {
   cursor: default;
 }
 
+.pricing-card-price {
+  margin: 1.5rem 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
 .pricing-card-currency {
   font-size: 60%;
   min-width: 16px;
   display: inline-block;
+}
+
+.pricing-card-price strike {
+  font-weight: normal;
+  font-size: 1.45rem;
+  opacity: 0.8;
+}
+
+.pricing-card-price strike .pricing-card-currency {
+  font-size: inherit;
+  min-width: auto;
+  display: inherit;
+}
+
+.pricing-card-price strike .pricing-card-recurrence {
+  display: none;
+}
+
+.pricing-card-price strike sup {
+  font-size: inherit;
+  top: 0;
 }
 
 /* #### 5.4 Pricing features ####*/

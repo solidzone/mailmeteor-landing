@@ -59,6 +59,7 @@
         },
       },
       OFF20: true,
+      LAUNCH_OFFER: true,
     },
     business: {
       title: 'Business',
@@ -166,6 +167,11 @@
       productPrice = { ...productPrice };
       productPrice.amount = productPrice.amount * (1 - 0.2);
     }
+    // Launch offer
+    else if (product.LAUNCH_OFFER) {
+      productPrice = { ...productPrice };
+      productPrice.amount = productPrice.amount * (1 - 0.2);
+    }
 
     return { ...productPrice };
   }
@@ -230,10 +236,10 @@
 
         var priceHtml = '<small class="pricing-card-currency">' + amountCurrency + '</small>';
         priceHtml += amountInteger;
-        priceHtml += '<sup>' + (amountDecimal ? '.' + amountDecimal : '') + ' /' + productRecurrence + '</sup>';
+        priceHtml += '<sup>' + (amountDecimal ? '.' + amountDecimal : '') + '<span class="pricing-card-recurrence"> /' + productRecurrence + '</span></sup>';
         priceElt.first().html(priceHtml);
 
-        if (product.OFF20 && getCoupon() === 'OFF20') {
+        if (product.LAUNCH_OFFER || (product.OFF20 && getCoupon() === 'OFF20')) {
           var discount = (Math.round(productPrice.amount * (1 - 0.2) * 100) / 100).toString().split('.');
           var discountInteger = discount.shift();
           var discountDecimal = discount.length && discount.shift();
@@ -241,9 +247,9 @@
 
           var discountHtml = '<small class="pricing-card-currency">' + discountCurrency + '</small>';
           discountHtml += discountInteger;
-          discountHtml += '<sup>' + (discountDecimal ? '.' + discountDecimal : '') + ' /' + productRecurrence + '</sup>';
+          discountHtml += '<sup>' + (discountDecimal ? '.' + discountDecimal : '') + '<span class="pricing-card-recurrence"> /' + productRecurrence + '</span></sup>';
 
-          priceElt.first().html('<strike style="font-size:0.7em">' + priceHtml + '</strike> <span style="color:#FF486A;">' + discountHtml + '</span>');
+          priceElt.first().html('<strike>' + priceHtml + '</strike> <span style="color:#FF486A;">' + discountHtml + '</span>');
         }
       }
 
