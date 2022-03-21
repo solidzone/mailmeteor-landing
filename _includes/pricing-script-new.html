@@ -152,13 +152,23 @@
 
   function getProductPrice(plan, recurrence) {
     var product = _allProducts && _allProducts[plan];
+
+    if (!product) {
+      return null;
+    }
+
     var productRecurrence = recurrence || getProductRecurrence();
     var currency = getUserCurrency();
 
     var productPrices = (product.prices && product.prices[productRecurrence]) || null;
     var productPrice = (productPrices && productPrices[currency.toLowerCase()]) || null;
 
-    return productPrice;
+    if (productPrice && product.OFF20 && getCoupon() === 'OFF20') {
+      productPrice = { ...productPrice };
+      productPrice.amount = productPrice.amount * (1 - 0.2);
+    }
+
+    return { ...productPrice };
   }
 
   function computeProductPrice(pricing, units) {
@@ -232,9 +242,9 @@
 
           var discountHtml = '<small class="pricing-card-currency">' + discountCurrency + '</small>';
           discountHtml += discountInteger;
-          discountHtml += '<sup>' + (discountDecimal ? '.' + discountDecimal : '') + ' ' + productRecurrence + '</sup>';
+          discountHtml += '<sup>' + (discountDecimal ? '.' + discountDecimal : '') + ' /' + productRecurrence + '</sup>';
 
-          priceElt.first().html('<strike style="font-size:0.7em">' + priceHtml + '</strike><span style="color:#FF486A;">' + discountHtml + '</span>');
+          priceElt.first().html('<strike style="font-size:0.7em">' + priceHtml + '</strike> <span style="color:#FF486A;">' + discountHtml + '</span>');
         }
       }
 
