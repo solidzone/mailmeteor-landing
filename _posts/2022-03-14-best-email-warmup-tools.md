@@ -156,7 +156,7 @@ Why rank Mailreach #1? Among all the email warm up tools we tested, Mailreach st
 
 To mention a few interesting features: the fact that you can connect multiple ESP (Google, Outlook...), test your emails and get a spam score as well as monitor that your email isn't blacklisted. It's worth mentioning that Mailreach's user interface is simple to navigate. The overall design is cleaner than most warm up solutions we tested.
 
-On the downside, Mailreach uses a network of computer generated mailboxes to warm up your emails, instead of interacting with other real users. For some, it's an advantage. However, we may argue that anti-spam filters might identify this technique in the future. Even though your mailbox won't be exchanging with real users, the email content that Mailreach sends for you is meant to be human and meaningful. Indeed, other warm up tools may just send some random gibberish content to fill in your warm up emails.
+On the downside, Mailreach has been using a network of computer generated mailboxes to warm up your emails, instead of interacting with other real users. For some, it's an advantage. However, we may argue that anti-spam filters might identify this technique in the future. Even though your mailbox won't be exchanging with real users, the email content that Mailreach sends for you is meant to be human and meaningful. Indeed, other warm up tools may just send some random gibberish content to fill in your warm up emails. Mailreach is now using more and more its peer-to-peer network to warm up your email, so that your mailbox will be exchanging with other real users.
 
 **Mailreach features**
 
@@ -188,7 +188,7 @@ Mailreach costs $25 per email account. They also offer custom plans for enterpri
   <div class="col-md-6 p-3">
     <p class="font-weight-bold">Weaknesses</p>
     <ul class="list-unstyled">
-      <li>❌ Their network fully relies on computer generated mailboxes</li>
+      <li>❌ Their network partly relies on computer generated mailboxes</li>
     </ul>
   </div>
 </div>
@@ -278,7 +278,7 @@ Forderly was ranked third for their innovative approach and great user experienc
 
 **Folderly pricing**
 
-Folderly's services start at $160 per month for unlimited emailing. The company's three options are priced based on your mailbox number and monthly email amount, with a maximum price of $20 000 per month. You can also access a 7-day free trial.
+Folderly's services start at $49 per month for unlimited emailing. There's no free trial.
 
 <div class="row">
   <div class="col-md-6 p-3">
