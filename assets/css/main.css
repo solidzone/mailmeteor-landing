@@ -1044,6 +1044,10 @@ sup {
   z-index: 1 !important;
 }
 
+#pricingTeamSlider.slider .tooltip.bs-tooltip-bottom .tooltip-inner small {
+  display: block;
+}
+
 @media (max-width: 576px) {
   #pricingTeamSlider.slider .tooltip.bs-tooltip-bottom {
     padding-left: 1rem;

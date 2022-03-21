@@ -376,7 +376,7 @@
 </script>
 
 <!-- Bootsrap Slider -->
-<script src="/assets/js/lib/bootstrap-slider@11.0.2.min.js"></script>
+<script src="/assets/js/lib/bootstrap-slider@11.0.2.custom.min.js"></script>
 <link rel="stylesheet" href="/assets/css/lib/bootstrap-slider@11.0.2.min.css" />
 
 <script>
@@ -424,10 +424,17 @@
         // lock_to_ticks: false,
         ticks: [5, 10, 25],
         formatter: function (value) {
-          if (value >= 50) {
-            return '50+ users';
+          var text = value + ' user' + (value > 1 ? 's' : '');
+
+          if (value >= 25) {
+            text += '<small>(30% OFF)</small>';
+          } else if (value >= 10) {
+            text += '<small>(25% OFF)</small>';
+          } else if (value >= 5) {
+            text += '<small>(20% OFF)</small>';
           }
-          return value + ' user' + (value > 1 ? 's' : '');
+
+          return text;
         },
       })
       .on('change', function (event) {
