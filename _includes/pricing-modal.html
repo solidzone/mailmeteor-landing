@@ -29,7 +29,10 @@
                   <ul class="pricing-plan-features pl-0">
                     <template v-if="productType === 'premium'">
                       <li>Send up to 2000 emails per day</li>
-                      <li>All premium feature</li>
+                      <li>Real-time tracking</li>
+                      <li>Schedule campaigns</li>
+                      <li>Send emails on Autopilot</li>
+                      <li>Attachments & Alias</li>
                       <li>Invite new users</li>
                     </template>
                     <template v-else-if="productType === 'pro'">
@@ -71,8 +74,20 @@
                       </select>
                     </div>
                     <div class="mb-3">
-                      <label for="emailAddress">
-                        <template v-if="quantity > 1">Your email address:</template>
+                      <label for="emailAddress" class="d-flex">
+                        <template v-if="quantity > 1"
+                          >Admin email address:
+                          <span
+                            class="ml-1"
+                            title="Admin accounts are used to manage your team plan. They can add and remove users right from the dashboard."
+                            data-toggle="tooltip"
+                            data-placement="top"
+                            title="Tooltip on top"
+                            data-html="true"
+                          >
+                            <img style="max-width: 16px" src="/assets/img/elements/info.svg" alt="Information mark" />
+                          </span>
+                        </template>
                         <template v-else>Email address to upgrade:</template>
                       </label>
                       <input id="emailAddress" type="email" class="form-control" placeholder="mary@mailmeteor.com" required="true" name="active_email" v-model="email" />
@@ -89,7 +104,6 @@
                     <div class="mb-3">
                       <label><input type="checkbox" autocomplete="off" checked value="true" v-model="isEmailBillable" />&nbsp;Use as billing email address</label>
                       <div v-if="!isEmailBillable">
-                        <!-- <label class="m-0 above" for="billingEmailAddress">Billing email address</label> -->
                         <input id="billingEmailAddress" type="email" class="form-control" placeholder="billing@mailmeteor.com" name="billing_email" />
                       </div>
                     </div>
