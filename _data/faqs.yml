@@ -133,6 +133,9 @@ billing:
   - question: Is it possible to transfer my license to a different Gmail or Google Workspace account?
     answer: Of course! If you need to change ownership of your license, please [contact us](/contact) and we’ll proceed with the change.
 
+  - question: Does the price includes tax?
+    answer: Prices do not include additional taxes, such as the VAT, which are determined during checkout.
+
 security:
   - question: How does Mailmeteor keep my data safe?
     answer: >
