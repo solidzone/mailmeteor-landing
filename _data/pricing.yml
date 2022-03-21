@@ -18,14 +18,14 @@ features:
   - title: Send emails on Autopilot.
     description: Boost your email deliverability by defining how many emails you want to send per day and setting your own delay between emails.
 
-  - title: Email sequences in Gmail.
-    description: Create email sequences in Gmail across several days such as drip campaigns or onboarding sequences.
+  # - title: Email sequences in Gmail.
+  #   description: Create email sequences in Gmail across several days such as drip campaigns or onboarding sequences.
 
-  - title: Auto-follow up on emails.
-    description: Follow up automatically and get more replies. It's possible to send follow up emails based on events such as replies, clicks, opens & more.
+  #- title: Auto-follow up on emails.
+  #  description: Follow up automatically and get more replies. It's possible to send follow up emails based on events such as replies, clicks, opens & more.
 
-  - title: Follow up after a few minutes.
-    description: Timing is everything. Send follow-ups a few minutes after your recipients interacted with your email to be perfectly on spot.
+  #- title: Follow up after a few minutes.
+  #  description: Timing is everything. Send follow-ups a few minutes after your recipients interacted with your email to be perfectly on spot.
 
   - title: Attach files and personalized attachments,
     description: such as PDF, Word, Excel, pictures and various other file types. Perfect for sending invoices, payslips, invitations and more.
