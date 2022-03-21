@@ -300,10 +300,6 @@
 
     // Handle confirmation modals
     function planConfirmationModal(event) {
-      $(function () {
-        $('[data-toggle="tooltip"]').tooltip();
-      });
-
       var button = $(event.relatedTarget);
       var productId = button.data('checkout-product-id');
       var productType = button.data('checkout-product');

@@ -63,50 +63,55 @@
                       </div>
                       <small v-if="quantity > 1" class="text-muted">{{ quantity }} users at {{ currencySymbol }}{{ amountPerUser }}/{{ recurrence }} each </small>
                     </div>
-                    <div class="mb-3" v-if="quantity > 1">
-                      <label>Save even more with Annual Billing:</label>
-                      <select class="custom-select" v-model="recurrence">
-                        <option value="year">
-                          Annual
-                          <template v-if="productType === 'premium'">(save over {{ currencySymbol }}70/user 🎁)</template><template v-else>(2 months free 🎁)</template>
-                        </option>
-                        <option value="month">Monthly</option>
-                      </select>
-                    </div>
-                    <div class="mb-3">
-                      <label for="emailAddress" class="d-flex">
-                        <template v-if="quantity > 1"
-                          >Admin email address:
-                          <span
-                            class="ml-1"
-                            title="Admin accounts are used to manage your team plan. They can add and remove users right from the dashboard."
-                            data-toggle="tooltip"
-                            data-placement="top"
-                            title="Tooltip on top"
-                            data-html="true"
-                          >
-                            <img style="max-width: 16px" src="/assets/img/elements/info.svg" alt="Information mark" />
-                          </span>
-                        </template>
-                        <template v-else>Email address to upgrade:</template>
-                      </label>
-                      <input id="emailAddress" type="email" class="form-control" placeholder="mary@mailmeteor.com" required="true" name="active_email" v-model="email" />
-                      <p v-if="isGmail" class="text-center text-muted mt-2 mb-0">
-                        <small
-                          >👋 You have a Gmail account (@gmail.com). That's great! Just to let you know, Gmail grants you up to 500 recipients/day (<a
-                            target="_blank"
-                            href="https://support.mailmeteor.com/introduction/quick-start/email-quota"
-                            >learn more</a
-                          >).</small
-                        >
-                      </p>
-                    </div>
-                    <div class="mb-3">
-                      <label><input type="checkbox" autocomplete="off" checked value="true" v-model="isEmailBillable" />&nbsp;Use as billing email address</label>
-                      <div v-if="!isEmailBillable">
-                        <input id="billingEmailAddress" type="email" class="form-control" placeholder="billing@mailmeteor.com" name="billing_email" />
+
+                    <!-- Team checkout -->
+                    <template v-if="quantity > 1">
+                      <div class="mb-3">
+                        <label>Save even more with Annual Billing</label>
+                        <select class="custom-select" v-model="recurrence">
+                          <option value="year">
+                            Annual
+                            <template v-if="productType === 'premium'">(save over {{ currencySymbol }}70/user 🎁)</template><template v-else>(2 months free 🎁)</template>
+                          </option>
+                          <option value="month">Monthly</option>
+                        </select>
                       </div>
-                    </div>
+                      <div class="mb-3">
+                        <label for="emailAddress" class="d-flex">Billing email address</label>
+                        <input id="emailAddress" type="email" class="form-control" placeholder="invoices@mailmeteor.com" required="true" name="billing_email" v-model="email" />
+                      </div>
+                      <div class="mb-3">
+                        <label>
+                          <input type="checkbox" autocomplete="off" checked value="true" v-model="isBillingEmailUpgradable" />&nbsp;Upgrade this account to {{ productName }}
+                        </label>
+                        <template v-if="isBillingEmailUpgradable">
+                          <input type="hidden" name="active_email" v-model="email" />
+                        </template>
+                      </div>
+                    </template>
+
+                    <!-- Individual checkout -->
+                    <template v-else>
+                      <div class="mb-3">
+                        <label for="emailAddress" class="d-flex">Email address to upgrade</label>
+                        <input id="emailAddress" type="email" class="form-control" placeholder="mary@mailmeteor.com" required="true" name="active_email" v-model="email" />
+                        <p v-if="isGmail" class="text-center text-muted mt-2 mb-0">
+                          <small
+                            >👋 You have a Gmail account (@gmail.com). That's great! Just to let you know, Gmail grants you up to 500 recipients/day (<a
+                              target="_blank"
+                              href="https://support.mailmeteor.com/introduction/quick-start/email-quota"
+                              >learn more</a
+                            >).
+                          </small>
+                        </p>
+                      </div>
+                      <div class="mb-3">
+                        <label><input type="checkbox" autocomplete="off" checked value="true" v-model="isActiveEmailBillable" />&nbsp;Use as billing email address</label>
+                        <div v-if="!isActiveEmailBillable">
+                          <input type="email" class="form-control" placeholder="invoices@mailmeteor.com" name="billing_email" />
+                        </div>
+                      </div>
+                    </template>
 
                     <div class="mb-3 text-center">
                       <button class="btn btn-primary" type="submit" style="width: 100%; margin: 0"><span v-if="isSubmitting" class="spinner"></span>Upgrade now</button>
@@ -167,7 +172,8 @@
         email: '',
 
         isSubmitting: false,
-        isEmailBillable: true,
+        isActiveEmailBillable: true,
+        isBillingEmailUpgradable: true,
       };
     },
     computed: {
