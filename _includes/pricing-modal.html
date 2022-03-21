@@ -213,5 +213,19 @@
         return this.email.indexOf('@gmail.com') > -1 || this.email.indexOf('@googlemail.com') > -1;
       },
     },
+
+    watch: {
+      recurrence(newValue) {
+        const plan = this.productType;
+        const recurrence = newValue;
+
+        if (typeof getProductPrice !== 'function') {
+          return '';
+        }
+
+        const newProduct = getProductPrice(plan, recurrence);
+        this.productId = newProduct.price_id || '';
+      },
+    },
   });
 </script>

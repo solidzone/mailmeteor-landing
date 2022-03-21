@@ -150,13 +150,12 @@
     return $('[data-checkout-quantity]').first().data('checkout-quantity') || _defaultQuantity;
   }
 
+  function getProduct(plan) {
+    return (_allProducts && _allProducts[plan]) || null;
+  }
+
   function getProductPrice(plan, recurrence) {
-    var product = _allProducts && _allProducts[plan];
-
-    if (!product) {
-      return null;
-    }
-
+    var product = getProduct(plan);
     var productRecurrence = recurrence || getProductRecurrence();
     var currency = getUserCurrency();
 
