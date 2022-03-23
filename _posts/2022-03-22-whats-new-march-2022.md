@@ -8,7 +8,7 @@ category: NEWS
 
 meta_author: Corentin Brossault
 meta_author_link: 'https://twitter.com/frenchcooc'
-meta_image: '/assets/img/blog/warm-up-tools/gmail-warmup.png'
+meta_image: '/assets/img/blog/whats-new-march-2022/astronaut.png'
 
 og_title: "What's new? Import all your unsubscribers, fallback & more"
 og_description: "We have recently added dozens of new features to Mailmeteor, both in our Google Sheets add-on and in the dashboard. While we generally don't make release notes like this, we have made so many improvements in the past weeks that I felt like we had to talk about it."
@@ -25,9 +25,9 @@ breadcrumb:
 permalink: /blog/whats-new-march-2022
 ---
 
-Thanks to all the feedback from our users, we have recently added dozens of new features to Mailmeteor, both in our Google Sheets add-on and in the dashboard.
+Thanks to all the feedback from our users, we have recently added dozens of new features to Mailmeteor.
 
-We have made so many improvements in the past weeks that I felt like we had to talk about it. Unfortunately, I won't be able to list all the features and improvements that have been made recently to Mailmeteor. There are so many of them 😅. So here are the features that I'd like to share with you:
+We have made so many improvements in the past weeks that I felt like we had to talk about it 😄. Here are the features that I'd like to share with you:
 
 1. [Select a Google Sheets in the Dashboard](#select-a-google-sheets-in-the-dashboard)
 1. [Filter emails by opens/clicks](#filter-emails-by-opensclicks)
@@ -59,19 +59,19 @@ In line with making our dashboard a complete email marketing tool, more and more
 
 ## Set fallback to variables
 
-From the ground up, Mailmeteor has always offered a way to personalize emails. It's so tied to mail merge solutions. For example, if you have the first name of your recipients in your mailing list, you could personalize your emails to start like that:
+From the ground up, Mailmeteor has always offered a way to personalize emails, that's an essential feature of most mail merge solutions. For example, if you have the first name of your recipients in your mailing list, you could personalize your emails to start like that:
 
 ```
 {% raw %}Hi {{ firstname }}, {% endraw %}
 ```
 
-But most of the time, mailing lists aren't completely perfect. You might miss the first name of some recipients. Or it's the `{%raw%}{{ company }}{%endraw%}`, or any other field that you want to use in your email. In these particular cases, we are introducing the concept of "fallback". Here's what it looks like:
+But most of the time, mailing lists aren't completely perfect. You might miss the first name of some recipients. Sometimes, you're missing the `{%raw%}{{ company }}{%endraw%}`, or any other field that you want to use in your email. In these particular cases, we are introducing the concept of "fallback variable". Here's what it looks like:
 
 ```
 {% raw %}Hi {{ firstname | there }}, {% endraw %}
 ```
 
-It's a small change. But it will make life so much easier for all of our users. It's available right now, both for users of the Google Sheets add-on as well as in the dashboard.
+It's a small change. But it will make life so much easier for all of our users. Fallback variables are available right now, both for users of the Google Sheets add-on as well as in the dashboard.
 
 ## Import unsubscribers
 
