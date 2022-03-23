@@ -65,7 +65,7 @@ From the ground up, Mailmeteor has always offered a way to personalize emails. I
 {% raw %}Hi {{ firstname }}, {% endraw %}
 ```
 
-But most of the time, mailing lists aren't completely perfect. You might miss the first name of some recipients. Or it's the ``{{ company }}`, or any other field that you want to use in your email. In these particular cases, we are introducing the concept of "fallback". Here's what it looks like:
+But most of the time, mailing lists aren't completely perfect. You might miss the first name of some recipients. Or it's the `{%raw%}{{ company }}{%endraw%}`, or any other field that you want to use in your email. In these particular cases, we are introducing the concept of "fallback". Here's what it looks like:
 
 ```
 {% raw %}Hi {{ firstname | there }}, {% endraw %}
@@ -97,9 +97,7 @@ Bear in mind that you can still add an unsubscribe link in the body of your emai
 
 ## What's next?
 
-We have much more features to come. So [feel free to share with us your feedback](https://forms.gle/JcDxU5RTDUEdhwHD6) and we will make sure to prioritize what's next. For the most curious of you, the next feature that we are going to release is [visible right here](https://twitter.com/mailmeteor/).
-
-TODO: Lien vers Twitter : "A sneak peek of what we are working on... [avec une image du followup sur Google Sheets]" + un reply. Want to know more? Make sure to be the first to get your hands on it. --
+We have much more features to come. So [feel free to share with us your feedback](https://forms.gle/JcDxU5RTDUEdhwHD6) and we will make sure to prioritize what's next. For the most curious of you, the next feature that we are going to release is [visible right here](https://twitter.com/mailmeteor/status/1506563161150922755) 🙈
 
 <div class="blogpost-endnote">
   <p>This guide was written by Corentin Brossault, Co-founder & CTO at <a href="/">Mailmeteor</a>. Mailmeteor is a simple & privacy-focused emailing platform. Trusted by millions of users worldwide, it is often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think!</p>
