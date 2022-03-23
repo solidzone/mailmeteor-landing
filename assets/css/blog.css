@@ -1,3 +1,7 @@
+html {
+  scroll-padding-top: auto; /* height of sticky header */
+}
+
 body.blogpost {
   margin: 0;
   padding: 0;
