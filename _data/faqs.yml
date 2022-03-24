@@ -106,16 +106,13 @@ billing:
 
   - question: Do you offer a lifetime plan?
     answer: >
-      We have a special lifetime deal available on the Mailmeteor Premium plan. 
-
-
-      With Mailmeteor Lifetime deal, you get **access to all our premium features with a one-time payment of $199**. 
+      We have a special lifetime deal available on the Mailmeteor Premium plan. Our lifetime deal, you get **access to all our premium features with a one-time payment of $199**. 
 
 
       [Click here to benefit from our lifetime deal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FE763TJKAWPL2&return=https://mailmeteor.com/checkout/lifetime&return_cancel=https://mailmeteor.com/checkout/canceled).
 
 
-      *Note that it may take up to 24 hours for your account to be activated as the lifetime deal is a special plan that requires a manual activation on our end.*
+      *Note that it may take up to 24 hours for your account to be activated as the lifetime deal is a special plan that requires a manual activation on our end. Pro and business plans don't have lifetime offers.*
 
   - question: Can I get a quote and send a purchase order?
     answer: We accept purchase orders and send quotes for orders of more than $500.

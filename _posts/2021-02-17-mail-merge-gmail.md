@@ -388,7 +388,7 @@ Thus, try sending emails to a small list of recipients at first (50 recipients f
 
 ![Mail merge tip: stagger your email campaigns](/assets/img/blog/mail-merge-gmail/mail-merge-tips-stagger-email-campaigns.png){:width="600px" height="398px"}
 
-It’s a best practice to send your email only to a fragment of recipients at first. Test the temperature, and send the rest of the emails depending on the results. For example, send your email to 10-20 people and wait until you get some engagement, should it be clicks or replies.
+It’s a best practice to send emails only to a fragment of recipients at first. Test the temperature, and send the rest of the emails depending on the results. For example, send your email to 10-20 people and wait until you get some engagement, should it be clicks or replies.
 
 Once you are confident with your email, send the rest of the campaign.
 
