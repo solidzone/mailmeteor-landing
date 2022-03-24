@@ -118,6 +118,7 @@ footer:
         fr: 'Blog'
         es: 'Blog'
         de: 'Blog'
+
       blog-mail-merge:
         url: '/mail-merge-gmail/'
         en: 'Mail merge Gmail guide'
@@ -142,6 +143,12 @@ footer:
         fr: 'Google Logos'
         es: 'Google Logos'
         de: 'Google Logos'
+      addon:
+        url: 'https://workspace.google.com/marketplace/app/mailmeteor_for_gmail/1008170693301'
+        en: 'Install mail merge for Gmail'
+        fr: 'Installer sur Gmail'
+        es: 'Instalar en Gmail'
+        de: 'In Gmail installieren'
   for:
     title:
       en: 'Mailmeteor for'
