@@ -17,7 +17,7 @@ og_url: https://mailmeteor.com/blog/gmail-deliverability
 og_image: https://mailmeteor.com/assets/img/opengraph/blog-gmail-deliverability.jpg
 
 meta_date_published: 'March 15, 2021'
-meta_date_lastupdated: 'March 15, 2022'
+meta_date_lastupdated: 'March 25, 2022'
 published: true
 
 breadcrumb:
@@ -152,7 +152,7 @@ Gmail is bound to block your emails if your sending meet one of these conditions
 
 - Your account is new and starts sending a lot of emails out of the blue
 
-The solution is to stagger mass communications over several days. For large campaigns, try sending messages to one group of recipients, wait 24 hours, and then send to another group. Lastly, using a proper mail merge solution that handles deliverability aspects for you will save you from stressful situations.
+The solution is to stagger mass communications over several days. For large campaigns, try sending messages to one group of recipients, wait 24 hours, and then send to another group. Lastly, using a proper mail merge solution that handles deliverability aspects for you will save you from stressful situations (e.g. [Mailmeteor has an autopilot feature that throttles emails deliverabililty](/blog/autopilot)).
 
 ## Bonus: Use Mailmeteor, mail merge for Gmail 
 
