@@ -1,16 +1,16 @@
-  <!DOCTYPE html>
-  <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <meta name="google-site-verification" content="TShcwwV_esZ98tyJWg6fRMCTDcjUwGnfGBu087vga3M" />
     <link rel="icon" href="/assets/img/brand/favicon.ico" type="image/x-icon" />
-    
+
     <title>{{ page.title }}</title>
     <link rel="canonical" href="{{ page.canonical }}" />
     <meta name="description" content="{{ page.description }}" />
-    
+
     <!-- Open graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ page.og_title }}" />
@@ -23,109 +23,105 @@
     <meta name="twitter:title" content="{{ page.og_title }}" />
     <meta name="twitter:description" content="{{ page.og_description }}" />
     <meta name="twitter:image" content="{{ page.og_image | default: 'https://mailmeteor.com/assets/img/opengraph/main.jpg' }}" />
-    
+
     <!-- Styles -->
     <link rel="stylesheet" href="/assets/css/lib/bootstrap@4.3.1.min.css" />
-    <link rel="stylesheet" href="/assets/css/main.css?v=20220321" />
+    <link rel="stylesheet" href="/assets/css/main.css?v=20220328" />
     <link rel="stylesheet" href="/assets/css/blog.css?v=20220221" />
   </head>
   <body class="blogpost">
     <article itemid="{{ page.canonical }}" itemscope itemtype="https://schema.org/BlogPosting">
-      <header 
-      class="blogpost-header" 
-      style="
-      background: rgb(19, 2, 164);
-      background: radial-gradient(circle, rgba(19, 2, 164, 1) 0%, rgba(15, 2, 116, 1) 80%);
-      padding-bottom:4rem;
-      ">
-       {%- include nav-blog.html -%}
-  <div class="text-center text-white mt-3">
-    {% if page.meta_image %}
-    <img itemprop="image" src="{{page.meta_image}}" class="blogpost-header-image" />
-    {% endif %}
-    <h1 itemprop="headline" class="text-white">{{ page.title}}</h1>
-    <div class="blogpost-header-meta">
-      <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-        <a itemprop="url" href="{{ page.meta_author_link }}" target="_blank" rel="author" class="text-white">
-          <span itemprop="name">{{ page.meta_author }}</span>
-        </a>
-      </span>
-      - {% if page.meta_date_lastupdated %}
-      <span itemprop="datePublished" class="d-none">Published: {{ page.meta_date_published }}</span>
-      <span itemprop="dateModified">Updated: {{ page.meta_date_lastupdated }}</span>
-      {% else %}
-      <span itemprop="datePublished">Published: {{ page.meta_date_published }}</span>
-      {% endif %}
-    </div>
-  </div>
-  </div>
-  </header>
-  <div class="container blogpost-content">
-    <div class="row">
-      <aside class="col-lg-2 d-none d-lg-block pl-0">
-        <div class="blogpost-toc">
-          {% if page.lang == 'fr' %}
-          <div class="title-4">CONTENU</div>
-          {% else %}
-          <div class="title-4">CONTENTS</div>
-          {% endif %} {% include blogpost-toc.html html=content h_max=2 %}
+      <header
+        class="blogpost-header"
+        style="background: rgb(19, 2, 164); background: radial-gradient(circle, rgba(19, 2, 164, 1) 0%, rgba(15, 2, 116, 1) 80%); padding-bottom: 4rem"
+      >
+        {%- include nav-blog.html -%}
+        <div class="text-center text-white mt-3">
+          {% if page.meta_image %}
+          <img itemprop="image" src="{{page.meta_image}}" class="blogpost-header-image" />
+          {% endif %}
+          <h1 itemprop="headline" class="text-white">{{ page.title}}</h1>
+          <div class="blogpost-header-meta">
+            <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+              <a itemprop="url" href="{{ page.meta_author_link }}" target="_blank" rel="author" class="text-white">
+                <span itemprop="name">{{ page.meta_author }}</span>
+              </a>
+            </span>
+            - {% if page.meta_date_lastupdated %}
+            <span itemprop="datePublished" class="d-none">Published: {{ page.meta_date_published }}</span>
+            <span itemprop="dateModified">Updated: {{ page.meta_date_lastupdated }}</span>
+            {% else %}
+            <span itemprop="datePublished">Published: {{ page.meta_date_published }}</span>
+            {% endif %}
+          </div>
         </div>
-      </aside>
-      <main class="col-lg-8 col-xs-12">{% include blogpost-lazyimages.html html=content %}</main>
-      <aside class="col-lg-2 d-none d-lg-block pr-0">
-        <div class="blogpost-aside-cta">
-          <img src="/assets/img/articles/alternative/Mailmeteor-logo.webp" style="display: block; margin: 0.5rem auto; max-width: 32px" />
-          <p class="font-weight-bold text-center">{{ page.cta_title | default: 'Try the best mail merge tool for Gmail'}}</p>
-          <a href="https://dashboard.mailmeteor.com" class="btn-sm btn-secondary p-1">{{ page.cta_button | default: 'Start sending emails'}}</a>
+      </header>
+      <div class="container blogpost-content">
+        <div class="row">
+          <aside class="col-lg-2 d-none d-lg-block pl-0">
+            <div class="blogpost-toc">
+              {% if page.lang == 'fr' %}
+              <div class="title-4">CONTENU</div>
+              {% else %}
+              <div class="title-4">CONTENTS</div>
+              {% endif %} {% include blogpost-toc.html html=content h_max=2 %}
+            </div>
+          </aside>
+          <main class="col-lg-8 col-xs-12">{% include blogpost-lazyimages.html html=content %}</main>
+          <aside class="col-lg-2 d-none d-lg-block pr-0">
+            <div class="blogpost-aside-cta">
+              <img src="/assets/img/articles/alternative/Mailmeteor-logo.webp" style="display: block; margin: 0.5rem auto; max-width: 32px" />
+              <p class="font-weight-bold text-center">{{ page.cta_title | default: 'Try the best mail merge tool for Gmail'}}</p>
+              <a href="https://dashboard.mailmeteor.com" class="btn-sm btn-secondary p-1">{{ page.cta_button | default: 'Start sending emails'}}</a>
+            </div>
+          </aside>
         </div>
-      </aside>
-    </div>
-  </div>
-  </article>
+      </div>
+    </article>
 
-  {%- include default.footer.html -%}
+    {%- include default.footer.html -%}
 
-  <script>
-    // Share post on social networks
-    function sharePost() {
-      var socialButtons = document.getElementsByClassName('blogpost-share-btn');
-      for (var i = 0; i < socialButtons.length; i++) {
-        var btn = socialButtons[i];
-        btn.addEventListener('click', function (e) {
-          e.preventDefault();
-          var href = this.href;
-          var features = 'width=840,height=400,scrollbars=yes,resizable=yes,noopener=no,status=no,toolbar=nolocation=no,copyhistory=no,menubar=no,directories=no';
-          var iframe = window.open(href, 'MM_' + Date.now(), features);
-        });
+    <script>
+      // Share post on social networks
+      function sharePost() {
+        var socialButtons = document.getElementsByClassName('blogpost-share-btn');
+        for (var i = 0; i < socialButtons.length; i++) {
+          var btn = socialButtons[i];
+          btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            var href = this.href;
+            var features = 'width=840,height=400,scrollbars=yes,resizable=yes,noopener=no,status=no,toolbar=nolocation=no,copyhistory=no,menubar=no,directories=no';
+            var iframe = window.open(href, 'MM_' + Date.now(), features);
+          });
+        }
       }
-    }
-    
-    document.addEventListener('DOMContentLoaded', function () {
-      sharePost();
-    });
-  </script>
-  <script>
-    // ---------------------------------------------------------
-    // 	Quick Links Menu Highlighting
-    // ---------------------------------------------------------
-    window.addEventListener('DOMContentLoaded', () => {
-      function highlightMenu() {
-        var scrollPosition = $(document).scrollTop();
-        
-        $('.blogpost-toc ul li a').each(function () {
-          var currentLink = $(this);
-          var refElement = $(currentLink.attr('href'));
-          
-          if (scrollPosition > refElement.position().top + refElement.height()) {
-            $('.blogpost-toc ul li.active').removeClass('active');
-            $(this).parent().addClass('active');
-          }
-        });
-      }
-      $(window).on('scroll', function () {
-        highlightMenu();
+
+      document.addEventListener('DOMContentLoaded', function () {
+        sharePost();
       });
-    });
-  </script>
+    </script>
+    <script>
+      // ---------------------------------------------------------
+      // 	Quick Links Menu Highlighting
+      // ---------------------------------------------------------
+      window.addEventListener('DOMContentLoaded', () => {
+        function highlightMenu() {
+          var scrollPosition = $(document).scrollTop();
+
+          $('.blogpost-toc ul li a').each(function () {
+            var currentLink = $(this);
+            var refElement = $(currentLink.attr('href'));
+
+            if (scrollPosition > refElement.position().top + refElement.height()) {
+              $('.blogpost-toc ul li.active').removeClass('active');
+              $(this).parent().addClass('active');
+            }
+          });
+        }
+        $(window).on('scroll', function () {
+          highlightMenu();
+        });
+      });
+    </script>
   </body>
-  </html>
+</html>

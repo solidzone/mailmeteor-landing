@@ -1,0 +1,30 @@
+<script>
+
+  (function () {
+    try {
+      const blogposts = [{% for post in site.posts  limit: 3 %}'{{post.url}}',{% endfor %}];
+      const localSettingKey = 'settings.blog.latest';
+      const lastReadBlogPost = window.localStorage.getItem(localSettingKey);
+
+      // Is on blog, save the latest blogpost as read
+      if (window.location.href.includes('/blog')) {
+        window.localStorage.setItem(localSettingKey, blogposts[0]);
+        return;
+      }
+
+      // Skip users that haven't opened our blog yet
+      if (!lastReadBlogPost) {
+        return;
+      }
+
+      // Add notification when a new blogpost has been published
+      if (lastReadBlogPost !== blogposts[0]) {
+          const anchor = document.querySelector('header a.nav-link[href="/blog/"]')
+          console.debug(anchor)
+          if (anchor) anchor.classList.add('with-notification-mark')
+      }
+    } catch (err) {
+        console.error(err)
+    }
+  })();
+</script>

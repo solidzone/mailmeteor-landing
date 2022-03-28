@@ -678,6 +678,24 @@ ul.list-marketing-inline li::before {
   background-color: #e8eeff;
 }
 
+/* Navbar notification mark */
+
+.nav-link.with-notification-mark {
+  position: relative;
+}
+
+.nav-link.with-notification-mark::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0.5rem;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #e95970;
+}
+
 /* ######## 4. SECTIONS ######## */
 
 /* #### 4.1 Values section #### */
