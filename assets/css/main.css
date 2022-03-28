@@ -5,7 +5,7 @@
 *  2 - Commons
 *  3 - Navbar
 *  4 - Homepage sections
-*  5 - Pricinge
+*  5 - Pricing
 *  6 - Includes
 *  7 - Articles
 *  8 - Support page
@@ -824,6 +824,66 @@ section.values {
   background-color: white;
   -webkit-box-shadow: 0px 4px 32px rgba(4, 20, 58, 0.04);
   box-shadow: 0px 4px 32px rgba(4, 20, 58, 0.04);
+}
+
+/* #### 4.3 Blogposts section ####*/
+
+.blogpost-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blogpost-list li a {
+  display: block;
+  margin: 1rem;
+}
+
+.blogpost-card {
+  width: 100%;
+  border: 1px solid #e6e7eb;
+  border-radius: 0.5rem;
+  background-color: white;
+  transition: all 0.625s cubic-bezier(0, 0, 0.2, 1);
+}
+
+.blogpost-card:hover {
+  -webkit-box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.04);
+  box-shadow: 0px 4px 24px rgba(4, 20, 58, 0.04);
+}
+
+.blogpost-card-top {
+  text-align: center;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background: rgb(19, 2, 164);
+  background: radial-gradient(circle, rgba(19, 2, 164, 1) 0%, rgba(15, 2, 116, 1) 80%);
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.blogpost-card-img-top {
+  max-height: 10rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .blogpost-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  .blogpost-list li {
+    flex-basis: 33%;
+  }
+
+  .blogpost-card-img-top {
+    max-height: unset;
+    width: 100%;
+  }
 }
 
 /* ####### 5. PRICING ######## */

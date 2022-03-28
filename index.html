@@ -77,5 +77,38 @@ og_url: https://mailmeteor.com
   </div>
 </section>
 
-{%- include values.html -%} {%- include tutorial.html -%} {%- include testimonials.html -%} {%- include reviews.html -%} {%- include pricingtable.html -%} {%- include faq.html -%}
-{%- include schema.org.html -%}
+{%- include values.html -%} {%- include tutorial.html -%} {%- include testimonials.html -%} {%- include reviews.html -%}
+
+<section>
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-md-3 text-center text-lg-left align-self-center">
+        <h2>Get better at email marketing</h2>
+        <p>Read articles, examples, tutorials and get inspiration from our emailing experts.</p>
+        <a href="/blog/" class="btn btn-primary d-inline-block">See all articles</a>
+      </div>
+      <div class="col-md-9">
+        <ul class="blogpost-list">
+          {% for post in site.posts limit: 5 %} {% assign remainder = forloop.index | modulo: 2 %} {%if forloop.first or remainder == 0 %}
+          <li>
+            {% endif %}
+            <a href="{{ post.url }}">
+              <div class="blogpost-card">
+                {% if post.meta_image %}
+                <div class="blogpost-card-top"><img class="blogpost-card-img-top" src="{{ post.meta_image }}" /></div>
+                {% endif %}
+                <div class="card-body">
+                  <h5 class="card-title">{{ post.title }}</h5>
+                </div>
+              </div>
+            </a>
+            {% if forloop.first or remainder == 1 %}
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{%- include pricingtable.html -%} {%- include schema.org.html -%}
