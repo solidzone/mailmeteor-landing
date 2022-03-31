@@ -273,14 +273,20 @@ body.blogpost {
 .blog-home-cards-header-tags {
   margin-left: auto;
   padding: 0.25rem 0.5rem;
-  color: #1a53ff;
+  font-size: 0.75rem;
   font-weight: 600;
+  color: #1a53ff;
   background-color: #f4f7fe;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.blog-home-cards h2 {
+  flex: 1 0 auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
 }
 
 .blog-home-cards h2 a {
-  font-size: 1.5rem;
-  font-weight: 600;
   color: #04143a;
 }

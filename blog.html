@@ -88,8 +88,8 @@ breadcrumb:
               <span class="text-neutral-6">{{ post.meta_date_published }}</span>
               <span class="blog-home-cards-header-tags">{{ post.category }}</span>
             </div>
-            <h2 class="blog-home-headings" style="flex: 1 0 auto;"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p><small class="text-neutral-6 d-flex mt-1" >By {{ post.meta_author }}</small></p>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p class="m-0"><small class="text-neutral-6 d-flex mt-1" >By {{ post.meta_author }}</small></p>
         </div>
         {% endfor %}
       </div>

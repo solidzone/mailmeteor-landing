@@ -1,0 +1,27 @@
+<section>
+  <div class="container">
+    <div class="text-center">
+      <h2>Get better at email marketing</h2>
+      <p>Read articles, examples, tutorials and get inspiration from our emailing experts.</p>
+    </div>
+    <ul class="row blogpost-list">
+      {% assign blogCount = 0 %} {% for post in site.posts %} {% if post.og_image and blogCount < 3 %}
+      <li class="col-md-6 col-lg-4">
+        <a href="{{ post.url }}">
+          <div class="blogpost-card">
+            <div class="blogpost-card-top"><img class="blogpost-card-img-top" src="{{ post.og_image }}" alt="{{ post.title }}" /></div>
+            <div class="card-body">
+              <h5>{{ post.title }}</h5>
+            </div>
+          </div>
+        </a>
+      </li>
+      {% assign blogCount = blogCount | plus: 1 %} {% endif %} {% endfor %}
+    </ul>
+  </div>
+  <div class="container d-flex flex-column align-items-center mt-5">
+    <h3 class="title-2 m-0">Ready for take off?</h3>
+    <p class="mb-0">Send your first outreach campaign right now.</p>
+    <a href="/pricing" class="btn btn-primary" style="margin-top: 0.5rem" data-aos="fade-in" data-aos-duration="800" data-aos-easing="ease-out"> GET MAILMETEOR </a>
+  </div>
+</section>
