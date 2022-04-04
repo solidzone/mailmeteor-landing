@@ -28,8 +28,16 @@ body.blogpost {
 }
 
 .blogpost-header-image {
-  max-width: 380px;
+  max-width: 320px;
   width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .blogpost-header-image {
+    max-height: 200px;
+    max-width: unset;
+    width: unset;
+  }
 }
 
 .blogpost-header-meta {
