@@ -100,7 +100,7 @@ Bear in mind that you can still add an unsubscribe link in the body of your emai
 We have much more features to come. So [feel free to share with us your feedback](https://forms.gle/JcDxU5RTDUEdhwHD6) and we will make sure to prioritize what's next. For the most curious of you, the next feature that we are going to release is [visible right here](https://twitter.com/mailmeteor/status/1506563161150922755) 🙈
 
 <div class="blogpost-endnote">
-  <p>This guide was written by Corentin Brossault, Co-founder & CTO at <a href="/">Mailmeteor</a>. Mailmeteor is a simple & privacy-focused emailing platform. Trusted by millions of users worldwide, it is often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think!</p>
+  <p>This guide was written by Corentin Brossault, co-founder & CTO at <a href="/">Mailmeteor</a>. Mailmeteor is a simple & privacy-focused emailing platform. Trusted by millions of users worldwide, it is often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think!</p>
 
   <p>➤ <a href="/" class="font-weight-bold">Start sending mass emails in Gmail with Mailmeteor</a></p>
 </div>

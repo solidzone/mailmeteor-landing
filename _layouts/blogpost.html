@@ -38,7 +38,7 @@
         {%- include nav-blog.html -%}
         <div class="text-center text-white mt-3">
           {% if page.meta_image %}
-          <img itemprop="image" src="{{page.meta_image}}" class="blogpost-header-image" />
+          <img itemprop="image" src="{{page.meta_image}}" class="blogpost-header-image" alt="{{ page.meta_image_alt | default: page.title }}" />
           {% endif %}
           <h1 itemprop="headline" class="text-white">{{ page.title}}</h1>
           <div class="blogpost-header-meta">
