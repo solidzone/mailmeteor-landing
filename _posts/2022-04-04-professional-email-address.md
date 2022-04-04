@@ -4,13 +4,13 @@ title: 'How to create a professional email address?'
 description: "It's time to say goodbye to your old-fashioned @hotmail.com email address and join the new world. Learn how to create a professional-looking email address."
 cta_title: Send professional emails in bulk with Mailmeteor
 canonical: https://mailmeteor.com/blog/professional-email-address
-category: NEWS
+category: GUIDE
 
 meta_author: Corentin Brossault
 meta_author_link: 'https://twitter.com/frenchcooc'
 #meta_image: '/assets/img/blog/whats-new-march-2022/astronaut.png'
 
-og_title: 'How to create a professional email address? (2022 Guide)'
+og_title: 'How to create a professional email address? (Google Workspace 2022 Guide)'
 og_description: "It's time to say goodbye to your old-fashioned @hotmail.com email address and join the new world. Learn how to create a professional-looking email address."
 og_url: https://mailmeteor.com/blog/professional-email-address
 # og_image: https://mailmeteor.com/assets/img/opengraph/professional-email-address.jpg
