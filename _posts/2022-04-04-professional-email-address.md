@@ -43,7 +43,7 @@ It's 2022. Everyone's online is used to spam, scams, someone trying to sell you 
 
 So it's time to say goodbye to your nostalgic email address that you opened at high school and start build an [email reputation](/blog/gmail-deliverability).
 
-You are using `@gmail.com`? That's great for personal use. But, when you start getting serious with your business online presence, you should think twice about using Gmail. I've seen so many `theplumbingcompany@gmail.com` on plumber's vans that I've made this guide to help first.
+You are using `@gmail.com`? That's great for personal use. But, when you start getting serious with your business online presence, you should think twice about using Gmail. I've seen so many `theplumbingcompany@gmail.com` on plumber's vans that I've made this guide to help them out first.
 
 ## Which email address to choose?
 
