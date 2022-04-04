@@ -1,6 +1,6 @@
 ---
 layout: blogpost
-title: 'How to create a professional email address?'
+title: 'How to create a professional email address? (with Google Workspace)'
 description: "It's time to say goodbye to your old-fashioned @hotmail.com email address and join the new world. Learn how to create a professional-looking email address."
 cta_title: Send professional emails in bulk with Mailmeteor
 canonical: https://mailmeteor.com/blog/professional-email-address
@@ -41,7 +41,7 @@ Mark it as spam and move on. Most people won't dare to open it. Worst, there's a
 
 It's 2022. Everyone's online is used to spam, scams, someone trying to sell you something, etc. And most of those bad emails are sent using disposable email addresses.
 
-So it's time to say goodbye to your nostalgic email address that you opened at high school.
+So it's time to say goodbye to your nostalgic email address that you opened at high school and start build an [email reputation](/blog/gmail-deliverability).
 
 You are using `@gmail.com`? That's great for personal use. But, when you start getting serious with your business online presence, you should think twice about using Gmail. I've seen so many `theplumbingcompany@gmail.com` on plumber's vans that I've made this guide to help first.
 

@@ -40,7 +40,7 @@
           {% if page.meta_image %}
           <img itemprop="image" src="{{page.meta_image}}" class="blogpost-header-image" alt="{{ page.meta_image_alt | default: page.title }}" />
           {% endif %}
-          <h1 itemprop="headline" class="text-white">{{ page.title}}</h1>
+          <h1 itemprop="headline" class="text-white">{{ page.title }}</h1>
           <div class="blogpost-header-meta">
             <span itemprop="author" itemscope itemtype="https://schema.org/Person">
               <a itemprop="url" href="{{ page.meta_author_link }}" target="_blank" rel="author" class="text-white">
