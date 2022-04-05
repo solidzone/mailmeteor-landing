@@ -25,7 +25,7 @@ breadcrumb:
 permalink: /blog/professional-email-address
 ---
 
-Are you still using your @hotmail.com email address? It's 2022. You should learn how to create a professional email address. It will make your emails more serious and improve their deliverability. And good news, it cost the same price than a monthly coffee at Starbucks (~$6/month).
+Are you still using your @hotmail.com email address? It's 2022. You should learn how to create a professional email address. It will make your emails more serious and improve their deliverability. And good news, it costs the same price than a monthly coffee at Starbucks (~$6/month).
 
 ## What is a professional email address?
 
