@@ -1,4 +1,4 @@
-Sitemap: https://mailmeteor.com/sitemap.xml
+Sitemap: https://mailmeteor.com/sitemapindex.xml
 
 User-agent: Googlebot-Image
 Disallow: /*.svg$
