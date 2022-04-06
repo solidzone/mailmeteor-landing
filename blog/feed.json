@@ -1,0 +1,15 @@
+---
+layout: null
+---
+{% assign blogposts = '' | split: ',' %}{% for post in site.posts %}{% if post.permalink contains '/blog/' %}{% assign blogposts = blogposts | push: post %}{% endif %}{% endfor %}
+{
+  "data": [{% for post in blogposts %}
+    {
+      "title": "{{ post.title }}",
+      "description": "{{ post.description }}",
+      "url": "https://mailmeteor.com{{ post.permalink }}",
+      "published_at": "{{ post.date | date: '%Y-%m-%d' }}"
+    }{% if forloop.last == false %},{% endif %}{% endfor %}
+  ]
+}
+
