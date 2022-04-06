@@ -149,7 +149,7 @@
 
           var priceHtml = '<small class="pricing-card-currency">' + amountCurrency + '</small>';
           priceHtml += amountInteger;
-          priceHtml += '<sup>' + (amountDecimal ? '.' + amountDecimal : '') + '<span class="pricing-card-recurrence"> /' + productRecurrence + '</span></sup>';
+          priceHtml += '<sup>' + (amountDecimal ? '.' + amountDecimal : '') + '<span class="pricing-card-recurrence">' + productRecurrence + '</span></sup>';
           priceElt.first().html(priceHtml);
 
           if (product.OFF20 && getCoupon() === 'OFF20') {
