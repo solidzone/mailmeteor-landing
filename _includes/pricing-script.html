@@ -149,7 +149,7 @@
 
           var priceHtml = '<small class="pricing-card-currency">' + amountCurrency + '</small>';
           priceHtml += amountInteger;
-          priceHtml += '<sup>' + (amountDecimal ? '.' + amountDecimal : '') + ' ' + productRecurrence + '</sup>';
+          priceHtml += '<sup>' + (amountDecimal ? '.' + amountDecimal : '') + '<span class="pricing-card-recurrence"> /' + productRecurrence + '</span></sup>';
           priceElt.first().html(priceHtml);
 
           if (product.OFF20 && getCoupon() === 'OFF20') {
@@ -162,7 +162,7 @@
             discountHtml += discountInteger;
             discountHtml += '<sup>' + (discountDecimal ? '.' + discountDecimal : '') + ' ' + productRecurrence + '</sup>';
 
-            priceElt.first().html('<strike style="font-size:0.7em">' + priceHtml + '</strike><span style="color:#FF486A;">' + discountHtml + '</span>');
+            priceElt.first().html('<strike>' + priceHtml + '</strike> <span style="color:#FF486A;">' + discountHtml + '</span>');
           }
         }
       }
