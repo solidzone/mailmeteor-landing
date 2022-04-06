@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-{% assign blogposts = '' | split: ',' %}{% for post in site.posts %}{% if post.permalink contains '/blog/' %}{% assign blogposts = blogposts | push: post %}{% endif %}{% endfor %}
+{% assign blogposts = '' | split: ',' %}{% for post in site.posts %}{% if post.permalink contains '/blog/' %}{% assign blogposts = blogposts | push: post | slice: 0, 10 %}{% endif %}{% endfor %}
 {
   "data": [{% for post in blogposts %}
     {
