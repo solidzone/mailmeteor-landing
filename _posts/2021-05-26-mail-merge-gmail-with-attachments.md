@@ -44,9 +44,8 @@ A [mail merge with Gmail](/mail-merge-gmail) allows you to send emails to multip
    <iframe
       class="embed-responsive-item"
       title="How to mail merge with attachments in Gmail"
-      src="https://www.youtube.com/embed/3BnQVmpm3EI"
+      lazy-src="https://www.youtube.com/embed/3BnQVmpm3EI"
       show-info="O"
-      data-src="https://www.youtube.com/embed/3BnQVmpm3EI"
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen

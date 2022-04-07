@@ -340,7 +340,7 @@ I filtered articles with “one article per domain” to ensure only 1 article i
   <p>Make sure it is highly personalised to your target audience. Then use Mailmeteor to send personalised mass emails with Gmail. Here is a quick demo:</p>
 
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mailmeteor Demo" show-info="O" src="https://www.youtube.com/embed/DpnVMknsW54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mailmeteor Demo" show-info="O" lazy-src="https://www.youtube.com/embed/DpnVMknsW54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
     </div>
 </div>
 

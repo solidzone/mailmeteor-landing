@@ -159,7 +159,7 @@ The solution is to stagger mass communications over several days. For large camp
 ## Bonus: Use Mailmeteor, mail merge for Gmail 
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" show-info="O" src="https://www.youtube.com/embed/-YX65-kywOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/-YX65-kywOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 

@@ -119,7 +119,7 @@ Want to learn more about the full Mailmeteor feature list? Find out [what we can
 There are a number of different options out there for creating mail merges quickly and efficiently using Google Sheets. In our opinion, (and because it’s our product after all!), we think that Mailmeteor is one of the easiest, most user-friendly and most cost-effective mail merge add-ons on the market today.
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="How to mail merge in Gmail" show-info="O" src="https://www.youtube.com/embed/-YX65-kywOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="How to mail merge in Gmail" show-info="O" lazy-src="https://www.youtube.com/embed/-YX65-kywOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 

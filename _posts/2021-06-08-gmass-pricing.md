@@ -62,7 +62,7 @@ Mail merge in Gmail is an effective way of sending out multiple emails to big co
 **How send mass emails in Gmail with GMass:**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe src="https://www.youtube.com/embed/Or_qKtxOLME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></iframe>
+    <iframe lazy-src="https://www.youtube.com/embed/Or_qKtxOLME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></iframe>
 </div>
 <br>
 
@@ -179,7 +179,7 @@ So far, GMass sounds like an excellent mail merge solution with a wide range of 
 The [best alternative to GMass](/alternative/gmass) is Mailmeteor, an equally powerful mail merge tool that costs a lot less, and makes the entire process easier and more straightforward.
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" show-info="O" src="https://www.youtube.com/embed/-YX65-kywOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/-YX65-kywOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 

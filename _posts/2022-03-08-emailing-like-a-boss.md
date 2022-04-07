@@ -34,7 +34,7 @@ For those of you that are already susbcribers to our YouTube channel, you'll see
     class="embed-responsive-item"
     title="Mailmeteor Product Tour"
     show-info="O"
-    src="https://www.youtube.com/embed/TvMZPtWpkR8"
+    lazy-src="https://www.youtube.com/embed/TvMZPtWpkR8"
     frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen

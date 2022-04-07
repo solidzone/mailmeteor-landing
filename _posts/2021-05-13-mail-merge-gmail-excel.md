@@ -51,7 +51,7 @@ Now let's see the 5 steps to reproduce to send emails to your mailing list store
 Here's a video tutorial on how to do it:
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" title="Importing an Excel file into Google Sheets" src="https://www.youtube-nocookie.com/embed/J7VoX00ZKpM" show-info="O" data-src="https://www.youtube-nocookie.com/embed/J7VoX00ZKpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+<iframe class="embed-responsive-item" title="Importing an Excel file into Google Sheets" lazy-src="https://www.youtube-nocookie.com/embed/J7VoX00ZKpM" show-info="O" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 
 ## Step 2. Open Mailmeteor

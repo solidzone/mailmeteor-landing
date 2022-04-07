@@ -35,7 +35,7 @@ A Google add-on like Mailmeteor will help you send mass email without showing re
 ## Sending mass emails with Gmail – Step by step
 
 <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" title="Mailmeteor Demo" show-info="O" src="https://www.youtube.com/embed/DpnVMknsW54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <iframe class="embed-responsive-item" title="Mailmeteor Demo" show-info="O" lazy-src="https://www.youtube.com/embed/DpnVMknsW54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 

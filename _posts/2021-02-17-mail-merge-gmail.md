@@ -316,7 +316,7 @@ We know that sending your mail merge can be a bit daunting at first. No worries 
 _Here's a real-life example. Watch this teacher use Mailmeteor to mail merge emails to his students:_
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mail Merge Tutorial using Mail Meteor Chrome Add-On" show-info="O" src="https://www.youtube.com/embed/hfy5UKw36nA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mail Merge Tutorial using Mail Meteor Chrome Add-On" show-info="O" lazy-src="https://www.youtube.com/embed/hfy5UKw36nA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -576,7 +576,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 #### 1. Mailmeteor
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" show-info="O" src="https://www.youtube.com/embed/-YX65-kywOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/-YX65-kywOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -599,7 +599,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 #### 2. Yet another mail merge (YAMM)
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="YAMM Product Tour" show-info="O" src="https://www.youtube.com/embed/89vHrABUEbM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="YAMM Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/89vHrABUEbM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -622,7 +622,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 #### 3. GMass
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="GMass Product Tour" show-info="O" src="https://www.youtube.com/embed/0UeaF8ZI3gk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="GMass Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/0UeaF8ZI3gk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -649,7 +649,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 #### 4. Mail Merge by Quicklution
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mail Merge by Quicklution Product Tour" show-info="O" src="https://www.youtube.com/embed/0uAOUnao2b8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mail Merge by Quicklution Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/0uAOUnao2b8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -672,7 +672,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 #### 5. Mail merge with attachments
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mail merge with attachments Product Tour" show-info="O" src="https://www.youtube.com/embed/F07Py7sraDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mail merge with attachments Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/F07Py7sraDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -699,7 +699,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 #### 6. Streak
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Streak Product Tour" show-info="O" src="https://www.youtube.com/embed/oYrNZGQ2mu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Streak Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/oYrNZGQ2mu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -720,7 +720,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 #### 7. Gmelius
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Gmelius Product Tour" show-info="O" src="https://www.youtube.com/embed/aVJOBKlSkKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Gmelius Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/aVJOBKlSkKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -741,7 +741,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 #### 8. Mixmax
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" show-info="O" src="https://www.youtube.com/embed/yQrJNytPoqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mailmeteor Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/yQrJNytPoqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -762,7 +762,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 #### 9. Vocus.io
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Vocus.io Product Tour" show-info="O" src="https://www.youtube.com/embed/Z2LWdK82IcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Vocus.io Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/Z2LWdK82IcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -783,7 +783,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 #### 10. Yesware
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Yesware Product Tour" show-info="O" src="https://www.youtube.com/embed/4K4Ist1jGk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Yesware Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/4K4Ist1jGk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -804,7 +804,7 @@ What are the best add-ons to send a merge mail in Gmail? We picked the best Goog
 #### 11. Mailshake
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mailshake Product Tour" show-info="O" src="https://www.youtube.com/embed/ug3EwoMeCPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mailshake Product Tour" show-info="O" lazy-src="https://www.youtube.com/embed/ug3EwoMeCPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 

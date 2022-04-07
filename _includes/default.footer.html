@@ -208,5 +208,24 @@
 </script>
 {% endif %}
 
+<!-- Youtube Embed Lazy Loading -->
+<script>
+  function youtubelazyload() {
+    try {
+      const iframes = document.querySelectorAll('iframe[lazy-src]');
+
+      for (let i = 0; i < iframes.length; i++) {
+        const iframe = iframes[i];
+        iframe.src = iframe.getAttribute('lazy-src');
+        iframe.removeAttribute('lazy-src');
+      }
+
+      document.removeEventListener('scroll', youtubelazyload, false);
+    } catch (err) {}
+  }
+
+  document.addEventListener('scroll', youtubelazyload, false);
+</script>
+
 <!-- Blog notification mark -->
 {%- include blog-notification.html -%}

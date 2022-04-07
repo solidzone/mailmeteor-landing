@@ -86,7 +86,7 @@ One of the most affordable mail merge options on the market, [Mailmeteor's prici
 **Mailmeteor Demo**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mailmeteor Demo" show-info="O" src="https://www.youtube.com/embed/-YX65-kywOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mailmeteor Demo" show-info="O" lazy-src="https://www.youtube.com/embed/-YX65-kywOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -144,7 +144,7 @@ While it remained the most competitive add-on for long, YAMM recently updated it
 **YAMM Demo**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="YAMM Demo" show-info="O" src="https://www.youtube.com/embed/-dAFP3YyAWo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="YAMM Demo" show-info="O" lazy-src="https://www.youtube.com/embed/-dAFP3YyAWo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -195,7 +195,7 @@ GMass offers a freemium model like the previous mail merge extensions. The prici
 **GMass Demo**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="GMass Demo" show-info="O" src="https://www.youtube.com/embed/0CN3-GHHYa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="GMass Demo" show-info="O" lazy-src="https://www.youtube.com/embed/0CN3-GHHYa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -252,7 +252,7 @@ Quicklution opted for a classic pricing, with two options only. The starting pri
 **Mail Merge Demo**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mail Merge Demo" show-info="O" src="https://www.youtube.com/embed/0uAOUnao2b8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mail Merge Demo" show-info="O" lazy-src="https://www.youtube.com/embed/0uAOUnao2b8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -308,7 +308,7 @@ Mail Merge with Attachments pricing starts at $39 per year for individual users 
 **Mail Merge with Attachments Demo**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mail Merge with Attachments Demo" show-info="O" src="https://www.youtube.com/embed/14NWveEIe9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mail Merge with Attachments Demo" show-info="O" lazy-src="https://www.youtube.com/embed/14NWveEIe9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -363,7 +363,7 @@ Mergo has not disclosed its pricing yet at the date of publishing this article.
 **Mergo Demo**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mergo Demo*" show-info="O" src="https://www.youtube.com/embed/tI-SzLnB_FI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mergo Demo*" show-info="O" lazy-src="https://www.youtube.com/embed/tI-SzLnB_FI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -415,7 +415,7 @@ Streak has a free version with a limited mail merge functionality for up to 50 r
 **Streak Demo**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Streak Demo*" show-info="O" src="https://www.youtube.com/embed/oYrNZGQ2mu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Streak Demo*" show-info="O" lazy-src="https://www.youtube.com/embed/oYrNZGQ2mu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -474,7 +474,7 @@ Gmelius has 3 pricing options: Plus, Growth and Enterprise. To mail merge with G
 **Gmelius Demo**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Gmelius Demo" show-info="O" src="https://www.youtube.com/embed/aVJOBKlSkKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Gmelius Demo" show-info="O" lazy-src="https://www.youtube.com/embed/aVJOBKlSkKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -532,7 +532,7 @@ Mixmax offers up to 5 different plans depending on your team size. To mail merge
 **Mixmax Demo**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mixmax Demo*" show-info="O" src="https://www.youtube.com/embed/yQrJNytPoqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mixmax Demo*" show-info="O" lazy-src="https://www.youtube.com/embed/yQrJNytPoqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -585,7 +585,7 @@ Vocus offers features for Calendar. On the emailing part, here is what Vocus off
 **Vocus.io Demo**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Vocus.io Demo*" show-info="O" src="https://www.youtube.com/embed/Z2LWdK82IcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Vocus.io Demo*" show-info="O" lazy-src="https://www.youtube.com/embed/Z2LWdK82IcI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -635,7 +635,7 @@ To mail merge emails with Yesware, you will need the Premium plan that starts at
 **Yesware Demo**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Yesware Demo*" show-info="O" src="https://www.youtube.com/embed/TAh-PSG60Yo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Yesware Demo*" show-info="O" lazy-src="https://www.youtube.com/embed/TAh-PSG60Yo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
@@ -685,7 +685,7 @@ By far the most expensive tool presented in this list, Mailshake starts at $59 p
 **Mailshake Demo**
 
 <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" title="Mailshake Demo*" show-info="O" src="https://www.youtube.com/embed/ug3EwoMeCPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    <iframe class="embed-responsive-item" title="Mailshake Demo*" show-info="O" lazy-src="https://www.youtube.com/embed/ug3EwoMeCPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
 </div>
 <br>
 
