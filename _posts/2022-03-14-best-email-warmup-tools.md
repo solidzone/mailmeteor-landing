@@ -705,4 +705,7 @@ Most email warm up tools will recommend you to never stop warming your inbox to 
   <p>This guide was written by Jean Dubrulle, founder at <a href="/">Mailmeteor</a>. Mailmeteor is a simple & privacy-focused emailing software. Trusted by millions of users worldwide, it is often considered as the best Gmail mail merge to send mass personalized emails. Give us a try and let us know what you think!</p>
 
   <p>➤ <a href="/" class="font-weight-bold">Start sending mass emails in Gmail with Mailmeteor</a></p>
+  <p>➤ <a href="/assets/pdf/Best_Email_Warm_Up_Tools.pdf" target="_blank" download>Download in PDF to share or read later</a>
+</p>
+  
 </div>
