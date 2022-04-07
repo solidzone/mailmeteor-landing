@@ -13,7 +13,7 @@ meta_author_link: 'https://twitter.com/frenchcooc'
 og_title: 'How to create a professional email address? (Google Workspace 2022 Guide)'
 og_description: "It's time to say goodbye to your old-fashioned @hotmail.com email address and join the new world. Learn how to create a professional-looking email address."
 og_url: https://mailmeteor.com/blog/professional-email-address
-og_image: https://mailmeteor.com/assets/img/opengraph/how-to-professional-email-address.wepb
+og_image: https://mailmeteor.com/assets/img/opengraph/how-to-professional-email-address.jpg
 
 meta_date_published: 'April 4th, 2022'
 
