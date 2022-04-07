@@ -14,7 +14,7 @@ meta_image: >-
 og_title: 'Mail merge Gmail in 2022: the Definitive Guide'
 og_description: Everything you need to know about mail merge in Gmail in 2022. Learn how to mail merge in Gmail and find the best mail merge tools for Gmail
 og_url: https://mailmeteor.com/mail-merge-gmail/
-og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail.jpg
+og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail.wepb
 
 meta_date_published: 'February 17, 2021'
 meta_date_lastupdated: 'January 1, 2022'

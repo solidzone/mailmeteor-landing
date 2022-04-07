@@ -13,7 +13,7 @@ meta_image: '/assets/img/blog/whats-new-march-2022/astronaut.png'
 og_title: "What's new? Import all your unsubscribers, fallback & more"
 og_description: "We have recently added dozens of new features to Mailmeteor, both in our Google Sheets add-on and in the dashboard. While we generally don't make release notes like this, we have made so many improvements in the past weeks that I felt like we had to talk about it."
 og_url: https://mailmeteor.com/blog/whats-new-march-2022
-og_image: https://mailmeteor.com/assets/img/opengraph/whats-new-march-2022.jpg
+og_image: https://mailmeteor.com/assets/img/opengraph/whats-new-march-2022.wepb
 
 meta_date_published: 'March 23, 2022'
 

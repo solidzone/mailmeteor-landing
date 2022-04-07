@@ -16,7 +16,7 @@ meta_image: >-
 og_title: 'Comment faire un publipostage dans Gmail en 2022?'
 og_description: Apprenez à réaliser un publipostage avec Gmail et Google Sheets. Ce guide vous donnera les clés pour vos envois groupés de mails personnalisés depuis Gmail.
 og_url: https://mailmeteor.com/fr/publipostage/gmail
-og_image: https://mailmeteor.com/assets/img/opengraph/publipostage-gmail.jpg
+og_image: https://mailmeteor.com/assets/img/opengraph/publipostage-gmail.wepb
 
 meta_date_published: '29 Oct, 2021'
 meta_date_lastupdated: 'Jan 1, 2022'

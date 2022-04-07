@@ -14,7 +14,7 @@ meta_image: >-
 og_title: 'Top 12 mail merge extensions for Gmail in 2022'
 og_description: A compilation of the 12 most useful Gmail merge extensions to send mass personalized emails from Gmail and Google Sheets.
 og_url: https://mailmeteor.com/mail-merge-gmail/extensions
-og_image: https://mailmeteor.com/assets/img/opengraph/blog-gmass-pricing.jpg
+og_image: https://mailmeteor.com/assets/img/opengraph/blog-gmass-pricing.wepb
 
 meta_date_published: 'June 14, 2021'
 meta_date_lastupdated: 'November 1, 2021'

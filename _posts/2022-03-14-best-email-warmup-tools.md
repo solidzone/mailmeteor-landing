@@ -13,7 +13,7 @@ meta_image: '/assets/img/blog/warm-up-tools/gmail-warmup.png'
 og_title: 'Top 10 of the Best Email Warm Up tools in 2022'
 og_description: 'When you become serious about emailing, one thing you want to prevent is that your emails end up in spam. But how can you make sure your emails don’t land up in the spam folder? Warming up your email account may be the solution.'
 og_url: https://mailmeteor.com/blog/best-email-warmup-tools
-og_image: https://mailmeteor.com/assets/img/opengraph/blog-best-warmup-tools.jpg
+og_image: https://mailmeteor.com/assets/img/opengraph/blog-best-warmup-tools.wepb
 
 meta_date_published: 'March 14, 2022'
 

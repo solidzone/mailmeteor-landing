@@ -14,7 +14,7 @@ meta_image: /assets/img/blog/howto-google-chrome-profiles/multiple-google-chrome
 og_title: 'How to create multiple Google Chrome profiles? [2022]'
 og_description: Learn how to create a Google Chrome profile. One for your business, one for the family and one for your personal Google account. Learn also how to manage them all.
 og_url: https://mailmeteor.com/blog/how-to-create-google-chrome-profile
-og_image: https://mailmeteor.com/assets/img/opengraph/main.jpg
+og_image: https://mailmeteor.com/assets/img/opengraph/main.wepb
 
 meta_date_published: 'July 29, 2021'
 meta_date_lastupdated: 'January 3, 2022'

@@ -13,7 +13,7 @@ meta_image: '/assets/img/blog/how-to-ab-test/ab-test-gmail.png'
 og_title: 'How to send an A/B test in Gmail?'
 og_description: In this tutorial, you'll learn how to send an AB test in Gmail. Using Google Sheets and Mailmeteor, we will guide you step-by-step on how to test different subject lines or different words/sentences in your email's body.
 og_url: https://mailmeteor.com/blog/how-to-ab-test-gmail
-og_image: https://mailmeteor.com/assets/img/opengraph/AB-test-gmail.jpg
+og_image: https://mailmeteor.com/assets/img/opengraph/AB-test-gmail.wepb
 
 meta_date_published: 'October 26, 2021'
 # meta_date_lastupdated: "October 26, 2021"

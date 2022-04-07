@@ -14,7 +14,7 @@ meta_image: >-
 og_title: 'Introducing Autopilot: A New Way to Boost Email Deliverability'
 og_description: Mailmeteor now gives you more sending options to maximize the deliverability rate of your campaigns and make sure every single email reaches your recipient’s inbox. Learn how to put your email marketing campaigns on Autopilot.
 og_url: https://mailmeteor.com/blog/autopilot
-og_image: https://mailmeteor.com/assets/img/opengraph/blog-autopilot.jpg
+og_image: https://mailmeteor.com/assets/img/opengraph/blog-autopilot.wepb
 
 meta_date_published: 'July 16, 2021'
 meta_date_lastupdated: 'November 1, 2021'
