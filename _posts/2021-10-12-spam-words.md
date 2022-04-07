@@ -3955,9 +3955,9 @@ If you've ever wondered **"why are my emails going to spam in Gmail"**, chances 
 
 10. **Make sure your emails are authenticated**. To make your email more secure and protect your domain, authentifying your emails is an additional way to avoid the spam folder. Read Google's guide on how to set up your DKIM, SPF and DMARC, which are the standard authentications for emails. Without that, messages sent from your domain are more likely to be marked as spam by receiving mail servers.
 
-**Bonus: Warm up your email account**. Even if your domain and inbox are set up perfectly, a mail server can still misclassify your outreach efforts. Over time these misclassifications will damage your domain reputation as well as the overall health of your inbox, which is why an [email warming tool](https://www.warmupinbox.com/) can be helpful to improve your email outreach campaigns. By using an email warming up service, your account will automatically engage with other users and participate in positive inbox behavior. This will continuously improve the reputation and deliverability of your inbox, ultimately keeping your important messages out of spam folders.
+**Bonus: Warm up your email account**. Even if your domain and inbox are set up perfectly, a mail server can still misclassify your outreach efforts. Over time these misclassifications will damage your domain reputation as well as the overall health of your inbox, which is why an [email warming tool](/blog/best-email-warmup-tools) can be helpful to improve your email outreach campaigns. By using an email warming up service, your account will automatically engage with other users and participate in positive inbox behavior. This will continuously improve the reputation and deliverability of your inbox, ultimately keeping your important messages out of spam folders.
 
-Go further by reading our [best practices before sending a mail merge with Gmail](https://support.mailmeteor.com/introduction/sending-guidelines).
+Go further by reading our [best practices before sending a mail merge with Gmail](/blog/gmail-deliverability).
 
 ## How can I check if my emails are spam? {#spam-words-checker}
 

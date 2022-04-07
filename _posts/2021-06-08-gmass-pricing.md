@@ -53,7 +53,7 @@ GMass comes as a Google Chrome extension that lives inside your Gmail account (t
 
 When installing GMass, a new set of icons will appear in your Gmail interface. Behind the scenes, the GMass extension draws information about who to include in the mail merge directly from Google Sheets, where your contact list is stored. You can also send emails directly from Gmail, by copy pasting your email list in the recipients field.
 
-GMass also offers side products, including a free email warmup tool, a spam tester or an email verification service. GMass’ comprehensive array of features contributed to its success on the market for mail merge with Gmail - though **GMass's pricing can make it a really expensive option**.
+GMass also offers side products, [including a free email warmup tool](/blog/best-email-warmup-tools#8-email-warmup-by-gmass), a spam tester or an email verification service. GMass’ comprehensive array of features contributed to its success on the market for mail merge with Gmail - though **GMass's pricing can make it a really expensive option**.
 
 ## How to mail merge in Gmail with GMass
 
