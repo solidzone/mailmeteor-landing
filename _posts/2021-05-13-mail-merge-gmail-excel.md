@@ -14,7 +14,7 @@ meta_image: >-
 og_title: 'How to create a mail merge in Gmail from an Excel file?'
 og_description: Learn how to send hundreds of emails in Gmail, using an Excel file, thanks to Mailmeteor, a mail merge tool that integrates with Google Sheets and Gmail.
 og_url: https://mailmeteor.com/mail-merge-gmail/
-og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-excel.wepb
+og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-excel.webp
 
 meta_date_published: 'May 13, 2021'
 meta_date_lastupdated: 'Jan 1, 2022'

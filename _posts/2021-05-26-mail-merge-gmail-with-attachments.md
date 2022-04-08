@@ -16,7 +16,7 @@ og_title: 'How to mail merge in Gmail with attachments or individual files'
 og_description: A guide to mail merge with attachments in Gmail. Learn how to send emails with personalized attachments or the same file attachment to all recipients.
 
 og_url: https://mailmeteor.com/mail-merge-gmail/
-og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-with-attachment.wepb
+og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-with-attachment.webp
 
 meta_date_published: 'May 26, 2021'
 meta_date_lastupdated: 'May 26, 2021'

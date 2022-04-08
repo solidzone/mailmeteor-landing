@@ -13,7 +13,7 @@ meta_image: >-
 og_title: "5 things you didn't knew you can do with Mailmeteor"
 og_description: From sending multiple mail merge within the same sheet to AB testing, there are advanced features of Mailmeteor that you should definitely learn about.
 og_url: https://mailmeteor.com/blog/5-things-you-can-do-with-mailmeteor
-og_image: https://mailmeteor.com/assets/img/opengraph/5-features.wepb
+og_image: https://mailmeteor.com/assets/img/opengraph/5-features.webp
 
 meta_date_published: 'December 12, 2021'
 # meta_date_lastupdated: "December 12, 2021"

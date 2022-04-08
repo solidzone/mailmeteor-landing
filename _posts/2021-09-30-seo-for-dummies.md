@@ -14,7 +14,7 @@ meta_image: >-
 og_title: '25 Tips to Improve your Website SEO (using Ahrefs)'
 og_description: You don’t need to be a SEO expert to drive more traffic on your website. In fact, all you need is a few hours in front of you and $7.
 og_url: https://mailmeteor.com/blog/seo-tips
-og_image: https://mailmeteor.com/assets/img/opengraph/seo-for-dummies.wepb
+og_image: https://mailmeteor.com/assets/img/opengraph/seo-for-dummies.webp
 
 meta_date_published: 'September 30, 2021'
 meta_date_lastupdated: 'October 25, 2021'

@@ -16,7 +16,7 @@ meta_image: >-
 og_title: 'Publipostage: le Guide Complet en 2022'
 og_description: Apprenez ce qu'est un publipostage et comment le réaliser pour envoyer des emails en masse personnalisés, créer des lettres, générer des documents ou imprimer des étiquettes.
 og_url: https://mailmeteor.com/fr/publipostage/
-og_image: https://mailmeteor.com/assets/img/opengraph/publipostage.wepb
+og_image: https://mailmeteor.com/assets/img/opengraph/publipostage.webp
 
 meta_date_published: 'Oct 25, 2021'
 meta_date_lastupdated: 'Jan 12, 2022'

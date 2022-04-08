@@ -14,7 +14,7 @@ meta_image: >-
 og_title: 'Taking on the Spam Filters: 750 Spam Words to avoid in 2022'
 og_description: The ultimate list of 750 spam words to avoid in your emails. Learn how to write better emails to avoid landing in the spam folder.
 og_url: https://mailmeteor.com/blog/spam-words
-og_image: https://mailmeteor.com/assets/img/opengraph/spam-words.wepb
+og_image: https://mailmeteor.com/assets/img/opengraph/spam-words.webp
 
 meta_date_published: 'October 12, 2021'
 meta_date_lastupdated: 'Jan 1, 2022'

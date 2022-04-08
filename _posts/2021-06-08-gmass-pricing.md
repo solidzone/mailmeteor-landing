@@ -14,7 +14,7 @@ meta_image: >-
 og_title: 'Gmass Pricing and Plans (is it worth the money?)'
 og_description: Considering GMass but unsure if it’s worth the money? Read this pricing guide for details on GMass and discover its best alternative.
 og_url: https://mailmeteor.com/blog/gmass-pricing
-og_image: https://mailmeteor.com/assets/img/opengraph/blog-gmass-pricing.wepb
+og_image: https://mailmeteor.com/assets/img/opengraph/blog-gmass-pricing.webp
 
 meta_date_published: 'June 8, 2021'
 meta_date_lastupdated: 'November 16, 2021'

@@ -14,7 +14,7 @@ meta_image: >-
 og_title: 'Gmail Mail Merge Script Example using Google Apps Script'
 og_description: Learn how to send hundreds of emails in Gmail, by building your very own mail merge Gmail script.
 og_url: https://mailmeteor.com/mail-merge-gmail/script
-og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-script.wepb
+og_image: https://mailmeteor.com/assets/img/opengraph/mail-merge-gmail-script.webp
 
 meta_date_published: 'April 8, 2021'
 meta_date_lastupdated: 'November 1, 2021'

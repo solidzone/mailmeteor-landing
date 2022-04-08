@@ -13,7 +13,7 @@ meta_image: >-
 og_title: 'Announcing Mailmeteor Partnerships: Exclusive Email Offers'
 og_description: Get exclusive discounts from Mailmeteor Partners. Build your contact list with Email Finding tools, clean your list with Email Verification services, improve your email reputation using Email Warm Ups and more.
 og_url: https://mailmeteor.com/blog/mailmeteor-partners
-og_image: https://mailmeteor.com/assets/img/opengraph/mailmeteor-partners.wepb
+og_image: https://mailmeteor.com/assets/img/opengraph/mailmeteor-partners.webp
 
 meta_date_published: 'January 25, 2022'
 # meta_date_lastupdated: "December 12, 2021"
