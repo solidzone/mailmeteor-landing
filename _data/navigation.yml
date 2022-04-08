@@ -309,7 +309,7 @@ subfooter:
     es: 'Privacidad'
     de: 'Privatsphäre'
   security:
-    url: 'https://support.mailmeteor.com/help/privacy'
+    url: '/security'
     en: 'Security'
     fr: 'Protection des données'
     es: 'Protección de datos'
